@@ -1,0 +1,68 @@
+<rootStructure>
+<self>1100_damaged_components</self>
+<group name="Damaged components" >
+	<sub type="step">
+		<refItemId>1101</refItemId>
+	</sub>
+	<sub type="step">
+		<refItemId>1106</refItemId>
+	</sub>
+	<sub type="step">
+		<refItemId>1111</refItemId>
+	</sub>
+	<sub type="flow" after = "1101" scaledTo ="Damaged pack">
+		<refItemId>1000</refItemId>
+	</sub>
+	<sub type="decision" after = "1000">
+		<refItemId>1102</refItemId>
+	</sub>
+	<sub type="flow" after_no = "1102" scaledTo ="Damaged pack">
+		<refItemId>0900</refItemId>
+	</sub>
+	<sub type="flow" after = "0900" scaledTo ="Damaged pack">
+		<refItemId>1000a</refItemId>
+	</sub>	
+	<sub type="step" after = "1000a" after_yes = "1102">
+		<refItemId>1103</refItemId>
+	</sub>			
+	<sub type="decision" after = "1103" >
+		<refItemId>1104</refItemId>
+	</sub>
+	<sub type="step" after_yes = "1104">
+		<refItemId>1105</refItemId>
+	</sub>
+	<sub type="flow" after_no = "1104" after = "1106" scaledTo ="Damaged module">
+		<refItemId>1000b</refItemId>
+	</sub>
+	<sub type="decision" after = "1000b">
+		<refItemId>1107</refItemId>
+	</sub>
+	<sub type="flow" after_no = "1107" scaledTo ="Damaged module">
+		<refItemId>0900a</refItemId>
+	</sub>
+	<sub type="flow" after = "0900a" scaledTo ="Damaged module">
+		<refItemId>1000c</refItemId>
+	</sub>
+	<sub type="step" after = "1000c" after_yes = "1107">
+		<refItemId>1108</refItemId>
+	</sub>
+	<sub type="decision" after = "1108" >
+		<refItemId>1109</refItemId>
+	</sub>
+	<sub type="step" after_yes = "1109">
+		<refItemId>1110</refItemId>
+	</sub>
+	<sub type="flow" after_no = "1109" after="1111" scaledTo ="Damaged cell">
+		<refItemId>1000d</refItemId>
+	</sub>
+	<sub type="flow" after = "1000d" scaledTo ="Damaged cell">
+		<refItemId>0900b</refItemId>
+	</sub>
+	<sub type="flow" after = "0900b" scaledTo ="Damaged cell">
+		<refItemId>1000e</refItemId>
+	</sub>
+	<sub type="step" after = "1000e" >
+		<refItemId>1112</refItemId>
+	</sub>
+</group>
+</rootStructure>

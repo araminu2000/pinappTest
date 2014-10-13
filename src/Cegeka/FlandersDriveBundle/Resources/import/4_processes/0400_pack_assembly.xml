@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<step>
+<proc>Pack assembly</proc>	
+<title>Pack assembly</title>	
+<description>	
+	<paragraph>
+		<prodType>Module | Pack</prodType>
+		<act>assembling</act>
+		<htmltext><![CDATA[
+			<h3><strong>Purpose and scope</strong></h3>
+			<p>This process defines the general approach for assembling a battery pack. In this process the modules are 
+				connected to form one battery pack. By connecting the modules, the voltage to which persons are exposed increases 
+				above the 60V DC. Above this voltage the risk of electrocution exists. Safety measures to prevent electrocution 
+				are needed whenever packs are handled.</p>								 													
+		]]></htmltext>	
+	</paragraph>
+	<paragraph>
+		<prodType>Module | Pack</prodType>
+		<act>assembling</act>
+		<reqs> <!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>UN Regulation No. 100</refReq_tag>
+			<refReq_part>n.a.</refReq_part>
+			<refReq_chNo>8</refReq_chNo>
+			<refReq_clNo>8.1</refReq_clNo>
+		</reqs>
+		<reqs> <!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>UN Regulation No. 100</refReq_tag>
+			<refReq_part>n.a.</refReq_part>
+			<refReq_chNo>8</refReq_chNo>
+			<refReq_clNo>8.2</refReq_clNo>
+		</reqs>
+		<reqs> <!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>UN Regulation No. 100</refReq_tag>
+			<refReq_part>n.a.</refReq_part>
+			<refReq_chNo>8</refReq_chNo>
+			<refReq_clNo>8.3</refReq_clNo>
+		</reqs>
+		<reqs> <!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>UN Regulation No. 100</refReq_tag>
+			<refReq_part>n.a.</refReq_part>
+			<refReq_chNo>8.3</refReq_chNo>
+			<refReq_clNo>8.3.1</refReq_clNo>
+		</reqs>
+		<reqs> <!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>UN Regulation No. 100</refReq_tag>
+			<refReq_part>n.a.</refReq_part>
+			<refReq_chNo>8.3</refReq_chNo>
+			<refReq_clNo>8.3.2</refReq_clNo>
+		</reqs>
+		<reqs> <!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>UN Regulation No. 100</refReq_tag>
+			<refReq_part>n.a.</refReq_part>
+			<refReq_chNo>8.3</refReq_chNo>
+			<refReq_clNo>8.3.3</refReq_clNo>
+		</reqs>
+		<reqs> <!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>UN Regulation No. 100</refReq_tag>
+			<refReq_part>n.a.</refReq_part>
+			<refReq_chNo>8.3</refReq_chNo>
+			<refReq_clNo>8.3.4</refReq_clNo>
+		</reqs>
+		<reqs> <!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>UN Regulation No. 100</refReq_tag>
+			<refReq_part>n.a.</refReq_part>
+			<refReq_chNo>8.3</refReq_chNo>
+			<refReq_clNo>8.3.5</refReq_clNo>
+		</reqs>
+		<reqs> <!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>UN Regulation No. 100</refReq_tag>
+			<refReq_part>n.a.</refReq_part>
+			<refReq_chNo>9</refReq_chNo>
+			<refReq_clNo>9.1</refReq_clNo>
+		</reqs>
+		<reqs> <!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>UN Regulation No. 100</refReq_tag>
+			<refReq_part>n.a.</refReq_part>
+			<refReq_chNo>9</refReq_chNo>
+			<refReq_clNo>9.2</refReq_clNo>
+		</reqs>
+		<htmltext><![CDATA[<html>
+			<p>Packs produced in series and approved under the UNECE regulations need to be manufactured in such way that the requirements of the regulation are met. This shall be verified by appropriate production checks. The following shall be available:</p>
+			<ul><li>procedures for the effective quality control of vehicles</li>
+			<li>testing equipment necessary for checking the conformity of each approved type</li>
+			<li>recorded test results</li>
+			<li>a analysis of the results of each type of test, in order to verify and ensure the consistency of characteristics of the vehicle, making allowance for permissible variations in industrial production,</li>
+			<li>ensure that at least the tests prescribed in the regulations are carried out</li>
+			<li>further sampling and tests when any set of samples or test pieces are giving evidence of non-conformity</li></ul>
+			<p>The approval authority may at any time verify the conformity control methods applied in each production unit.</p>
+			<p>If the above requirements are not fulfilled, the granted approval may be withdrawn.</p>
+		</html>]]></htmltext>	
+	</paragraph>
+<paragraph>
+		<prodType>Pack</prodType>
+		<reqs><!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>UL 2580</refReq_tag>
+			<refReq_part>n.a.</refReq_part>
+			<refReq_chNo>5.11</refReq_chNo>
+			<refReq_clNo>5.11.1</refReq_clNo>
+		</reqs>
+		<reqs><!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>UL 2580</refReq_tag>
+			<refReq_part>n.a.</refReq_part>
+			<refReq_chNo>5.11</refReq_chNo>
+			<refReq_clNo>5.11.2</refReq_clNo>
+		</reqs>
+		<reqs><!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>UL 2580</refReq_tag>
+			<refReq_part>n.a.</refReq_part>
+			<refReq_chNo>5.11</refReq_chNo>
+			<refReq_clNo>5.11.3</refReq_clNo>
+		</reqs>
+		<reqs><!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>UL 2580</refReq_tag>
+			<refReq_part>n.a.</refReq_part>
+			<refReq_chNo>5.11</refReq_chNo>
+			<refReq_clNo>5.11.4</refReq_clNo>
+		</reqs>
+		<htmltext><![CDATA[
+			<p><strong>Manufacturing and production line testing and production quality</strong></p>
+			<p>For the manufacturing and production of the pack, the following requirements are defined:</p>
+			<ul><li>Assemblies/packs shall be subjected to 100% production screening to determine that any active controls utilized to maintain cells within normal operating parameters are functioning.</li>
+			<li>A dielectric withstand test as outlined in the Dielectric Voltage Withstand Test, shall be conducted on 100% production of Assemblies/packs with circuits exceeding 60 Vdc or 30 Vrms</li>
+			<li>A continuity check of the grounding system using a mega ohmmeter or other method, shall be conducted on 100% production employing protective grounding.</li>  
+			<li>Manufacturers of electric energy storage assemblies are to maintain an up-to-date ISO 9000 registration of their manufacturing facilities from an accredited ISO certification organization .End of line manufacturing diagnostics</li></ul>
+		]]></htmltext>
+	</paragraph>	
+	<paragraph>
+		<prodType>Module | Pack</prodType>
+		<act>assembling</act>
+		<htmltext><![CDATA[<html>											 													
+			<h3><strong>Structure of the process</strong></h3>
+			<p>The following steps are defined:</p>
+			<ul><li>Unpacking of the module if necessary</li>
+			<li>Before the modules are used, they need to be checked and measured to see if they are in a good state</li>
+			<li>Making the connections between the modules</li>
+			<li>Placing the end connection</li>
+			<li>To the pack, the cooling system needs to be added</li>
+			<li>Before closing the pack, electronics and management systems need to be added to be able to monitor the complete pack when it is used</li>
+			<li>In the last steps the pack is closed and the connectors are connected.</li></ul>
+		</html>]]></htmltext>	
+	</paragraph>	
+</description>	
+<processOwner>company0</processOwner>
+</step>

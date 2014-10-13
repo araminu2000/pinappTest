@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<step>
+<proc>Pack design and development</proc>	
+<title>Monitor and control system</title>	
+<description>
+	<paragraph>
+		<prodType>Pack</prodType>
+		<reqs><!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>SAE J2289</refReq_tag>
+			<refReq_part>n.a.</refReq_part>
+			<refReq_chNo>6</refReq_chNo>
+			<refReq_clNo>6.6</refReq_clNo>
+		</reqs>
+		<htmltext><![CDATA[
+			<p>A monitor and control system can improve the battery system health and life. The vehicle manufacturer should enable the battery controls to communicate with the remainder of the appropriate vehicle controls to promote limit management and diagnostics.</p>
+		]]></htmltext>
+	</paragraph>
+	<paragraph>
+		<prodType>Pack</prodType>
+		<reqs><!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>UL 2580</refReq_tag>
+			<refReq_part>n.a.</refReq_part>
+			<refReq_chNo>5.8</refReq_chNo>
+			<refReq_clNo>5.8.1</refReq_clNo>
+		</reqs>
+		<reqs><!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>UL 2580</refReq_tag>
+			<refReq_part>n.a.</refReq_part>
+			<refReq_chNo>5.8</refReq_chNo>
+			<refReq_clNo>5.8.2</refReq_clNo>
+		</reqs>
+		<reqs><!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>SAE J2289</refReq_tag>
+			<refReq_part>n.a.</refReq_part>
+			<refReq_chNo>6.6</refReq_chNo>
+			<refReq_clNo>6.6.1</refReq_clNo>
+		</reqs>
+		<reqs><!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>SAE J2289</refReq_tag>
+			<refReq_part>n.a.</refReq_part>
+			<refReq_chNo>6.6</refReq_chNo>
+			<refReq_clNo>6.6.2</refReq_clNo>
+		</reqs>
+		<reqs><!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>SAE J2289</refReq_tag>
+			<refReq_part>n.a.</refReq_part>
+			<refReq_chNo>6.6</refReq_chNo>
+			<refReq_clNo>6.6.3</refReq_clNo>
+		</reqs>
+		<reqs><!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>SAE J2289</refReq_tag>
+			<refReq_part>n.a.</refReq_part>
+			<refReq_chNo>6.6</refReq_chNo>
+			<refReq_clNo>6.6.4</refReq_clNo>
+		</reqs>
+		<reqs><!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>SAE J2289</refReq_tag>
+			<refReq_part>n.a.</refReq_part>
+			<refReq_chNo>6.6</refReq_chNo>
+			<refReq_clNo>6.6.5</refReq_clNo>
+		</reqs>
+		<htmltext><![CDATA[
+			<p>The system should protect for overtemperature, under-temperature, over-current/exceeding peak power, and under-voltage operation . If normal limits are exceeded, the control shall shut down the charging or discharging to prevent excursions beyond normal operating limits.</p>
+			<p>The thermal and electrical balance of the pack should be considered or assured so as to protect individual modules from effects of over-charge or over-discharge. The battery manufacturer should recommend algorithms to estimate state of charge, and propose performance limits of the battery to extend life.  Proper charging or regen recovery of the battery is necessary to promote optimum life of the battery by reducing time spent of overvoltage, gassing, or overtemperature. It should be noted that undercharge can contribute to loss of life, and performance which can be permanent.  Regen management at high states of charge can require high performance monitoring of voltage and current to protect the battery and high voltage bus electronics from overvoltage and or overcurrent. This may result in battery damage caused by over temperature or excessive gassing.</p>
+		]]></htmltext>
+	</paragraph>
+	<paragraph>
+		<prodType>Pack</prodType>
+		<reqs><!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>SAE J2289</refReq_tag>
+			<refReq_part>n.a.</refReq_part>
+			<refReq_chNo>6.6</refReq_chNo>
+			<refReq_clNo>6.6.1</refReq_clNo>
+		</reqs>
+		<reqs><!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>SAE J2289</refReq_tag>
+			<refReq_part>n.a.</refReq_part>
+			<refReq_chNo>6.6</refReq_chNo>
+			<refReq_clNo>6.6.2</refReq_clNo>
+		</reqs>
+		<reqs><!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>SAE J2289</refReq_tag>
+			<refReq_part>n.a.</refReq_part>
+			<refReq_chNo>6.6</refReq_chNo>
+			<refReq_clNo>6.6.3</refReq_clNo>
+		</reqs>
+		<reqs><!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>SAE J2289</refReq_tag>
+			<refReq_part>n.a.</refReq_part>
+			<refReq_chNo>6.6</refReq_chNo>
+			<refReq_clNo>6.6.4</refReq_clNo>
+		</reqs>
+		<reqs><!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>SAE J2289</refReq_tag>
+			<refReq_part>n.a.</refReq_part>
+			<refReq_chNo>6.6</refReq_chNo>
+			<refReq_clNo>6.6.5</refReq_clNo>
+		</reqs>
+		<htmltext><![CDATA[
+			<p><b>Charging</b></p>
+			<p>The thermal and electrical balance of the pack should be considered or assured so as to protect individual modules from effects of over-charge or over-discharge. The battery manufacturer should recommend algorithms to estimate state of charge, and propose performance limits of the battery to extend life.  Proper charging or regen recovery of the battery is necessary to promote optimum life of the battery by reducing time spent of overvoltage, gassing, or overtemperature. It should be noted that undercharge can contribute to loss of life, and performance which can be permanent.  Regen management at high states of charge can require high performance monitoring of voltage and current to protect the battery and high voltage bus electronics from overvoltage and or overcurrent. This may result in battery damage caused by over temperature or excessive gassing.</p>
+		]]></htmltext>
+	</paragraph>
+	<paragraph>
+		<prodType>Pack</prodType>
+		<reqs><!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>ISO 6469</refReq_tag>
+			<refReq_part>1</refReq_part>
+			<refReq_chNo>6</refReq_chNo>
+			<refReq_clNo>6.4</refReq_clNo>
+		</reqs>
+		<reqs><!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>SAE J2289</refReq_tag>
+			<refReq_part>n.a.</refReq_part>
+			<refReq_chNo>8</refReq_chNo>
+			<refReq_clNo>8.2</refReq_clNo>
+		</reqs>
+		<reqs><!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>SAE J2289</refReq_tag>
+			<refReq_part>n.a.</refReq_part>
+			<refReq_chNo>8</refReq_chNo>
+			<refReq_clNo>8.3</refReq_clNo>
+		</reqs>
+		<htmltext><![CDATA[
+			<p><b>Temperature</b></p>
+			<p>Heat generation under any first-failure condition, which could form a hazard to persons, shall be prevented by appropriate measures, e.g. based on monitoring of current, voltage or temperature.  For controlling  the temperature the manufacturer’s recommendations on proper retention, positioning and application should be followed. The battery module manufacture is responsible to recommend the proper application of a thermal management system in the battery pack. These recommendations could be amount of surface area for cooling or heating for a specified range of temperatures to maximize the useful energy, power, and cycle life of the electrochemical system. The thermal system may be unique and proprietary to the vehicle manufacturer. Methods for cooling and heating the battery modules should be agreed to by the battery and the vehicle manufacturer. For heating the following concerns needs to be taken into account.</p>
+			<ul><li>Attachment of heater devices</li>
+			<li>Reliability of connections</li>
+			<li>Breach of high-voltage system</li>
+			<li>Rate of heat transfer to not deform the battery case material or adversely affect electrochemical functioning or shorten life</li>
+			<li>Insulation surrounding the battery</li></ul>
+			<p>For cooling the following apply</p>
+			<ul><li>Attachment of cooling devices</li>
+			<li>Reliability of connections</li>
+			<li>Breach of high-voltage system</li>
+			<li>Rate of heat transfer to not deform the battery case material or adversely affect electrochemical functioning or shorten life</li>
+			<li>Insulation surrounding the battery</li></ul>
+		]]></htmltext>
+	</paragraph>
+	<paragraph>
+		<prodType>Pack</prodType>
+		<reqs><!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>UL 2580</refReq_tag>
+			<refReq_part>n.a.</refReq_part>
+			<refReq_chNo>5.9</refReq_chNo>
+			<refReq_clNo>5.9.1</refReq_clNo>
+		</reqs>
+		<reqs><!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>UL 2580</refReq_tag>
+			<refReq_part>n.a.</refReq_part>
+			<refReq_chNo>5.9</refReq_chNo>
+			<refReq_clNo>5.9.2</refReq_clNo>
+		</reqs>
+		<reqs><!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>UL 2580</refReq_tag>
+			<refReq_part>n.a.</refReq_part>
+			<refReq_chNo>5.9</refReq_chNo>
+			<refReq_clNo>5.9.3</refReq_clNo>
+		</reqs>
+		<htmltext><![CDATA[
+			<p><b>Cooling failure</b></p>
+			<p>Shut down upon failure of the cooling system shall be implemented for battery packs that rely upon integral cooling systems. Exceptions can be made if it can be demonstrated through analysis and test that the cooling system failure does not result in a hazardous situation . The material for the piping, hose and tubing shall be resistant to chemical degradation from the liquid and have strength and materials characteristics necessary to withstand anticipated and environmental stresses.  The piping, hose and tubing shall be routed and secured to prevent leakage that could result in fire, explosion or shock hazard.</p>
+		]]></htmltext>
+	</paragraph>
+	</description>	
+<processOwner>company0</processOwner>
+</step>

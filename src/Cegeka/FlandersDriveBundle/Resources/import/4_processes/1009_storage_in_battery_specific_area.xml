@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<step>
+<proc>Storage</proc>	
+<title>Storing the components in a specific area</title>	
+<description>	
+	<paragraph>
+		<prodType>Cell | Damaged cell | Module | Damaged module | Pack | Damaged pack</prodType>
+		<act>storing</act>							
+		<recoms>recomm_112</recoms>
+		<recoms>recomm_115</recoms>
+		<recoms>recomm_116</recoms>
+		<recoms>recomm_117</recoms>
+		<recoms>recomm_121</recoms>
+		<recoms>recomm_122</recoms>
+		<recoms>recomm_123</recoms>
+		<recoms>recomm_128</recoms>
+		<htmltext><![CDATA[
+			<p>A specific storage area is specially designed for the storage of batteries (cells, modules or packs).</p>
+			<p>In a specific storage area, measures are taken to cope with the risks of lithium-ion batteries. For example measures to early detect fire, to delay fire propagation or measures which reduces the severity of the risks.</p>
+			<p>During the design of this area, good practices used in the storing of the lithium-ion batteries can be taken into account. These good practices lead to the following recommendations:</p>
+			<ul><li>Segregate different types of products in the storage area. Each type of product (new, waste, damaged) has different types of risks. E.g. damaged components can leak and have higher chance on thermal runaway. To avoid that a damaged component has negative effect on new components, segregation is necessary. With the segregation it is also possible to take appropriate measures for each type of product.</li>
+			<li>Adapt the storing conditions to the stored products. Use for example sacrificial buildings to store damaged components. Another example is to divide the storage area into compartments which have individual smoke detection and sprinklers systems to rapidly detect a fire and prevent propagation</li>
+			<li>The storage area should be waterproof to avoid contamination by chemicals if a battery fire is extinguished with water.</li></ul>
+			<p>When the batteries are moved into storage, the temperature must be monitored on a ‘timely watch’. The reason is that a big part of the incidents occur after moving the batteries. This is especially the case for damaged or waste batteries.</p>
+			<p>Information on which goods are stored should be known in the company. It is therefore important to use safety signalisations and 
+			pictograms to give information about the stored goods and there risks.</p>
+			<p>In case of a fire information about the stored goods must be given to the fire brigade. This can be done via the 
+			‘Information for rescue and emergency services 1ste and 2nd responders – Lithium-ion batteries in a storage facility’. 
+			This document is currently designed by CTIF and Recharge and is part of the program of given uniform information to rescue and emergency services.</p>
+			<p>Background information on how to safely store Lithium-ion batteries, how to early detect a fire and how to act in 
+			the different stages is described in <a href="http://193.104.8.63/bundles/cegekaflandersdrive/templates/guidelines/LiSAFE_Lithium-Ion%20batteries_storage%20guidelines.pdf">the guidelines of safely storing batteries</a>.</p>
+		]]></htmltext>
+	</paragraph>
+	<paragraph>
+		<prodType>Cell | Module | Pack</prodType>
+		<act>storing</act>							
+		<recoms>recomm_112</recoms>
+		<recoms>recomm_115</recoms>
+		<recoms>recomm_116</recoms>
+		<recoms>recomm_117</recoms>
+		<htmltext><![CDATA[
+			<p>The main risk during the storage of batteries is thermal runaway. To detect a start of a thermal runaway the temperature 
+			need to be checked regular. The storage area needs to be ventilated</p>
+		]]></htmltext>
+	</paragraph>
+	<paragraph>
+		<prodType>Damaged cell | Damaged module | Damaged pack</prodType>
+		<act>storing</act>							
+		<htmltext><![CDATA[
+			<p>For damaged batteries the probability on a thermal runaway, increases. More awareness an monitoring is needed .</p>
+		]]></htmltext>
+	</paragraph>
+	<paragraph>
+		<prodType>Cell | Damaged cell</prodType>
+		<act>storing</act>							
+		<recoms>recomm_5</recoms>
+		<recoms>recomm_7</recoms>
+		<recoms>recomm_9</recoms>		
+	</paragraph>	
+	<paragraph>
+		<prodType>Module | Damaged module</prodType>
+		<act>storing</act>							
+		<recoms>recomm_31</recoms>
+		<recoms>recomm_32</recoms>
+		<recoms>recomm_9</recoms>	
+	</paragraph>
+	<paragraph>
+		<prodType>Module | Damaged module</prodType>
+		<act>storing</act>							
+		<reqs><!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>SAE J1797</refReq_tag>
+			<refReq_part>n.a.</refReq_part>
+			<refReq_chNo>10</refReq_chNo>
+			<refReq_clNo>10.1</refReq_clNo>
+		</reqs>
+		<htmltext><![CDATA[
+			<p>The battery modules should be stacked no more than three high. The batteries should be separated with cardboard or other spacing materials. The batteries should be secured together and the entire package covered with shrink wrap. The stacked batteries should be cross-hatched (alternating directions for stacking every new row) for stability.</p>
+		]]></htmltext>
+	</paragraph>	
+	<paragraph>
+		<prodType>Pack | Damaged pack</prodType>
+		<act>storing</act>							
+		<recoms>recomm_77</recoms>
+		<recoms>recomm_78</recoms>
+		<recoms>recomm_81</recoms>
+		<recoms>recomm_82</recoms>
+		<recoms>recomm_9</recoms>		
+	</paragraph>
+	<paragraph>
+		<prodType>Damaged pack</prodType>
+		<act>storing</act>							
+		<recoms>recomm_95</recoms>
+		<recoms>recomm_96</recoms>
+		<recoms>recomm_97</recoms>		
+	</paragraph>
+</description>
+<processOwner>company0</processOwner>
+</step>

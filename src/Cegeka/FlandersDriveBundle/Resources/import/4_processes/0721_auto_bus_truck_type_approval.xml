@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<step>
+<proc>Vehicle design and development</proc>	
+<title>Type approval of a vehicle</title>	
+<description>
+	<paragraph>
+		<prodType>Vehicle</prodType>
+		<reqs> <!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>UN Regulation No. 100</refReq_tag>
+			<refReq_part>n.a.</refReq_part>
+			<refReq_chNo>3</refReq_chNo>
+			<refReq_clNo>3.1</refReq_clNo>
+		</reqs>
+		<reqs> <!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>UN Regulation No. 100</refReq_tag>
+			<refReq_part>n.a.</refReq_part>
+			<refReq_chNo>3.1</refReq_chNo>
+			<refReq_clNo>3.1.1</refReq_clNo>
+		</reqs>
+		<reqs> <!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>UN Regulation No. 100</refReq_tag>
+			<refReq_part>n.a.</refReq_part>
+			<refReq_chNo>3.1</refReq_chNo>
+			<refReq_clNo>3.1.2</refReq_clNo>
+		</reqs>
+		<reqs> <!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>UN Regulation No. 100</refReq_tag>
+			<refReq_part>n.a.</refReq_part>
+			<refReq_chNo>3.1.2</refReq_chNo>
+			<refReq_clNo>3.1.2.1</refReq_clNo>
+		</reqs>
+		<reqs> <!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>UN Regulation No. 100</refReq_tag>
+			<refReq_part>n.a.</refReq_part>
+			<refReq_chNo>3.1.2</refReq_chNo>
+			<refReq_clNo>3.1.2.2</refReq_clNo>
+		</reqs>
+		<reqs> <!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>UN Regulation No. 100</refReq_tag>
+			<refReq_part>n.a.</refReq_part>
+			<refReq_chNo>3.1</refReq_chNo>
+			<refReq_clNo>3.1.3</refReq_clNo>
+		</reqs>
+		<reqs> <!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>UN Regulation No. 100</refReq_tag>
+			<refReq_part>n.a.</refReq_part>
+			<refReq_chNo>4</refReq_chNo>
+			<refReq_clNo>4.1</refReq_clNo>
+		</reqs>
+		<reqs> <!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>UN Regulation No. 100</refReq_tag>
+			<refReq_part>n.a.</refReq_part>
+			<refReq_chNo>4</refReq_chNo>
+			<refReq_clNo>4.2</refReq_clNo>
+		</reqs>
+		<reqs> <!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>UN Regulation No. 100</refReq_tag>
+			<refReq_part>n.a.</refReq_part>
+			<refReq_chNo>4</refReq_chNo>
+			<refReq_clNo>4.3</refReq_clNo>
+		</reqs>
+		<reqs> <!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>UN Regulation No. 100</refReq_tag>
+			<refReq_part>n.a.</refReq_part>
+			<refReq_chNo>4</refReq_chNo>
+			<refReq_clNo>4.4</refReq_clNo>
+		</reqs>
+		<reqs> <!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>UN Regulation No. 100</refReq_tag>
+			<refReq_part>n.a.</refReq_part>
+			<refReq_chNo>4.4</refReq_chNo>
+			<refReq_clNo>4.4.1</refReq_clNo>
+		</reqs>
+		<reqs> <!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>UN Regulation No. 100</refReq_tag>
+			<refReq_part>n.a.</refReq_part>
+			<refReq_chNo>4.4</refReq_chNo>
+			<refReq_clNo>4.4.2</refReq_clNo>
+		</reqs>
+		<reqs> <!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>UN Regulation No. 100</refReq_tag>
+			<refReq_part>n.a.</refReq_part>
+			<refReq_chNo>4</refReq_chNo>
+			<refReq_clNo>4.5</refReq_clNo>
+		</reqs>
+		<reqs> <!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>UN Regulation No. 100</refReq_tag>
+			<refReq_part>n.a.</refReq_part>
+			<refReq_chNo>4</refReq_chNo>
+			<refReq_clNo>4.6</refReq_clNo>
+		</reqs>
+		<reqs> <!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>UN Regulation No. 100</refReq_tag>
+			<refReq_part>n.a.</refReq_part>
+			<refReq_chNo>4.6</refReq_chNo>
+			<refReq_clNo>4.6.1</refReq_clNo>
+		</reqs>
+		<reqs> <!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>UN Regulation No. 100</refReq_tag>
+			<refReq_part>n.a.</refReq_part>
+			<refReq_chNo>7</refReq_chNo>
+			<refReq_clNo>7.1</refReq_clNo>
+		</reqs>
+		<reqs> <!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>UN Regulation No. 100</refReq_tag>
+			<refReq_part>n.a.</refReq_part>
+			<refReq_chNo>7.1</refReq_chNo>
+			<refReq_clNo>7.1.1</refReq_clNo>
+		</reqs>
+		<reqs> <!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>UN Regulation No. 100</refReq_tag>
+			<refReq_part>n.a.</refReq_part>
+			<refReq_chNo>7.1</refReq_chNo>
+			<refReq_clNo>7.1.2</refReq_clNo>
+		</reqs>
+		<reqs> <!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>UN Regulation No. 100</refReq_tag>
+			<refReq_part>n.a.</refReq_part>
+			<refReq_chNo>7</refReq_chNo>
+			<refReq_clNo>7.2</refReq_clNo>
+		</reqs>
+		<reqs> <!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>UN Regulation No. 100</refReq_tag>
+			<refReq_part>n.a.</refReq_part>
+			<refReq_chNo>7</refReq_chNo>
+			<refReq_clNo>7.3</refReq_clNo>
+		</reqs>
+		<htmltext><![CDATA[
+			<h3><strong>Approval of electric vehicles</strong></h3>		
+			<p><b>Application</b></p>
+			<p>The manufacturer, or its duly accredited representative, 
+			shall submit the application of approval of a vehicle type. A document with 
+			detailed description of the vehicle type with regard to the electric power train and 
+			galvanically connected high voltage bus and a document which shows additional evidence 
+			that the RESS, if used in the vehicle, complies with the regulation. A vehicle representative 
+			of the vehicle type to be approved shall be submitted to the Technical Service responsible for 
+			conducting the approval tests. If the Technical Service find extra vehicles or specific parts 
+			essential for the testing, they can be ask from the manufacturer.</p>
+			<p><b>Approcval</b></p>
+			<p>Before type approval is granted the Type Approval Authority shall verify the existence 
+			of satisfactory arrangements for ensuring effective control of the conformity of production.</p>
+			<p>Approval shall be granted if the submitted vehicle meets the relevant requirements  and 
+			the approved type shall be given an approval number . The approval authority communicates 
+			the outcome of the application for approval via a standard document to the manufacturer. 
+			This document gives in case of approval, information to which regulation the vehicle is approved, 
+			the country which granted the approval.  The given approval mark shall be clearly readable and permanent 
+			placed on or close to the vehicle data plate.</p>
+			<p><b>Modifications and extension on type approval</b></p>
+			<p>Every modification with regard to the approval regulation shall be notified to the approval 
+			authority. The approval authority decides if further tests are necessary.</p>
+		]]></htmltext>
+	</paragraph>
+</description>	
+<processOwner>company0</processOwner>
+</step>

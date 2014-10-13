@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<step>
+<proc>Vehicle design and development</proc>	
+<title>Vehicle design and development</title>
+<processOwner>company0</processOwner>
+<description>
+	<paragraph>
+		<prodType>Vehicle</prodType>
+		<htmltext><![CDATA[
+			<p>The vehicle design and development process is splitted in to two parts with each their specific standards and information:</p>
+			<ul>
+				<li>Design and development of an electric bicycle</li>
+				<li>Design and development of an automotive application, truck and bus</li>
+			</ul>
+		]]></htmltext>
+	</paragraph>
+</description>
+</step>

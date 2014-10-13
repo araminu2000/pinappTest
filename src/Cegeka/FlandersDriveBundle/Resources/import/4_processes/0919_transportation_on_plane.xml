@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<step>
+<proc>Transportation</proc>	
+<title>Transportation by plain</title>	
+<description>	
+	<paragraph>
+		<prodType>Cell | Damaged cell | Module | Damaged module | Pack | Damaged pack</prodType>
+		<htmltext><![CDATA[
+			<p><b><i>Note 1: Damaged components and waste cannot be transported by plan.</i></b></p>
+			<p><b><i>Note 2: The legislation and regulation of transporting Lithium-ion batteries by plane is changing rapidly.
+			It is therefore recommended that when it is planned to tranport components by plane, the latest regulations
+			are verified.</i></b></p>
+		]]></htmltext>
+	</paragraph>
+	<paragraph>
+		<prodType>Cell | Module | Pack</prodType>
+		<inputs>ADR</inputs>
+		<inputs>IATA_DGR</inputs>
+		<htmltext><![CDATA[
+			<p>This transportation contains the following steps:</p>
+			<ul><li>Transporting the components over road to the airport.</li>
+			<li>Possible storage of the components at the airport</li>
+			<li>Transporting the components by ship to destination airport</li>
+			<li>It is possible that the components are stored in the destination airport</li>
+			<li>Transporting the component to the final destination by land transport</li></ul>
+			
+			<p>For the land transport from the sender to the airport and the airport to the receiver, 
+			the ADR is applicable. This implies that the transporter need to comply with the ADR regulation 
+			and that an ADR transport document shall be available.</p>
+
+			<p>When the components are placed into storage in the harbour, appropriate action shall be 
+			taken to avoid sever incidents due to thermal reactions in the components.</p>			
+						
+		]]></htmltext>
+	</paragraph>
+</description>
+<processOwner>company0</processOwner>
+</step>

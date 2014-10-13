@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<step>
+<proc>Pack assembly</proc>
+<title>Connecting the modules to form a pack</title>	
+<description>	
+	<paragraph>
+		<prodType>Module</prodType>
+		<act>assembling | lifting | placing | moving</act>
+		<recoms>recomm_18</recoms>
+		<recoms>recomm_19</recoms>
+		<recoms>recomm_27</recoms>			
+		<recoms>recomm_28</recoms>
+		<recoms>recomm_30</recoms>
+		<recoms>recomm_34</recoms>
+		<recoms>recomm_37</recoms>
+		<recoms>recomm_39</recoms>	
+		<recoms>recomm_40</recoms>
+		<recoms>recomm_41</recoms>
+		<recoms>recomm_42</recoms>
+		<htmltext><![CDATA[
+		<p>In this step the interconnections between the modules are made. During this assembling process, mechanical and electrical abuse shall be avoided</p>
+		<p>When more than one modules are connected which each other the voltage, can increase above the 60VDC.
+		This means that the risk electrocution exists. To avoid electrocution the current collectors of the modules can be covered.  
+		Whenever the operators works on high voltage parts high voltage gloves need to be worn and high voltage tools need to be used.</p>
+		]]></htmltext>
+	</paragraph>
+	<paragraph>
+		<prodType>Pack | Module</prodType>
+		<act>assembling</act>
+		<htmltext><![CDATA[
+			<p>When all interconnections between the modules are made, the end connectors are placed. These end connectors connect the first and last module
+			to cabling of the pack. From this point, a pack is formed. Different systems can be used for this (e.g. bus bar system).
+		]]></htmltext>
+	</paragraph>
+	<paragraph>
+		<prodType>Pack</prodType>
+		<act>assembling | lifting | placing | moving</act>
+		<recoms>recomm_69</recoms>
+		<recoms>recomm_70</recoms>
+		<recoms>recomm_72</recoms>			
+		<recoms>recomm_77</recoms>
+		<recoms>recomm_79</recoms>
+		<htmltext><![CDATA[
+		<p>Once the modules are connected to each other, a pack is formed with voltage higher than 60VDC. The main risk whenever a 
+		high voltage battery pack is handled is electrocution. In these situations high voltage gloves and high voltage tools are mandatory. 
+		Whenever possible, the connectors of the pack need to be covered.</p>
+		<p>To avoid the start of a thermal runaway, electrical and mechanical abuse shall always be avoided 
+		during the assembling process. The temperature need to be checked on a regular base.</p>
+		]]></htmltext>
+	</paragraph>
+</description>
+<processOwner>company0</processOwner>
+</step>

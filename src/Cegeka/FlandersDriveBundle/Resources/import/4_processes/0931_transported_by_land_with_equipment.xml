@@ -1,0 +1,162 @@
+<step>
+<proc>Transportation</proc>	
+<title>Transporting batteries with equipment by land</title>
+<description>	
+	<paragraph>
+		<prodType>Cell</prodType>
+		<act>packing | labelling</act>		
+		<htmltext><![CDATA[
+			<h3><strong>Cells transported with equipment</strong></h3>
+			<p>Applies to: Lithium ion cells contained with equipment with a Watt-hour rating in excess of  20 Wh/cell</p>
+			<p>Un No., Proper shipping name: UN 3481, LITHIUM ION BATTERIES CONTAINED WITH EQUIPMENT</p>
+			<p>Class: 9</p>
+			<p>Packing group: II</p>
+			<p>Hazard Label:</p>
+			<ul><li>Labels must be in the form of a square set at an angle of 50° (diamond-shaped) with minimum dimensions of 100 mm by 100 mm.</li>
+			<li>They must have a line 5 mm inside the edge and running parallel with it.</li></ul>
+			<p><img alt="" src="http://193.104.8.63/bundles/cegekaflandersdrive/images/standards/15 Transport/Transport-figure2.jpg"/></p>
+			<p>Prerequisite: Cells must meet the General Requirements of flow Transportation in particular the test requirements.</p>
+			<p>Specific Requirements:</p>
+			<ul><li>Each cell incorporates a safety venting device or is designed to preclude a violent rupture under normal conditions of carriage.</li>
+			<li>Each cell is equipped with an effective means of preventing external short circuits.</li>
+			<li>Equipment must be equipped with an effective means of preventing accidental activation.</li></ul>
+			<p>Transport mode: ADR</p>
+			<p>Packaging instructions: P903</p>
+			<p>Cells must be protected against short circuit, including protection against contact with conductive materials within the same packaging that could lead to a short circuit.</p>
+			<p>Two possible solutions, lithium batteries cells must:</p>
+			<ul><li>Be placed in inner packagings that completely enclose the cell, then placed in an outer packaging. The completed package for the cells must meet the Packaging Group II performance standards, or;</li>
+			<li>BE placed in inner packagings that completely enclose the cell, then placed with equipment in a package that meets the Packaging Group II performance standards.</li></ul>
+			<p>The equipment must be secured against movement within the outer packaging and be packed so as to prevent accidental activation.</p>
+			<p>Packaging:</p>
+			<ul><li>Drums (1A2, 1B2, 1N2, 1H2, 1D, 1G)</li>
+			<li>Boxes (4A, 4B, 4N, 4C1, 4C2, 4D, 4F, 4G, 4H1, 4H2)</li>
+			<li>Jerricans (3A2, 3B2, 3H2)</li></ul>
+			<p>Weight limit: No limit</p>
+			<p>Tunnel code: (E)</p>
+			<p>Transport cat.: 2</p>
+			<p>Exemptions: chapter 1.1.3.6 – limit ≤333 kg Net</p>
+			<p>Marking and Handling Labels on Packages: UN 3481</p>
+			<p>Overpack: “Overpack”</p>
+			<p><img alt="" src="http://193.104.8.63/bundles/cegekaflandersdrive/images/standards/15 Transport/Transport-figure2.jpg"/></p>
+			<p>Documents: Transport document</p>
+			<p>Practical example of packaging, marking and labelling of packages containing lithium ion cells fully regulated packed with equipment: Li-ion Wh rating 30 Wh/cell – Net weight 15 kg</p>
+			<p><img alt="" src="http://193.104.8.63/bundles/cegekaflandersdrive/images/standards/15 Transport/Transport-figure19.jpg"/></p>
+		
+			<p><strong>LITHIUM ION CELLS CONTAINED WITH EQUIPMENT – Small cells exempted</strong></p>
+			<p>Applies to: Lithium ion cells contained with equipment with a Watt-hour rating not exceeding 20 Wh/cell</p>
+			<p>Un No., Proper shipping name: UN 3480, LITHIUM ION BATTERIES CONTAINED WITH EQUIPMENT</p>
+			<p>Class: 9</p>
+			<p>Packing group: II</p>
+			<p>Hazard Label:  Not required</p>
+			<p>Prerequisite: Cells must meet the General Requirements of flow Transportation in particular the test requirements.</p>
+			<p>Transport mode: ADR</p>
+			<p>Exemption conditions: SP 188</p>
+			<p>Cells must be protected against short circuit, including protection against contact with conductive materials within the same packaging which could cause a short circuit.</p>
+			<p>Equipment and packed cells must be packed in strong outer packagings.</p>
+			<p>Packaging: Not required approved packaging. Use strong outer packaging, it must be capable of withstanding a 1.2 m drop test in any orientation without damage to cells contained therein, without shifting of the contents so as	to allow cell to cell contact and without release of contents. Two possible solutions, lithium batteries cells must:</p>
+			<ul><li>Be placed in inner packagings that completely enclose the cell, then placed in an outer packaging. The completed package for the cells must meet the Packaging Group II performance standards, or;</li>
+			<li>BE placed in inner packagings that completely enclose the cell, then placed with equipment in a package that meets the Packaging Group II performance standards.</li></ul>
+			<p>The equipment must be secured against movement within the outer packaging and be packed so as to prevent accidental activation.</p>
+			<p>Quantity limit of cells/package: No limit</p>
+			<p>Weight limit batteries/package: No limit</p>
+			<p>Marking and Handling Labels on Packages:</p>
+			<ul><li>an indication that the package contains "lithium ion cells”</li>
+			<li>an indication that the package shall be handled with care and that	a flammability hazard exists if the package is damaged;</li>
+			<li>an indication	that special procedures shall be followed in	the event the package is damaged,  to include. Inspection and repacking if necessary;</li>
+			<li>a telephone number for additional information;</li></ul>
+			<p>Overpack: “Overpack”</p>
+			<p>Documents: Transport document is not required</p>
+			<p>Each consignment must be accompanied with a document with an indication that:</p>
+			<ul><li>The package contains lithium ion cells;</li>		
+			<li>The package must be handled with care and that a flammability hazard exists if the package is damaged;</li>
+			<li>Special	 procedures must be followed in the event the package is damaged, to include inspection and repacking if necessary; and	</li>
+			<li>A telephone number for additional information.</li>
+			<p>Instruction to personnel: Any person preparing or offering cells for transport must receive adequate instruction on these requirements commensurate with their responsibilities.</p>
+			<p>Practical example of packaging, marking and labelling of packages containing small exempted lithium ion cells packed with equipment: Li-ion Wh rating 5 Wh/cell – Net weight 3 kg.</p>
+			<p><img alt="" src="http://193.104.8.63/bundles/cegekaflandersdrive/images/standards/15 Transport/Transport-figure20.jpg"/></p>
+			<p><img alt="" src="http://193.104.8.63/bundles/cegekaflandersdrive/images/standards/15 Transport/Transport-figure21.jpg"/></p>
+		]]></htmltext>
+	</paragraph>
+	<paragraph>
+		<prodType>Module | Pack</prodType>
+		<act>packing | labelling</act>		
+		<htmltext><![CDATA[
+			<h3><strong>Modules and Packs transported in equipment</strong></h3>
+			<p><strong>LITHIUM ION BATTERIES CONTAINED with EQUIPMENT – Fully regulated batteries</strong></p>
+			<p>Applies to: Lithium ion batteries packed with equipment with a Watt-hour rating in excess of 100 Wh/cell</p>
+			<p>Un No., Proper shipping name: UN 3481, LITHIUM ION BATTERIES PACKED WITH EQUIPMENT</p>
+			<p>Class: 9</p>
+			<p>Packing group: II</p>
+			<p>Hazard Label:</p>
+			<ul><li>Labels must be in the form of a square set at an angle of 50° (diamond-shaped) with minimum dimensions of 100 mm by 100 mm.</li>
+			<li>They must have a line 5 mm inside the edge and running parallel with it.</li></ul>
+			<p><img alt="" src="http://193.104.8.63/bundles/cegekaflandersdrive/images/standards/15 Transport/Transport-figure2.jpg"/></p>
+			<p>Prerequisite: Batteries must meet the General Requirements of flow Transportation in particular the test requirements.</p>
+			<p>Specific Requirements:</p>
+			<ul><li>Each battery  incorporates a safety venting device or is designed to preclude a violent rupture under normal conditions of carriage.</li>
+			<li>Each battery is equipped with an effective means of preventing external short circuits.</li>
+			<li>“Equipment” means apparatus requiring the lithium batteries with which it is packed for its operation.</li>
+			<li>Each battery containing cells or series of cells connected in parallel must be equipped with an effective means, as necessary, to prevent dangerous reverse current flow (e.g. diodes, fuses).</li>
+			<li>Batteries manufactured after 31 December 2011 must be marked with the Wh rating on the outside case.</li></ul>
+			<p>Transport mode: ADR</p>
+			<p>Packaging instructions: P903</p>
+			<p>Batteries must be protected against short circuit, including protection against contact with conductive materials within the same packaging that could lead to a short circuit.</p>
+			<p>Two possible solutions, lithium ion batteries must:</p>
+			<ul><li>Be placed in inner packagings that completely enclose the cell, then placed in an outer packaging. The completed package for the cells must meet the Packaging Group II performance standards, or;</li>
+			<li>Be placed in inner packagings that completely enclose the cell, then placed with equipment in a package that meets the Packaging Group II performance standards.</li></ul>
+			<p>The equipment must be secured against movement within the outer packaging and be packed so as to prevent accidental activation.</p>
+			<p>Packaging:</p>
+			<ul><li>Drums (1A2, 1B2, 1N2, 1H2, 1D, 1G)</li>
+			<li>Boxes (4A, 4B, 4N, 4C1, 4C2, 4D, 4F, 4G, 4H1, 4H2)</li>
+			<li>Jerricans (3A2, 3B2, 3H2)</li></ul>
+			<p>Weight limit: No limit</p>
+			<p>Tunnel code: (E)</p>
+			<p>Transport cat.: 2</p>
+			<p>Exemptions: chapter 1.1.3.6 – limit ≤333 kg Net</p>
+			<p>Marking and Handling Labels on Packages: UN 3481</p>
+			<p>Overpack: “Overpack”</p>
+			<p><img alt="" src="http://193.104.8.63/bundles/cegekaflandersdrive/images/standards/15 Transport/Transport-figure2.jpg"/></p>
+			<p>Documents: Transport document</p>
+			<p>Practical example of packaging, marking and labelling of packages containing lithium ion batteries fully regulated packed with equipment: Li-ion Wh rating 120 Wh/cell – Net weight 15 kg</p>
+			<p><img alt="" src="http://193.104.8.63/bundles/cegekaflandersdrive/images/standards/15 Transport/Transport-figure29.jpg"/></p>
+
+			<p><strong>LITHIUM ION BATTERIES PACKED WITH EQUIPMENT – Small batteries exempted</strong></p>
+			<p>Applies to: Lithium ion batteries packed with equipment with a Watt-hour rating not exceeding 100 Wh/battery</p>
+			<p>Un No., Proper shipping name: UN 3481, LITHIUM ION BATTERIES PACKED WITH EQUIPMENT</p>
+			<p>Class: 9</p>
+			<p>Packing group: II</p>
+			<p>Hazard Label:  Not required</p>
+			<p>Prerequisite: Batteries must meet the General Requirements of flow Transportation in particular the test requirements.</p>
+			<p>Specific Requirements:</p>
+			<ul><li>The Watt-hour rating must be marked on the outside of the battery case except those manufactured before 1 January 2009</li></ul>
+			<p>Transport mode: ADR</p>
+			<p>Exempt conditions: SP 188</p>
+			<p>Batteries must be protected so as to prevent short circuits, including protection against contact with conductive materials within the same packaging that could lead to a short circuit.</p>
+			<p>Equipment and packed batteries must be packed in strong outer packagings</p>
+			<p>Packaging: Not required approved packaging. Use strong outer packaging, it must be capable of withstanding a 1.2 m drop test in any orientation without damage to cells contained therein, without shifting of the contents so as	to allow cell to cell contact and without release of contents.</p>
+			<p>Two possible solutions, lithium batteries  must:</p>
+			<ul><li>Be placed in inner packagings that completely enclose the cell, then placed in an outer packaging. The completed package for the cells must meet the Packaging Group II performance standards, or;</li>
+			<li>Be placed in inner packagings that completely enclose the cell, then placed with equipment in a package that meets the Packaging Group II performance standards.</li></ul>
+			<p>The equipment must be secured against movement within the outer packaging and be packed so as to prevent accidental activation.</p>
+			<p>Quantity limit: No limit</p>
+			<p>Weight limit: No limit</p>
+			<p>Marking and Handling Labels on Packages:</p>
+			<ul><li>an indication that the package contains "lithium ion batteries”</li>
+			<li>an indication that the package shall be handled with care and that	a flammability hazard exists if the package is damaged;</li>
+			<li>an indication	that special procedures shall be followed in the event the package is damaged, to include. Inspection and repacking if necessary;</li>
+			<li>a telephone number for additional information;</li></ul>
+			<p>Overpack: “Overpack”</p>
+			<p>Documents: Transport document is not required</p>
+			<p>Each consignment must be accompanied with a document with an indication that:</p>
+			<ul><li>The package contains lithium ion cells;</li>
+			<li>The package must be handled with care and that a flammability hazard exists	 if the package is damaged;</li>
+			<li>Special	 procedures must be followed in the event the package is damaged, to include inspection and repacking if necessary; and</li>
+			<li>A telephone number for additional information.</li></ul>
+			<p>Instructions to personnel: Any person preparing or offering batteries for transport must receive adequate instructions on these requirements commensurate with their responsibilities.</p>
+			<p>Practical example of packaging, marking and labelling of packages containing lithium ion batteries packed with equipment partially exempted: Li-ion Wh rating 10 Wh/battery – Net weight 4 kg</p>
+			<p><img alt="" src="http://193.104.8.63/bundles/cegekaflandersdrive/images/standards/15 Transport/Transport-figure30.jpg"/></p>
+			<p><img alt="" src="http://193.104.8.63/bundles/cegekaflandersdrive/images/standards/15 Transport/Transport-figure31.jpg"/></p>
+		]]></htmltext>
+	</paragraph>
+</description>
+</step>

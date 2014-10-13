@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<step>
+<proc>Internal logistics</proc>	
+<title>Receiving zone</title>	
+<description>	
+	<paragraph>
+		<prodType>Cell</prodType>
+		<htmltext><![CDATA[
+			<p>In most cases a module producer is not the cell producer. Cells will be received in the logistics and receiving area of the plant of the module producer.</p>
+		]]></htmltext>
+	</paragraph>
+	<paragraph>
+		<prodType>Damaged cell</prodType>
+		<htmltext><![CDATA[
+			<p>Damaged cells will occure in the receiving zone of the recycling plant. </p>
+		]]></htmltext>
+	</paragraph>
+	<paragraph>
+		<prodType>Cell | Damaged cell</prodType>
+		<idRecomm>recomm_110</idRecomm>
+		<htmltext><![CDATA[
+			<p>Risks of external short circuit, mechanical abuse and thermal runaway are all low. Persons handling the cells need to be aware of the content of the 
+			packages and the possible risks. The normal safety rules of internal transport need to be taken into account.</p>
+		]]></htmltext>
+	</paragraph>
+	<paragraph>
+		<prodType>Module</prodType>
+		<htmltext><![CDATA[
+			<p>Modules will be received by pack producer which don’t produce their own modules.</p>
+		]]></htmltext>
+	</paragraph>
+	<paragraph>
+		<prodType>Damaged module</prodType>
+		<htmltext><![CDATA[
+			<p>Damaged modules can be received to a company which disassembles or recycles packs safely.</p>
+		]]></htmltext>
+	</paragraph>
+	<paragraph>
+		<prodType>Module | Damaged module</prodType>
+		<idRecomm>recomm_110</idRecomm>
+		<htmltext><![CDATA[
+			<p>Modules are packed in boxes, separated from each other. During movement there could be short circuit due to moving separating material. Attention is needed to avoid the 
+			external short circuit. The normal safety rules of internal transport need to be taken into account to avoid mechanical abuse.</p>
+		]]></htmltext>
+	</paragraph>
+	<paragraph>
+		<prodType>Pack</prodType>
+		<htmltext><![CDATA[
+			<p>Damaged packs can be received to a company which disassembles or recycles packs safely.</p>
+		]]></htmltext>
+	</paragraph>
+	<paragraph>
+		<prodType>Damaged pack</prodType>
+		<htmltext><![CDATA[
+			<p>Damaged packs can be received to a company which disassembles or recycles packs safely.</p>
+			<p>When damaged packs are received and handled precautions need to be taken to avoid electrocution and external short circuit. These can occur to loose connection due to the damages. If needed and possible the connectors need to be covered.</p>
+		]]></htmltext>
+	</paragraph>
+	<paragraph>
+		<prodType>Pack | Damaged pack</prodType>
+		<idRecomm>recomm_110</idRecomm>
+		<htmltext><![CDATA[
+			<p>It is assumed that during logistics the service disconnect is disconnected and no places which can lead to short circuit 
+			exists at the exterior of the pack. The risk of electrocution is in this case very low. The normal safety rules of internal 
+			transport need to be taken into account to avoid mechanical abuse. This abuse can lead to external shirt circuit inside the 
+			pack, leakage, gas formation. For pack it is also important to avoid thermal abuse. This can occur when packs are outside t
+			he building in the sun or in a hot environment. A good practice is to check the temperature of the pack on a regular base.</p>
+		]]></htmltext>
+	</paragraph>
+	
+</description>
+<processOwner>company0</processOwner>
+</step>

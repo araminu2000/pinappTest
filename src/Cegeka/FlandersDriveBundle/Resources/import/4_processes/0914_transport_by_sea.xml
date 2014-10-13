@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<decision>
+<proc>Transportation</proc>
+<prodType>Cell | Damaged cell | Module | Damaged module | Pack | Damaged pack | Vehicle</prodType>
+<processOwner>company0</processOwner>
+<title>Transportation by sea?</title>
+<tag_yes>sea</tag_yes>
+<tag_no>air</tag_no>
+</decision>

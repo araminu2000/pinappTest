@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<step>
+<proc>Pack design and development</proc>	
+<title>Type approval of a pack</title>	
+<description>
+	<paragraph>
+		<prodType>Pack</prodType>
+		<reqs> <!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>UN Regulation No. 100</refReq_tag>
+			<refReq_part>n.a.</refReq_part>
+			<refReq_chNo>3</refReq_chNo>
+			<refReq_clNo>3.2</refReq_clNo>
+		</reqs>
+		<reqs> <!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>UN Regulation No. 100</refReq_tag>
+			<refReq_part>n.a.</refReq_part>
+			<refReq_chNo>3.2</refReq_chNo>
+			<refReq_clNo>3.2.1</refReq_clNo>
+		</reqs>
+		<reqs> <!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>UN Regulation No. 100</refReq_tag>
+			<refReq_part>n.a.</refReq_part>
+			<refReq_chNo>3.2</refReq_chNo>
+			<refReq_clNo>3.2.2</refReq_clNo>
+		</reqs>
+		<reqs> <!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>UN Regulation No. 100</refReq_tag>
+			<refReq_part>n.a.</refReq_part>
+			<refReq_chNo>3.2.2</refReq_chNo>
+			<refReq_clNo>3.2.2.1</refReq_clNo>
+		</reqs>
+		<reqs> <!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>UN Regulation No. 100</refReq_tag>
+			<refReq_part>n.a.</refReq_part>
+			<refReq_chNo>3.2</refReq_chNo>
+			<refReq_clNo>3.2.3</refReq_clNo>
+		</reqs>
+		<reqs> <!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>UN Regulation No. 100</refReq_tag>
+			<refReq_part>n.a.</refReq_part>
+			<refReq_chNo>3</refReq_chNo>
+			<refReq_clNo>3.3</refReq_clNo>
+		</reqs>
+		<reqs> <!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>UN Regulation No. 100</refReq_tag>
+			<refReq_part>n.a.</refReq_part>
+			<refReq_chNo>4</refReq_chNo>
+			<refReq_clNo>4.1</refReq_clNo>
+		</reqs>
+		<reqs> <!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>UN Regulation No. 100</refReq_tag>
+			<refReq_part>n.a.</refReq_part>
+			<refReq_chNo>4</refReq_chNo>
+			<refReq_clNo>4.2</refReq_clNo>
+		</reqs>
+		<reqs> <!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>UN Regulation No. 100</refReq_tag>
+			<refReq_part>n.a.</refReq_part>
+			<refReq_chNo>4</refReq_chNo>
+			<refReq_clNo>4.3</refReq_clNo>
+		</reqs>
+		<reqs> <!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>UN Regulation No. 100</refReq_tag>
+			<refReq_part>n.a.</refReq_part>
+			<refReq_chNo>4</refReq_chNo>
+			<refReq_clNo>4.4</refReq_clNo>
+		</reqs>
+		<reqs> <!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>UN Regulation No. 100</refReq_tag>
+			<refReq_part>n.a.</refReq_part>
+			<refReq_chNo>4.4</refReq_chNo>
+			<refReq_clNo>4.4.1</refReq_clNo>
+		</reqs>
+		<reqs> <!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>UN Regulation No. 100</refReq_tag>
+			<refReq_part>n.a.</refReq_part>
+			<refReq_chNo>4.4</refReq_chNo>
+			<refReq_clNo>4.4.2</refReq_clNo>
+		</reqs>
+		<reqs> <!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>UN Regulation No. 100</refReq_tag>
+			<refReq_part>n.a.</refReq_part>
+			<refReq_chNo>4.4</refReq_chNo>
+			<refReq_clNo>4.4.3</refReq_clNo>
+		</reqs>
+		<reqs> <!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>UN Regulation No. 100</refReq_tag>
+			<refReq_part>n.a.</refReq_part>
+			<refReq_chNo>4</refReq_chNo>
+			<refReq_clNo>4.5</refReq_clNo>
+		</reqs>
+		<reqs> <!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>UN Regulation No. 100</refReq_tag>
+			<refReq_part>n.a.</refReq_part>
+			<refReq_chNo>4</refReq_chNo>
+			<refReq_clNo>4.6</refReq_clNo>
+		</reqs>
+		<reqs> <!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>UN Regulation No. 100</refReq_tag>
+			<refReq_part>n.a.</refReq_part>
+			<refReq_chNo>4.6</refReq_chNo>
+			<refReq_clNo>4.6.2</refReq_clNo>
+		</reqs>
+		<reqs> <!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>UN Regulation No. 100</refReq_tag>
+			<refReq_part>n.a.</refReq_part>
+			<refReq_chNo>7</refReq_chNo>
+			<refReq_clNo>7.1</refReq_clNo>
+		</reqs>
+		<reqs> <!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>UN Regulation No. 100</refReq_tag>
+			<refReq_part>n.a.</refReq_part>
+			<refReq_chNo>7.1</refReq_chNo>
+			<refReq_clNo>7.1.1</refReq_clNo>
+		</reqs>
+		<reqs> <!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>UN Regulation No. 100</refReq_tag>
+			<refReq_part>n.a.</refReq_part>
+			<refReq_chNo>7.1</refReq_chNo>
+			<refReq_clNo>7.1.2</refReq_clNo>
+		</reqs>
+		<reqs> <!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>UN Regulation No. 100</refReq_tag>
+			<refReq_part>n.a.</refReq_part>
+			<refReq_chNo>7</refReq_chNo>
+			<refReq_clNo>7.2</refReq_clNo>
+		</reqs>
+		<reqs> <!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>UN Regulation No. 100</refReq_tag>
+			<refReq_part>n.a.</refReq_part>
+			<refReq_chNo>7</refReq_chNo>
+			<refReq_clNo>7.3</refReq_clNo>
+		</reqs>
+		<htmltext><![CDATA[
+			<p><b>Application</b></p>
+			<p>The manufacturer, or its duly accredited representative, shall submit the application of approval of a type of REESS or separate technical unit with regard to the safety requirements of the RESS. Detailed description of the type of RESS or separate technical unit as regard to the safety requirements shall be added to the application. Components shall be submitted to the Technical Service for conducting the test.</p>
+			<p><b>Approval</b></p>
+			<p>Before type approval is granted the Type Approval Authority shall verify the existence of satisfactory arrangements for ensuring effective control of the conformity of production. Approval shall be granted if the submitted RESS meets the relevant requirements  and the approved type shall be given an approval number . The approval authority communicates the outcome of the application for approval via a standard document to the manufacturer . This document gives in case of approval, information to which regulation the vehicle is approved, the country which granted the approval.  A specific symbol (ES) will be added to indicate that it concerns an RESS or a technical unit of the RES S. The given approval mark shall be clearly readable and permanent placed on themajor element of the RESS.</p>
+			<p><b>Modifications and extension of type approval</b></p>
+			<p>Every modification with regard to the approval regulation shall be notified to the approval authority. The approval authority decides if further tests are necessary.</p>
+		]]></htmltext>
+	</paragraph>
+</description>
+<processOwner>company0</processOwner>
+</step>

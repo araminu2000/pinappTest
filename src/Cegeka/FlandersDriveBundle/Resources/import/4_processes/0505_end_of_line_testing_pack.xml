@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<step>
+<proc>Pack assembly</proc>
+<title>End of line testing of the pack</title>
+<description>
+	<paragraph>
+		<prodType>Pack</prodType>
+		<act>measuring</act>
+		<htmltext><![CDATA[
+			<p>After the pack assembly, packs needs to be tested to check if it fulfils the design 
+			requirements. Packs that pass the end of line test can be used in the vehicle production. 
+			The other packs are scrap and need to be transported to the recycling plant.</p>
+			<p>In the first step of the testing, the manual service disconnected must be connected. For safety reasons 
+			this disconnect should be disconnected as long as possible to reduce the exposure to the highest pack voltages.</p>
+		]]></htmltext>
+	</paragraph>
+	<paragraph>
+		<prodType>Pack</prodType>
+		<act>measuring</act>
+		<reqs> <!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>SAE J2289</refReq_tag>
+			<refReq_part>n.a.</refReq_part>
+			<refReq_chNo>6.7</refReq_chNo>
+			<refReq_clNo>6.7.1</refReq_clNo>
+		</reqs>
+		<htmltext><![CDATA[
+			<p>A built in diagnostics system can verify if the pack is correctly assembled. 
+			The design of the diagnostics shall be done during the design and development of the pack.</p>
+		]]></htmltext>
+	</paragraph>	
+	<paragraph>
+		<prodType>Pack</prodType>
+		<act>measuring</act>
+		<recoms>recomm_77</recoms>
+		<recoms>recomm_72</recoms>
+		<htmltext><![CDATA[
+			<p>During the measuring of the pack, measures need to be taken to avoid electrocution and thermal runaway:</p>
+			<ul><li>Cover the current collector of the pack whenever is possible</li>
+			<li>Use of high voltage gloves</li>
+			<li>Monitoring the temperature can help to detect a thermal runaway in a early stage.</li></ul>
+		]]></htmltext>
+	</paragraph>
+	<paragraph>
+		<prodType>Pack</prodType>
+		<act>lifting|placing</act>
+		<recoms>recomm_77</recoms>
+		<recoms>recomm_72</recoms>
+		<htmltext><![CDATA[
+			<p>Whenever the pack is lifted or placed during the end of line test the battery pack connectors need to be covered and the temperature need to be checked regularly.</p>
+		]]></htmltext>
+	</paragraph>
+	<paragraph>
+		<prodType>Pack</prodType>
+		<htmltext><![CDATA[
+			<p>Removing the service disconnect after the end of line testing is seen to be good practice.</p>
+		]]></htmltext>
+	</paragraph>
+</description>
+<processOwner>company0</processOwner>
+</step>

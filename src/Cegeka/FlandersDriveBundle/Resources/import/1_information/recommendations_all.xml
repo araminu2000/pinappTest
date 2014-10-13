@@ -1,0 +1,1268 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rootRecommendation xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<recomm>
+		<idRecomm>recomm_1</idRecomm>
+		<nameRecomm>Cover current collector</nameRecomm>
+		<prodType>Cell</prodType>
+		<proc>Module assembly </proc>
+		<act>moving | lifting |placing | unpacking | assembling | measuring | labelling</act>
+		<textRecomm>By covering at least one of the current collectors of a cell, the external short circuit can be avoided</textRecomm>
+		<goalRecomm>Avoiding external short circuit</goalRecomm>
+		<refRecomm>HAZOP-HARA Li-SAFE project</refRecomm>
+	</recomm>
+	<recomm>
+		<idRecomm>recomm_2</idRecomm>
+		<nameRecomm>Use safety gloves and glasses when handling cells</nameRecomm>
+		<prodType>Cell</prodType>
+		<proc>Module assembly </proc>
+		<act>moving | lifting | unpacking | assembling | measuring | labelling</act>
+		<textRecomm>When Li-ion cells are handled by an operator, the operator needs to wear safety gloves and glasses to decrease the severity of the injuries caused by an external short circuit</textRecomm>
+		<goalRecomm>Decrease the chance on sever injury when an external short circuit occurs</goalRecomm>
+		<refRecomm>HAZOP-HARA Li-SAFE project</refRecomm>
+	</recomm>
+	<recomm>
+		<idRecomm>recomm_3</idRecomm>
+		<nameRecomm>Cell enclosure resistant against mechanical abuse</nameRecomm>
+		<prodType>Cell</prodType>
+		<proc>Module assembly</proc>
+		<act>lifting | placing | assembling</act>
+		<textRecomm>Mechanical abuse can lead to leakage. The cell's enclosure shall be resistant to any mechanical abuse like puncture. Next to leakage the enclosure shall prevent degradation of the mechanical integrity of the cell</textRecomm>
+		<goalRecomm>Avoiding leakage and degradation of mechanical integrity</goalRecomm>
+		<refRecomm>HAZOP-HARA Li-SAFE project</refRecomm>
+	</recomm>
+	<recomm>
+		<idRecomm>recomm_4</idRecomm>
+		<nameRecomm>Avoid blunt tooling</nameRecomm>
+		<prodType>Cell</prodType>
+		<proc>Module assembly</proc>
+		<act>assembling</act>
+		<textRecomm>During the assembly of the modules the use of blunt tools shall be avoided. This to decrease the chance on mechanical abuse like puncture which leads to leakage</textRecomm>
+		<goalRecomm>Avoiding leakage during module assembly</goalRecomm>
+		<refRecomm>HAZOP-HARA Li-SAFE project</refRecomm>
+	</recomm>
+	<recomm>
+		<idRecomm>recomm_5</idRecomm>
+		<nameRecomm>Check the cell temperature</nameRecomm>
+		<prodType>Cell | Damaged cell </prodType>
+		<proc>Recycling | Module assembly</proc>
+		<act>storing</act>
+		<textRecomm>The temperature of the cells shall be checked regularly.</textRecomm>
+		<goalRecomm>Avoiding thermal runaway</goalRecomm>
+		<refRecomm>HAZOP-HARA Li-SAFE project</refRecomm>
+	</recomm>
+	<recomm>
+		<idRecomm>recomm_6</idRecomm>
+		<nameRecomm>Check the cell temperature</nameRecomm>
+		<prodType>Cell </prodType>
+		<proc>Transportation</proc>
+		<textRecomm>The temperature of the cells shall be checked regularly.</textRecomm>
+		<goalRecomm>Avoiding thermal runaway</goalRecomm>
+		<refRecomm>HAZOP-HARA Li-SAFE project</refRecomm>
+	</recomm>
+	<recomm>
+		<idRecomm>recomm_7</idRecomm>
+		<nameRecomm>Use of moulded cell tray to separate cells</nameRecomm>
+		<prodType>Cell | Damaged cell </prodType>
+		<proc>Recycling | Module assembly</proc>
+		<act>storing</act>
+		<textRecomm>Cells shall be placed in moulded trays that separate individual cells </textRecomm>
+		<goalRecomm>Avoiding thermal runaway propagation</goalRecomm>
+		<refRecomm>HAZOP-HARA Li-SAFE project</refRecomm>
+	</recomm>
+	<recomm>
+		<idRecomm>recomm_8</idRecomm>
+		<nameRecomm>Use of moulded cell tray to separate cells</nameRecomm>
+		<prodType>Cell</prodType>
+		<proc>Transportation</proc>
+		<textRecomm>Cells shall be placed in moulded trays that separate individual cells </textRecomm>
+		<goalRecomm>Avoiding thermal runaway propagation</goalRecomm>
+		<refRecomm>HAZOP-HARA Li-SAFE project</refRecomm>
+	</recomm>
+	<recomm>
+		<idRecomm>recomm_9</idRecomm>
+		<nameRecomm>Ventilated storage area</nameRecomm>
+		<prodType>Cell | Damaged cell | Module | Damaged module | Pack | Damaged pack</prodType>
+		<proc>Recycling | Module assembly | Pack assembly | Vehicle assembly</proc>
+		<act>storing</act>
+		<textRecomm>The storage area shall be well ventilated to avoid temperature increase leading to thermal runaway</textRecomm>
+		<goalRecomm>Avoiding thermal runaway</goalRecomm>
+		<refRecomm>HAZOP-HARA Li-SAFE project</refRecomm>
+	</recomm>
+	<recomm>
+		<idRecomm>recomm_10</idRecomm>
+		<nameRecomm>Ventilated containers</nameRecomm>
+		<prodType>Cell | Damaged cell | Module | Damaged module | Pack | Damaged pack</prodType>
+		<proc>Transportation</proc>
+		<textRecomm>The components shall be transported in ventilated containers to avoid temperature increase leading to thermal runaway during transport</textRecomm>
+		<goalRecomm>Avoiding thermal runaway</goalRecomm>
+		<refRecomm>HAZOP-HARA Li-SAFE project</refRecomm>
+	</recomm>
+	<recomm>
+		<idRecomm>recomm_11</idRecomm>
+		<nameRecomm>Avoid electrical abuse</nameRecomm>
+		<prodType>Cell</prodType>
+		<proc>Module assembly</proc>
+		<act>assembling | measuring</act>
+		<textRecomm>Electrical abuse (e.g. high charging current rate) shall be avoided during module manufacturing. This abuse can lead to temperature increase of the cell connectors which can be touched by the operator</textRecomm>
+		<goalRecomm>Avoiding temperature increase at the connectors</goalRecomm>
+		<refRecomm>HAZOP-HARA Li-SAFE project</refRecomm>
+	</recomm>
+	<recomm>
+		<idRecomm>recomm_12</idRecomm>
+		<nameRecomm>Check the temperature</nameRecomm>
+		<prodType>Cell</prodType>
+		<proc>Module assembly</proc>
+		<act>assembling | measuring</act>
+		<textRecomm>The temperature of the cells shall be checked regularly when electrical abuse can occur. By detecting early a temperature increase, sever consequences can be avoided</textRecomm>
+		<goalRecomm>Avoiding temperature increase at the connectors</goalRecomm>
+		<refRecomm>HAZOP-HARA Li-SAFE project</refRecomm>
+	</recomm>
+	<recomm>
+		<idRecomm>recomm_13</idRecomm>
+		<nameRecomm>Use safety gloves</nameRecomm>
+		<prodType>Cell</prodType>
+		<proc>Module assembly</proc>
+		<act>assembling | measuring</act>
+		<textRecomm>Safety gloves shall be used when handling cells to avoid burns when the operator touches a hot connector</textRecomm>
+		<goalRecomm>Decrease the chance on  injury when a warm operator touches a warm connector</goalRecomm>
+		<refRecomm>HAZOP-HARA Li-SAFE project</refRecomm>
+	</recomm>
+	<recomm>
+		<idRecomm>recomm_14</idRecomm>
+		<nameRecomm>Check the temperature</nameRecomm>
+		<prodType>Damaged cell</prodType>
+		<proc>Recycling</proc>
+		<act>lifting |moving | placing</act>
+		<textRecomm>The temperature of the cells shall be checked regularly.</textRecomm>
+		<goalRecomm>Avoiding thermal runaway</goalRecomm>
+		<refRecomm>HAZOP-HARA Li-SAFE project</refRecomm>
+	</recomm>
+	<recomm>
+		<idRecomm>recomm_15</idRecomm>
+		<nameRecomm>Use of moulded cell tray to separate cells</nameRecomm>
+		<prodType>Damaged cell</prodType>
+		<proc>Recycling</proc>
+		<act>lifting |moving | placing </act>
+		<textRecomm>Cells shall be placed in moulded trays that separate individual cells </textRecomm>
+		<goalRecomm>Avoid thermal runaway propagation</goalRecomm>
+		<refRecomm>HAZOP-HARA Li-SAFE project</refRecomm>
+	</recomm>
+	<recomm>
+		<idRecomm>recomm_16</idRecomm>
+		<nameRecomm>Cover module connector</nameRecomm>
+		<prodType>Module</prodType>
+		<proc>Module assembly</proc>
+		<act>lifting | moving | placing | packaging | assembling | measuring</act>
+		<textRecomm>By covering at least one of the current collectors of the module, the external short circuit can be avoided</textRecomm>
+		<goalRecomm>Avoiding external short circuit</goalRecomm>
+		<refRecomm>HAZOP-HARA Li-SAFE project</refRecomm>
+	</recomm>
+	<recomm>
+		<idRecomm>recomm_17</idRecomm>
+		<nameRecomm>Use safety gloves and glasses when handling modules</nameRecomm>
+		<prodType>Module</prodType>
+		<proc>Module assembly</proc>
+		<act>lifting | moving | placing | packaging | assembling | measuring</act>
+		<textRecomm>When modules are handled by an operator, the operator needs to wear safety gloves and glasses</textRecomm>
+		<goalRecomm>Decrease the chance on sever injury when an external short circuit occurs</goalRecomm>
+		<refRecomm>HAZOP-HARA Li-SAFE project</refRecomm>
+	</recomm>
+	<recomm>
+		<idRecomm>recomm_18</idRecomm>
+		<nameRecomm>Cover module connector</nameRecomm>
+		<prodType>Module</prodType>
+		<proc>Pack assembly</proc>
+		<act>unpacking | assembling | lifting | moving | placing | measuring</act>
+		<textRecomm>By covering at least one of the current collectors of the module, the external short circuit can be avoided</textRecomm>
+		<goalRecomm>Avoiding external short circuit</goalRecomm>
+		<refRecomm>HAZOP-HARA Li-SAFE project</refRecomm>
+	</recomm>
+	<recomm>
+		<idRecomm>recomm_19</idRecomm>
+		<nameRecomm>Use safety gloves and glasses when handling modules</nameRecomm>
+		<prodType>Module</prodType>
+		<proc>Pack assembly</proc>
+		<act>unpacking | assembling | lifting | moving | placing | measuring</act>
+		<textRecomm>When modules are handled by an operator, the operator needs to wear safety gloves and glasses</textRecomm>
+		<goalRecomm>Decrease the chance on sever injury when an external short circuit occurs</goalRecomm>
+		<refRecomm>HAZOP-HARA Li-SAFE project</refRecomm>
+	</recomm>
+	<recomm>
+		<idRecomm>recomm_20</idRecomm>
+		<nameRecomm>Cover module connector</nameRecomm>
+		<prodType>Module</prodType>
+		<proc>Recycling</proc>
+		<act>lifting | moving | placing | pack disassembling | module disassembling | unpacking</act>
+		<textRecomm>By covering at least one of the current collectors of the module, the external short circuit can be avoided</textRecomm>
+		<goalRecomm>Avoiding external short circuit</goalRecomm>
+		<refRecomm>HAZOP-HARA Li-SAFE project</refRecomm>
+	</recomm>
+	<recomm>
+		<idRecomm>recomm_21</idRecomm>
+		<nameRecomm>Use safety gloves and glasses when handling modules</nameRecomm>
+		<prodType>Module</prodType>
+		<proc>Recycling</proc>
+		<act>unpacking</act>
+		<textRecomm>When modules are handled by an operator, the operator needs to wear safety gloves and glasses</textRecomm>
+		<goalRecomm>Decrease the chance on sever injury when an external short circuit occurs</goalRecomm>
+		<refRecomm>HAZOP-HARA Li-SAFE project</refRecomm>
+	</recomm>
+	<recomm>
+		<idRecomm>recomm_22</idRecomm>
+		<nameRecomm>Cover module connector</nameRecomm>
+		<prodType>Module</prodType>
+		<proc>Repair modules</proc>
+		<act>lifting | moving | placing | packing | assembling</act>
+		<textRecomm>By covering at least one of the current collectors of the module, the external short circuit can be avoided</textRecomm>
+		<goalRecomm>Avoiding external short circuit</goalRecomm>
+		<refRecomm>HAZOP-HARA Li-SAFE project</refRecomm>
+	</recomm>
+	<recomm>
+		<idRecomm>recomm_23</idRecomm>
+		<nameRecomm>Use safety gloves and glasses when handling modules</nameRecomm>
+		<prodType>Module</prodType>
+		<proc>Repair modules</proc>
+		<act>lifting | moving | placing | packing | assembling</act>
+		<textRecomm>When modules are handled by an operator, the operator needs to wear safety gloves and glasses</textRecomm>
+		<goalRecomm>Decrease the chance on sever injury when an external short circuit occurs</goalRecomm>
+		<refRecomm>HAZOP-HARA Li-SAFE project</refRecomm>
+	</recomm>
+	<recomm>
+		<idRecomm>recomm_24</idRecomm>
+		<nameRecomm>Cover module connector</nameRecomm>
+		<prodType>Module</prodType>
+		<proc>Repair packs</proc>
+		<act>lifting | moving | placing</act>
+		<textRecomm>By covering at least one of the current collectors of the module, the external short circuit can be avoided</textRecomm>
+		<goalRecomm>Avoiding external short circuit</goalRecomm>
+		<refRecomm>HAZOP-HARA Li-SAFE project</refRecomm>
+	</recomm>
+	<recomm>
+		<idRecomm>recomm_25</idRecomm>
+		<nameRecomm>Use safety gloves and glasses when handling modules</nameRecomm>
+		<prodType>Module</prodType>
+		<proc>Repair packs</proc>
+		<act>lifting | moving | placing</act>
+		<textRecomm>When modules are handled by an operator, the operator needs to wear safety gloves and glasses</textRecomm>
+		<goalRecomm>Decrease the chance on sever injury when an external short circuit occurs</goalRecomm>
+		<refRecomm>HAZOP-HARA Li-SAFE project</refRecomm>
+	</recomm>
+	<recomm>
+		<idRecomm>recomm_26</idRecomm>
+		<nameRecomm>Enclosure resistant against mechanical abuse</nameRecomm>
+		<prodType>Module</prodType>
+		<proc>Module assembly</proc>
+		<act>lifting | moving | placing | packing |  measuring | labelling</act>
+		<textRecomm>Enclosures which are resistant against mechanical abuse shall be used for the modules and cells to avoid leakage</textRecomm>
+		<goalRecomm>Avoiding leakage</goalRecomm>
+		<refRecomm>HAZOP-HARA Li-SAFE project</refRecomm>
+	</recomm>
+	<recomm>
+		<idRecomm>recomm_27</idRecomm>
+		<nameRecomm>Avoid blunt tooling</nameRecomm>
+		<prodType>Module</prodType>
+		<proc>Module assembly | Pack assembly</proc>
+		<act>assembling | measuring</act>
+		<textRecomm>During the assembly of the modules and packs the use of blunt tools shall be avoided. This to decrease the chance on leakage of the modules.</textRecomm>
+		<goalRecomm>Avoiding leakage during assembly</goalRecomm>
+		<refRecomm>HAZOP-HARA Li-SAFE project</refRecomm>
+	</recomm>
+	<recomm>
+		<idRecomm>recomm_28</idRecomm>
+		<nameRecomm>Enclosure resistant against mechanical abuse</nameRecomm>
+		<prodType>Module</prodType>
+		<proc>Pack assembly</proc>
+		<act>lifting | moving | placing | unpacking | assembly | measuring </act>
+		<textRecomm>Enclosures which are resistant against mechanical abuse shall be used for the modules and cells to avoid leakage</textRecomm>
+		<goalRecomm>Avoiding leakage</goalRecomm>
+		<refRecomm>HAZOP-HARA Li-SAFE project</refRecomm>
+	</recomm>
+	<recomm>
+		<idRecomm>recomm_29</idRecomm>
+		<nameRecomm>Use safety gloves and glasses to avoid contact with electrolyte</nameRecomm>
+		<prodType>Module</prodType>
+		<proc>Module assembly</proc>
+		<act>lifting | moving | placing | packing |  measuring | labelling | assembling</act>
+		<textRecomm>Avoiding contact with electrolyte when leakage occurs, decrease the injury on skin and in eyes</textRecomm>
+		<goalRecomm>Decreasing possibility for contact with electrolyte</goalRecomm>
+		<refRecomm>HAZOP-HARA Li-SAFE project</refRecomm>
+	</recomm>
+	<recomm>
+		<idRecomm>recomm_30</idRecomm>
+		<nameRecomm>Use safety gloves and glasses to avoid contact with electrolyte</nameRecomm>
+		<prodType>Module</prodType>
+		<proc>Pack assembly</proc>
+		<act>lifting | moving | placing | unpacking | assembling | measuring </act>
+		<textRecomm>Avoiding contact with electrolyte when leakage occurs, decrease the injury on skin and in eyes</textRecomm>
+		<goalRecomm>Decreasing possibility for contact with electrolyte</goalRecomm>
+		<refRecomm>HAZOP-HARA Li-SAFE project</refRecomm>
+	</recomm>
+	<recomm>
+		<idRecomm>recomm_31</idRecomm>
+		<nameRecomm>Check temperature of the modules regularly</nameRecomm>
+		<prodType>Module | Damaged module</prodType>
+		<proc>Recycling | Module assembly | Pack assembly</proc>
+		<act>storing</act>
+		<textRecomm>The temperature of the modules shall be checked regularly check when they are in storage, placed or removed out of storage</textRecomm>
+		<goalRecomm>Avoiding thermal runaway</goalRecomm>
+		<refRecomm>HAZOP-HARA Li-SAFE project</refRecomm>
+	</recomm>
+	<recomm>
+		<idRecomm>recomm_32</idRecomm>
+		<nameRecomm>Use of moulded cell tray to separate modules</nameRecomm>
+		<prodType>Module | Damaged module</prodType>
+		<proc>Recycling | Module assembly | Pack assembly</proc>
+		<act>storing</act>
+		<textRecomm>Individual modules shall be separated by moulded trays when they are in storage, placed or removed out of storage</textRecomm>
+		<goalRecomm>Avoiding thermal runaway propagation</goalRecomm>
+		<refRecomm>HAZOP-HARA Li-SAFE project</refRecomm>
+	</recomm>
+	<recomm>
+		<idRecomm>recomm_33</idRecomm>
+		<nameRecomm>Check temperature of the modules regularly</nameRecomm>
+		<prodType>Module</prodType>
+		<proc>Module assembly </proc>
+		<act>lifting | moving | placing | packing |  measuring | labelling | assembling</act>
+		<textRecomm>The temperature of the modules shall be checked regularly checked during the module assembly</textRecomm>
+		<goalRecomm>Avoiding thermal runaway</goalRecomm>
+		<refRecomm>HAZOP-HARA Li-SAFE project</refRecomm>
+	</recomm>
+	<recomm>
+		<idRecomm>recomm_34</idRecomm>
+		<nameRecomm>Use of moulded cell tray to separate modules</nameRecomm>
+		<prodType>Module</prodType>
+		<proc>Module assembly | Pack assembly</proc>
+		<act>lifting | placing |moving</act>
+		<textRecomm>Individual modules shall be separated by moulded trays when they are used at the assembly lines</textRecomm>
+		<goalRecomm>Avoiding thermal runaway propagation</goalRecomm>
+		<refRecomm>HAZOP-HARA Li-SAFE project</refRecomm>
+	</recomm>
+	<recomm>
+		<idRecomm>recomm_35</idRecomm>
+		<nameRecomm>Check temperature of the modules regularly</nameRecomm>
+		<prodType>Module | Damaged module</prodType>
+		<proc>Transportation</proc>
+		<textRecomm>The temperature of the modules shall be checked regularly check when they are on transportation</textRecomm>
+		<goalRecomm>Avoiding thermal runaway</goalRecomm>
+		<refRecomm>HAZOP-HARA Li-SAFE project</refRecomm>
+	</recomm>
+	<recomm>
+		<idRecomm>recomm_36</idRecomm>
+		<nameRecomm>Use of moulded cell tray to separate modules</nameRecomm>
+		<prodType>Module | Damaged module</prodType>
+		<proc>Transportation</proc>
+		<textRecomm>Individual modules shall be separated by moulded trays when they are on transportation</textRecomm>
+		<goalRecomm>Avoiding thermal runaway propagation</goalRecomm>
+		<refRecomm>HAZOP-HARA Li-SAFE project</refRecomm>
+	</recomm>
+	<recomm>
+		<idRecomm>recomm_37</idRecomm>
+		<nameRecomm>Check temperature of the modules regularly</nameRecomm>
+		<prodType>Module</prodType>
+		<proc>Pack assembly</proc>
+		<act>lifting | moving | placing | unpacking | assembling | measuring </act>
+		<textRecomm>The temperature of the modules shall be checked regularly checked during the pack assembly</textRecomm>
+		<goalRecomm>Avoiding thermal runaway</goalRecomm>
+		<refRecomm>HAZOP-HARA Li-SAFE project</refRecomm>
+	</recomm>
+	<recomm>
+		<idRecomm>recomm_38</idRecomm>
+		<nameRecomm>Use correct measuring tooling</nameRecomm>
+		<prodType>Module</prodType>
+		<proc>Pack assembly | Module assembly</proc>
+		<act>measuring</act>
+		<textRecomm>Appropriate measurements tools for modules shall be used. </textRecomm>
+		<goalRecomm>Avoiding electrical abuse which could lead, in a later stage, to thermal runaway.</goalRecomm>
+		<refRecomm>HAZOP-HARA Li-SAFE project</refRecomm>
+	</recomm>
+	<recomm>
+		<idRecomm>recomm_39</idRecomm>
+		<nameRecomm>Avoid electrical and mechanical abuse</nameRecomm>
+		<prodType>Module</prodType>
+		<proc>Pack assembly | Module assembly</proc>
+		<act>assembling</act>
+		<textRecomm>Electrical abuse and mechanical abuse needs to be avoided during assembly. This abuse can start a thermal runaway</textRecomm>
+		<goalRecomm>Avoiding thermal runaway</goalRecomm>
+		<refRecomm>HAZOP-HARA Li-SAFE project</refRecomm>
+	</recomm>
+	<recomm>
+		<idRecomm>recomm_40</idRecomm>
+		<nameRecomm>Cover module connector</nameRecomm>
+		<prodType>Module</prodType>
+		<proc>Pack assembly | Repair packs</proc>
+		<act>assembling</act>
+		<textRecomm>When modules are connected to each other the voltage can go above 60V and a risk on electrocution exist. Covering connectors can decrease the chance that modules are accidently connected</textRecomm>
+		<goalRecomm>Avoiding electrocution</goalRecomm>
+		<refRecomm>HAZOP-HARA Li-SAFE project</refRecomm>
+	</recomm>
+	<recomm>
+		<idRecomm>recomm_41</idRecomm>
+		<nameRecomm>Use High Voltage tools</nameRecomm>
+		<prodType>Module</prodType>
+		<proc>Pack assembly | Repair packs</proc>
+		<act>assembling</act>
+		<textRecomm>When modules are connected to each other the voltage can go above 60V and a risk on electrocution exist. Using correct high voltage tooling decreases the chance on electrocution</textRecomm>
+		<goalRecomm>Avoiding electrocution</goalRecomm>
+		<refRecomm>HAZOP-HARA Li-SAFE project</refRecomm>
+	</recomm>
+	<recomm>
+		<idRecomm>recomm_42</idRecomm>
+		<nameRecomm>Use high voltage gloves</nameRecomm>
+		<prodType>Module</prodType>
+		<proc>Pack assembly | Repair packs</proc>
+		<act>assembling</act>
+		<textRecomm>When modules are connected to each other the voltage can go above 60V and a risk on electrocution exist. Using correct high voltage gloves decreases the chance on electrocution</textRecomm>
+		<goalRecomm>Avoiding electrocution</goalRecomm>
+		<refRecomm>HAZOP-HARA Li-SAFE project</refRecomm>
+	</recomm>
+	<recomm>
+		<idRecomm>recomm_43</idRecomm>
+		<nameRecomm>Cover module connector</nameRecomm>
+		<prodType>Module</prodType>
+		<proc>Recycling | Repair packs</proc>
+		<act>pack disassembling</act>
+		<textRecomm>When modules are connected to each other the voltage can go above 60V and a risk on electrocution exist. Covering connectors can decrease the chance that modules are accidently connected</textRecomm>
+		<goalRecomm>Avoiding electrocution</goalRecomm>
+		<refRecomm>HAZOP-HARA Li-SAFE project</refRecomm>
+	</recomm>
+	<recomm>
+		<idRecomm>recomm_44</idRecomm>
+		<nameRecomm>Use High Voltage tools</nameRecomm>
+		<prodType>Module</prodType>
+		<proc>Recycling | Repair packs</proc>
+		<act>pack disassembling</act>
+		<textRecomm>When modules are connected to each other the voltage can go above 60V and a risk on electrocution exist. Using correct high voltage tooling decreases the chance on electrocution</textRecomm>
+		<goalRecomm>Avoiding electrocution</goalRecomm>
+		<refRecomm>HAZOP-HARA Li-SAFE project</refRecomm>
+	</recomm>
+	<recomm>
+		<idRecomm>recomm_45</idRecomm>
+		<nameRecomm>Use high voltage gloves</nameRecomm>
+		<prodType>Module</prodType>
+		<proc>Recycling | Repair pack</proc>
+		<act>pack disassembling</act>
+		<textRecomm>When modules are connected to each other the voltage can go above 60V and a risk on electrocution exist. Using correct high voltage gloves decreases the chance on electrocution</textRecomm>
+		<goalRecomm>Avoiding electrocution</goalRecomm>
+		<refRecomm>HAZOP-HARA Li-SAFE project</refRecomm>
+	</recomm>
+	<recomm>
+		<idRecomm>recomm_46</idRecomm>
+		<nameRecomm>Enclosure resistant against mechanical </nameRecomm>
+		<prodType>Damaged module</prodType>
+		<proc>Recycling | Repair modules | Repair packs</proc>
+		<act>lifting | moving | placing</act>
+		<textRecomm>Due to a mechanical abuse, the temperature of a module can increase an lead to gas formation. The chance that this happens is high for damaged modules during lifting, moving and placing activities. There for a good enclosure is needed. </textRecomm>
+		<goalRecomm>Avoiding gas formation due to mechanical abuse with temperature increase</goalRecomm>
+		<refRecomm>HAZOP-HARA Li-SAFE project</refRecomm>
+	</recomm>
+	<recomm>
+		<idRecomm>recomm_47</idRecomm>
+		<nameRecomm>Enclosure be resistant against internal pressure due to gas formation</nameRecomm>
+		<prodType>Damaged module</prodType>
+		<proc>Recycling | Repair modules | Repair packs</proc>
+		<act>lifting | moving | placing</act>
+		<textRecomm>If gas formation occurs in a damaged module, the pressure can increase. If the enclosure isn't resistance against this pressure it will rupture leading to injuries </textRecomm>
+		<goalRecomm>Avoiding injuries due to rupture of a module</goalRecomm>
+		<refRecomm>HAZOP-HARA Li-SAFE project</refRecomm>
+	</recomm>
+	<recomm>
+		<idRecomm>recomm_48</idRecomm>
+		<nameRecomm>Use insulated tools</nameRecomm>
+		<prodType>Damaged module</prodType>
+		<proc>Recycling | Repair modules</proc>
+		<act>module disassembling</act>
+		<textRecomm>no insulated tools can lead to external shirt circuit</textRecomm>
+		<goalRecomm>Avoiding external short circuit</goalRecomm>
+		<refRecomm>HAZOP-HARA Li-SAFE project</refRecomm>
+	</recomm>
+	<recomm>
+		<idRecomm>recomm_49</idRecomm>
+		<nameRecomm>Use insulated tools</nameRecomm>
+		<prodType>Damaged module</prodType>
+		<proc>Module assembly</proc>
+		<act>assembling</act>
+		<textRecomm>not insulated tools can lead to external shirt circuit</textRecomm>
+		<goalRecomm>Avoiding external short circuit</goalRecomm>
+		<refRecomm>HAZOP-HARA Li-SAFE project</refRecomm>
+	</recomm>
+	<recomm>
+		<idRecomm>recomm_50</idRecomm>
+		<nameRecomm>Cover module connector</nameRecomm>
+		<prodType>Damaged module</prodType>
+		<proc>Module assembly</proc>
+		<act>assembling</act>
+		<textRecomm>By covering at least one of the current collectors of the module, the external short circuit can be avoided</textRecomm>
+		<goalRecomm>Avoiding external short circuit</goalRecomm>
+		<refRecomm>HAZOP-HARA Li-SAFE project</refRecomm>
+	</recomm>
+	<recomm>
+		<idRecomm>recomm_51</idRecomm>
+		<nameRecomm>Cover module connector</nameRecomm>
+		<prodType>Damaged module</prodType>
+		<proc>Recycling</proc>
+		<act>lifting | placing | moving | unpacking | module disassembling</act>
+		<textRecomm>By covering at least one of the current collectors of the module, the external short circuit can be avoided</textRecomm>
+		<goalRecomm>Avoiding external short circuit</goalRecomm>
+		<refRecomm>HAZOP-HARA Li-SAFE project</refRecomm>
+	</recomm>
+	<recomm>
+		<idRecomm>recomm_52</idRecomm>
+		<nameRecomm>Cover module connector</nameRecomm>
+		<prodType>Damaged module</prodType>
+		<proc>Repair modules</proc>
+		<act>lifting | moving | placing</act>
+		<textRecomm>By covering at least one of the current collectors of the module, the external short circuit can be avoided</textRecomm>
+		<goalRecomm>Avoiding external short circuit</goalRecomm>
+		<refRecomm>HAZOP-HARA Li-SAFE project</refRecomm>
+	</recomm>
+	<recomm>
+		<idRecomm>recomm_53</idRecomm>
+		<nameRecomm>Cover module connector</nameRecomm>
+		<prodType>Damaged module</prodType>
+		<proc>Repair packs</proc>
+		<act>lifting | moving | placing | packing</act>
+		<textRecomm>By covering at least one of the current collectors of the module, the external short circuit can be avoided</textRecomm>
+		<goalRecomm>Avoiding external short circuit</goalRecomm>
+		<refRecomm>HAZOP-HARA Li-SAFE project</refRecomm>
+	</recomm>
+	<recomm>
+		<idRecomm>recomm_54</idRecomm>
+		<nameRecomm>Use safety gloves and glasses </nameRecomm>
+		<prodType>Damaged module</prodType>
+		<proc>Recycling</proc>
+		<act>lifting | placing | moving | unpacking | module disassembling</act>
+		<textRecomm>A short circuit can lead to sparks, temperature increase. The operator needs to wear gloves and glasses to avoid injuries</textRecomm>
+		<goalRecomm>Decrease the chance on sever injury when an external short circuit occurs</goalRecomm>
+		<refRecomm>HAZOP-HARA Li-SAFE project</refRecomm>
+	</recomm>
+	<recomm>
+		<idRecomm>recomm_55</idRecomm>
+		<nameRecomm>Use safety gloves and glasses </nameRecomm>
+		<prodType>Damaged module</prodType>
+		<proc>Repair modules</proc>
+		<act>lifting | moving | placing</act>
+		<textRecomm>A short circuit can lead to sparks, temperature increase. The operator needs to wear gloves and glasses to avoid injuries</textRecomm>
+		<goalRecomm>Decrease the chance on sever injury when an external short circuit occurs</goalRecomm>
+		<refRecomm>HAZOP-HARA Li-SAFE project</refRecomm>
+	</recomm>
+	<recomm>
+		<idRecomm>recomm_56</idRecomm>
+		<nameRecomm>Use safety gloves and glasses </nameRecomm>
+		<prodType>Damaged module</prodType>
+		<proc>Repair packs</proc>
+		<act>lifting | moving | placing | packing</act>
+		<textRecomm>A short circuit can lead to sparks, temperature increase. The operator needs to wear gloves and glasses to avoid injuries</textRecomm>
+		<goalRecomm>Decrease the chance on sever injury when an external short circuit occurs</goalRecomm>
+		<refRecomm>HAZOP-HARA Li-SAFE project</refRecomm>
+	</recomm>
+	<recomm>
+		<idRecomm>recomm_57</idRecomm>
+		<nameRecomm>Appropriate packaging of damaged modules</nameRecomm>
+		<prodType>Damaged module</prodType>
+		<proc>Recycling | Repair modules | Repair packs</proc>
+		<act>lifting | moving | placing</act>
+		<textRecomm>The damaged modules shall be placed in appropriate package to avoid external short circuit during internal logistics activity and moving them around at the line</textRecomm>
+		<goalRecomm>Avoiding external short circuit</goalRecomm>
+		<refRecomm>HAZOP-HARA Li-SAFE project</refRecomm>
+	</recomm>
+	<recomm>
+		<idRecomm>recomm_58</idRecomm>
+		<nameRecomm>Check temperature of the damaged modules regularly</nameRecomm>
+		<prodType>Damaged module</prodType>
+		<proc>Module assembly </proc>
+		<act>lifting | moving | placing | assembling</act>
+		<textRecomm>The temperature of the modules shall be checked regularly checked during the module assembly</textRecomm>
+		<goalRecomm>Avoiding thermal runaway</goalRecomm>
+		<refRecomm>HAZOP-HARA Li-SAFE project</refRecomm>
+	</recomm>
+	<recomm>
+		<idRecomm>recomm_59</idRecomm>
+		<nameRecomm>Use of moulded tray to separate modules</nameRecomm>
+		<prodType>Damaged module</prodType>
+		<proc>Module assembly </proc>
+		<act>lifting | moving | placing | assembling</act>
+		<textRecomm>Individual modules shall be separated by moulded trays when they are used at the assembly lines</textRecomm>
+		<goalRecomm>Avoiding thermal runaway propagation</goalRecomm>
+		<refRecomm>HAZOP-HARA Li-SAFE project</refRecomm>
+	</recomm>
+	<recomm>
+		<idRecomm>recomm_60</idRecomm>
+		<nameRecomm>Check temperature of the modules regularly</nameRecomm>
+		<prodType>Damaged module</prodType>
+		<proc>Recycling</proc>
+		<act>lifting | moving | placing | unpacking | pack disassembling | module disassembling </act>
+		<textRecomm>The temperature of the modules shall be checked regularly checked during the recycling process</textRecomm>
+		<goalRecomm>Avoiding thermal runaway</goalRecomm>
+		<refRecomm>HAZOP-HARA Li-SAFE project</refRecomm>
+	</recomm>
+	<recomm>
+		<idRecomm>recomm_61</idRecomm>
+		<nameRecomm>Use of moulded tray to separate modules</nameRecomm>
+		<prodType>Damaged module</prodType>
+		<proc>Recycling</proc>
+		<act>lifting | moving | placing | unpacking | pack disassembling | module disassembling</act>
+		<textRecomm>Individual modules shall be separated by moulded trays when they at the recycling line</textRecomm>
+		<goalRecomm>Avoiding thermal runaway propagation</goalRecomm>
+		<refRecomm>HAZOP-HARA Li-SAFE project</refRecomm>
+	</recomm>
+	<recomm>
+		<idRecomm>recomm_62</idRecomm>
+		<nameRecomm>Check temperature of the modules regularly</nameRecomm>
+		<prodType>Damaged module</prodType>
+		<proc>Repair modules</proc>
+		<act>lifting | moving | placing | module disassembling </act>
+		<textRecomm>The temperature of the modules shall be checked regularly checked during the reparation</textRecomm>
+		<goalRecomm>Avoiding thermal runaway</goalRecomm>
+		<refRecomm>HAZOP-HARA Li-SAFE project</refRecomm>
+	</recomm>
+	<recomm>
+		<idRecomm>recomm_63</idRecomm>
+		<nameRecomm>Use of moulded tray to separate modules</nameRecomm>
+		<prodType>Damaged module</prodType>
+		<proc>Repair modules</proc>
+		<act>lifting | moving | placing | module disassembling </act>
+		<textRecomm>Individual modules shall be separated by moulded trays when they at the repair area</textRecomm>
+		<goalRecomm>Avoiding thermal runaway propagation</goalRecomm>
+		<refRecomm>HAZOP-HARA Li-SAFE project</refRecomm>
+	</recomm>
+	<recomm>
+		<idRecomm>recomm_64</idRecomm>
+		<nameRecomm>Check temperature of the modules regularly</nameRecomm>
+		<prodType>Damaged module</prodType>
+		<proc>Repair packs</proc>
+		<act>lifting | moving | placing | unpacking | pack disassembling | labelling | packing</act>
+		<textRecomm>The temperature of the modules shall be checked regularly checked during  the reparation</textRecomm>
+		<goalRecomm>Avoiding thermal runaway</goalRecomm>
+		<refRecomm>HAZOP-HARA Li-SAFE project</refRecomm>
+	</recomm>
+	<recomm>
+		<idRecomm>recomm_65</idRecomm>
+		<nameRecomm>Use of moulded tray to separate modules</nameRecomm>
+		<prodType>Damaged module</prodType>
+		<proc>Repair packs</proc>
+		<act>lifting | moving | placing | unpacking | pack disassembling </act>
+		<textRecomm>Individual modules shall be separated by moulded trays when they at the repair area</textRecomm>
+		<goalRecomm>Avoiding thermal runaway propagation</goalRecomm>
+		<refRecomm>HAZOP-HARA Li-SAFE project</refRecomm>
+	</recomm>
+	<recomm>
+		<idRecomm>recomm_66</idRecomm>
+		<nameRecomm>Cover battery pack connectors</nameRecomm>
+		<prodType>Pack</prodType>
+		<proc>Using EV/HEV</proc>
+		<act>working on the car</act>
+		<textRecomm>The probability is high that a customer doesn't have enough knowledge about the high voltage risk or proper tooling. It is also possible that the customer works on the vehicle close to or on the battery pack which leads to a high chance on external short circuit and electrocution. To decrease this chance the connectors of the battery pack needs to be covered. </textRecomm>
+		<goalRecomm>Avoid external short circuit and electrocution during working on a EV/HEV</goalRecomm>
+		<refRecomm>HAZOP-HARA Li-SAFE project</refRecomm>
+	</recomm>
+	<recomm>
+		<idRecomm>recomm_67</idRecomm>
+		<nameRecomm>Warnings of the high voltage risks in the manual and on the vehicle</nameRecomm>
+		<prodType>Pack</prodType>
+		<proc>Using EV/HEV</proc>
+		<act>working on the car</act>
+		<textRecomm>The probability is high that a customer doesn't have enough knowledge about the high voltage risk or proper tooling. It is also possible that the customer works on the vehicle close to or on the battery pack which leads to a high chance on external short circuit and electrocution. The risks of the high voltage needs to be communicated to the customer with clear warnings in the manual and on the vehicle. The customer needs to be discouraged to work close to or on the battery pack.  </textRecomm>
+		<goalRecomm>Avoid external short circuit and electrocution during working on a EV/HEV</goalRecomm>
+		<refRecomm>HAZOP-HARA Li-SAFE project</refRecomm>
+	</recomm>
+	<recomm>
+		<idRecomm>recomm_68</idRecomm>
+		<nameRecomm>Use high voltage gloves</nameRecomm>
+		<prodType>Pack | Damaged pack</prodType>
+		<proc>Recycling</proc>
+		<act>pack disassembling</act>
+		<textRecomm>The voltage of a battery pack is higher than 60V DC. There is therefore a risk on electrocution. To decrease the chance the operator needs to wear insulated gloves when working on the pack. </textRecomm>
+		<goalRecomm>Avoiding electrocution</goalRecomm>
+		<refRecomm>HAZOP-HARA Li-SAFE project</refRecomm>
+	</recomm>
+	<recomm>
+		<idRecomm>recomm_69</idRecomm>
+		<nameRecomm>Use high voltage gloves</nameRecomm>
+		<prodType>Pack</prodType>
+		<proc>Pack assembly | Repair packs</proc>
+		<act>assembling | measuring | moving</act>
+		<textRecomm>The voltage of a battery pack is higher than 60V DC. There is therefore a risk on electrocution. To decrease the chance the operator needs to wear insulated gloves when working on the pack. </textRecomm>
+		<goalRecomm>Avoiding electrocution</goalRecomm>
+		<refRecomm>HAZOP-HARA Li-SAFE project</refRecomm>
+	</recomm>
+	<recomm>
+		<idRecomm>recomm_70</idRecomm>
+		<nameRecomm>Use high voltage tools</nameRecomm>
+		<prodType>Pack</prodType>
+		<proc>Pack assembly | Repair packs</proc>
+		<act>assembling</act>
+		<textRecomm>The voltage of a battery pack is higher than 60V DC. There is therefore a risk on electrocution. To decrease the chance the operator needs to use insulated tools (high voltage tools)</textRecomm>
+		<goalRecomm>Avoiding electrocution</goalRecomm>
+		<refRecomm>HAZOP-HARA Li-SAFE project</refRecomm>
+	</recomm>
+	<recomm>
+		<idRecomm>recomm_71</idRecomm>
+		<nameRecomm>Use high voltage tools</nameRecomm>
+		<prodType>Pack | Damaged pack</prodType>
+		<proc>Recycling</proc>
+		<act>pack disassembling</act>
+		<textRecomm>The voltage of a battery pack is higher than 60V DC. There is therefore a risk on electrocution. To decrease the chance the operator needs to use insulated tools (high voltage tools)</textRecomm>
+		<goalRecomm>Avoiding electrocution</goalRecomm>
+		<refRecomm>HAZOP-HARA Li-SAFE project</refRecomm>
+	</recomm>
+	<recomm>
+		<idRecomm>recomm_72</idRecomm>
+		<nameRecomm>Cover battery pack connectors</nameRecomm>
+		<prodType>Pack</prodType>
+		<proc>Pack assembly | Repair packs</proc>
+		<act>lifting | moving | placing | assembling | measuring</act>
+		<textRecomm>The voltage of a battery pack is higher than 60V DC. There is therefore a risk on electrocution. Covering the battery packs connectors decreases the chance on electrocution when the pack is handled by the operators</textRecomm>
+		<goalRecomm>Avoiding electrocution</goalRecomm>
+		<refRecomm>HAZOP-HARA Li-SAFE project</refRecomm>
+	</recomm>
+	<recomm>
+		<idRecomm>recomm_73</idRecomm>
+		<nameRecomm>Cover battery pack connectors</nameRecomm>
+		<prodType>Pack</prodType>
+		<proc>Vehicle assembly</proc>
+		<act>lifting | moving | placing | measuring</act>
+		<textRecomm>The voltage of a battery pack is higher than 60V DC. There is therefore a risk on electrocution. Covering the battery packs connectors decreases the chance on electrocution when the pack is handled by the operators</textRecomm>
+		<goalRecomm>Avoiding electrocution</goalRecomm>
+		<refRecomm>HAZOP-HARA Li-SAFE project</refRecomm>
+	</recomm>
+	<recomm>
+		<idRecomm>recomm_74</idRecomm>
+		<nameRecomm>Cover battery pack connectors</nameRecomm>
+		<prodType>Pack</prodType>
+		<proc>Recycling</proc>
+		<act>lifting | moving | placing </act>
+		<textRecomm>The voltage of a battery pack is higher than 60V DC. There is therefore a risk on electrocution. Covering the battery packs connectors decreases the chance on electrocution when the pack is handled by the operators</textRecomm>
+		<goalRecomm>Avoiding electrocution</goalRecomm>
+		<refRecomm>HAZOP-HARA Li-SAFE project</refRecomm>
+	</recomm>
+	<recomm>
+		<idRecomm>recomm_75</idRecomm>
+		<nameRecomm>Enclosure resistant against mechanical abuse</nameRecomm>
+		<prodType>Pack</prodType>
+		<proc>Pack assembly | Vehicle assembly | Recycling</proc>
+		<act>lifting | moving | placing</act>
+		<textRecomm>Mechanical abuse like puncture can lead to leakage. This abuse can occur with a high probability during internal logistics and moving the pack at a line (assembly or recycling).  The enclosure of the pack needs to be resistant against any mechanical abuse. </textRecomm>
+		<goalRecomm>Avoiding leakage</goalRecomm>
+		<refRecomm>HAZOP-HARA Li-SAFE project</refRecomm>
+	</recomm>
+	<recomm>
+		<idRecomm>recomm_76</idRecomm>
+		<nameRecomm>Check temperature of the pack regularly</nameRecomm>
+		<prodType>Pack</prodType>
+		<proc>Recycling</proc>
+		<act>lifting | placing | moving | storing |pack disassembling | unpacking</act>
+		<textRecomm>The temperature of the packs shall be checked regularly.</textRecomm>
+		<goalRecomm>Avoiding thermal runaway</goalRecomm>
+		<refRecomm>HAZOP-HARA Li-SAFE project</refRecomm>
+	</recomm>
+	<recomm>
+		<idRecomm>recomm_77</idRecomm>
+		<nameRecomm>Check temperature of the pack regularly</nameRecomm>
+		<prodType>Pack</prodType>
+		<proc>Pack assembly</proc>
+		<act>storing | packing | lifting | placing | moving | assembling | labelling | measuring</act>
+		<textRecomm>The temperature of the packs shall be checked regularly.</textRecomm>
+		<goalRecomm>Avoiding thermal runaway</goalRecomm>
+		<refRecomm>HAZOP-HARA Li-SAFE project</refRecomm>
+	</recomm>
+	<recomm>
+		<idRecomm>recomm_78</idRecomm>
+		<nameRecomm>Check temperature of the pack regularly</nameRecomm>
+		<prodType>Pack</prodType>
+		<proc>Vehicle assembly</proc>
+		<act>storing | lifting | placing | moving | assembling | unpacking | measuring</act>
+		<textRecomm>The temperature of the packs shall be checked regularly.</textRecomm>
+		<goalRecomm>Avoiding thermal runaway</goalRecomm>
+		<refRecomm>HAZOP-HARA Li-SAFE project</refRecomm>
+	</recomm>
+	<recomm>
+		<idRecomm>recomm_79</idRecomm>
+		<nameRecomm>Avoid electrical and mechanical abuse</nameRecomm>
+		<prodType>Pack</prodType>
+		<proc>Pack assembly | Vehicle assembly</proc>
+		<act>assembling</act>
+		<textRecomm>Electrical abuse and mechanical abuse needs to be avoided during assembly. This abuse can start a thermal runaway</textRecomm>
+		<goalRecomm>Avoiding thermal runaway</goalRecomm>
+		<refRecomm>HAZOP-HARA Li-SAFE project</refRecomm>
+	</recomm>
+	<recomm>
+		<idRecomm>recomm_80</idRecomm>
+		<nameRecomm>Use fire resistance package</nameRecomm>
+		<prodType>Pack</prodType>
+		<proc>Pack assembly</proc>
+		<act>packing</act>
+		<textRecomm>The package of the battery pack shall be fire resistance. This avoids or decreases the  propagation of a thermal runaway to other packs</textRecomm>
+		<goalRecomm>Avoiding thermal runaway propagation</goalRecomm>
+		<refRecomm>HAZOP-HARA Li-SAFE project</refRecomm>
+	</recomm>
+	<recomm>
+		<idRecomm>recomm_81</idRecomm>
+		<nameRecomm>Use fire resistance package</nameRecomm>
+		<prodType>Pack</prodType>
+		<proc>Pack assembly | Vehicle assembly | Recycling </proc>
+		<act>storing</act>
+		<textRecomm>The package of the battery pack shall be fire resistance. This avoids or decreases the  propagation of a thermal runaway to other packs</textRecomm>
+		<goalRecomm>Avoiding thermal runaway propagation</goalRecomm>
+		<refRecomm>HAZOP-HARA Li-SAFE project</refRecomm>
+	</recomm>
+	<recomm>
+		<idRecomm>recomm_82</idRecomm>
+		<nameRecomm>Separation of packs</nameRecomm>
+		<prodType>Pack</prodType>
+		<proc>Pack assembly | Vehicle assembly | Recycling </proc>
+		<act>storing</act>
+		<textRecomm>To avoid propagation of thermal runaway the packs need to be separated from each other</textRecomm>
+		<goalRecomm>Avoiding thermal runaway propagation</goalRecomm>
+		<refRecomm>HAZOP-HARA Li-SAFE project</refRecomm>
+	</recomm>
+	<recomm>
+		<idRecomm>recomm_83</idRecomm>
+		<nameRecomm>Separation of packs</nameRecomm>
+		<prodType>Pack</prodType>
+		<proc>Pack assembly</proc>
+		<act>packing</act>
+		<textRecomm>To avoid propagation of thermal runaway the packs need to be separated from each other</textRecomm>
+		<goalRecomm>Avoiding thermal runaway propagation</goalRecomm>
+		<refRecomm>HAZOP-HARA Li-SAFE project</refRecomm>
+	</recomm>
+	<recomm>
+		<idRecomm>recomm_84</idRecomm>
+		<nameRecomm>Adapt driving style for EV/HEV</nameRecomm>
+		<prodType>Pack</prodType>
+		<proc>Using EV/HEV | Vehicle assembly | Recycling</proc>
+		<act>driving</act>
+		<textRecomm>Other road users (ex. pedestrians) aren't used to electrical vehicle, especially the lack of engine noise. When driving an EV/HEV the driver needs to be aware of this danger and anticipate on it (use horn to warn road users)</textRecomm>
+		<goalRecomm>Avoiding accidents with other road users </goalRecomm>
+		<refRecomm>HAZOP-HARA Li-SAFE project</refRecomm>
+	</recomm>
+	<recomm>
+		<idRecomm>recomm_85</idRecomm>
+		<nameRecomm>Adapt driving style for EV/HEV</nameRecomm>
+		<prodType>Damaged pack</prodType>
+		<proc>Recycling | Repair</proc>
+		<act>driving</act>
+		<textRecomm>Other road users (ex. pedestrians) aren't used to electrical vehicle, especially the lack of engine noise. When driving an EV/HEV the driver needs to be aware of this danger and anticipate on it (use horn to warn road users). When driving a vehicle with damaged packs an precaution needs to be taken to anticipate on unexpected situations caused by the damaged pack</textRecomm>
+		<goalRecomm>Avoiding accidents with other road users and accident due to the damaged packs</goalRecomm>
+		<refRecomm>HAZOP-HARA Li-SAFE project</refRecomm>
+	</recomm>
+	<recomm>
+		<idRecomm>recomm_86</idRecomm>
+		<nameRecomm>Cover battery pack connectors</nameRecomm>
+		<prodType>Damaged pack</prodType>
+		<proc>Recycling</proc>
+		<act>vehicle disassembling | driving | towing | moving</act>
+		<textRecomm>The voltage of a battery pack is higher than 60V DC. There is therefore a risk on electrocution. Covering the battery packs connectors decreases the chance on external short circuit when the pack is handled by the operators. In the damaged pack, components can also cause an short circuit</textRecomm>
+		<goalRecomm>Avoiding external short circuit</goalRecomm>
+		<refRecomm>HAZOP-HARA Li-SAFE project</refRecomm>
+	</recomm>
+	<recomm>
+		<idRecomm>recomm_87</idRecomm>
+		<nameRecomm>Cover battery pack connectors</nameRecomm>
+		<prodType>Damaged pack</prodType>
+		<proc>Recycling</proc>
+		<act>lifting | placing | moving | unpacking | pack disassembling | vehicle disassembling | towing | driving</act>
+		<textRecomm>The voltage of a battery pack is higher than 60V DC. There is therefore a risk on electrocution. Covering the battery packs connectors decreases the chance on electrocution when the pack is handled by the operators. In the damaged pack, components can also cause an short circuit</textRecomm>
+		<goalRecomm>Avoiding electrocution</goalRecomm>
+		<refRecomm>HAZOP-HARA Li-SAFE project</refRecomm>
+	</recomm>
+	<recomm>
+		<idRecomm>recomm_88</idRecomm>
+		<nameRecomm>Cover battery pack connectors</nameRecomm>
+		<prodType>Damaged pack</prodType>
+		<proc>Repair packs</proc>
+		<act>lifting | placing | moving | pack disassembling | unpacking</act>
+		<textRecomm>The voltage of a battery pack is higher than 60V DC. There is therefore a risk on electrocution. Covering the battery packs connectors decreases the chance on electrocution when the pack is handled by the operators. In the damaged pack, components can also cause an short circuit</textRecomm>
+		<goalRecomm>Avoiding electrocution</goalRecomm>
+		<refRecomm>HAZOP-HARA Li-SAFE project</refRecomm>
+	</recomm>
+	<recomm>
+		<idRecomm>recomm_89</idRecomm>
+		<nameRecomm>Cover battery pack connectors</nameRecomm>
+		<prodType>Damaged pack</prodType>
+		<proc>Repair vehicles</proc>
+		<act>driving | towing</act>
+		<textRecomm>The voltage of a battery pack is higher than 60V DC. There is therefore a risk on electrocution. Covering the battery packs connectors decreases the chance on electrocution when the pack is handled by the operators. In the damaged pack, components can also cause an short circuit</textRecomm>
+		<goalRecomm>Avoiding electrocution</goalRecomm>
+		<refRecomm>HAZOP-HARA Li-SAFE project</refRecomm>
+	</recomm>
+	<recomm>
+		<idRecomm>recomm_90</idRecomm>
+		<nameRecomm>Use high voltage gloves</nameRecomm>
+		<prodType>Damaged pack</prodType>
+		<proc>Repair packs | Recycling</proc>
+		<act>pack disassembling | unpacking</act>
+		<textRecomm>The voltage of a battery pack is higher than 60V DC. There is therefore a risk on electrocution. To decrease the chance the operator needs to wear insulated gloves when working on the pack. </textRecomm>
+		<goalRecomm>Avoiding electrocution</goalRecomm>
+		<refRecomm>HAZOP-HARA Li-SAFE project</refRecomm>
+	</recomm>
+	<recomm>
+		<idRecomm>recomm_91</idRecomm>
+		<nameRecomm>Use high voltage gloves</nameRecomm>
+		<prodType>Damaged pack|Pack</prodType>
+		<proc>Recycling</proc>
+		<act>vehicle disassembling</act>
+		<textRecomm>The voltage of a battery pack is higher than 60V DC. There is therefore a risk on electrocution. To decrease the chance the operator needs to wear insulated gloves when working on the pack. </textRecomm>
+		<goalRecomm>Avoiding electrocution</goalRecomm>
+		<refRecomm>HAZOP-HARA Li-SAFE project</refRecomm>
+	</recomm>
+	<recomm>
+		<idRecomm>recomm_92</idRecomm>
+		<nameRecomm>Use high voltage tools</nameRecomm>
+		<prodType>Damaged pack</prodType>
+		<proc>Repair packs | Recycling</proc>
+		<act>pack disassembling </act>
+		<textRecomm>The voltage of a battery pack is higher than 60V DC. There is therefore a risk on electrocution. To decrease the chance the operator needs to use insulated tools (high voltage tools)</textRecomm>
+		<goalRecomm>Avoiding electrocution</goalRecomm>
+		<refRecomm>HAZOP-HARA Li-SAFE project</refRecomm>
+	</recomm>
+	<recomm>
+		<idRecomm>recomm_93</idRecomm>
+		<nameRecomm>Use high voltage tools</nameRecomm>
+		<prodType>Damaged pack | Pack</prodType>
+		<proc>Recycling</proc>
+		<act>vehicle disassembling</act>
+		<textRecomm>The voltage of a battery pack is higher than 60V DC. There is therefore a risk on electrocution. To decrease the chance the operator needs to use insulated tools (high voltage tools)</textRecomm>
+		<goalRecomm>Avoiding electrocution</goalRecomm>
+		<refRecomm>HAZOP-HARA Li-SAFE project</refRecomm>
+	</recomm>
+	<recomm>
+		<idRecomm>recomm_94</idRecomm>
+		<nameRecomm>Enclosure resistant against mechanical abuse</nameRecomm>
+		<prodType>Damaged pack</prodType>
+		<proc>Recycling</proc>
+		<act>lifting | moving | placing</act>
+		<textRecomm>Mechanical abuse like puncture can lead to leakage. This abuse can occur with a high probability during internal logistics and moving the pack at a recycling plant</textRecomm>
+		<goalRecomm>Avoiding leakage</goalRecomm>
+		<refRecomm>HAZOP-HARA Li-SAFE project</refRecomm>
+	</recomm>
+	<recomm>
+		<idRecomm>recomm_95</idRecomm>
+		<nameRecomm>Separation of packs</nameRecomm>
+		<prodType>Damaged pack</prodType>
+		<proc>Recycling </proc>
+		<act>storing</act>
+		<textRecomm>To avoid propagation of thermal runaway the packs need to be separated from each other</textRecomm>
+		<goalRecomm>Avoiding thermal runaway propagation</goalRecomm>
+		<refRecomm>HAZOP-HARA Li-SAFE project</refRecomm>
+	</recomm>
+	<recomm>
+		<idRecomm>recomm_96</idRecomm>
+		<nameRecomm>Regularly checking temperature of the pack</nameRecomm>
+		<prodType>Damaged pack</prodType>
+		<proc>Recycling</proc>
+		<textRecomm>The temperature of the packs shall be checked regularly.</textRecomm>
+		<goalRecomm>Avoiding thermal runaway</goalRecomm>
+		<refRecomm>HAZOP-HARA Li-SAFE project</refRecomm>
+	</recomm>
+	<recomm>
+		<idRecomm>recomm_97</idRecomm>
+		<nameRecomm>Use fire resistance package</nameRecomm>
+		<prodType>Damaged pack</prodType>
+		<proc>Recycling</proc>
+		<textRecomm>The package of the battery pack shall be fire resistance. This avoids or decreases the  propagation of a thermal runaway to other packs</textRecomm>
+		<goalRecomm>Avoiding thermal runaway propagation</goalRecomm>
+		<refRecomm>HAZOP-HARA Li-SAFE project</refRecomm>
+	</recomm>
+	<recomm>
+		<idRecomm>recomm_98</idRecomm>
+		<nameRecomm>Enclosure resistant against internal pressure</nameRecomm>
+		<prodType>Damaged pack</prodType>
+		<proc>Recycling | Repair packs</proc>
+		<act>pack disassembling</act>
+		<textRecomm>Due to electrical abuse, temperature and gas formation can occur. This can lead to rupture of the pack enclosure. If the enclosure is resistant against internal pressure, the rupture can be avoided</textRecomm>
+		<goalRecomm>Avoiding rupture of enclosure of pack</goalRecomm>
+		<refRecomm>HAZOP-HARA Li-SAFE project</refRecomm>
+	</recomm>
+	<recomm>
+		<idRecomm>recomm_99</idRecomm>
+		<nameRecomm>Avoid electrical abuse</nameRecomm>
+		<prodType>Damaged pack</prodType>
+		<proc>Recycling | Repair packs</proc>
+		<act>pack disassembling</act>
+		<textRecomm>Due to electrical abuse, temperature and gas formation can occur. This can lead to rupture of the pack enclosure. During the processes electrical abuse needs to be avoided</textRecomm>
+		<goalRecomm>Avoiding gas formation due to electrical abuse with temperature increase</goalRecomm>
+		<refRecomm>HAZOP-HARA Li-SAFE project</refRecomm>
+	</recomm>
+	<recomm>
+		<idRecomm>recomm_100</idRecomm>
+		<nameRecomm>Using safety gloved and glasses</nameRecomm>
+		<prodType>Damaged pack</prodType>
+		<proc>Recycling | Repair packs</proc>
+		<act>pack disassembling</act>
+		<textRecomm>Due to electrical abuse, temperature and gas formation can occur. This can lead to rupture of the pack enclosure. Parts of the enclosure can hurt the operator, high temperature can lead to burns. Safety glasses and gloves reduces the injuries</textRecomm>
+		<goalRecomm>Decrease the severity of injury due to gas formation</goalRecomm>
+		<refRecomm>HAZOP-HARA Li-SAFE project</refRecomm>
+	</recomm>
+	<recomm>
+		<idRecomm>recomm_101</idRecomm>
+		<nameRecomm>Enclosure resistant against internal pressure</nameRecomm>
+		<prodType>Damaged pack</prodType>
+		<proc>Recycling | Repair vehicles</proc>
+		<act>vehicle disassembling</act>
+		<textRecomm>Due to electrical abuse, temperature and gas formation can occur. This can lead to rupture of the pack enclosure. If the enclosure is resistant against internal pressure, the rupture can be avoided</textRecomm>
+		<goalRecomm>Avoiding rupture of enclosure of pack</goalRecomm>
+		<refRecomm>HAZOP-HARA Li-SAFE project</refRecomm>
+	</recomm>
+	<recomm>
+		<idRecomm>recomm_102</idRecomm>
+		<nameRecomm>Avoid electrical abuse</nameRecomm>
+		<prodType>Damaged pack</prodType>
+		<proc>Recycling | Repair vehicles</proc>
+		<act>vehicle disassembling</act>
+		<textRecomm>Due to electrical abuse, temperature and gas formation can occur. This can lead to rupture of the pack enclosure. During the processes electrical abuse needs to be avoided</textRecomm>
+		<goalRecomm>Avoiding gas formation due to electrical abuse with temperature increase</goalRecomm>
+		<refRecomm>HAZOP-HARA Li-SAFE project</refRecomm>
+	</recomm>
+	<recomm>
+		<idRecomm>recomm_103</idRecomm>
+		<nameRecomm>Use safety gloved and glasses</nameRecomm>
+		<prodType>Damaged pack</prodType>
+		<proc>Recycling | Repair vehicle</proc>
+		<act>vehicle disassembling</act>
+		<textRecomm>Due to electrical abuse, temperature and gas formation can occur. This can lead to rupture of the pack enclosure. Parts of the enclosure can hurt the operator, high temperature can lead to burns. Safety glasses and gloves reduces the injuries</textRecomm>
+		<goalRecomm>Decrease the severity of injury due to gas formation</goalRecomm>
+		<refRecomm>HAZOP-HARA Li-SAFE project</refRecomm>
+	</recomm>
+	<recomm>
+		<idRecomm>recomm_104</idRecomm>
+		<nameRecomm>Check the temperature at the pack connectors</nameRecomm>
+		<prodType>Damaged pack</prodType>
+		<proc>Recycling</proc>
+		<act>vehicle disassembling | pack disassembling</act>
+		<textRecomm>Due to electrical abuse, temperature can increase. This increased temperature can lead to gas or thermal runaway. The operator can be injured by hot surfaces. By monitoring the temperature of the connectors, it is possible to anticipate on a temperature increase</textRecomm>
+		<goalRecomm>Avoiding high temperatures at the connectors</goalRecomm>
+		<refRecomm>HAZOP-HARA Li-SAFE project</refRecomm>
+	</recomm>
+	<recomm>
+		<idRecomm>recomm_105</idRecomm>
+		<nameRecomm>Avoid electrical abuse</nameRecomm>
+		<prodType>Damaged pack</prodType>
+		<proc>Recycling</proc>
+		<act>vehicle disassembling | pack disassembling</act>
+		<textRecomm>Due to electrical abuse, temperature can increase. This increased temperature can lead to gas or thermal runaway. The operator can be injured by hot surfaces. By avoiding electrical abuse, the temperature will not increase to dangerous levels</textRecomm>
+		<goalRecomm>Avoiding high temperatures at the connectors</goalRecomm>
+		<refRecomm>HAZOP-HARA Li-SAFE project</refRecomm>
+	</recomm>
+	<recomm>
+		<idRecomm>recomm_106</idRecomm>
+		<nameRecomm>Using safety gloves</nameRecomm>
+		<prodType>Damaged pack</prodType>
+		<proc>Recycling</proc>
+		<act>vehicle disassembling | pack disassembling</act>
+		<textRecomm>Due to electrical abuse, temperature can increase. This increased temperature can lead to gas or thermal runaway. The operator can be injured by hot surfaces. Using safety gloves will decrease the severity of the injury</textRecomm>
+		<goalRecomm>Decreasing severity of injury due to high temperatures at the connectors</goalRecomm>
+		<refRecomm>HAZOP-HARA Li-SAFE project</refRecomm>
+	</recomm>
+	<recomm>
+		<idRecomm>recomm_107</idRecomm>
+		<nameRecomm>Check temperature of the pack regularly</nameRecomm>
+		<prodType>Damaged pack | Pack</prodType>
+		<proc>Transportation</proc>
+		<textRecomm>The temperature of the packs shall be checked regularly.</textRecomm>
+		<goalRecomm>Avoiding thermal runaway</goalRecomm>
+		<refRecomm>HAZOP-HARA Li-SAFE project</refRecomm>
+	</recomm>
+	<recomm>
+		<idRecomm>recomm_108</idRecomm>
+		<nameRecomm>Use fire resistance package</nameRecomm>
+		<prodType>Damaged pack | Pack</prodType>
+		<proc>Transportation</proc>
+		<textRecomm>The package of the battery pack shall be fire resistance. This avoids or decreases the  propagation of a thermal runaway to other packs</textRecomm>
+		<goalRecomm>Avoiding thermal runaway propagation</goalRecomm>
+	</recomm>
+	<recomm>
+		<idRecomm>recomm_109</idRecomm>
+		<nameRecomm>Separation of packs</nameRecomm>
+		<prodType>Damaged pack | Pack</prodType>
+		<proc>Transportation</proc>
+		<textRecomm>To avoid propagation of thermal runaway the packs need to be separated from each other</textRecomm>
+		<goalRecomm>Avoiding thermal runaway propagation</goalRecomm>
+	</recomm>
+	<recomm>
+		<idRecomm>recomm_110</idRecomm>
+		<nameRecomm>General safety and prevention measures for internal logistics</nameRecomm>
+		<prodType>Cell | Damaged cell | Module | Damaged module | Pack | Damaged pack</prodType>
+		<proc>Internal logistics</proc>
+		<textRecomm>Next to the Li-ion battery specific safety measures, the general safety and prevention measures for internal logistics which are defined by the law, need to be followed. The company internal logistics rules shall be followed.</textRecomm>
+		<goalRecomm>Avoid accidents during the internal logistics which can lead to mechanical abuse and injuries</goalRecomm>
+		<refRecomm>Codex 'Welzijn op het werk', title VI - chapter I, title VI - chapter II - afdeling III </refRecomm>
+	</recomm>
+	<recomm>
+		<idRecomm>recomm_111</idRecomm>
+		<nameRecomm>Internal transportation plan</nameRecomm>
+		<prodType>Cell | Damaged cell | Module | Damaged module | Pack | Damaged pack</prodType>
+		<proc>Internal logistics</proc>
+		<textRecomm>On the internal transportation plan areas in which batteries are transported can be indicated. </textRecomm>
+		<goalRecomm>Avoid accidents during the internal logistics which can lead to mechanical abuse and injuries</goalRecomm>
+		<refRecomm>Codex 'Welzijn op het werk', title III - chapter I and appendix I and II</refRecomm>
+	</recomm>
+	<recomm>
+		<idRecomm>recomm_112</idRecomm>
+		<nameRecomm>Safety signalisation</nameRecomm>
+		<prodType>Cell | Damaged cell | Module | Damaged module | Pack | Damaged pack</prodType>
+		<proc>Storage</proc>
+		<textRecomm>Correct safety signalisation to indicate areas where batteries are stored, placed or if applicable transported inside the building</textRecomm>
+		<goalRecomm>Avoiding accidents with employees</goalRecomm>
+		<refRecomm>Codex 'Welzijn op het werk', title III - chapter I and appendix I and II</refRecomm>
+	</recomm>
+	<recomm>
+		<idRecomm>recomm_113</idRecomm>
+		<nameRecomm>Internal transportation plan for electric vehicles</nameRecomm>
+		<prodType>Pack</prodType>
+		<proc>Using EV/HEV | Vehicle assembly | Recycling</proc>
+		<act>driving</act>
+		<textRecomm>The areas in which operators drive with electric vehicle can be indicated on the internal transportation plan and with appropriate signalisation in the area self</textRecomm>
+		<goalRecomm>Avoiding accidents with other road users </goalRecomm>
+		<refRecomm>Codex 'Welzijn op het werk', title III - chapter I and appendix I and II</refRecomm>
+	</recomm>
+	<recomm>
+		<idRecomm>recomm_114</idRecomm>
+		<nameRecomm>Internal transportation plan for electric vehicles</nameRecomm>
+		<prodType>Damaged pack | Damaged vehicle</prodType>
+		<proc>Recycling | Repair vehicle</proc>
+		<act>driving</act>
+		<textRecomm>The areas in which operators drive with electric vehicle can be indicated on the internal transportation plan and with appropriate signalisation in the area self</textRecomm>
+		<goalRecomm>Avoiding accidents with other road users </goalRecomm>
+		<refRecomm>Codex 'Welzijn op het werk', title III - chapter I and appendix I and II</refRecomm>
+	</recomm>
+	<recomm>
+		<idRecomm>recomm_115</idRecomm>
+		<nameRecomm>Indicate storage areas of batteries on the intervention plan for the fire brigade</nameRecomm>
+		<prodType>Cell | Damaged cell | Module | Damaged module | Pack | Damaged pack</prodType>
+		<proc>Storage</proc>
+		<textRecomm>Most companies have an intervention plan which the fire brigade uses when there is an intervention. This plan contains information about gas, electricity, lay-out of the building. It also gives information about storage areas of dangerous goods. It is recommended add storage information about the batteries to this plan</textRecomm>
+		<goalRecomm>Correct information to fire brigade in case of an intervention</goalRecomm>
+		<refRecomm>ARAB article 52 (52.12)</refRecomm>
+	</recomm>
+	<recomm>
+		<idRecomm>recomm_116</idRecomm>
+		<nameRecomm>Designing specific storage area</nameRecomm>
+		<prodType>Cell | Damaged cell | Module | Damaged module | Pack | Damaged pack</prodType>
+		<proc>Storage</proc>
+		<textRecomm>To design a specific storage area for battery, good practices can be taken into account to select fire resistant material. These can be found in the VLAREM II. </textRecomm>
+		<goalRecomm>Delay the fire propagation of a fire starting in the storage area</goalRecomm>
+		<refRecomm>VLAREM II chapter 5,17</refRecomm>
+	</recomm>
+	<recomm>
+		<idRecomm>recomm_117</idRecomm>
+		<nameRecomm>Apply firebreaks to split large amounts of batteries</nameRecomm>
+		<prodType>Cell | Damaged cell | Module | Damaged module | Pack | Damaged pack</prodType>
+		<proc>Storage</proc>
+		<textRecomm>By applying firebreaks, large amounts of batteries are split from each others. It can prevent that a fire propagate to other parts of the storage area</textRecomm>
+		<goalRecomm>Delay the fire propagation of a fire starting in the storage area</goalRecomm>
+	</recomm>
+	<recomm>
+		<idRecomm>recomm_118</idRecomm>
+		<nameRecomm>Leave cell in moulded cell tray</nameRecomm>
+		<prodType>Cell</prodType>
+		<proc>Module assembly </proc>
+		<act>moving | lifting |placing | unpacking | measuring | labelling</act>
+		<textRecomm>A good practices is to keep the cell as long as possible on the moulded cell tray</textRecomm>
+		<goalRecomm>Avoiding external short circuit</goalRecomm>
+		<refRecomm>HAZOP-HARA Li-SAFE project</refRecomm>
+	</recomm>
+	<recomm>
+		<idRecomm>recomm_119</idRecomm>
+		<nameRecomm>Avoid impurities in module casing</nameRecomm>
+		<prodType>Cell</prodType>
+		<proc>Module assembly </proc>
+		<act> lifting |placing | assembling</act>
+		<textRecomm>Impurities (small metal parts) can cause leakage when a pouch cell is placed in the casing</textRecomm>
+		<goalRecomm>Avoiding leakage during module assembly</goalRecomm>
+		<refRecomm>HAZOP-HARA Li-SAFE project</refRecomm>
+	</recomm>
+	<recomm>
+		<idRecomm>recomm_120</idRecomm>
+		<nameRecomm>Use safety gloves when handling damaged cells</nameRecomm>
+		<prodType>Damaged cell</prodType>
+		<proc>Internal logistics</proc>
+		<act>packing</act>
+		<textRecomm>Wearing safety gloves when handling damaged cells is seen as a good practice to void contact with electrolyte and other materials.</textRecomm>
+		<goalRecomm>Avoid injury caused contact with electrolyte or other materials</goalRecomm>
+	</recomm>
+	<recomm>
+		<idRecomm>recomm_121</idRecomm>
+		<nameRecomm>Segregate different types of products in the storage area</nameRecomm>
+		<prodType>Cell | Damaged cell | Module | Damaged module | Pack | Damaged pack</prodType>
+		<proc>Storage</proc>
+		<textRecomm>Each type of product (new, waste, damaged) has different types of risks. E.g.. damaged components can leak and have higher chance on thermal runaway. To avoid that a damaged component has negative effect on new components, a segregation is necessary. With the segregation it is also possible to take appropriate measures for each type of product</textRecomm>
+		<goalRecomm>Avoid that due to a thermal runaway in damaged or waste components, new components are effected. 
+Make appropriate storage for each type of product </goalRecomm>
+		<refRecomm>Documents from the ‘Recharge Li-batteries storage safety – Working group meeting 1/07/2014’</refRecomm>
+	</recomm>
+	<recomm>
+		<idRecomm>recomm_122</idRecomm>
+		<nameRecomm>Waterproof storage area</nameRecomm>
+		<prodType>Cell | Damaged cell | Module | Damaged module | Pack | Damaged pack</prodType>
+		<proc>Storage</proc>
+		<goalRecomm>Avoid contamination by chemicals from batteries when a battery fire is extinguish with water </goalRecomm>
+		<refRecomm>Documents from the ‘Recharge Li-batteries storage safety – Working group meeting 1/07/2014’</refRecomm>
+	</recomm>
+	<recomm>
+		<idRecomm>recomm_123</idRecomm>
+		<nameRecomm>Adapt storing conditions </nameRecomm>
+		<prodType>Cell | Damaged cell | Module | Damaged module | Pack | Damaged pack</prodType>
+		<proc>Storage</proc>
+		<textRecomm>3. The conditions in which the products are stored should be adapted to the risk they present. 
+Examples: sacrificial buildings  to store sorted or damaged Lithium batteries, dividing the storage area in compartments which have individual smoke detection and sprinklers systems to rapidly detect a fire and prevent propagation
+</textRecomm>
+		<refRecomm>Documents from the ‘Recharge Li-batteries storage safety – Working group meeting 1/07/2014’</refRecomm>
+	</recomm>
+	<recomm>
+		<idRecomm>recomm_124</idRecomm>
+		<nameRecomm>Pack scrap batteries as new ones</nameRecomm>
+		<prodType>Cell | Module | Pack</prodType>
+		<proc>Storage | Transportation</proc>
+		<act>packing</act>
+		<textRecomm>There is a need to specify and control the packaging/protection for the more dangerous categories. At this moment a good practice is to pack scrap batteries as new ones</textRecomm>
+		<goalRecomm>Reducing risk during storage and transportations</goalRecomm>
+		<refRecomm>Documents from the ‘Recharge Li-batteries storage safety – Working group meeting 1/07/2014’</refRecomm>
+	</recomm>
+	<recomm>
+		<idRecomm>recomm_125</idRecomm>
+		<nameRecomm>Cover damaged batteries with sand</nameRecomm>
+		<prodType>Damaged cell | Damaged module | Damaged pack</prodType>
+		<proc>Storage | Transportation</proc>
+		<act>packing</act>
+		<textRecomm>There is a need to specify and control the packaging/protection for the more dangerous categories. At this moment a good practice is to cover damaged batteries with sand</textRecomm>
+		<goalRecomm>Reducing risk during storage and transportations</goalRecomm>
+		<refRecomm>Documents from the ‘Recharge Li-batteries storage safety – Working group meeting 1/07/2014’</refRecomm>
+	</recomm>
+	<recomm>
+		<idRecomm>recomm_126</idRecomm>
+		<nameRecomm>Packing recommendations for sorted rechargeable batteries</nameRecomm>
+		<prodType>Cell | Module | Pack</prodType>
+		<proc>Storage | Transportation</proc>
+		<act>packing</act>
+		<textRecomm>There is a need to specify and control the packaging/protection for the more dangerous categories. At this moment a good practice is to sorted reachargeable batteries is ato place them in metal drums of 210m with liner and add after every 10cm a layer of vermiculite</textRecomm>
+		<goalRecomm>Reducing risk during storage and transportations</goalRecomm>
+		<refRecomm>Documents from the ‘Recharge Li-batteries storage safety – Working group meeting 1/07/2014’</refRecomm>
+	</recomm>
+	<recomm>
+		<idRecomm>recomm_127</idRecomm>
+		<nameRecomm>Avoid hot spots leading to primary fire</nameRecomm>
+		<prodType>Cell | Damaged cell | Module | Damaged module | Pack | Damaged pack</prodType>
+		<proc>Storage | Transportation</proc>
+		<textRecomm>Measures can be taken to avoid short circuits and hot spots leading to primary fire and thermal reactions. These measures can be: decharge the battery, remove wires and electronics,</textRecomm>
+		<goalRecomm>Avoid thermal reaction due to short circuits and hot spots</goalRecomm>
+		<refRecomm>Documents from the ‘Recharge Li-batteries storage safety – Working group meeting 1/07/2014’</refRecomm>
+	</recomm>
+	<recomm>
+		<idRecomm>recomm_128</idRecomm>
+		<nameRecomm>Monitor temperature of moved batteries</nameRecomm>
+		<prodType>Cell | Module | Pack</prodType>
+		<proc>Storage</proc>
+		<textRecomm>It is seen that a big part of the incidents occur after moving the batteries. Collectors and recyclers therefore put a ‘timely watch’ on moved batteries (example: check temperature every hour for 24 or 48 hours).</textRecomm>
+		<goalRecomm>Early detection of a thermal reaction in the batteries</goalRecomm>
+		<refRecomm>Documents from the ‘Recharge Li-batteries storage safety – Working group meeting 1/07/2014’</refRecomm>
+	</recomm>
+	<recomm>
+		<idRecomm>recomm_129</idRecomm>
+		<nameRecomm>Storing of vehicle involved in a crash outside</nameRecomm>
+		<prodType>Vehicle</prodType>
+		<proc>Storage</proc>
+		<textRecomm>It is advised to store damaged electric or hybrid vehicle outside. A situation is known where the battery pack of a EV caught fire 2 days after the accident</textRecomm>
+		<goalRecomm>Avoid damages due to a fire in the battery pack of a (H)EV after a crash</goalRecomm>
+		<refRecomm>Documents from the ‘Recharge Li-batteries storage safety – Working group meeting 1/07/2014’</refRecomm>
+	</recomm>
+</rootRecommendation>

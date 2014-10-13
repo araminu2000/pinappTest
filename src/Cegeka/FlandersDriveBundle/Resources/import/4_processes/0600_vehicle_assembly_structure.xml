@@ -1,0 +1,20 @@
+<rootStructure>	
+<self>0600_vehicle_assembly</self>
+<group name="Vehicle assembly" >
+	<sub type="step">
+		<refItemId>0601</refItemId>
+	</sub>
+	<sub type="decision" after="0601" >
+		<refItemId>0602</refItemId>
+	</sub>
+	<sub type="flow" after_yes="0602" scaledTo = "Damaged pack">
+		<refItemId>1100</refItemId>
+	</sub>
+	<sub type="step" after_no ="0602">
+		<refItemId>0603</refItemId>
+	</sub>
+	<sub type="step" after="0603" >
+		<refItemId>0604</refItemId>
+	</sub>
+</group>
+</rootStructure>

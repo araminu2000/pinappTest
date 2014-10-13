@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<step>
+<proc>Internal logistics</proc>	
+<title>Unpacking the components</title>	
+<description>	
+	<paragraph>
+		<prodType>Cell</prodType>
+		<act>unpacking</act>
+		<htmltext><![CDATA[
+			<p>After receiving the cells in the receiving zone, the outer package will be removed. During this activity the chance that leakage, external short circuit and thermal 
+				runaway occur is very low. The operator need to be aware of the possible risks and attention is needed  to avoid dropping and other mechanical abuse</p>
+		]]></htmltext>
+	</paragraph>
+	<paragraph>
+		<prodType>Damaged cell</prodType>
+		<act>unpacking</act>
+		<htmltext><![CDATA[
+			<p>When damaged cells are unpacked attentions for the risks of leakage, external short circuit and thermal runaway is needed.  It is possible that damaged cells are harder to pack than normal cells (swelling, irregularities,..), which makes it more difficult to add correctly separation material. This lead to an higher chance on electrical short circuit during logistics. Another attention point is to monitor the temperature of the cells to detect thermal runaway.</p>
+		]]></htmltext>
+	</paragraph>
+	<paragraph>
+		<prodType>Module</prodType>
+		<act>unpacking</act>
+		<htmltext><![CDATA[
+			<p>After receiving the modules in the receiving zone, the outer package will be removed. During this activity the chance that leakage, external short circuit and thermal runaway occur is low. The separation material can be moved which increase the probability on external short circuit. The operator need to be aware of the possible risks and attention is needed  to avoid dropping and other mechanical abuse.</p>
+		]]></htmltext>
+	</paragraph>
+	<paragraph>
+		<prodType>Damaged module</prodType>
+		<act>unpacking</act>
+		<htmltext><![CDATA[
+			<p>When damaged modules are unpacked attentions for the risks of leakage, external short circuit and thermal runaway is needed.  It is possible that damaged modules are harder to pack than normal cells (swelling, irregularities,..), which makes it more difficult to add correctly separation material. This lead to a higher chance on electrical short circuit during logistics. Another attention point is to monitor the temperature of the cells to detect thermal runaway.</p>
+		]]></htmltext>
+	</paragraph>
+	<paragraph>
+		<prodType>Pack</prodType>
+		<act>unpacking</act>
+		<htmltext><![CDATA[
+			<p>After receiving the packs in the receiving zone, the outer package will be removed. It is assumed that during these activities the service disconnect is still disconnected and no places which can lead to short circuit exists at the exterior of the pack. The risk of electrocution is in this case very low. The operator need to be aware of the possible risks and attention is needed  to avoid dropping and other mechanical abuse.</p>
+		]]></htmltext>
+	</paragraph>
+	<paragraph>
+		<prodType>Damaged pack</prodType>
+		<act>unpacking</act>
+		<htmltext><![CDATA[
+			<p>When damaged packs unpacked precautions need to be taken to avoid electrocution and external short circuit. These can occur to lose connection due to the damages. The operator needs to wear high voltage gloves.</p>
+		]]></htmltext>
+	</paragraph>
+</description>
+<processOwner>company0</processOwner>
+</step>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<step>
+<proc>Repair modules</proc>	
+<title>Repair modules after module assembly</title>	
+<description>	
+	<paragraph>
+		<prodType>Damaged module</prodType>
+		<act>lifting | moving | placing</act>								
+		<recoms>recomm_57</recoms>
+		<recoms>recomm_62</recoms>	
+		<recoms>recomm_63</recoms>
+		<recoms>recomm_46</recoms>
+		<recoms>recomm_47</recoms>
+		<recoms>recomm_52</recoms>
+		<recoms>recomm_55</recoms>
+		<htmltext><![CDATA[
+		<p>When a damaged module can be repaired, precautions need to be taken when the damaged module is moved, lifted and placed in the repair area. The following recommendations are valid for the package:</p>
+		<ul><li>Appropriate package for the damaged module to avoid external short circuit</li>
+		<li>Individual damaged modules shall be separated by moulded trays to avoid thermal runaway propagation</li>
+		<li>The enclosure shall be resistant against mechanical abuse which could lead to gas formation</li> 
+		<li>To avoid injuries due to rupture of a module the enclosure needs to be resistant against internal pressure.</li></ul>
+		<p>To further decrease the risk and the severity of injuries caused by external short circuit, one current connector needs to be covered and the operator needs to wear safety glasses and gloves.</p>
+		<p>During these activities the temperature shall be monitored to detect the start of a thermal runaway.</p>
+		]]></htmltext>
+	</paragraph>			
+	<paragraph>
+		<prodType>Damaged module</prodType>
+		<act>module disassembling</act>
+		<recoms>recomm_48</recoms>
+		<recoms>recomm_62</recoms>
+		<recoms>recomm_63</recoms>
+		<htmltext><![CDATA[
+		<p>In the repair area the damaged modules are disassembled. During this disassembling the appropriate measures to avoid external short circuit and thermal runaway need to be taken:</p>
+		<ul><li>Use of correct insulated tooling and covering the current collector</li>
+		<li>Use of personal protection measures</li>
+		<li>Checking the temperature and placing the modules in moulded trays to avoid thermal runaway and its propagation.</li></ul>
+		]]></htmltext>
+	</paragraph>			
+	<paragraph>
+		<prodType>Module</prodType>
+		<act>lifting | moving | assembling | placing | packing</act>	
+		<recoms>recomm_22</recoms>
+		<recoms>recomm_23</recoms>
+		<htmltext><![CDATA[
+		p>When the repair process is finished the modules are again ‘normal modules’ which are safe to use and fulfil the design requirements. The risks on 
+		thermal runway, gas formation, external short circuit are lower than those for the damaged modules at the beginning of the process. Caution still 
+		need to be taken to avoid the external short circuit by covering the current connector. The operator shall still wear the appropriate protection equipment.</p>
+		]]></htmltext>
+	</paragraph>
+</description>	
+<processOwner>company0</processOwner>
+</step>

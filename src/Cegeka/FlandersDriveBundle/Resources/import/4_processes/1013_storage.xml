@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<step>
+<proc>Internal logistics</proc>	
+<title>Storage</title>	
+<description>	
+	<paragraph>
+		<prodType>Cell|Module | Pack</prodType>
+		<htmltext><![CDATA[
+			<p>Cells, modules and packs can be placed in two types of different storage areas:</p>
+			<ul><li>Specific area to store cells and batteries, specialy designed to cope with risks of lithium ion batteries</li>
+			<li>Normal storaga area where no extra prevention measures are taken to store batteries</li></ul>
+		]]></htmltext>
+	</paragraph>
+</description>
+<processOwner>company0</processOwner>
+</step>

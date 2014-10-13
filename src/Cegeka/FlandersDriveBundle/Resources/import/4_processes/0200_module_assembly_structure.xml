@@ -1,0 +1,23 @@
+<rootStructure>
+<self>0200_module_assembly</self>
+<group name="Module assembly" >
+	<sub type="step">
+		<refItemId>0201</refItemId>
+	</sub>
+	<sub type="step" after="0201" >
+		<refItemId>0202</refItemId>
+	</sub>
+	<sub type="step" after="0202" >
+		<refItemId>0203</refItemId>
+	</sub>
+	<sub type="step" after="0203" >
+		<refItemId>0204</refItemId>
+	</sub>
+	<sub type="step" after="0204" >
+		<refItemId>0205</refItemId>
+	</sub>
+	<sub type="step" after="0205" >
+		<refItemId>0206</refItemId>
+	</sub>		
+</group>
+</rootStructure>

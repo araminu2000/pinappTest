@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<step>
+<proc>Repair vehicle</proc>	
+<title>Repairing vehicle after production</title>	
+<description>	
+	<paragraph>
+		<prodType>Damaged vehicle</prodType>		
+		<htmltext><![CDATA[
+			<p>When the battery pack or its electronics aren't working correctly or are damaged after commisioning, the vehicel needs to go to 
+			the repair area where the pack can be removed and replaced by a good one or were the electronics or wiring can replaces. </p>]]>
+		</htmltext>
+	</paragraph>
+	<paragraph>
+		<prodType>Damaged vehicle</prodType>
+		<act>driving</act>	
+		<recoms>recomm_85</recoms>	
+		<recoms>recomm_114</recoms>	
+		<htmltext><![CDATA[
+			<p>If it is still possible to drive with the vehicle, the driver needs to adapt its driving style for two reasons</p>
+			<ul><li>To be able to anticipate on unexpected situations caused by the damaged pack</li>
+			<li>To alert other road users</li></ul>
+			<p>Information on where the electrical vehicles are used can be added to the internal transportation plan. Signalisation can be placed to warn other road users.</p>
+		]]>	</htmltext>
+	</paragraph>
+	<paragraph>
+		<prodType>Damaged vehicle</prodType>
+		<act>towing</act>
+		<recoms>recomm_85</recoms>
+		<htmltext><![CDATA[
+			<p>If it is not possible to drive the vehicle, the vehicle needs to be towed to the repair area. 
+			Towing should be done according to the towing instruction. If needed the connectors can be covered to avoid electrocution</p>]]>
+		</htmltext>				
+	</paragraph>
+	<paragraph>
+		<prodType>Damaged pack | Damaged vehicle</prodType>
+		<act>vehicle disassembling</act>
+		<recoms>recomm_101</recoms>	
+		<recoms>recomm_102</recoms>
+		<recoms>recomm_103</recoms>
+		<htmltext><![CDATA[
+			<p>When the damaged pack need to be removed from the vehicle the appropriate procedure need to be followed to avoid short circuit
+			and electrocution. Good way of working are to remove the server disconnect, cover the end connections and use appropriat protection measures and 
+			tooling. when the damaged pack is removed, it must go via internal logistics to a storage and it can be send back to recycler or pack prodcuer. 
+			</p>]]>
+		</htmltext>
+	</paragraph>
+	<paragraph>
+		<prodType>Pack | Vehicle</prodType>
+		<act>assembling</act>
+		<recoms>recomm_78</recoms>
+		<recoms>recomm_79</recoms>
+		<htmltext><![CDATA[
+			<p>A new battery pack can be mounted in the vehicle. During the placing of the pack, mechanical and electrical abuses need to be avoided. This abuse can lead to a thermal runaway in a later phase of the battery pack life cycle.</p>
+		]]></htmltext>
+	</paragraph>
+</description>	
+<processOwner>company0</processOwner>
+</step>

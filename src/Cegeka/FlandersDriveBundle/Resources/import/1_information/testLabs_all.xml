@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rootTestLab xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<testLab>
+		<idTestLab>testLab1</idTestLab>
+		<nameTestLab>TASS International</nameTestLab>
+		<prodType>Cell | Module | Pack</prodType>
+		<reg>Europe</reg>
+		<testType>Abnormal charge | Crush | Electric shock | External short circuit | Fire | Forced discharge | Heating | Insulation resistance | Shock | Temperature cycling | Vibration | External short circuit | Forced discharge | Impact |Low pressure (altitude)</testType>
+		<equipType>Elaborate testing facilities for full scale battery pack testing. Bunkers where insineration of a pack can take place under controlled cirkumstances.
+Gas analysis, IR imaging, X-ray</equipType>
+		<certif>UN Regulation No. 100 | UN Manual of Tests and Criteria | SAE J2464 | ISO 12405</certif>
+		<contact>Steenovenweg 1b
+5708 HN Helmond
+The Netherlands
+info@tassinternational.com
++31 888 277 100 </contact>
+	</testLab>
+	<testLab>
+		<idTestLab>testLab2</idTestLab>
+		<nameTestLab>RDW</nameTestLab>
+		<prodType>Vehicle</prodType>
+		<reg>Europe</reg>
+		<testType>Road tests | Electric shock</testType>
+		<equipType>Vehicle testing facilities, Test equipment for testing of electrical safety against</equipType>
+		<certif>UN Regulation No. 100</certif>
+		<contact>TTV@rdw.nl
+Arjen van der Burg
+Chief Inspector Test Unit
+ P.O. Box 777
+2700 AT  ZOETERMEER
+The  Netherlands
+ Tel. 079 3458161
+</contact>
+	</testLab>
+	<testLab>
+		<idTestLab>testLab3</idTestLab>
+		<nameTestLab>Ineris</nameTestLab>
+		<prodType>Cell | Module | Pack</prodType>
+		<reg>Europe</reg>
+		<testType>No test types performed - Ineris provides a certification roadmap</testType>
+		<equipType>No testing facilities - Ineris provides a certification roadmap.</equipType>
+		<certif>UN Regulation No. 100 | UN Manual of Tests and Criteria | SAE J2464 | ISO 12405 | IEC 62660</certif>
+		<contact>Parc Tecnologique Alata BP 2
+F-60550 Verneuil-en-Halatte
++33 344 55 66 77
+www.ineris.fr</contact>
+	</testLab>
+	<testLab>
+		<idTestLab>testlab4</idTestLab>
+		<nameTestLab>Intertek</nameTestLab>
+		<prodType>Cell | Module | Pack</prodType>
+		<reg>Europe</reg>
+		<testType>Performance | Mechanical abuse | Electrical abuse | Environmental | Fire</testType>
+		<equipType>Not specified</equipType>
+		<certif>UN Regulation No. 100 | UN Manual of Tests and Criteria | SAE J2464 | ISO 12405 | UL s1642 | UL s2054 | ANSI C18-2M | IEEE 1625 | IEEE 1725 | SAND99-0497 July 1999</certif>
+		<contact>+44 1372 370 900
+electrical.uk@intertek.com</contact>
+	</testLab>
+	<testLab>
+		<idTestLab>testlab5</idTestLab>
+		<nameTestLab>SGS</nameTestLab>
+		<prodType>Cell | Module | Pack</prodType>
+		<reg>Europe</reg>
+		<testType>Penetration | Crush | Drop | External short circuit | Thermal cycling | Vibration | Shock | Low pressure (altitude) | Rollover | Immersion</testType>
+		<equipType>Not specified</equipType>
+		<certif>ISO 12405 | UN Manual of Tests and Criteria</certif>
+		<contact>SGS GERMANY GmbH
+Hofmannstraße 50
+D-81379 München
+t +49 89 787475 - 101
+cqe@sgs.com</contact>
+	</testLab>
+</rootTestLab>

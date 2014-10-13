@@ -1,0 +1,23 @@
+<rootStructure>
+<self>0400_pack_assembly</self>
+<group name="Pack assembly" >
+	<sub type="step">
+		<refItemId>0401</refItemId>
+	</sub>
+	<sub type="step" after="0401" >
+		<refItemId>0402</refItemId>
+	</sub>
+	<sub type="step" after="0402" >
+		<refItemId>0403</refItemId>
+	</sub>
+	<sub type="step" after="0403" >
+		<refItemId>0406</refItemId>
+	</sub>
+	<sub type="step" after="0406" >
+		<refItemId>0405</refItemId>
+	</sub>	
+	<sub type="step" after="0405" >
+		<refItemId>0407</refItemId>
+	</sub>			
+</group>
+</rootStructure>

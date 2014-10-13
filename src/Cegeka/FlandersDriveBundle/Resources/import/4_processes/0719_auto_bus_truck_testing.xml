@@ -1,0 +1,1928 @@
+<?xml version="1.0" encoding="utf-8"?>
+<step>
+<proc>Vehicle design and development</proc>	
+<title>Testing for automotive, bus and truck</title>	
+<description>
+	<paragraph>
+		<prodType>Vehicle</prodType>
+		<act>measuring</act>
+		<reqs> <!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>ISO 16750</refReq_tag>
+			<refReq_part>1</refReq_part>
+			<refReq_chNo>4</refReq_chNo>
+			<refReq_clNo>4.1</refReq_clNo>
+		</reqs>
+		<reqs> <!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>ISO 16750</refReq_tag>
+			<refReq_part>2</refReq_part>
+			<refReq_chNo>4</refReq_chNo>
+			<refReq_clNo>4.1</refReq_clNo>
+		</reqs>
+		<reqs> <!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>ISO 16750</refReq_tag>
+			<refReq_part>3</refReq_part>
+			<refReq_chNo>4</refReq_chNo>
+			<refReq_clNo>4.1</refReq_clNo>
+		</reqs>
+		<reqs> <!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>ISO 16750</refReq_tag>
+			<refReq_part>4</refReq_part>
+			<refReq_chNo>5</refReq_chNo>
+			<refReq_clNo>5.1</refReq_clNo>
+		</reqs>
+		<reqs> <!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>ISO 16750</refReq_tag>
+			<refReq_part>5</refReq_part>
+			<refReq_chNo>4</refReq_chNo>
+			<refReq_clNo>4.1</refReq_clNo>
+		</reqs>
+		<reqs> <!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>IEC 60068</refReq_tag>
+			<refReq_part>2/64</refReq_part>
+			<refReq_chNo>8</refReq_chNo>
+			<refReq_clNo>8.1</refReq_clNo>
+		</reqs>
+		<htmltext><![CDATA[
+			<p><b>Testing potential environmental stresses for specific mounting location</b></p>			
+		]]></htmltext>	
+	</paragraph>
+	<paragraph>
+		<prodType>Vehicle</prodType>
+		<act>measuring</act>
+		<reqs> <!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>ISO 16750</refReq_tag>
+			<refReq_part>1</refReq_part>
+			<refReq_chNo>4</refReq_chNo>
+			<refReq_clNo>4.1</refReq_clNo>
+		</reqs>
+		<reqs> <!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>ISO 16750</refReq_tag>
+			<refReq_part>1</refReq_part>
+			<refReq_chNo>4</refReq_chNo>
+			<refReq_clNo>4.2</refReq_clNo>
+		</reqs>
+		<reqs> <!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>ISO 16750</refReq_tag>
+			<refReq_part>1</refReq_part>
+			<refReq_chNo>4</refReq_chNo>
+			<refReq_clNo>4.3</refReq_clNo>
+		</reqs>		
+		<reqs> <!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>ISO 16750</refReq_tag>
+			<refReq_part>1</refReq_part>
+			<refReq_chNo>4</refReq_chNo>
+			<refReq_clNo>4.4</refReq_clNo>
+		</reqs>
+		<reqs> <!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>ISO 16750</refReq_tag>
+			<refReq_part>1</refReq_part>
+			<refReq_chNo>4</refReq_chNo>
+			<refReq_clNo>4.5</refReq_clNo>
+		</reqs>
+		<reqs> <!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>ISO 16750</refReq_tag>
+			<refReq_part>1</refReq_part>
+			<refReq_chNo>5</refReq_chNo>
+			<refReq_clNo>5.1</refReq_clNo>
+		</reqs>
+		<reqs> <!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>ISO 16750</refReq_tag>
+			<refReq_part>1</refReq_part>
+			<refReq_chNo>5</refReq_chNo>
+			<refReq_clNo>5.2</refReq_clNo>
+		</reqs>
+		<reqs> <!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>ISO 16750</refReq_tag>
+			<refReq_part>1</refReq_part>
+			<refReq_chNo>5</refReq_chNo>
+			<refReq_clNo>5.3</refReq_clNo>
+		</reqs>
+		<reqs> <!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>ISO 16750</refReq_tag>
+			<refReq_part>1</refReq_part>
+			<refReq_chNo>6</refReq_chNo>
+			<refReq_clNo>6.1</refReq_clNo>
+		</reqs>
+		<reqs> <!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>ISO 16750</refReq_tag>
+			<refReq_part>1</refReq_part>
+			<refReq_chNo>6</refReq_chNo>
+			<refReq_clNo>6.2</refReq_clNo>
+		</reqs>
+		<reqs> <!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>ISO 16750</refReq_tag>
+			<refReq_part>1</refReq_part>
+			<refReq_chNo>6</refReq_chNo>
+			<refReq_clNo>6.3</refReq_clNo>
+		</reqs>
+		<reqs> <!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>ISO 16750</refReq_tag>
+			<refReq_part>1</refReq_part>
+			<refReq_chNo>6</refReq_chNo>
+			<refReq_clNo>6.4</refReq_clNo>
+		</reqs>
+		<reqs> <!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>ISO 16750</refReq_tag>
+			<refReq_part>1</refReq_part>
+			<refReq_chNo>6</refReq_chNo>
+			<refReq_clNo>6.5</refReq_clNo>
+		</reqs>
+		<reqs> <!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>ISO 16750</refReq_tag>
+			<refReq_part>1</refReq_part>
+			<refReq_chNo>6</refReq_chNo>
+			<refReq_clNo>6.6</refReq_clNo>
+		</reqs>
+		<reqs> <!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>ISO 16750</refReq_tag>
+			<refReq_part>1</refReq_part>
+			<refReq_chNo>7</refReq_chNo>
+			<refReq_clNo>7.1</refReq_clNo>
+		</reqs>
+		<reqs> <!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>ISO 16750</refReq_tag>
+			<refReq_part>1</refReq_part>
+			<refReq_chNo>7</refReq_chNo>
+			<refReq_clNo>7.2</refReq_clNo>
+		</reqs>
+		<reqs> <!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>ISO 16750</refReq_tag>
+			<refReq_part>1</refReq_part>
+			<refReq_chNo>7</refReq_chNo>
+			<refReq_clNo>7.3</refReq_clNo>
+		</reqs>
+		<reqs> <!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>ISO 16750</refReq_tag>
+			<refReq_part>1</refReq_part>
+			<refReq_chNo>8</refReq_chNo>
+			<refReq_clNo>8.1</refReq_clNo>
+		</reqs>
+		<reqs> <!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>ISO 16750</refReq_tag>
+			<refReq_part>1</refReq_part>
+			<refReq_chNo>8</refReq_chNo>
+			<refReq_clNo>8.2</refReq_clNo>
+		</reqs>
+		<htmltext><![CDATA[
+			<p>During the vehicle design and development the mounting location of the battery pack and all 
+			the related electric and electronic components need to be defined. For every location in or on the 
+			vehicle potential environmental stresses can occur. To test if the battery pack and components can 
+			withstand these stresses, standards describes the potential environmental stresses and specifies 
+			tests and requirements recommended for the specific mounting location on/in the vehicle.</>p
+		]]></htmltext>	
+	</paragraph>
+	<paragraph>
+		<prodType>Vehicle</prodType>
+		<act>measuring</act>
+		<reqs> <!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>ISO 16750</refReq_tag>
+			<refReq_part>2</refReq_part>
+			<refReq_chNo>4</refReq_chNo>
+			<refReq_clNo>4.1</refReq_clNo>
+		</reqs>
+		<reqs> <!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>ISO 16750</refReq_tag>
+			<refReq_part>2</refReq_part>
+			<refReq_chNo>4</refReq_chNo>
+			<refReq_clNo>4.2</refReq_clNo>
+		</reqs>	
+		<reqs> <!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>ISO 16750</refReq_tag>
+			<refReq_part>2</refReq_part>
+			<refReq_chNo>4.2</refReq_chNo>
+			<refReq_clNo>4.2.1</refReq_clNo>
+		</reqs>
+		<reqs> <!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>ISO 16750</refReq_tag>
+			<refReq_part>2</refReq_part>
+			<refReq_chNo>4.2</refReq_chNo>
+			<refReq_clNo>4.2.2</refReq_clNo>
+		</reqs>
+		<reqs> <!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>ISO 16750</refReq_tag>
+			<refReq_part>2</refReq_part>
+			<refReq_chNo>4.2</refReq_chNo>
+			<refReq_clNo>4.2.3</refReq_clNo>
+		</reqs>	
+		<reqs> <!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>ISO 16750</refReq_tag>
+			<refReq_part>2</refReq_part>
+			<refReq_chNo>4.3</refReq_chNo>
+			<refReq_clNo>4.3.1</refReq_clNo>
+		</reqs>
+		<reqs> <!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>ISO 16750</refReq_tag>
+			<refReq_part>2</refReq_part>
+			<refReq_chNo>4.3.1</refReq_chNo>
+			<refReq_clNo>4.3.1.1</refReq_clNo>
+		</reqs>
+		<reqs> <!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>ISO 16750</refReq_tag>
+			<refReq_part>2</refReq_part>
+			<refReq_chNo>4.3.1.1</refReq_chNo>
+			<refReq_clNo>4.3.1.1.1</refReq_clNo>
+		</reqs>
+		<reqs> <!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>ISO 16750</refReq_tag>
+			<refReq_part>2</refReq_part>
+			<refReq_chNo>4.3.1.1</refReq_chNo>
+			<refReq_clNo>4.3.1.1.2</refReq_clNo>
+		</reqs>
+		<reqs> <!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>ISO 16750</refReq_tag>
+			<refReq_part>2</refReq_part>
+			<refReq_chNo>4.3.1.1</refReq_chNo>
+			<refReq_clNo>4.3.1.1.3</refReq_clNo>
+		</reqs>
+		<reqs> <!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>ISO 16750</refReq_tag>
+			<refReq_part>2</refReq_part>
+			<refReq_chNo>4.3.1</refReq_chNo>
+			<refReq_clNo>4.3.1.2</refReq_clNo>
+		</reqs>
+		<reqs> <!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>ISO 16750</refReq_tag>
+			<refReq_part>2</refReq_part>
+			<refReq_chNo>4.3.1.2</refReq_chNo>
+			<refReq_clNo>4.3.1.2.1</refReq_clNo>
+		</reqs>
+		<reqs> <!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>ISO 16750</refReq_tag>
+			<refReq_part>2</refReq_part>
+			<refReq_chNo>4.3.1.2</refReq_chNo>
+			<refReq_clNo>4.3.1.2.2</refReq_clNo>
+		</reqs>
+		<reqs> <!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>ISO 16750</refReq_tag>
+			<refReq_part>2</refReq_part>
+			<refReq_chNo>4.3.1.2</refReq_chNo>
+			<refReq_clNo>4.3.1.2.3</refReq_clNo>
+		</reqs>
+		<reqs> <!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>ISO 16750</refReq_tag>
+			<refReq_part>2</refReq_part>
+			<refReq_chNo>4.3</refReq_chNo>
+			<refReq_clNo>4.3.2</refReq_clNo>
+		</reqs>
+		<reqs> <!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>ISO 16750</refReq_tag>
+			<refReq_part>2</refReq_part>
+			<refReq_chNo>4.3.2</refReq_chNo>
+			<refReq_clNo>4.3.2.1</refReq_clNo>
+		</reqs>
+		<reqs> <!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>ISO 16750</refReq_tag>
+			<refReq_part>2</refReq_part>
+			<refReq_chNo>4.3.2</refReq_chNo>
+			<refReq_clNo>4.3.2.2</refReq_clNo>
+		</reqs>
+		<reqs> <!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>ISO 16750</refReq_tag>
+			<refReq_part>2</refReq_part>
+			<refReq_chNo>4.3.2</refReq_chNo>
+			<refReq_clNo>4.3.2.3</refReq_clNo>
+		</reqs>		
+		<reqs> <!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>ISO 16750</refReq_tag>
+			<refReq_part>2</refReq_part>
+			<refReq_chNo>4</refReq_chNo>
+			<refReq_clNo>4.4</refReq_clNo>
+		</reqs>
+		<reqs> <!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>ISO 16750</refReq_tag>
+			<refReq_part>2</refReq_part>
+			<refReq_chNo>4.4</refReq_chNo>
+			<refReq_clNo>4.4.1</refReq_clNo>
+		</reqs>
+		<reqs> <!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>ISO 16750</refReq_tag>
+			<refReq_part>2</refReq_part>
+			<refReq_chNo>4.4</refReq_chNo>
+			<refReq_clNo>4.4.2</refReq_clNo>
+		</reqs>
+		<reqs> <!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>ISO 16750</refReq_tag>
+			<refReq_part>2</refReq_part>
+			<refReq_chNo>4.4</refReq_chNo>
+			<refReq_clNo>4.4.3</refReq_clNo>
+		</reqs>
+		<reqs> <!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>ISO 16750</refReq_tag>
+			<refReq_part>2</refReq_part>
+			<refReq_chNo>4.5</refReq_chNo>
+			<refReq_clNo>4.5.1</refReq_clNo>
+		</reqs>
+		<reqs> <!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>ISO 16750</refReq_tag>
+			<refReq_part>2</refReq_part>
+			<refReq_chNo>4.5</refReq_chNo>
+			<refReq_clNo>4.5.2</refReq_clNo>
+		</reqs>
+		<reqs> <!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>ISO 16750</refReq_tag>
+			<refReq_part>2</refReq_part>
+			<refReq_chNo>4.5</refReq_chNo>
+			<refReq_clNo>4.5.3</refReq_clNo>
+		</reqs>
+		<reqs>
+			<refReq_tag>ISO 16750</refReq_tag>
+			<refReq_part>2</refReq_part>
+			<refReq_chNo>4.6</refReq_chNo>
+			<refReq_clNo>4.6.1</refReq_clNo>
+		</reqs>
+		<reqs>
+			<refReq_tag>ISO 16750</refReq_tag>
+			<refReq_part>2</refReq_part>
+			<refReq_chNo>4.6.1</refReq_chNo>
+			<refReq_clNo>4.6.1.1</refReq_clNo>
+		</reqs>
+		<reqs>
+			<refReq_tag>ISO 16750</refReq_tag>
+			<refReq_part>2</refReq_part>
+			<refReq_chNo>4.6.1</refReq_chNo>
+			<refReq_clNo>4.6.1.2</refReq_clNo>
+		</reqs>
+		<reqs>
+			<refReq_tag>ISO 16750</refReq_tag>
+			<refReq_part>2</refReq_part>
+			<refReq_chNo>4.6.1</refReq_chNo>
+			<refReq_clNo>4.6.1.3</refReq_clNo>
+		</reqs>
+		<reqs>
+			<refReq_tag>ISO 16750</refReq_tag>
+			<refReq_part>2</refReq_part>
+			<refReq_chNo>4.6</refReq_chNo>
+			<refReq_clNo>4.6.2</refReq_clNo>
+		</reqs>
+		<reqs>
+			<refReq_tag>ISO 16750</refReq_tag>
+			<refReq_part>2</refReq_part>
+			<refReq_chNo>4.6.2</refReq_chNo>
+			<refReq_clNo>4.6.2.1</refReq_clNo>
+		</reqs>
+		<reqs>
+			<refReq_tag>ISO 16750</refReq_tag>
+			<refReq_part>2</refReq_part>
+			<refReq_chNo>4.6.2</refReq_chNo>
+			<refReq_clNo>4.6.2.2</refReq_clNo>
+		</reqs>
+		<reqs>
+			<refReq_tag>ISO 16750</refReq_tag>
+			<refReq_part>2</refReq_part>
+			<refReq_chNo>4.6.2</refReq_chNo>
+			<refReq_clNo>4.6.2.3</refReq_clNo>
+		</reqs>
+		<reqs>
+			<refReq_tag>ISO 16750</refReq_tag>
+			<refReq_part>2</refReq_part>
+			<refReq_chNo>4.6</refReq_chNo>
+			<refReq_clNo>4.6.3</refReq_clNo>
+		</reqs>
+		<reqs>
+			<refReq_tag>ISO 16750</refReq_tag>
+			<refReq_part>2</refReq_part>
+			<refReq_chNo>4.6.3</refReq_chNo>
+			<refReq_clNo>4.6.3.1</refReq_clNo>
+		</reqs>
+		<reqs>
+			<refReq_tag>ISO 16750</refReq_tag>
+			<refReq_part>2</refReq_part>
+			<refReq_chNo>4.6.3</refReq_chNo>
+			<refReq_clNo>4.6.3.2</refReq_clNo>
+		</reqs>
+		<reqs>
+			<refReq_tag>ISO 16750</refReq_tag>
+			<refReq_part>2</refReq_part>
+			<refReq_chNo>4.6</refReq_chNo>
+			<refReq_clNo>4.6.4</refReq_clNo>
+		</reqs>
+		<reqs>
+			<refReq_tag>ISO 16750</refReq_tag>
+			<refReq_part>2</refReq_part>
+			<refReq_chNo>4.6.4</refReq_chNo>
+			<refReq_clNo>4.6.4.1</refReq_clNo>
+		</reqs>
+		<reqs>
+			<refReq_tag>ISO 16750</refReq_tag>
+			<refReq_part>2</refReq_part>
+			<refReq_chNo>4.6.4</refReq_chNo>
+			<refReq_clNo>4.6.4.2</refReq_clNo>
+		</reqs>
+		<reqs>
+			<refReq_tag>ISO 16750</refReq_tag>
+			<refReq_part>2</refReq_part>
+			<refReq_chNo>4.6.4.2</refReq_chNo>
+			<refReq_clNo>4.6.4.2.1</refReq_clNo>
+		</reqs>
+		<reqs>
+			<refReq_tag>ISO 16750</refReq_tag>
+			<refReq_part>2</refReq_part>
+			<refReq_chNo>4.6.4.2</refReq_chNo>
+			<refReq_clNo>4.6.4.2.2</refReq_clNo>
+		</reqs>
+		<reqs>
+			<refReq_tag>ISO 16750</refReq_tag>
+			<refReq_part>2</refReq_part>
+			<refReq_chNo>4.6.4.2</refReq_chNo>
+			<refReq_clNo>4.6.4.2.3</refReq_clNo>
+		</reqs>
+		<reqs>
+			<refReq_tag>ISO 16750</refReq_tag>
+			<refReq_part>2</refReq_part>
+			<refReq_chNo>4.6.4</refReq_chNo>
+			<refReq_clNo>4.6.4.3</refReq_clNo>
+		</reqs>
+		<reqs> <!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>ISO 16750</refReq_tag>
+			<refReq_part>2</refReq_part>
+			<refReq_chNo>4</refReq_chNo>
+			<refReq_clNo>4.7</refReq_clNo>
+		</reqs>	
+		<reqs> <!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>ISO 16750</refReq_tag>
+			<refReq_part>2</refReq_part>
+			<refReq_chNo>4.7</refReq_chNo>
+			<refReq_clNo>4.7.1</refReq_clNo>
+		</reqs>	
+		<reqs> <!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>ISO 16750</refReq_tag>
+			<refReq_part>2</refReq_part>
+			<refReq_chNo>4.7</refReq_chNo>
+			<refReq_clNo>4.7.2</refReq_clNo>
+		</reqs>
+		<reqs> <!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>ISO 16750</refReq_tag>
+			<refReq_part>2</refReq_part>
+			<refReq_chNo>4.7.2</refReq_chNo>
+			<refReq_clNo>4.7.2.1</refReq_clNo>
+		</reqs>
+		<reqs> <!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>ISO 16750</refReq_tag>
+			<refReq_part>2</refReq_part>
+			<refReq_chNo>4.7.2</refReq_chNo>
+			<refReq_clNo>4.7.2.2</refReq_clNo>
+		</reqs>
+		<reqs> <!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>ISO 16750</refReq_tag>
+			<refReq_part>2</refReq_part>
+			<refReq_chNo>4.7.2</refReq_chNo>
+			<refReq_clNo>4.7.2.3</refReq_clNo>
+		</reqs>
+		<reqs> <!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>ISO 16750</refReq_tag>
+			<refReq_part>2</refReq_part>
+			<refReq_chNo>4.7</refReq_chNo>
+			<refReq_clNo>4.7.3</refReq_clNo>
+		</reqs>
+		<reqs> <!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>ISO 16750</refReq_tag>
+			<refReq_part>2</refReq_part>
+			<refReq_chNo>4</refReq_chNo>
+			<refReq_clNo>4.8</refReq_clNo>
+		</reqs>	
+		<reqs> <!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>ISO 16750</refReq_tag>
+			<refReq_part>2</refReq_part>
+			<refReq_chNo>4.8</refReq_chNo>
+			<refReq_clNo>4.8.1</refReq_clNo>
+		</reqs>	
+		<reqs> <!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>ISO 16750</refReq_tag>
+			<refReq_part>2</refReq_part>
+			<refReq_chNo>4.8</refReq_chNo>
+			<refReq_clNo>4.8.2</refReq_clNo>
+		</reqs>
+		<reqs> <!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>ISO 16750</refReq_tag>
+			<refReq_part>2</refReq_part>
+			<refReq_chNo>4.8</refReq_chNo>
+			<refReq_clNo>4.8.3</refReq_clNo>
+		</reqs>
+		<reqs> <!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>ISO 16750</refReq_tag>
+			<refReq_part>2</refReq_part>
+			<refReq_chNo>4</refReq_chNo>
+			<refReq_clNo>4.9</refReq_clNo>
+		</reqs>
+		<reqs> <!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>ISO 16750</refReq_tag>
+			<refReq_part>2</refReq_part>
+			<refReq_chNo>4.9</refReq_chNo>
+			<refReq_clNo>4.9.1</refReq_clNo>
+		</reqs>	
+		<reqs> <!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>ISO 16750</refReq_tag>
+			<refReq_part>2</refReq_part>
+			<refReq_chNo>4.9.1</refReq_chNo>
+			<refReq_clNo>4.9.1.1</refReq_clNo>
+		</reqs>	
+		<reqs> <!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>ISO 16750</refReq_tag>
+			<refReq_part>2</refReq_part>
+			<refReq_chNo>4.9.1</refReq_chNo>
+			<refReq_clNo>4.9.1.2</refReq_clNo>
+		</reqs>	
+		<reqs> <!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>ISO 16750</refReq_tag>
+			<refReq_part>2</refReq_part>
+			<refReq_chNo>4.9.1</refReq_chNo>
+			<refReq_clNo>4.9.1.3</refReq_clNo>
+		</reqs>	
+		<reqs> <!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>ISO 16750</refReq_tag>
+			<refReq_part>2</refReq_part>
+			<refReq_chNo>4.9</refReq_chNo>
+			<refReq_clNo>4.9.2</refReq_clNo>
+		</reqs>	
+		<reqs> <!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>ISO 16750</refReq_tag>
+			<refReq_part>2</refReq_part>
+			<refReq_chNo>4.9.2</refReq_chNo>
+			<refReq_clNo>4.9.2.1</refReq_clNo>
+		</reqs>	
+		<reqs> <!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>ISO 16750</refReq_tag>
+			<refReq_part>2</refReq_part>
+			<refReq_chNo>4.9.2</refReq_chNo>
+			<refReq_clNo>4.9.2.2</refReq_clNo>
+		</reqs>	
+		<reqs> <!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>ISO 16750</refReq_tag>
+			<refReq_part>2</refReq_part>
+			<refReq_chNo>4.9.2</refReq_chNo>
+			<refReq_clNo>4.9.2.3</refReq_clNo>
+		</reqs>
+		<reqs> <!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>ISO 16750</refReq_tag>
+			<refReq_part>2</refReq_part>
+			<refReq_chNo>4</refReq_chNo>
+			<refReq_clNo>4.10</refReq_clNo>
+		</reqs>
+		<reqs> <!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>ISO 16750</refReq_tag>
+			<refReq_part>2</refReq_part>
+			<refReq_chNo>4.10</refReq_chNo>
+			<refReq_clNo>4.10.1</refReq_clNo>
+		</reqs>
+		<reqs> <!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>ISO 16750</refReq_tag>
+			<refReq_part>2</refReq_part>
+			<refReq_chNo>4.10</refReq_chNo>
+			<refReq_clNo>4.10.2</refReq_clNo>
+		</reqs>
+		<reqs> <!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>ISO 16750</refReq_tag>
+			<refReq_part>2</refReq_part>
+			<refReq_chNo>4.10.2</refReq_chNo>
+			<refReq_clNo>4.10.2.1</refReq_clNo>
+		</reqs>
+		<reqs> <!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>ISO 16750</refReq_tag>
+			<refReq_part>2</refReq_part>
+			<refReq_chNo>4.10.2</refReq_chNo>
+			<refReq_clNo>4.10.2.2</refReq_clNo>
+		</reqs>
+		<reqs> <!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>ISO 16750</refReq_tag>
+			<refReq_part>2</refReq_part>
+			<refReq_chNo>4.10</refReq_chNo>
+			<refReq_clNo>4.10.3</refReq_clNo>
+		</reqs>
+		<reqs> <!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>ISO 16750</refReq_tag>
+			<refReq_part>2</refReq_part>
+			<refReq_chNo>4.10.3</refReq_chNo>
+			<refReq_clNo>4.10.3.1</refReq_clNo>
+		</reqs>
+		<reqs> <!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>ISO 16750</refReq_tag>
+			<refReq_part>2</refReq_part>
+			<refReq_chNo>4.10.3</refReq_chNo>
+			<refReq_clNo>4.10.3.2</refReq_clNo>
+		</reqs>
+		<reqs> <!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>ISO 16750</refReq_tag>
+			<refReq_part>2</refReq_part>
+			<refReq_chNo>4</refReq_chNo>
+			<refReq_clNo>4.11</refReq_clNo>
+		</reqs>
+		<reqs> <!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>ISO 16750</refReq_tag>
+			<refReq_part>2</refReq_part>
+			<refReq_chNo>4.11</refReq_chNo>
+			<refReq_clNo>4.11.1</refReq_clNo>
+		</reqs>
+		<reqs> <!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>ISO 16750</refReq_tag>
+			<refReq_part>2</refReq_part>
+			<refReq_chNo>4.11</refReq_chNo>
+			<refReq_clNo>4.11.2</refReq_clNo>
+		</reqs>
+		<reqs> <!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>ISO 16750</refReq_tag>
+			<refReq_part>2</refReq_part>
+			<refReq_chNo>4.11</refReq_chNo>
+			<refReq_clNo>4.11.3</refReq_clNo>
+		</reqs>
+		<reqs> <!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>ISO 16750</refReq_tag>
+			<refReq_part>2</refReq_part>
+			<refReq_chNo>4</refReq_chNo>
+			<refReq_clNo>4.12</refReq_clNo>
+		</reqs>
+		<reqs> <!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>ISO 16750</refReq_tag>
+			<refReq_part>2</refReq_part>
+			<refReq_chNo>4.12</refReq_chNo>
+			<refReq_clNo>4.12.1</refReq_clNo>
+		</reqs>
+		<reqs> <!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>ISO 16750</refReq_tag>
+			<refReq_part>2</refReq_part>
+			<refReq_chNo>4.12</refReq_chNo>
+			<refReq_clNo>4.12.2</refReq_clNo>
+		</reqs>
+		<reqs> <!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>ISO 16750</refReq_tag>
+			<refReq_part>2</refReq_part>
+			<refReq_chNo>4.12</refReq_chNo>
+			<refReq_clNo>4.12.3</refReq_clNo>
+		</reqs>
+		<reqs> <!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>ISO 16750</refReq_tag>
+			<refReq_part>2</refReq_part>
+			<refReq_chNo>5</refReq_chNo>
+			<refReq_clNo>5</refReq_clNo>
+		</reqs>
+		
+		<htmltext><![CDATA[	
+			<ul><li>Electrical loads  (e.g. overvoltage, short circuit protection, reversed voltage)</li></ul>
+		]]></htmltext>	
+	</paragraph>
+	<paragraph>
+		<prodType>Vehicle</prodType>
+		<act>measuring</act>
+		<reqs> <!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>ISO 16750</refReq_tag>
+			<refReq_part>3</refReq_part>
+			<refReq_chNo>4</refReq_chNo>
+			<refReq_clNo>4.1</refReq_clNo>
+		</reqs>		
+		<reqs> <!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>ISO 16750</refReq_tag>
+			<refReq_part>3</refReq_part>
+			<refReq_chNo>4.1</refReq_chNo>
+			<refReq_clNo>4.1.1</refReq_clNo>
+		</reqs>
+		<reqs> <!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>ISO 16750</refReq_tag>
+			<refReq_part>3</refReq_part>
+			<refReq_chNo>4.1</refReq_chNo>
+			<refReq_clNo>4.1.2</refReq_clNo>
+		</reqs>
+		<reqs> <!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>ISO 16750</refReq_tag>
+			<refReq_part>3</refReq_part>
+			<refReq_chNo>4.1.2</refReq_chNo>
+			<refReq_clNo>4.1.2.1</refReq_clNo>
+		</reqs>
+		<reqs> <!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>ISO 16750</refReq_tag>
+			<refReq_part>3</refReq_part>
+			<refReq_chNo>4.1.2.1</refReq_chNo>
+			<refReq_clNo>4.1.2.1.1</refReq_clNo>
+		</reqs>
+		<reqs> <!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>ISO 16750</refReq_tag>
+			<refReq_part>3</refReq_part>
+			<refReq_chNo>4.1.2.1</refReq_chNo>
+			<refReq_clNo>4.1.2.1.2</refReq_clNo>
+		</reqs>
+		<reqs> <!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>ISO 16750</refReq_tag>
+			<refReq_part>3</refReq_part>
+			<refReq_chNo>4.1.2.1.2</refReq_chNo>
+			<refReq_clNo>4.1.2.1.2.1</refReq_clNo>
+		</reqs>
+		<reqs> <!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>ISO 16750</refReq_tag>
+			<refReq_part>3</refReq_part>
+			<refReq_chNo>4.1.2.1.2</refReq_chNo>
+			<refReq_clNo>4.1.2.1.2.2</refReq_clNo>
+		</reqs>
+		<reqs> <!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>ISO 16750</refReq_tag>
+			<refReq_part>3</refReq_part>
+			<refReq_chNo>4.1.2.1.2</refReq_chNo>
+			<refReq_clNo>4.1.2.1.2.3</refReq_clNo>
+		</reqs>
+		<reqs> <!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>ISO 16750</refReq_tag>
+			<refReq_part>3</refReq_part>
+			<refReq_chNo>4.1.2.1</refReq_chNo>
+			<refReq_clNo>4.1.2.1.3</refReq_clNo>
+		</reqs>
+		<reqs> <!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>ISO 16750</refReq_tag>
+			<refReq_part>3</refReq_part>
+			<refReq_chNo>4.1.2</refReq_chNo>
+			<refReq_clNo>4.1.2.2</refReq_clNo>
+		</reqs>
+		<reqs> <!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>ISO 16750</refReq_tag>
+			<refReq_part>3</refReq_part>
+			<refReq_chNo>4.1.2.2</refReq_chNo>
+			<refReq_clNo>4.1.2.2.1</refReq_clNo>
+		</reqs>
+		<reqs> <!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>ISO 16750</refReq_tag>
+			<refReq_part>3</refReq_part>
+			<refReq_chNo>4.1.2.2</refReq_chNo>
+			<refReq_clNo>4.1.2.2.2</refReq_clNo>
+		</reqs>
+		<reqs> <!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>ISO 16750</refReq_tag>
+			<refReq_part>3</refReq_part>
+			<refReq_chNo>4.1.2.2.2</refReq_chNo>
+			<refReq_clNo>4.1.2.2.2.1</refReq_clNo>
+		</reqs>
+		<reqs> <!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>ISO 16750</refReq_tag>
+			<refReq_part>3</refReq_part>
+			<refReq_chNo>4.1.2.2.2</refReq_chNo>
+			<refReq_clNo>4.1.2.2.2.2</refReq_clNo>
+		</reqs>
+		<reqs> <!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>ISO 16750</refReq_tag>
+			<refReq_part>3</refReq_part>
+			<refReq_chNo>4.1.2.2.2</refReq_chNo>
+			<refReq_clNo>4.1.2.2.2.3</refReq_clNo>
+		</reqs>
+		<reqs> <!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>ISO 16750</refReq_tag>
+			<refReq_part>3</refReq_part>
+			<refReq_chNo>4.1.2.2</refReq_chNo>
+			<refReq_clNo>4.1.2.2.3</refReq_clNo>
+		</reqs>
+		<reqs> <!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>ISO 16750</refReq_tag>
+			<refReq_part>3</refReq_part>
+			<refReq_chNo>4.1.2</refReq_chNo>
+			<refReq_clNo>4.1.2.3</refReq_clNo>
+		</reqs>
+		<reqs> <!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>ISO 16750</refReq_tag>
+			<refReq_part>3</refReq_part>
+			<refReq_chNo>4.1.2.3</refReq_chNo>
+			<refReq_clNo>4.1.2.3.1</refReq_clNo>
+		</reqs>
+		<reqs> <!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>ISO 16750</refReq_tag>
+			<refReq_part>3</refReq_part>
+			<refReq_chNo>4.1.2.3</refReq_chNo>
+			<refReq_clNo>4.1.2.3.2</refReq_clNo>
+		</reqs>
+		<reqs> <!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>ISO 16750</refReq_tag>
+			<refReq_part>3</refReq_part>
+			<refReq_chNo>4.1.2.3</refReq_chNo>
+			<refReq_clNo>4.1.2.3.3</refReq_clNo>
+		</reqs>
+		<reqs> <!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>ISO 16750</refReq_tag>
+			<refReq_part>3</refReq_part>
+			<refReq_chNo>4.1.2</refReq_chNo>
+			<refReq_clNo>4.1.2.4</refReq_clNo>
+		</reqs>
+		<reqs> <!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>ISO 16750</refReq_tag>
+			<refReq_part>3</refReq_part>
+			<refReq_chNo>4.1.2.4</refReq_chNo>
+			<refReq_clNo>4.1.2.4.1</refReq_clNo>
+		</reqs>
+		<reqs> <!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>ISO 16750</refReq_tag>
+			<refReq_part>3</refReq_part>
+			<refReq_chNo>4.1.2.4</refReq_chNo>
+			<refReq_clNo>4.1.2.4.2</refReq_clNo>
+		</reqs>
+		<reqs> <!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>ISO 16750</refReq_tag>
+			<refReq_part>3</refReq_part>
+			<refReq_chNo>4.1.2.4</refReq_chNo>
+			<refReq_clNo>4.1.2.4.3</refReq_clNo>
+		</reqs>
+		<reqs> <!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>ISO 16750</refReq_tag>
+			<refReq_part>3</refReq_part>
+			<refReq_chNo>4.1.2</refReq_chNo>
+			<refReq_clNo>4.1.2.5</refReq_clNo>
+		</reqs>
+		<reqs> <!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>ISO 16750</refReq_tag>
+			<refReq_part>3</refReq_part>
+			<refReq_chNo>4.1.2.5</refReq_chNo>
+			<refReq_clNo>4.1.2.5.1</refReq_clNo>
+		</reqs>
+		<reqs> <!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>ISO 16750</refReq_tag>
+			<refReq_part>3</refReq_part>
+			<refReq_chNo>4.1.2.5</refReq_chNo>
+			<refReq_clNo>4.1.2.5.2</refReq_clNo>
+		</reqs>
+		<reqs> <!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>ISO 16750</refReq_tag>
+			<refReq_part>3</refReq_part>
+			<refReq_chNo>4.1.2.5</refReq_chNo>
+			<refReq_clNo>4.1.2.5.3</refReq_clNo>
+		</reqs>
+		<reqs> <!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>ISO 16750</refReq_tag>
+			<refReq_part>3</refReq_part>
+			<refReq_chNo>4.1.2</refReq_chNo>
+			<refReq_clNo>4.1.2.6</refReq_clNo>
+		</reqs>
+		<reqs> <!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>ISO 16750</refReq_tag>
+			<refReq_part>3</refReq_part>
+			<refReq_chNo>4.1.2.6</refReq_chNo>
+			<refReq_clNo>4.1.2.6.1</refReq_clNo>
+		</reqs>
+		<reqs> <!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>ISO 16750</refReq_tag>
+			<refReq_part>3</refReq_part>
+			<refReq_chNo>4.1.2.6</refReq_chNo>
+			<refReq_clNo>4.1.2.6.2</refReq_clNo>
+		</reqs>
+		<reqs> <!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>ISO 16750</refReq_tag>
+			<refReq_part>3</refReq_part>
+			<refReq_chNo>4.1.2.6.2</refReq_chNo>
+			<refReq_clNo>4.1.2.6.2.1</refReq_clNo>
+		</reqs>
+		<reqs> <!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>ISO 16750</refReq_tag>
+			<refReq_part>3</refReq_part>
+			<refReq_chNo>4.1.2.6.2</refReq_chNo>
+			<refReq_clNo>4.1.2.6.2.2</refReq_clNo>
+		</reqs>
+		<reqs> <!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>ISO 16750</refReq_tag>
+			<refReq_part>3</refReq_part>
+			<refReq_chNo>4.1.2.6.2</refReq_chNo>
+			<refReq_clNo>4.1.2.6.2.3</refReq_clNo>
+		</reqs>
+		<reqs> <!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>ISO 16750</refReq_tag>
+			<refReq_part>3</refReq_part>
+			<refReq_chNo>4.1.2.6</refReq_chNo>
+			<refReq_clNo>4.1.2.6.3</refReq_clNo>
+		</reqs>
+		<reqs> <!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>ISO 16750</refReq_tag>
+			<refReq_part>3</refReq_part>
+			<refReq_chNo>4.1.2</refReq_chNo>
+			<refReq_clNo>4.1.2.7</refReq_clNo>
+		</reqs>
+		<reqs> <!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>ISO 16750</refReq_tag>
+			<refReq_part>3</refReq_part>
+			<refReq_chNo>4.1.2.7</refReq_chNo>
+			<refReq_clNo>4.1.2.7.1</refReq_clNo>
+		</reqs>
+		<reqs> <!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>ISO 16750</refReq_tag>
+			<refReq_part>3</refReq_part>
+			<refReq_chNo>4.1.2.7</refReq_chNo>
+			<refReq_clNo>4.1.2.7.2</refReq_clNo>
+		</reqs>
+		<reqs> <!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>ISO 16750</refReq_tag>
+			<refReq_part>3</refReq_part>
+			<refReq_chNo>4.1.2.7</refReq_chNo>
+			<refReq_clNo>4.1.2.7.3</refReq_clNo>
+		</reqs>
+		<reqs> <!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>ISO 16750</refReq_tag>
+			<refReq_part>3</refReq_part>
+			<refReq_chNo>4.1.2</refReq_chNo>
+			<refReq_clNo>4.1.2.8</refReq_clNo>
+		</reqs>
+		<reqs> <!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>ISO 16750</refReq_tag>
+			<refReq_part>3</refReq_part>
+			<refReq_chNo>4.1.2.8</refReq_chNo>
+			<refReq_clNo>4.1.2.8.1</refReq_clNo>
+		</reqs>
+		<reqs> <!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>ISO 16750</refReq_tag>
+			<refReq_part>3</refReq_part>
+			<refReq_chNo>4.1.2.8</refReq_chNo>
+			<refReq_clNo>4.1.2.8.2</refReq_clNo>
+		</reqs>
+		<reqs> <!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>ISO 16750</refReq_tag>
+			<refReq_part>3</refReq_part>
+			<refReq_chNo>4.1.2.8</refReq_chNo>
+			<refReq_clNo>4.1.2.8.3</refReq_clNo>
+		</reqs>
+		<reqs> <!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>ISO 16750</refReq_tag>
+			<refReq_part>3</refReq_part>
+			<refReq_chNo>4.1.2</refReq_chNo>
+			<refReq_clNo>4.1.2.9</refReq_clNo>
+		</reqs>
+		<reqs> <!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>ISO 16750</refReq_tag>
+			<refReq_part>3</refReq_part>
+			<refReq_chNo>4.1.2.9</refReq_chNo>
+			<refReq_clNo>4.1.2.9.1</refReq_clNo>
+		</reqs>
+		<reqs> <!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>ISO 16750</refReq_tag>
+			<refReq_part>3</refReq_part>
+			<refReq_chNo>4.1.2.9</refReq_chNo>
+			<refReq_clNo>4.1.2.9.2</refReq_clNo>
+		</reqs>
+		<reqs> <!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>ISO 16750</refReq_tag>
+			<refReq_part>3</refReq_part>
+			<refReq_chNo>4.1.2.9</refReq_chNo>
+			<refReq_clNo>4.1.2.9.3</refReq_clNo>
+		</reqs>
+		<reqs> <!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>ISO 16750</refReq_tag>
+			<refReq_part>3</refReq_part>
+			<refReq_chNo>4.1.2</refReq_chNo>
+			<refReq_clNo>4.1.2.10</refReq_clNo>
+		</reqs>
+		<reqs> <!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>ISO 16750</refReq_tag>
+			<refReq_part>3</refReq_part>
+			<refReq_chNo>4.1.2.10</refReq_chNo>
+			<refReq_clNo>4.1.2.10.1</refReq_clNo>
+		</reqs>
+		<reqs> <!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>ISO 16750</refReq_tag>
+			<refReq_part>3</refReq_part>
+			<refReq_chNo>4.1.2.10</refReq_chNo>
+			<refReq_clNo>4.1.2.10.2</refReq_clNo>
+		</reqs>
+		<reqs> <!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>ISO 16750</refReq_tag>
+			<refReq_part>3</refReq_part>
+			<refReq_chNo>4.1.2.10.2</refReq_chNo>
+			<refReq_clNo>4.1.2.10.2.1</refReq_clNo>
+		</reqs>
+		<reqs> <!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>ISO 16750</refReq_tag>
+			<refReq_part>3</refReq_part>
+			<refReq_chNo>4.1.2.10.2</refReq_chNo>
+			<refReq_clNo>4.1.2.10.2.2</refReq_clNo>
+		</reqs>
+		<reqs> <!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>ISO 16750</refReq_tag>
+			<refReq_part>3</refReq_part>
+			<refReq_chNo>4.1.2.10.2</refReq_chNo>
+			<refReq_clNo>4.1.2.10.2.3</refReq_clNo>
+		</reqs>
+		<reqs> <!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>ISO 16750</refReq_tag>
+			<refReq_part>3</refReq_part>
+			<refReq_chNo>4.1.2.10.2</refReq_chNo>
+			<refReq_clNo>4.1.2.10.2.4</refReq_clNo>
+		</reqs>
+		<reqs> <!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>ISO 16750</refReq_tag>
+			<refReq_part>3</refReq_part>
+			<refReq_chNo>4.1.2</refReq_chNo>
+			<refReq_clNo>4.1.2.11</refReq_clNo>
+		</reqs>
+		<reqs> <!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>ISO 16750</refReq_tag>
+			<refReq_part>3</refReq_part>
+			<refReq_chNo>4.1.2.11</refReq_chNo>
+			<refReq_clNo>4.1.2.11.1</refReq_clNo>
+		</reqs>
+		<reqs> <!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>ISO 16750</refReq_tag>
+			<refReq_part>3</refReq_part>
+			<refReq_chNo>4.1.2.11</refReq_chNo>
+			<refReq_clNo>4.1.2.11.2</refReq_clNo>
+		</reqs>
+		<reqs> <!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>ISO 16750</refReq_tag>
+			<refReq_part>3</refReq_part>
+			<refReq_chNo>4.1.2.11.2</refReq_chNo>
+			<refReq_clNo>4.1.2.11.2.1</refReq_clNo>
+		</reqs>
+		<reqs> <!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>ISO 16750</refReq_tag>
+			<refReq_part>3</refReq_part>
+			<refReq_chNo>4.1.2.11.2</refReq_chNo>
+			<refReq_clNo>4.1.2.11.2.2</refReq_clNo>
+		</reqs>
+		<reqs> <!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>ISO 16750</refReq_tag>
+			<refReq_part>3</refReq_part>
+			<refReq_chNo>4.1.2.11.2</refReq_chNo>
+			<refReq_clNo>4.1.2.11.2.3</refReq_clNo>
+		</reqs>
+		<reqs> <!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>ISO 16750</refReq_tag>
+			<refReq_part>3</refReq_part>
+			<refReq_chNo>4.1.2.11</refReq_chNo>
+			<refReq_clNo>4.1.2.11.3</refReq_clNo>
+		</reqs>
+		<reqs> <!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>ISO 16750</refReq_tag>
+			<refReq_part>3</refReq_part>
+			<refReq_chNo>4.1.2</refReq_chNo>
+			<refReq_clNo>4.1.2.12</refReq_clNo>
+		</reqs>
+		<reqs> <!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>ISO 16750</refReq_tag>
+			<refReq_part>3</refReq_part>
+			<refReq_chNo>4.1.2.12</refReq_chNo>
+			<refReq_clNo>4.1.2.12.1</refReq_clNo>
+		</reqs>
+		<reqs> <!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>ISO 16750</refReq_tag>
+			<refReq_part>3</refReq_part>
+			<refReq_chNo>4.1.2.12</refReq_chNo>
+			<refReq_clNo>4.1.2.12.2</refReq_clNo>
+		</reqs>
+		<reqs> <!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>ISO 16750</refReq_tag>
+			<refReq_part>3</refReq_part>
+			<refReq_chNo>4.1.2.12</refReq_chNo>
+			<refReq_clNo>4.1.2.12.3</refReq_clNo>
+		</reqs>
+		<reqs> <!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>ISO 16750</refReq_tag>
+			<refReq_part>3</refReq_part>
+			<refReq_chNo>4</refReq_chNo>
+			<refReq_clNo>4.2</refReq_clNo>
+		</reqs>	
+		<reqs> <!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>ISO 16750</refReq_tag>
+			<refReq_part>3</refReq_part>
+			<refReq_chNo>4.2</refReq_chNo>
+			<refReq_clNo>4.2.1</refReq_clNo>
+		</reqs>
+		<reqs> <!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>ISO 16750</refReq_tag>
+			<refReq_part>3</refReq_part>
+			<refReq_chNo>4.2.1</refReq_chNo>
+			<refReq_clNo>4.2.1.1</refReq_clNo>
+		</reqs>
+		<reqs> <!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>ISO 16750</refReq_tag>
+			<refReq_part>3</refReq_part>
+			<refReq_chNo>4.2.1</refReq_chNo>
+			<refReq_clNo>4.2.1.2</refReq_clNo>
+		</reqs>
+		<reqs> <!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>ISO 16750</refReq_tag>
+			<refReq_part>3</refReq_part>
+			<refReq_chNo>4.2.1</refReq_chNo>
+			<refReq_clNo>4.2.1.3</refReq_clNo>
+		</reqs>		
+		<reqs> <!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>ISO 16750</refReq_tag>
+			<refReq_part>3</refReq_part>
+			<refReq_chNo>4.2</refReq_chNo>
+			<refReq_clNo>4.2.2</refReq_clNo>
+		</reqs>
+		<reqs> <!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>ISO 16750</refReq_tag>
+			<refReq_part>3</refReq_part>
+			<refReq_chNo>4.2.2</refReq_chNo>
+			<refReq_clNo>4.2.2.1</refReq_clNo>
+		</reqs>
+		<reqs> <!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>ISO 16750</refReq_tag>
+			<refReq_part>3</refReq_part>
+			<refReq_chNo>4.2.2</refReq_chNo>
+			<refReq_clNo>4.2.2.2</refReq_clNo>
+		</reqs>
+		<reqs> <!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>ISO 16750</refReq_tag>
+			<refReq_part>3</refReq_part>
+			<refReq_chNo>4.2.2</refReq_chNo>
+			<refReq_clNo>4.2.2.3</refReq_clNo>
+		</reqs>		
+		<reqs> <!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>ISO 16750</refReq_tag>
+			<refReq_part>3</refReq_part>
+			<refReq_chNo>4.2</refReq_chNo>
+			<refReq_clNo>4.2.3</refReq_clNo>
+		</reqs>	
+		<reqs> <!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>ISO 16750</refReq_tag>
+			<refReq_part>3</refReq_part>
+			<refReq_chNo>4.2.3</refReq_chNo>
+			<refReq_clNo>4.2.3.1</refReq_clNo>
+		</reqs>
+		<reqs> <!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>ISO 16750</refReq_tag>
+			<refReq_part>3</refReq_part>
+			<refReq_chNo>4.2.3</refReq_chNo>
+			<refReq_clNo>4.2.3.2</refReq_clNo>
+		</reqs>
+		<reqs> <!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>ISO 16750</refReq_tag>
+			<refReq_part>3</refReq_part>
+			<refReq_chNo>4.2.3</refReq_chNo>
+			<refReq_clNo>4.2.3.3</refReq_clNo>
+		</reqs>	
+		<reqs> <!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>ISO 16750</refReq_tag>
+			<refReq_part>3</refReq_part>
+			<refReq_chNo>4</refReq_chNo>
+			<refReq_clNo>4.3</refReq_clNo>
+		</reqs>		
+		<reqs> <!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>ISO 16750</refReq_tag>
+			<refReq_part>3</refReq_part>
+			<refReq_chNo>4.3</refReq_chNo>
+			<refReq_clNo>4.3.1</refReq_clNo>
+		</reqs>
+		<reqs> <!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>ISO 16750</refReq_tag>
+			<refReq_part>3</refReq_part>
+			<refReq_chNo>4.3</refReq_chNo>
+			<refReq_clNo>4.3.2</refReq_clNo>
+		</reqs>
+		<reqs> <!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>ISO 16750</refReq_tag>
+			<refReq_part>3</refReq_part>
+			<refReq_chNo>4.3</refReq_chNo>
+			<refReq_clNo>4.3.3</refReq_clNo>
+		</reqs>
+		<reqs> <!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>ISO 16750</refReq_tag>
+			<refReq_part>3</refReq_part>
+			<refReq_chNo>4</refReq_chNo>
+			<refReq_clNo>4.4</refReq_clNo>
+		</reqs>
+		<reqs> <!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>ISO 16750</refReq_tag>
+			<refReq_part>3</refReq_part>
+			<refReq_chNo>5</refReq_chNo>
+			<refReq_clNo>5</refReq_clNo>
+		</reqs>
+		<reqs> <!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>ISO 16750</refReq_tag>
+			<refReq_part>3</refReq_part>
+			<refReq_chNo>6</refReq_chNo>
+			<refReq_clNo>6</refReq_clNo>
+		</reqs>
+		<reqs> <!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>IEC 60068</refReq_tag>
+			<refReq_part>2/64</refReq_part>
+			<refReq_chNo>8</refReq_chNo>
+			<refReq_clNo>8.1</refReq_clNo>
+		</reqs>
+		<reqs> <!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>IEC 60068</refReq_tag>
+			<refReq_part>2/64</refReq_part>
+			<refReq_chNo>8</refReq_chNo>
+			<refReq_clNo>8.2</refReq_clNo>
+		</reqs>
+		<reqs> <!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>IEC 60068</refReq_tag>
+			<refReq_part>2/64</refReq_part>
+			<refReq_chNo>8</refReq_chNo>
+			<refReq_clNo>8.3</refReq_clNo>
+		</reqs>
+		<reqs> <!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>IEC 60068</refReq_tag>
+			<refReq_part>2/64</refReq_part>
+			<refReq_chNo>8</refReq_chNo>
+			<refReq_clNo>8.4</refReq_clNo>
+		</reqs>
+		<htmltext><![CDATA[	
+			<ul><li>Mechanical loads  (e.g. vibration, mechanical shock, free fall, surface strength/scratch and abrasion resistance, gravel bombardment)</li></ul>
+		]]></htmltext>	
+	</paragraph>
+	<paragraph>
+		<prodType>Vehicle</prodType>
+		<act>measuring</act>
+		<reqs> <!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>ISO 16750</refReq_tag>
+			<refReq_part>4</refReq_part>
+			<refReq_chNo>5</refReq_chNo>
+			<refReq_clNo>5.1</refReq_clNo>
+		</reqs>
+		<reqs> <!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>ISO 16750</refReq_tag>
+			<refReq_part>4</refReq_part>
+			<refReq_chNo>5.1</refReq_chNo>
+			<refReq_clNo>5.1.1</refReq_clNo>
+		</reqs>
+		<reqs> <!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>ISO 16750</refReq_tag>
+			<refReq_part>4</refReq_part>
+			<refReq_chNo>5.1.1</refReq_chNo>
+			<refReq_clNo>5.1.1.1</refReq_clNo>
+		</reqs>
+		<reqs> <!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>ISO 16750</refReq_tag>
+			<refReq_part>4</refReq_part>
+			<refReq_chNo>5.1.1.1</refReq_chNo>
+			<refReq_clNo>5.1.1.1.1</refReq_clNo>
+		</reqs>
+		<reqs> <!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>ISO 16750</refReq_tag>
+			<refReq_part>4</refReq_part>
+			<refReq_chNo>5.1.1.1</refReq_chNo>
+			<refReq_clNo>5.1.1.1.2</refReq_clNo>
+		</reqs>
+		<reqs> <!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>ISO 16750</refReq_tag>
+			<refReq_part>4</refReq_part>
+			<refReq_chNo>5.1.1.1</refReq_chNo>
+			<refReq_clNo>5.1.1.1.3</refReq_clNo>
+		</reqs>
+		<reqs> <!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>ISO 16750</refReq_tag>
+			<refReq_part>4</refReq_part>
+			<refReq_chNo>5.1.1</refReq_chNo>
+			<refReq_clNo>5.1.1.2</refReq_clNo>
+		</reqs>
+		<reqs> <!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>ISO 16750</refReq_tag>
+			<refReq_part>4</refReq_part>
+			<refReq_chNo>5.1.1.2</refReq_chNo>
+			<refReq_clNo>5.1.1.2.1</refReq_clNo>
+		</reqs>
+		<reqs> <!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>ISO 16750</refReq_tag>
+			<refReq_part>4</refReq_part>
+			<refReq_chNo>5.1.1.2</refReq_chNo>
+			<refReq_clNo>5.1.1.2.2</refReq_clNo>
+		</reqs>
+		<reqs> <!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>ISO 16750</refReq_tag>
+			<refReq_part>4</refReq_part>
+			<refReq_chNo>5.1.1.2</refReq_chNo>
+			<refReq_clNo>5.1.1.2.3</refReq_clNo>
+		</reqs>
+		
+		<reqs> <!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>ISO 16750</refReq_tag>
+			<refReq_part>4</refReq_part>
+			<refReq_chNo>5.1</refReq_chNo>
+			<refReq_clNo>5.1.2</refReq_clNo>
+		</reqs>
+		<reqs> <!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>ISO 16750</refReq_tag>
+			<refReq_part>4</refReq_part>
+			<refReq_chNo>5.1.2</refReq_chNo>
+			<refReq_clNo>5.1.2.1</refReq_clNo>
+		</reqs>
+		<reqs> <!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>ISO 16750</refReq_tag>
+			<refReq_part>4</refReq_part>
+			<refReq_chNo>5.1.2.1</refReq_chNo>
+			<refReq_clNo>5.1.2.1.1</refReq_clNo>
+		</reqs>
+		<reqs> <!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>ISO 16750</refReq_tag>
+			<refReq_part>4</refReq_part>
+			<refReq_chNo>5.1.2.1</refReq_chNo>
+			<refReq_clNo>5.1.2.1.2</refReq_clNo>
+		</reqs>
+		<reqs> <!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>ISO 16750</refReq_tag>
+			<refReq_part>4</refReq_part>
+			<refReq_chNo>5.1.2.1</refReq_chNo>
+			<refReq_clNo>5.1.2.1.3</refReq_clNo>
+		</reqs>
+		<reqs> <!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>ISO 16750</refReq_tag>
+			<refReq_part>4</refReq_part>
+			<refReq_chNo>5.1.2</refReq_chNo>
+			<refReq_clNo>5.1.2.2</refReq_clNo>
+		</reqs>
+		<reqs> <!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>ISO 16750</refReq_tag>
+			<refReq_part>4</refReq_part>
+			<refReq_chNo>5.1.2.2</refReq_chNo>
+			<refReq_clNo>5.1.2.2.1</refReq_clNo>
+		</reqs>
+		<reqs> <!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>ISO 16750</refReq_tag>
+			<refReq_part>4</refReq_part>
+			<refReq_chNo>5.1.2.2</refReq_chNo>
+			<refReq_clNo>5.1.2.2.2</refReq_clNo>
+		</reqs>
+		<reqs> <!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>ISO 16750</refReq_tag>
+			<refReq_part>4</refReq_part>
+			<refReq_chNo>5.1.2.2</refReq_chNo>
+			<refReq_clNo>5.1.2.2.3</refReq_clNo>
+		</reqs>
+		<reqs> <!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>ISO 16750</refReq_tag>
+			<refReq_part>4</refReq_part>
+			<refReq_chNo>5</refReq_chNo>
+			<refReq_clNo>5.2</refReq_clNo>
+		</reqs>
+		<reqs> <!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>ISO 16750</refReq_tag>
+			<refReq_part>4</refReq_part>
+			<refReq_chNo>5.2</refReq_chNo>
+			<refReq_clNo>5.2.1</refReq_clNo>
+		</reqs>
+		<reqs> <!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>ISO 16750</refReq_tag>
+			<refReq_part>4</refReq_part>
+			<refReq_chNo>5.2</refReq_chNo>
+			<refReq_clNo>5.2.2</refReq_clNo>
+		</reqs>
+		<reqs> <!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>ISO 16750</refReq_tag>
+			<refReq_part>4</refReq_part>
+			<refReq_chNo>5.2</refReq_chNo>
+			<refReq_clNo>5.2.3</refReq_clNo>
+		</reqs>
+		<reqs> <!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>ISO 16750</refReq_tag>
+			<refReq_part>4</refReq_part>
+			<refReq_chNo>5</refReq_chNo>
+			<refReq_clNo>5.3</refReq_clNo>
+		</reqs>
+		<reqs> <!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>ISO 16750</refReq_tag>
+			<refReq_part>4</refReq_part>
+			<refReq_chNo>5.3</refReq_chNo>
+			<refReq_clNo>5.3.1</refReq_clNo>
+		</reqs>
+		<reqs> <!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>ISO 16750</refReq_tag>
+			<refReq_part>4</refReq_part>
+			<refReq_chNo>5.3.1</refReq_chNo>
+			<refReq_clNo>5.3.1.1</refReq_clNo>
+		</reqs>
+		<reqs> <!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>ISO 16750</refReq_tag>
+			<refReq_part>4</refReq_part>
+			<refReq_chNo>5.3.1</refReq_chNo>
+			<refReq_clNo>5.3.1.2</refReq_clNo>
+		</reqs>
+		<reqs> <!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>ISO 16750</refReq_tag>
+			<refReq_part>4</refReq_part>
+			<refReq_chNo>5.3.1</refReq_chNo>
+			<refReq_clNo>5.3.1.3</refReq_clNo>
+		</reqs>		
+		<reqs> <!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>ISO 16750</refReq_tag>
+			<refReq_part>4</refReq_part>
+			<refReq_chNo>5.3</refReq_chNo>
+			<refReq_clNo>5.3.2</refReq_clNo>
+		</reqs>
+		<reqs> <!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>ISO 16750</refReq_tag>
+			<refReq_part>4</refReq_part>
+			<refReq_chNo>5.3.2</refReq_chNo>
+			<refReq_clNo>5.3.2.1</refReq_clNo>
+		</reqs>
+		<reqs> <!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>ISO 16750</refReq_tag>
+			<refReq_part>4</refReq_part>
+			<refReq_chNo>5.3.2</refReq_chNo>
+			<refReq_clNo>5.3.2.2</refReq_clNo>
+		</reqs>
+		<reqs> <!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>ISO 16750</refReq_tag>
+			<refReq_part>4</refReq_part>
+			<refReq_chNo>5</refReq_chNo>
+			<refReq_clNo>5.4</refReq_clNo>
+		</reqs>
+		<reqs> <!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>ISO 16750</refReq_tag>
+			<refReq_part>4</refReq_part>
+			<refReq_chNo>5.4</refReq_chNo>
+			<refReq_clNo>5.4.1</refReq_clNo>
+		</reqs>
+		<reqs> <!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>ISO 16750</refReq_tag>
+			<refReq_part>4</refReq_part>
+			<refReq_chNo>5.4</refReq_chNo>
+			<refReq_clNo>5.4.2</refReq_clNo>
+		</reqs>
+		<reqs> <!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>ISO 16750</refReq_tag>
+			<refReq_part>4</refReq_part>
+			<refReq_chNo>5.4.2</refReq_chNo>
+			<refReq_clNo>5.4.2.1</refReq_clNo>
+		</reqs>
+		<reqs> <!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>ISO 16750</refReq_tag>
+			<refReq_part>4</refReq_part>
+			<refReq_chNo>5.4.2</refReq_chNo>
+			<refReq_clNo>5.4.2.2</refReq_clNo>
+		</reqs>
+		<reqs> <!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>ISO 16750</refReq_tag>
+			<refReq_part>4</refReq_part>
+			<refReq_chNo>5.4</refReq_chNo>
+			<refReq_clNo>5.4.3</refReq_clNo>
+		</reqs>
+		<reqs> <!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>ISO 16750</refReq_tag>
+			<refReq_part>4</refReq_part>
+			<refReq_chNo>5.4.3</refReq_chNo>
+			<refReq_clNo>5.4.3.1</refReq_clNo>
+		</reqs>
+		<reqs> <!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>ISO 16750</refReq_tag>
+			<refReq_part>4</refReq_part>
+			<refReq_chNo>5.4.3</refReq_chNo>
+			<refReq_clNo>5.4.3.2</refReq_clNo>
+		</reqs>
+		<reqs> <!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>ISO 16750</refReq_tag>
+			<refReq_part>4</refReq_part>
+			<refReq_chNo>5</refReq_chNo>
+			<refReq_clNo>5.5</refReq_clNo>
+		</reqs>
+		<reqs> <!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>ISO 16750</refReq_tag>
+			<refReq_part>4</refReq_part>
+			<refReq_chNo>5.5</refReq_chNo>
+			<refReq_clNo>5.5.1</refReq_clNo>
+		</reqs>
+		<reqs> <!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>ISO 16750</refReq_tag>
+			<refReq_part>4</refReq_part>
+			<refReq_chNo>5.5.1</refReq_chNo>
+			<refReq_clNo>5.5.1.1</refReq_clNo>
+		</reqs>
+		<reqs> <!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>ISO 16750</refReq_tag>
+			<refReq_part>4</refReq_part>
+			<refReq_chNo>5.5.1</refReq_chNo>
+			<refReq_clNo>5.5.1.2</refReq_clNo>
+		</reqs>
+		<reqs> <!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>ISO 16750</refReq_tag>
+			<refReq_part>4</refReq_part>
+			<refReq_chNo>5.5.1</refReq_chNo>
+			<refReq_clNo>5.5.1.3</refReq_clNo>
+		</reqs>
+		<reqs> <!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>ISO 16750</refReq_tag>
+			<refReq_part>4</refReq_part>
+			<refReq_chNo>5.5</refReq_chNo>
+			<refReq_clNo>5.5.2</refReq_clNo>
+		</reqs>
+		<reqs> <!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>ISO 16750</refReq_tag>
+			<refReq_part>4</refReq_part>
+			<refReq_chNo>5.5.2</refReq_chNo>
+			<refReq_clNo>5.5.2.1</refReq_clNo>
+		</reqs>
+		<reqs> <!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>ISO 16750</refReq_tag>
+			<refReq_part>4</refReq_part>
+			<refReq_chNo>5.5.2</refReq_chNo>
+			<refReq_clNo>5.5.2.2</refReq_clNo>
+		</reqs>
+		<reqs> <!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>ISO 16750</refReq_tag>
+			<refReq_part>4</refReq_part>
+			<refReq_chNo>5.5.2</refReq_chNo>
+			<refReq_clNo>5.5.2.3</refReq_clNo>
+		</reqs>
+		<reqs> <!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>ISO 16750</refReq_tag>
+			<refReq_part>4</refReq_part>
+			<refReq_chNo>5</refReq_chNo>
+			<refReq_clNo>5.6</refReq_clNo>
+		</reqs>
+		<reqs> <!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>ISO 16750</refReq_tag>
+			<refReq_part>4</refReq_part>
+			<refReq_chNo>5.6</refReq_chNo>
+			<refReq_clNo>5.6.1</refReq_clNo>
+		</reqs>
+		<reqs> <!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>ISO 16750</refReq_tag>
+			<refReq_part>4</refReq_part>
+			<refReq_chNo>5.6</refReq_chNo>
+			<refReq_clNo>5.6.2</refReq_clNo>
+		</reqs>
+		<reqs> <!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>ISO 16750</refReq_tag>
+			<refReq_part>4</refReq_part>
+			<refReq_chNo>5.6.2</refReq_chNo>
+			<refReq_clNo>5.6.2.1</refReq_clNo>
+		</reqs>
+		<reqs> <!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>ISO 16750</refReq_tag>
+			<refReq_part>4</refReq_part>
+			<refReq_chNo>5.6.2</refReq_chNo>
+			<refReq_clNo>5.6.2.2</refReq_clNo>
+		</reqs>
+		<reqs> <!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>ISO 16750</refReq_tag>
+			<refReq_part>4</refReq_part>
+			<refReq_chNo>5.6.2</refReq_chNo>
+			<refReq_clNo>5.6.2.3</refReq_clNo>
+		</reqs>
+		<reqs> <!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>ISO 16750</refReq_tag>
+			<refReq_part>4</refReq_part>
+			<refReq_chNo>5.6.2</refReq_chNo>
+			<refReq_clNo>5.6.2.4</refReq_clNo>
+		</reqs>
+		<reqs> <!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>ISO 16750</refReq_tag>
+			<refReq_part>4</refReq_part>
+			<refReq_chNo>5.6</refReq_chNo>
+			<refReq_clNo>5.6.3</refReq_clNo>
+		</reqs>
+		<reqs> <!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>ISO 16750</refReq_tag>
+			<refReq_part>4</refReq_part>
+			<refReq_chNo>5</refReq_chNo>
+			<refReq_clNo>5.7</refReq_clNo>
+		</reqs>
+		<reqs> <!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>ISO 16750</refReq_tag>
+			<refReq_part>4</refReq_part>
+			<refReq_chNo>5.7</refReq_chNo>
+			<refReq_clNo>5.7.1</refReq_clNo>
+		</reqs>
+		<reqs> <!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>ISO 16750</refReq_tag>
+			<refReq_part>4</refReq_part>
+			<refReq_chNo>5.7</refReq_chNo>
+			<refReq_clNo>5.7.2</refReq_clNo>
+		</reqs>
+		<reqs> <!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>ISO 16750</refReq_tag>
+			<refReq_part>4</refReq_part>
+			<refReq_chNo>5.7</refReq_chNo>
+			<refReq_clNo>5.7.3</refReq_clNo>
+		</reqs>
+		<reqs> <!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>ISO 16750</refReq_tag>
+			<refReq_part>4</refReq_part>
+			<refReq_chNo>5</refReq_chNo>
+			<refReq_clNo>5.8</refReq_clNo>
+		</reqs>
+		<reqs> <!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>ISO 16750</refReq_tag>
+			<refReq_part>4</refReq_part>
+			<refReq_chNo>5.8</refReq_chNo>
+			<refReq_clNo>5.8.1</refReq_clNo>
+		</reqs>
+		<reqs> <!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>ISO 16750</refReq_tag>
+			<refReq_part>4</refReq_part>
+			<refReq_chNo>5.8</refReq_chNo>
+			<refReq_clNo>5.8.2</refReq_clNo>
+		</reqs>
+		<reqs> <!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>ISO 16750</refReq_tag>
+			<refReq_part>4</refReq_part>
+			<refReq_chNo>5.8</refReq_chNo>
+			<refReq_clNo>5.8.3</refReq_clNo>
+		</reqs>
+		<reqs> <!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>ISO 16750</refReq_tag>
+			<refReq_part>4</refReq_part>
+			<refReq_chNo>5</refReq_chNo>
+			<refReq_clNo>5.9</refReq_clNo>
+		</reqs>
+		<reqs> <!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>ISO 16750</refReq_tag>
+			<refReq_part>4</refReq_part>
+			<refReq_chNo>5</refReq_chNo>
+			<refReq_clNo>5.10</refReq_clNo>
+		</reqs>
+		<reqs> <!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>ISO 16750</refReq_tag>
+			<refReq_part>4</refReq_part>
+			<refReq_chNo>5.10</refReq_chNo>
+			<refReq_clNo>5.10.1</refReq_clNo>
+		</reqs>
+		<reqs> <!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>ISO 16750</refReq_tag>
+			<refReq_part>4</refReq_part>
+			<refReq_chNo>5.10</refReq_chNo>
+			<refReq_clNo>5.10.2</refReq_clNo>
+		</reqs>
+		<reqs> <!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>ISO 16750</refReq_tag>
+			<refReq_part>4</refReq_part>
+			<refReq_chNo>5.10</refReq_chNo>
+			<refReq_clNo>5.10.3</refReq_clNo>
+		</reqs>
+		<reqs> <!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>ISO 16750</refReq_tag>
+			<refReq_part>4</refReq_part>
+			<refReq_chNo>6</refReq_chNo>
+			<refReq_clNo>6</refReq_clNo>
+		</reqs>
+		<reqs> <!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>ISO 16750</refReq_tag>
+			<refReq_part>4</refReq_part>
+			<refReq_chNo>7</refReq_chNo>
+			<refReq_clNo>7</refReq_clNo>
+		</reqs>
+		<reqs> <!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>ISO 16750</refReq_tag>
+			<refReq_part>4</refReq_part>
+			<refReq_chNo>8</refReq_chNo>
+			<refReq_clNo>8</refReq_clNo>
+		</reqs>
+		<htmltext><![CDATA[	
+			<ul><li>Climatic loads  (e.g. different temperatures, humidity, salt, ice water, dust, solar radiation)</li></ul>
+		]]></htmltext>	
+	</paragraph>
+	<paragraph>
+		<prodType>Vehicle</prodType>
+		<act>measuring</act>	
+		<reqs> <!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>ISO 16750</refReq_tag>
+			<refReq_part>5</refReq_part>
+			<refReq_chNo>4</refReq_chNo>
+			<refReq_clNo>4.1</refReq_clNo>
+		</reqs>
+		<reqs> <!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>ISO 16750</refReq_tag>
+			<refReq_part>5</refReq_part>
+			<refReq_chNo>4</refReq_chNo>
+			<refReq_clNo>4.2</refReq_clNo>
+		</reqs>
+		<reqs> <!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>ISO 16750</refReq_tag>
+			<refReq_part>5</refReq_part>
+			<refReq_chNo>4</refReq_chNo>
+			<refReq_clNo>4.3</refReq_clNo>
+		</reqs>
+		<reqs> <!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>ISO 16750</refReq_tag>
+			<refReq_part>5</refReq_part>
+			<refReq_chNo>4</refReq_chNo>
+			<refReq_clNo>4.4</refReq_clNo>
+		</reqs>
+		<reqs> <!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>ISO 16750</refReq_tag>
+			<refReq_part>5</refReq_part>
+			<refReq_chNo>4</refReq_chNo>
+			<refReq_clNo>4.5</refReq_clNo>
+		</reqs>
+		<reqs> <!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>ISO 16750</refReq_tag>
+			<refReq_part>5</refReq_part>
+			<refReq_chNo>4</refReq_chNo>
+			<refReq_clNo>4.6</refReq_clNo>
+		</reqs>
+		<reqs> <!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>ISO 16750</refReq_tag>
+			<refReq_part>5</refReq_part>
+			<refReq_chNo>4</refReq_chNo>
+			<refReq_clNo>4.7</refReq_clNo>
+		</reqs>
+		<reqs> <!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>ISO 16750</refReq_tag>
+			<refReq_part>5</refReq_part>
+			<refReq_chNo>4</refReq_chNo>
+			<refReq_clNo>4.8</refReq_clNo>
+		</reqs>
+		<reqs> <!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>ISO 16750</refReq_tag>
+			<refReq_part>5</refReq_part>
+			<refReq_chNo>4</refReq_chNo>
+			<refReq_clNo>4.9</refReq_clNo>
+		</reqs>
+		<reqs> <!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>ISO 16750</refReq_tag>
+			<refReq_part>5</refReq_part>
+			<refReq_chNo>5</refReq_chNo>
+			<refReq_clNo>5</refReq_clNo>
+		</reqs>
+		<htmltext><![CDATA[	
+			<ul><li>Chemical loads (checking resistance against chemical agents like fuel, oil, cleaning solvent,... )</li></ul>
+		]]></htmltext>	
+	</paragraph>
+	<paragraph>
+		<prodType>Vehicle</prodType>
+		<act>measuring</act>
+		<reqs> <!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>ISO 6469</refReq_tag>
+			<refReq_part>3</refReq_part>
+			<refReq_chNo>9</refReq_chNo>
+			<refReq_clNo>9</refReq_clNo>
+		</reqs>
+		<reqs> <!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>NHTSA TP-305</refReq_tag>
+			<refReq_part>n.a.</refReq_part>
+			<refReq_chNo>2</refReq_chNo>
+			<refReq_clNo>2</refReq_clNo>
+		</reqs>
+		<reqs> <!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>ISO 6469</refReq_tag>
+			<refReq_part>1</refReq_part>
+			<refReq_chNo>8</refReq_chNo>
+			<refReq_clNo>8.1</refReq_clNo>
+		</reqs>
+		<htmltext><![CDATA[
+			<p><b>Vehicle tests: crash and rollover test</b></p>			
+		]]></htmltext>	
+	</paragraph>
+	<paragraph>
+		<prodType>Vehicle</prodType>
+		<act>measuring</act>
+		<reqs> <!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>ISO 6469</refReq_tag>
+			<refReq_part>3</refReq_part>
+			<refReq_chNo>9</refReq_chNo>
+			<refReq_clNo>9</refReq_clNo>
+		</reqs>	
+		<htmltext><![CDATA[
+			<p>The vehicle crash and rollover tests and the test requirements shall be according to applicable national and/or international standards or regulations.</p>			
+		]]></htmltext>	
+	</paragraph>
+	<paragraph>
+		<prodType>Vehicle</prodType>
+		<act>measuring</act>
+		<reqs> <!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>NHTSA TP-305</refReq_tag>
+			<refReq_part>n.a.</refReq_part>
+			<refReq_chNo>2</refReq_chNo>
+			<refReq_clNo>2</refReq_clNo>
+		</reqs>
+		<reqs> <!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>ISO 6469</refReq_tag>
+			<refReq_part>1</refReq_part>
+			<refReq_chNo>8</refReq_chNo>
+			<refReq_clNo>8.1</refReq_clNo>
+		</reqs>	
+		<reqs> <!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>ISO 6469</refReq_tag>
+			<refReq_part>1</refReq_part>
+			<refReq_chNo>8</refReq_chNo>
+			<refReq_clNo>8.2</refReq_clNo>
+		</reqs>	
+		<reqs> <!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>ISO 6469</refReq_tag>
+			<refReq_part>1</refReq_part>
+			<refReq_chNo>8</refReq_chNo>
+			<refReq_clNo>8.3</refReq_clNo>
+		</reqs>	
+		<htmltext><![CDATA[
+			<p>The test requirements can define:</p>
+			<ul><li>the maximum amount of spillage of electrolyte of the battery pack outside the passenger compartment</li>
+			<li>That no trace of electrolyte may be visible in the passenger compartment</li>
+			<li>That propulsion battery system components in the passenger compartment may not be moved from the location</li>
+			<li>That propulsion battery system components outside in the passenger compartment may not enter the passenger compartment</li>
+			<li>The minimum electrical isolation between propulsion battery system and the vehicle’s electricity-conducting structure.</li></ul>
+		]]></htmltext>	
+	</paragraph>
+	<paragraph>
+		<prodType>Vehicle</prodType>
+		<act>measuring</act>
+		<reqs> <!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>NHTSA TP-305</refReq_tag>
+			<refReq_part>n.a.</refReq_part>
+			<refReq_chNo>13</refReq_chNo>
+			<refReq_clNo>13.1</refReq_clNo>
+		</reqs>	
+		<reqs> <!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>NHTSA TP-305</refReq_tag>
+			<refReq_part>n.a.</refReq_part>
+			<refReq_chNo>13</refReq_chNo>
+			<refReq_clNo>13.2</refReq_clNo>
+		</reqs>		
+		<reqs> <!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>NHTSA TP-305</refReq_tag>
+			<refReq_part>n.a.</refReq_part>
+			<refReq_chNo>13</refReq_chNo>
+			<refReq_clNo>13.3</refReq_clNo>
+		</reqs>
+		<htmltext><![CDATA[
+			<p>An example of this test is the barrier test of the NHTSA of the US Department of Transportation.</p>
+		]]></htmltext>	
+	</paragraph>
+	<paragraph>
+		<prodType>Vehicle</prodType>
+		<act>measuring</act>
+		<reqs><!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>ISO 6469</refReq_tag>
+			<refReq_part>3</refReq_part>
+			<refReq_chNo>8</refReq_chNo>
+			<refReq_clNo>8.1</refReq_clNo>
+		</reqs>
+		<reqs><!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>ISO 6469</refReq_tag>
+			<refReq_part>3</refReq_part>
+			<refReq_chNo>8.2</refReq_chNo>
+			<refReq_clNo>8.2.1</refReq_clNo>
+		</reqs>
+		<reqs><!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>ISO 6469</refReq_tag>
+			<refReq_part>3</refReq_part>
+			<refReq_chNo>8.2</refReq_chNo>
+			<refReq_clNo>8.2.2</refReq_clNo>
+		</reqs>
+		<reqs><!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>ISO 6469</refReq_tag>
+			<refReq_part>3</refReq_part>
+			<refReq_chNo>8.2</refReq_chNo>
+			<refReq_clNo>8.2.3</refReq_clNo>
+		</reqs>
+		<reqs><!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>ISO 6469</refReq_tag>
+			<refReq_part>3</refReq_part>
+			<refReq_chNo>8.2</refReq_chNo>
+			<refReq_clNo>8.2.4</refReq_clNo>
+		</reqs>
+		<reqs><!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>ISO 6469</refReq_tag>
+			<refReq_part>3</refReq_part>
+			<refReq_chNo>8.3</refReq_chNo>
+			<refReq_clNo>8.3.1</refReq_clNo>
+		</reqs>
+		<reqs><!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>ISO 6469</refReq_tag>
+			<refReq_part>3</refReq_part>
+			<refReq_chNo>8.3</refReq_chNo>
+			<refReq_clNo>8.3.2</refReq_clNo>
+		</reqs>
+		<reqs><!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>ISO 6469</refReq_tag>
+			<refReq_part>3</refReq_part>
+			<refReq_chNo>8.3.3.1</refReq_chNo>
+			<refReq_clNo>8.3.3.1.1</refReq_clNo>
+		</reqs>
+		<reqs><!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>ISO 6469</refReq_tag>
+			<refReq_part>3</refReq_part>
+			<refReq_chNo>8.3.3.1</refReq_chNo>
+			<refReq_clNo>8.3.3.1.2</refReq_clNo>
+		</reqs>
+		<reqs><!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>ISO 6469</refReq_tag>
+			<refReq_part>3</refReq_part>
+			<refReq_chNo>8.3.3.1</refReq_chNo>
+			<refReq_clNo>8.3.3.1.3</refReq_clNo>
+		</reqs>
+		<reqs><!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>ISO 6469</refReq_tag>
+			<refReq_part>3</refReq_part>
+			<refReq_chNo>8.3.3</refReq_chNo>
+			<refReq_clNo>8.3.3.2</refReq_clNo>
+		</reqs>
+		<reqs><!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>ISO 6469</refReq_tag>
+			<refReq_part>3</refReq_part>
+			<refReq_chNo>8.3.3.3</refReq_chNo>
+			<refReq_clNo>8.3.3.3.1</refReq_clNo>
+		</reqs>
+		<reqs><!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>ISO 6469</refReq_tag>
+			<refReq_part>3</refReq_part>
+			<refReq_chNo>8.3.3.3</refReq_chNo>
+			<refReq_clNo>8.3.3.3.2</refReq_clNo>
+		</reqs>
+		<reqs><!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>ISO 6469</refReq_tag>
+			<refReq_part>3</refReq_part>
+			<refReq_chNo>8.3.3.3</refReq_chNo>
+			<refReq_clNo>8.3.3.3.3</refReq_clNo>
+		</reqs>
+		<reqs><!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>ISO 6469</refReq_tag>
+			<refReq_part>3</refReq_part>
+			<refReq_chNo>8.3</refReq_chNo>
+			<refReq_clNo>8.3.4</refReq_clNo>
+		</reqs>
+		<reqs><!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>ISO 6469</refReq_tag>
+			<refReq_part>3</refReq_part>
+			<refReq_chNo>8</refReq_chNo>
+			<refReq_clNo>8.4</refReq_clNo>
+		</reqs>
+		<htmltext><![CDATA[
+			<p><b>Test procedures for protection against electric shock</b></p>			
+			The tests to verify the protection measures shall in principle be performed on each high voltage electric circuit on the vehicle, when the charge coupler is disconnected. The following tests are defined:</p>
+			<ul><li>Isolation resistance measurements</li>
+			<li>Withstand voltage test</li>
+			<li>Continuity test for potential equalization</li></ul>
+		]]></htmltext>	
+		<testLabs>testLab2</testLabs>
+	</paragraph>
+	
+	
+	
+</description>	
+<processOwner>company0</processOwner>
+</step>

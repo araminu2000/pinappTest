@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<step>
+<proc>Pack assembly</proc>
+<title>Adding the electronics and management system to the module</title>	
+<description>	
+	<paragraph>
+		<prodType>Pack</prodType>
+		<act>assembling</act>
+		<recoms>recomm_69</recoms>
+		<recoms>recomm_70</recoms>
+		<recoms>recomm_72</recoms>			
+		<recoms>recomm_77</recoms>
+		<recoms>recomm_79</recoms>
+		<htmltext><![CDATA[
+		<p>Electronics and management system are added to the pack to be able to monitor the pack when it is used in an application.</p>
+		<p>Electrocution and external short circuit stay the main risks during this step. To avoid these risk the necessary measures need to be taken:</p>
+		<ul><li>Covering current connector</li>
+		<li>Use of high voltage tools</li>
+		<li>Use of high voltage gloves</li></ul>
+		<p>To avoid the start of a thermal runaway, electrical and mechanical abuse shall always be avoided during the assembling process. The temperature need to be checked on a regular base.</p>
+		<p>The connectors to connect the pack with other systems are also placed in this step. These can be data or power connectors.</p>
+		]]></htmltext>
+	</paragraph>
+</description>
+<processOwner>company0</processOwner>
+</step>

@@ -1,0 +1,20 @@
+<rootStructure>
+	<self>0999_prepare_transport</self>
+	<group name="Prepare for transportation" >
+		<sub type="decision" >
+			<refItemId>0901</refItemId>
+		</sub>
+		<sub type="flow" after_yes="0901">
+			<refItemId>0903</refItemId>
+		</sub>		
+		<sub type="decision" after_no = "0901">
+			<refItemId>0902</refItemId>
+		</sub>
+		<sub type="flow" after_yes="0902">
+			<refItemId>0904</refItemId>
+		</sub>
+		<sub type="flow" after_no="0902">
+			<refItemId>0905</refItemId>
+		</sub>
+	</group>
+</rootStructure>

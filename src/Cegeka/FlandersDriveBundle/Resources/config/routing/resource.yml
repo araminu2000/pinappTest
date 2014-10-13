@@ -1,0 +1,10 @@
+fd_get_image_standard_resource:
+    pattern: /bundles/cegekaflandersdrive/images/standards/{filePath}
+    defaults: { _controller: CegekaFlandersDriveBundle:Resource:getResource, dirPath: bundles/cegekaflandersdrive/images/standards/ }
+    requirements:
+        filePath: .+
+fd_get_template_resource:
+    pattern: /bundles/cegekaflandersdrive/templates/{filePath}
+    defaults: { _controller: CegekaFlandersDriveBundle:Resource:getResource, dirPath: bundles/cegekaflandersdrive/templates/ }
+    requirements:
+        filePath: .+

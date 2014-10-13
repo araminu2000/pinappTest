@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<step>
+<proc>Recycling</proc>	
+<title>Material recycling</title>	
+<description>	
+	<paragraph>
+		<prodType>Cell</prodType>
+	</paragraph>
+</description>
+<processOwner>company0</processOwner>
+</step>

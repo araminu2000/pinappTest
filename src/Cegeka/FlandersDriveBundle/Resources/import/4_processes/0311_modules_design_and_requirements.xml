@@ -1,0 +1,995 @@
+<?xml version="1.0" encoding="utf-8"?>
+<step>
+<proc>Module design and development</proc>	
+<title>Design and Requirements</title>	
+<description>
+	<paragraph>
+		<prodType>Module</prodType>
+		<reqs><!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>ANSI C18-2M</refReq_tag>
+			<refReq_part>2</refReq_part>
+			<refReq_chNo>5.1</refReq_chNo>
+			<refReq_clNo>5.1.1</refReq_clNo>
+		</reqs>	
+		<reqs><!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>IEC 62133</refReq_tag>
+			<refReq_part>n.a.</refReq_part>
+			<refReq_chNo>5.6</refReq_chNo>
+			<refReq_clNo>5.6.1</refReq_clNo>
+		</reqs>	
+		<reqs><!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>IEEE 1625</refReq_tag>
+			<refReq_part>n.a.</refReq_part>
+			<refReq_chNo>6.6</refReq_chNo>
+			<refReq_clNo>6.6.3</refReq_clNo>
+		</reqs>
+		<reqs><!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>IEEE 1725</refReq_tag>
+			<refReq_part>n.a.</refReq_part>
+			<refReq_chNo>6.2</refReq_chNo>
+			<refReq_clNo>6.2.1</refReq_clNo>
+		</reqs>
+		<htmltext><![CDATA[
+			<p><strong>Design requirements</strong></p>
+			]]></htmltext>
+	</paragraph>
+	<paragraph>
+		<prodType>Module</prodType>					
+		<reqs><!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>ANSI C18-2M</refReq_tag>
+			<refReq_part>2</refReq_part>
+			<refReq_chNo>5.1</refReq_chNo>
+			<refReq_clNo>5.1.1</refReq_clNo>
+		</reqs>	
+		<htmltext><![CDATA[
+			<p>Modules shall be designed so that they do not present a safety hazard under conditions of normal (intended) use.</p>
+			]]></htmltext>
+	</paragraph>	
+	<paragraph>
+		<prodType>Module</prodType>					
+		<reqs><!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>IEC 62133</refReq_tag>
+			<refReq_part>n.a.</refReq_part>
+			<refReq_chNo>5.6</refReq_chNo>
+			<refReq_clNo>5.6.1</refReq_clNo>
+		</reqs>	
+		<htmltext><![CDATA[
+			<p>FMEA or similar process shall be performed for new designs and repeated for every design change and change in process flow and equipment</p>
+		]]></htmltext>
+	</paragraph>
+	<paragraph>
+		<prodType>Module</prodType>
+		<reqs><!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>IEC 62133</refReq_tag>
+			<refReq_part>n.a.</refReq_part>
+			<refReq_chNo>5</refReq_chNo>
+			<refReq_clNo>5.7</refReq_clNo>
+		</reqs>
+		<htmltext><![CDATA[
+		<p>The manufacturer shall prepare and implement a quality plan that defines procedures for the inspection of materials, components, cells and which covers the whole process of producing each type of cell. Manufacturers should understand their process capabilities and should institute the necessary process controls as they relate to product safety.</p>
+		]]></htmltext>
+	</paragraph>
+	<paragraph>
+		<prodType>Module</prodType>
+		<reqs><!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>IEEE 1625</refReq_tag>
+			<refReq_part>n.a.</refReq_part>
+			<refReq_chNo>6.6</refReq_chNo>
+			<refReq_clNo>6.6.3</refReq_clNo>
+		</reqs>
+		<reqs><!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>IEEE 1725</refReq_tag>
+			<refReq_part>n.a.</refReq_part>
+			<refReq_chNo>6.2</refReq_chNo>
+			<refReq_clNo>6.2.1</refReq_clNo>
+		</reqs>
+		<htmltext><![CDATA[
+			<p>The manufacturer/supplier shall have a traceability plan for critical components and cells.</p>
+			<p><strong>TO DO</strong>: work document for quality plan??</p>
+		]]></htmltext>
+	</paragraph>
+	<paragraph>
+		<prodType>Module</prodType>					
+		<reqs><!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>SAE J1797</refReq_tag>
+			<refReq_part>n.a.</refReq_part>
+			<refReq_chNo>5</refReq_chNo>
+			<refReq_clNo>5.1</refReq_clNo>
+		</reqs>
+		<reqs><!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>SAE J1797</refReq_tag>
+			<refReq_part>n.a.</refReq_part>
+			<refReq_chNo>5</refReq_chNo>
+			<refReq_clNo>5.2</refReq_clNo>
+		</reqs>
+		<reqs><!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>SAE J1797</refReq_tag>
+			<refReq_part>n.a.</refReq_part>
+			<refReq_chNo>5</refReq_chNo>
+			<refReq_clNo>5.3</refReq_clNo>
+		</reqs>
+		<reqs><!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>SAE J1797</refReq_tag>
+			<refReq_part>n.a.</refReq_part>
+			<refReq_chNo>5</refReq_chNo>
+			<refReq_clNo>5.4</refReq_clNo>
+		</reqs>
+		<reqs><!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>SAE J1797</refReq_tag>
+			<refReq_part>n.a.</refReq_part>
+			<refReq_chNo>5</refReq_chNo>
+			<refReq_clNo>5.5</refReq_clNo>
+		</reqs>
+		<htmltext><![CDATA[
+			<p><strong>Description of the module</strong></p>
+			<p>A module can be described via the following characteristics</p>
+			<ul><li>Type of electrochemistry</li>
+			<li>Module voltage with an indication of the nominal voltage, maximum voltage</li>
+			<li>Package envelope.</li>
+			<li>Capacity</li>
+			<li>Mass</li></ul>
+		]]></htmltext>
+	</paragraph>
+	<paragraph>
+		<prodType>Module</prodType>
+		<htmltext><![CDATA[
+			<p>The operator which handles the module is exposed to the electrical risks of the module like short circuit and possibly electrocution if the voltage is higher than 60V DC. It is therefore recommended  to keep the voltage of the module below 60V DC to eliminate the risk of electrocution.</p>
+			<p><strong>TO DO</strong>: based ARAB en E/ECE/324/Rev.2/Add.99/Rev.1-E/ECE/TRANS/505/Rev.2/Add.99/Rev.1: Uniform provisions concerning the approval of vehicles with regard to specific requirements for the electric power train 
+			<i>link to correct recommendation</i></p>
+		]]></htmltext>
+	</paragraph>
+	<paragraph>
+		<prodType>Module</prodType>					
+		<reqs><!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>IEC 62133</refReq_tag>
+			<refReq_part>n.a.</refReq_part>
+			<refReq_chNo>5.6</refReq_chNo>
+			<refReq_clNo>5.6.1</refReq_clNo>
+		</reqs>
+		<reqs><!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>IEEE 1625</refReq_tag>
+			<refReq_part>n.a.</refReq_part>
+			<refReq_chNo>6.3.2</refReq_chNo>
+			<refReq_clNo>6.3.2.1</refReq_clNo>
+		</reqs>
+		<reqs><!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>IEEE 1625</refReq_tag>
+			<refReq_part>n.a.</refReq_part>
+			<refReq_chNo>6.3.2</refReq_chNo>
+			<refReq_clNo>6.3.2.2</refReq_clNo>
+		</reqs>
+		<reqs><!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>IEEE 1625</refReq_tag>
+			<refReq_part>n.a.</refReq_part>
+			<refReq_chNo>6.3.2.3</refReq_chNo>
+			<refReq_clNo>6.3.2.3.1</refReq_clNo>
+		</reqs>
+		<reqs><!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>IEEE 1625</refReq_tag>
+			<refReq_part>n.a.</refReq_part>
+			<refReq_chNo>6.3.2.3</refReq_chNo>
+			<refReq_clNo>6.3.2.3.2</refReq_clNo>
+		</reqs>
+		<reqs><!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>IEEE 1625</refReq_tag>
+			<refReq_part>n.a.</refReq_part>
+			<refReq_chNo>6.3.2.3</refReq_chNo>
+			<refReq_clNo>6.3.2.3.3</refReq_clNo>
+		</reqs>
+		<reqs><!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>IEEE 1625</refReq_tag>
+			<refReq_part>n.a.</refReq_part>
+			<refReq_chNo>6.3.2.3</refReq_chNo>
+			<refReq_clNo>6.3.2.3.4</refReq_clNo>
+		</reqs>
+		<reqs><!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>IEEE 1725</refReq_tag>
+			<refReq_part>n.a.</refReq_part>
+			<refReq_chNo>6.13</refReq_chNo>
+			<refReq_clNo>6.13.1</refReq_clNo>
+		</reqs>
+		<reqs><!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>IEEE 1725</refReq_tag>
+			<refReq_part>n.a.</refReq_part>
+			<refReq_chNo>6.13</refReq_chNo>
+			<refReq_clNo>6.13.2</refReq_clNo>
+		</reqs>
+		<reqs><!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>IEEE 1725</refReq_tag>
+			<refReq_part>n.a.</refReq_part>
+			<refReq_chNo>6.13</refReq_chNo>
+			<refReq_clNo>6.13.3</refReq_clNo>
+		</reqs>
+		<reqs><!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>IEEE 1725</refReq_tag>
+			<refReq_part>n.a.</refReq_part>
+			<refReq_chNo>6.13</refReq_chNo>
+			<refReq_clNo>6.13.4</refReq_clNo>
+		</reqs>
+		<reqs><!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>IEEE 1725</refReq_tag>
+			<refReq_part>n.a.</refReq_part>
+			<refReq_chNo>6.13</refReq_chNo>
+			<refReq_clNo>6.13.5</refReq_clNo>
+		</reqs>
+		<htmltext><![CDATA[
+			<p>When cells are coupled to form modules, the used cells shall have closely matched capacities, 
+				be of the same design, be of the same chemistry and be from the same manufacturer.  Information about current, voltage and temperatures shall 
+				be made by the manufacturers. Each battery cell shall have an independent control and protection. Batteries that are designed for the selective discharge of a portion of their 
+				series connected cells shall incorporate separate circuitry to prevent the cell reversal caused by uneven discharges. 
+				Protective circuit components should be added as appropriate and consideration given to the end-device application.</p>
+		]]></htmltext>
+	</paragraph>
+	<paragraph>
+		<prodType>Module</prodType>
+		<components>comp_001</components>
+		<components>comp_002</components>
+		<components>comp_003</components>
+		<components>comp_005</components>
+		<components>comp_006</components>
+		<components>comp_007</components>
+		<components>comp_008</components>
+		<htmltext><![CDATA[
+			<p><strong>Materials and components for a safe design</strong></p>
+			<p>Modules under electrical, mechanical or thermal abuse can go into thermal runaway. To prevent these types of abuses or to reduce their risks, the following components can be added to the module design:</p>
+			<ul><li><strong>Current interrupt device</strong>: in-built device to prevent overcharge which can lead to gas formation and thermal runaway. Overcurrent protect function may include protection circuitry and devices such as a fuse or controlled field-effect transistor.</li>
+			<li><strong>Safety vents or tear away tabs</strong>: gases formation can occur during mechanical and electrical abuse. These components release the internal pressure and prevent ruptures or explostion of the casing.</li>
+			<li><strong>Positive temperature coefficient</strong> (PTC) device which prevents high external current if the temperature is too high</li></ul>
+			<p>It is also common to add electronics to the module which monitor the module state and with management systems which react (example: open the battery circuit) when a wrongful condition is detected (ex. short circuit) to prevent damages to the module. The following electronics are used.</p>
+			<ul><li><strong>Thermistors:</strong> sense the internal temperature of the battery, and provide information to an external control through a calibrated resistance</li>
+			<li><strong>Protection circuit module (PCM):</strong>the PCM opens the battery circuit to prevent damage to the module</li>
+			<li><strong>Battery management system (BMS):</strong>BMS notifies the user of an error and execute the preset correction procedure.</li></ul>
+			<p>To prevent temperature increase and thus thermal runaway, a cooling system can be added to dissipate the excess of heat when the temperature rises exceed a certain limit.</p>
+		]]></htmltext>	
+	</paragraph>
+	<paragraph>
+		<prodType>Module</prodType>					
+		<reqs><!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>IEEE 1625</refReq_tag>
+			<refReq_part>n.a.</refReq_part>
+			<refReq_chNo>6.2</refReq_chNo>
+			<refReq_clNo>6.2.1</refReq_clNo>
+		</reqs>
+		<reqs><!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>IEEE 1625</refReq_tag>
+			<refReq_part>n.a.</refReq_part>
+			<refReq_chNo>6.2</refReq_chNo>
+			<refReq_clNo>6.2.2</refReq_clNo>
+		</reqs>
+		<reqs><!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>IEEE 1725</refReq_tag>
+			<refReq_part>n.a.</refReq_part>
+			<refReq_chNo>6.3</refReq_chNo>
+			<refReq_clNo>6.3.5</refReq_clNo>
+		</reqs>
+		<htmltext><![CDATA[
+			<p>The components used in the modules shall have adequate electrical, thermal, and mechanical ratings for the applications. The used materials, components and cell shall be used within their operating limits. The specification of the cell shall be provide by the cell supplier in a specification sheet.</p>
+		]]></htmltext>
+	</paragraph>
+	<paragraph>
+		<prodType>Module</prodType>					
+		<reqs><!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>IEEE 1625</refReq_tag>
+			<refReq_part>n.a.</refReq_part>
+			<refReq_chNo>6.2.3</refReq_chNo>
+			<refReq_clNo>6.2.3.2</refReq_clNo>
+		</reqs>
+		<reqs><!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>IEC 62133</refReq_tag>
+			<refReq_part>n.a.</refReq_part>
+			<refReq_chNo>5</refReq_chNo>
+			<refReq_clNo>5.3</refReq_clNo>
+		</reqs>
+		<reqs><!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>ANSI C18-2M</refReq_tag>
+			<refReq_part>2</refReq_part>
+			<refReq_chNo>5.1</refReq_chNo>
+			<refReq_clNo>5.1.2</refReq_clNo>
+		</reqs>
+	</paragraph>
+	<paragraph>
+		<prodType>Module</prodType>
+		<reqs><!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>SAE J1797</refReq_tag>
+			<refReq_part>n.a.</refReq_part>
+			<refReq_chNo>6.1</refReq_chNo>
+			<refReq_clNo>6.1.2</refReq_clNo>
+		</reqs>
+		<reqs><!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>IEEE 1625</refReq_tag>
+			<refReq_part>n.a.</refReq_part>
+			<refReq_chNo>6.5.2</refReq_chNo>
+			<refReq_clNo>6.5.2.4</refReq_clNo>
+		</reqs>
+		<reqs><!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>IEEE 1725</refReq_tag>
+			<refReq_part>n.a.</refReq_part>
+			<refReq_chNo>6.9</refReq_chNo>
+			<refReq_clNo>6.9.1</refReq_clNo>
+		</reqs>
+		<reqs><!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>UL s2054</refReq_tag>
+			<refReq_part>n.a.</refReq_part>
+			<refReq_chNo>4.1</refReq_chNo>
+			<refReq_clNo>4.1.1</refReq_clNo>
+		</reqs>
+		<reqs><!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>UL s1642</refReq_tag>
+			<refReq_part>n.a.</refReq_part>
+			<refReq_chNo>4.3</refReq_chNo>
+			<refReq_clNo>4.3.1</refReq_clNo>
+		</reqs>	
+		<htmltext><![CDATA[<p><strong>Mechanical requirements</strong></p>]]></htmltext>
+	</paragraph>
+	<paragraph>
+		<prodType>Module</prodType>
+		<reqs><!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>SAE J1797</refReq_tag>
+			<refReq_part>n.a.</refReq_part>
+			<refReq_chNo>6.1</refReq_chNo>
+			<refReq_clNo>6.1.2</refReq_clNo>
+		</reqs>
+		<reqs><!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>SAE J1797</refReq_tag>
+			<refReq_part>n.a.</refReq_part>
+			<refReq_chNo>6.1</refReq_chNo>
+			<refReq_clNo>6.1.4</refReq_clNo>
+		</reqs>
+		<reqs><!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>SAE J1797</refReq_tag>
+			<refReq_part>n.a.</refReq_part>
+			<refReq_chNo>6.1</refReq_chNo>
+			<refReq_clNo>6.1.5</refReq_clNo>
+		</reqs>
+		<reqs><!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>SAE J1797</refReq_tag>
+			<refReq_part>n.a.</refReq_part>
+			<refReq_chNo>6.1</refReq_chNo>
+			<refReq_clNo>6.1.6</refReq_clNo>
+		</reqs>
+		<reqs><!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>SAE J1797</refReq_tag>
+			<refReq_part>n.a.</refReq_part>
+			<refReq_chNo>6.1</refReq_chNo>
+			<refReq_clNo>6.1.7</refReq_clNo>
+		</reqs>
+		<htmltext><![CDATA[<p>The retention system used shall provide for retention in the three mutually perpendicular axes. The restraint need not contact the entire surface in the axis being restrained. The following points can be taken into account during the design of the retention system</p>
+			<ul><li>The retention system should prevent current leakage and should be protected against electrolyte corrosion.</li>
+			<li>If an air draft system is used for thermal management or hydrogen gas emissions, the retention system should not hinder air flow around the module(s) needed for proper thermal management or venting of the entire battery system.</li>
+			<li>The retention system should not interfere with the vent system or high-voltage wiring.</li>
+			<li>If applicable, all remaining area on the top surface may be contacted for restraint and should be available to the restraint system.</li>
+			<li>If there is a heat seal area of the intermediate cover to top cover, it should not be used to provide edges by which to clamp or connect a restraining system.</li>
+			<li>However, the top surface of the module may be used as a contact surface for the restraint system and should provide as much surface area as possible for maximum usage in retention.</li>
+			<li>The bottom surface of the module shall provide a level plane for placement in the retention and restraining system. Other retention features are optional.</li>
+			<li>The clamping area and force should be designed and specified to comply with battery manufacturer&rsquo;s performance requirements. The clamping area and force applied shall not damage the battery module, particularly in consideration of material creep</li>
+			<li>The retention system should be designed for easy removal and installation of battery modules for service</li>
+			<li>Any restraining system used shall not inhibit the normal electrical operation of the module(s) through either physical or electrical obstructions. The restraints should retain the orientation and position of the modules during vehicle operations.</li></ul>
+			]]></htmltext>
+	</paragraph>
+	<paragraph>
+		<prodType>Module</prodType>
+		<reqs><!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>SAE J1797</refReq_tag>
+			<refReq_part>n.a.</refReq_part>
+			<refReq_chNo>7</refReq_chNo>
+			<refReq_clNo>7</refReq_clNo>
+		</reqs>
+		<htmltext><![CDATA[
+		<p>Some form of physical lift assist or pick-up features should be placed on the module. Recesses for robot manipulators, battery handles, and finger-grips for human handling are only a few potential lift assist features. These features aid in the assembly process and field service.</p>
+		]]></htmltext>
+	</paragraph>
+	<paragraph>
+		<prodType>Module</prodType>
+		<reqs><!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>IEEE 1625</refReq_tag>
+			<refReq_part>n.a.</refReq_part>
+			<refReq_chNo>6.5.2</refReq_chNo>
+			<refReq_clNo>6.5.2.1</refReq_clNo>
+		</reqs>
+		<reqs><!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>IEEE 1625</refReq_tag>
+			<refReq_part>n.a.</refReq_part>
+			<refReq_chNo>6.5.2</refReq_chNo>
+			<refReq_clNo>6.5.2.2</refReq_clNo>
+		</reqs>
+		<reqs><!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>IEEE 1625</refReq_tag>
+			<refReq_part>n.a.</refReq_part>
+			<refReq_chNo>6.5.2</refReq_chNo>
+			<refReq_clNo>6.5.2.3</refReq_clNo>
+		</reqs>
+		<reqs><!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>IEEE 1625</refReq_tag>
+			<refReq_part>n.a.</refReq_part>
+			<refReq_chNo>6.5.3</refReq_chNo>
+			<refReq_clNo>6.5.3.1</refReq_clNo>
+		</reqs>
+		<reqs><!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>IEEE 1625</refReq_tag>
+			<refReq_part>n.a.</refReq_part>
+			<refReq_chNo>6.5.3</refReq_chNo>
+			<refReq_clNo>6.5.3.2</refReq_clNo>
+		</reqs>
+		<reqs><!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>IEEE 1625</refReq_tag>
+			<refReq_part>n.a.</refReq_part>
+			<refReq_chNo>6.5.2</refReq_chNo>
+			<refReq_clNo>6.5.2.4</refReq_clNo>
+		</reqs>
+		<reqs><!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>IEEE 1725</refReq_tag>
+			<refReq_part>n.a.</refReq_part>
+			<refReq_chNo>6.9</refReq_chNo>
+			<refReq_clNo>6.9.1</refReq_clNo>
+		</reqs>
+		<reqs><!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>IEEE 1725</refReq_tag>
+			<refReq_part>n.a.</refReq_part>
+			<refReq_chNo>6.9</refReq_chNo>
+			<refReq_clNo>6.9.2</refReq_clNo>
+		</reqs>
+		<reqs><!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>IEEE 1725</refReq_tag>
+			<refReq_part>n.a.</refReq_part>
+			<refReq_chNo>6.9</refReq_chNo>
+			<refReq_clNo>6.9.3</refReq_clNo>
+		</reqs>
+		<reqs><!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>IEEE 1725</refReq_tag>
+			<refReq_part>n.a.</refReq_part>
+			<refReq_chNo>6.9</refReq_chNo>
+			<refReq_clNo>6.9.4</refReq_clNo>
+		</reqs>
+		<reqs><!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>IEEE 1725</refReq_tag>
+			<refReq_part>n.a.</refReq_part>
+			<refReq_chNo>6.9</refReq_chNo>
+			<refReq_clNo>6.9.5</refReq_clNo>
+		</reqs>
+		<reqs><!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>IEEE 1725</refReq_tag>
+			<refReq_part>n.a.</refReq_part>
+			<refReq_chNo>6.9</refReq_chNo>
+			<refReq_clNo>6.9.6</refReq_clNo>
+		</reqs>
+		<reqs><!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>IEEE 1725</refReq_tag>
+			<refReq_part>n.a.</refReq_part>
+			<refReq_chNo>6.9</refReq_chNo>
+			<refReq_clNo>6.9.7</refReq_clNo>
+		</reqs>
+		<htmltext><![CDATA[
+		<p>The mechanical design should take the placing of the cell into account. These considerations shall include the orientation, insulation, spacing and other elements into account. Prevention measures shall be taken to minimize the shifting of the cells. Allowance shall be taken for the dimensional tolerance and changes throughout the product lifetime. For the connections enough spacing shall be provided to prevent abrasion, wear or damage to cables and/or connectors. Strain relief for cable leads and/or connectors should be provided.</p>
+		<p>In the module the cell should be orientated such that the vents are pointing away from the likely location of the end users and such that hot vent gasses are not forced onto neighbor cells. The vent mechanism of cells shall not be covered or obstructed with plastic or other material.</p>
+		]]></htmltext>
+	</paragraph>
+	<paragraph>
+		<prodType>Module</prodType>
+		<reqs><!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>IEEE 1625</refReq_tag>
+			<refReq_part>n.a.</refReq_part>
+			<refReq_chNo>6.5</refReq_chNo>
+			<refReq_clNo>6.5.6</refReq_clNo>
+		</reqs>
+		<reqs><!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>IEEE 1625</refReq_tag>
+			<refReq_part>n.a.</refReq_part>
+			<refReq_chNo>6.3</refReq_chNo>
+			<refReq_clNo>6.3.1</refReq_clNo>
+		</reqs>
+		<htmltext><![CDATA[
+		<p>The design shall ensure that any electrolyte leakage from the cells does not interfere with the porper operation of safety provisions within the pack.</p>
+		]]></htmltext>
+	</paragraph>
+	<paragraph>
+		<prodType>Module</prodType>
+		<reqs><!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>IEEE 1625</refReq_tag>
+			<refReq_part>n.a.</refReq_part>
+			<refReq_chNo>6.5</refReq_chNo>
+			<refReq_clNo>6.5.8</refReq_clNo>
+		</reqs>
+		<htmltext><![CDATA[
+		<p>Enclosure openings shall be designed such that potential hazards due to foreign debris entering the pack will not result in the compromise of the protection circuit or shorting of circuits or components. The enclosure shall allow for the venting of pressure from the pack in the event of a cell rupture.</p>
+		]]></htmltext>
+	</paragraph>
+	<paragraph>
+		<prodType>Module</prodType>
+		<reqs><!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>UL s2054</refReq_tag>
+			<refReq_part>n.a.</refReq_part>
+			<refReq_chNo>4.1</refReq_chNo>
+			<refReq_clNo>4.1.1</refReq_clNo>
+		</reqs>
+		<reqs><!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>UL s2054</refReq_tag>
+			<refReq_part>n.a.</refReq_part>
+			<refReq_chNo>4.1</refReq_chNo>
+			<refReq_clNo>4.1.2</refReq_clNo>
+		</reqs>
+		<reqs><!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>IEEE 1725</refReq_tag>
+			<refReq_part>n.a.</refReq_part>
+			<refReq_chNo>6.9</refReq_chNo>
+			<refReq_clNo>6.9.9</refReq_clNo>
+		</reqs>
+		<htmltext><![CDATA[
+		<p>For portable application the casing of a lithium battery shall have the strength and rigidity necessary to resist the abuses to which it may be subjected , without resulting in a risk of fire. The casing of a user-replaceable lithium battery shall have the strength and rigidity necessary to resist the abuses to which it may be subjected without resulting in a risk of injury to persons.  The casing shall be rigid enough to prevent flexing that would result in damage to the cells or internal protective components. To open the casing, a tool providing the mechanical advantages of pliers, hacksaw or similar tool, shall be the minimum mechanical capability.</p>
+		]]></htmltext>
+	</paragraph>
+	<paragraph>
+		<prodType>Module</prodType>
+		<reqs><!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>UL s2054</refReq_tag>
+			<refReq_part>n.a.</refReq_part>
+			<refReq_chNo>4.1</refReq_chNo>
+			<refReq_clNo>4.1.1</refReq_clNo>
+		</reqs>
+		<reqs><!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>UL s2054</refReq_tag>
+			<refReq_part>n.a.</refReq_part>
+			<refReq_chNo>4.1</refReq_chNo>
+			<refReq_clNo>4.1.3</refReq_clNo>
+		</reqs>
+		<reqs><!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>IEEE 1625</refReq_tag>
+			<refReq_part>n.a.</refReq_part>
+			<refReq_chNo>6.5</refReq_chNo>
+			<refReq_clNo>6.5.9</refReq_clNo>
+		</reqs>
+		<htmltext><![CDATA[
+		<p>For batteries for portable applications with plastic outer enclosures, the design of the enclosure shall be such that it is not possible to open it using simple tools. The enclosure can be secured with the means of ultrasonically welding or equivalent measures.</p>
+		]]></htmltext>
+	</paragraph>
+	<paragraph>
+		<prodType>Module</prodType>
+		<reqs><!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>UL s2054</refReq_tag>
+			<refReq_part>n.a.</refReq_part>
+			<refReq_chNo>4.1</refReq_chNo>
+			<refReq_clNo>4.1.1</refReq_clNo>
+		</reqs>
+		<reqs><!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>UL s2054</refReq_tag>
+			<refReq_part>n.a.</refReq_part>
+			<refReq_chNo>4.1</refReq_chNo>
+			<refReq_clNo>4.1.4</refReq_clNo>
+		</reqs>
+		<reqs><!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>UL s2054</refReq_tag>
+			<refReq_part>n.a.</refReq_part>
+			<refReq_chNo>4.1</refReq_chNo>
+			<refReq_clNo>4.1.5</refReq_clNo>
+		</reqs>
+		<htmltext><![CDATA[
+		<p>For batteries for portable applications the used materials of the enclosure shall be classed V-1 or less flammable for the minimum part thickness . The openings in the enclisre shall be minimized to prevent damages.</p>
+		]]></htmltext>
+	</paragraph>	
+	<paragraph>
+		<prodType>Module</prodType>
+		<reqs><!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>SAE J1797</refReq_tag>
+			<refReq_part>n.a.</refReq_part>
+			<refReq_chNo>6</refReq_chNo>
+			<refReq_clNo>6.3</refReq_clNo>
+		</reqs>
+		<reqs><!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>IEEE 1625</refReq_tag>
+			<refReq_part>n.a.</refReq_part>
+			<refReq_chNo>6.5.5</refReq_chNo>
+			<refReq_clNo>6.5.5.1</refReq_clNo>
+		</reqs>
+		<reqs><!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>IEC 62133</refReq_tag>
+			<refReq_part>n.a.</refReq_part>
+			<refReq_chNo>5</refReq_chNo>
+			<refReq_clNo>5.1</refReq_clNo>
+		</reqs>
+		<reqs><!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>IEEE 1725</refReq_tag>
+			<refReq_part>n.a.</refReq_part>
+			<refReq_chNo>6.10</refReq_chNo>
+			<refReq_clNo>6.10.1</refReq_clNo>
+		</reqs>
+		<reqs><!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>ANSI C18-2M</refReq_tag>
+			<refReq_part>2</refReq_part>
+			<refReq_chNo>5.1</refReq_chNo>
+			<refReq_clNo>5.1.4</refReq_clNo>
+		</reqs>
+		<reqs><!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>ANSI C18-2M</refReq_tag>
+			<refReq_part>1</refReq_part>
+			<refReq_chNo>1.4.3</refReq_chNo>
+			<refReq_clNo>1.4.3.1</refReq_clNo>
+		</reqs>
+		<reqs><!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>UL s1642</refReq_tag>
+			<refReq_part>n.a.</refReq_part>
+			<refReq_chNo>4.3</refReq_chNo>
+			<refReq_clNo>4.3.1</refReq_clNo>
+		</reqs>
+		<reqs><!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>UL s2054</refReq_tag>
+			<refReq_part>n.a.</refReq_part>
+			<refReq_chNo>4.3</refReq_chNo>
+			<refReq_clNo>4.3.1</refReq_clNo>
+		</reqs>
+		<htmltext><![CDATA[
+		<p><strong>Electrical requirements</strong></p>
+		]]></htmltext>
+	</paragraph>
+	<paragraph>
+		<prodType>Module</prodType>
+		<reqs><!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>SAE J1797</refReq_tag>
+			<refReq_part>n.a.</refReq_part>
+			<refReq_chNo>6</refReq_chNo>
+			<refReq_clNo>6.3</refReq_clNo>
+		</reqs>
+		<htmltext><![CDATA[
+		<p>To protect against an electrical punch through the battery module should be encased in a sufficiently high dielectric material.</p>
+		]]></htmltext>
+	</paragraph>
+	<paragraph>
+		<prodType>Module</prodType>
+		<reqs><!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>IEEE 1625</refReq_tag>
+			<refReq_part>n.a.</refReq_part>
+			<refReq_chNo>6.5.5</refReq_chNo>
+			<refReq_clNo>6.5.5.1</refReq_clNo>
+		</reqs>
+		<reqs><!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>IEEE 1625</refReq_tag>
+			<refReq_part>n.a.</refReq_part>
+			<refReq_chNo>6.5.5</refReq_chNo>
+			<refReq_clNo>6.5.5.2</refReq_clNo>
+		</reqs>
+		<reqs><!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>IEEE 1625</refReq_tag>
+			<refReq_part>n.a.</refReq_part>
+			<refReq_chNo>6.5.3</refReq_chNo>
+			<refReq_clNo>6.5.3.3</refReq_clNo>
+		</reqs>
+		<reqs><!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>IEC 62133</refReq_tag>
+			<refReq_part>n.a.</refReq_part>
+			<refReq_chNo>5</refReq_chNo>
+			<refReq_clNo>5.1</refReq_clNo>
+		</reqs>
+		<htmltext><![CDATA[
+		<p>The design shall protect against unintended electrical connections between the circuit board and other electrical components and devices. Insulating materials should prevent shorting of current carrying tabs to cells.</p>
+		<p>The insulation resistance between the positive terminal and externally exposed metal surfaces of the battery excluding electrical contact surfaces is described in standards.  Cells at different electrical potential shall be electrically insulated from each other to prevent unintended shorting.</p>
+		]]></htmltext>
+	</paragraph>
+	<paragraph>
+		<prodType>Module</prodType>
+		<reqs><!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>IEC 62133</refReq_tag>
+			<refReq_part>n.a.</refReq_part>
+			<refReq_chNo>5</refReq_chNo>
+			<refReq_clNo>5.2</refReq_clNo>
+		</reqs>
+		<htmltext><![CDATA[
+		<p>Internal wiring and its insulation shall be sufficient to withstand the maximum anticipated current, voltage and temperature requirements. The orientation of wiring shall be such that adequate clearances and creepage distances are maintained between connectors. The mechanical integrity of internal connections shall be sufficient to accommodate conditions of reasonably foreseeable misuse.</p>
+		]]></htmltext>
+	</paragraph>
+	<paragraph>
+		<prodType>Module</prodType>
+		<reqs><!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>IEEE 1625</refReq_tag>
+			<refReq_part>n.a.</refReq_part>
+			<refReq_chNo>6.2.6</refReq_chNo>
+			<refReq_clNo>6.2.6.2</refReq_clNo>
+		</reqs>
+		<reqs><!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>IEEE 1625</refReq_tag>
+			<refReq_part>n.a.</refReq_part>
+			<refReq_chNo>6.5.7</refReq_chNo>
+			<refReq_clNo>6.5.7.1</refReq_clNo>
+		</reqs>
+		<reqs><!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>IEEE 1725</refReq_tag>
+			<refReq_part>n.a.</refReq_part>
+			<refReq_chNo>6.10</refReq_chNo>
+			<refReq_clNo>6.10.1</refReq_clNo>
+		</reqs>
+		<reqs><!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>IEC 62133</refReq_tag>
+			<refReq_part>n.a.</refReq_part>
+			<refReq_chNo>5</refReq_chNo>
+			<refReq_clNo>5.5</refReq_clNo>
+		</reqs>
+		<reqs><!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>ANSI C18-2M</refReq_tag>
+			<refReq_part>2</refReq_part>
+			<refReq_chNo>5.1</refReq_chNo>
+			<refReq_clNo>5.1.4</refReq_clNo>
+		</reqs>
+		<htmltext><![CDATA[
+		<p>The design of the terminals shall ensure that maximum anticipated current can be carried. Conductive materials with good mechanical strength and corrosion resistance shall be used for external terminal contact surfaces. The way terminals are arranged shall minimize the risk of short circuit.</p>
+		]]></htmltext>
+	</paragraph>
+	<paragraph>
+		<prodType>Module</prodType>		
+		<reqs><!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>ANSI C18-2M</refReq_tag>
+			<refReq_part>1</refReq_part>
+			<refReq_chNo>1.4.3</refReq_chNo>
+			<refReq_clNo>1.4.3.1</refReq_clNo>
+		</reqs>	
+		<reqs><!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>ANSI C18-2M</refReq_tag>
+			<refReq_part>1</refReq_part>
+			<refReq_chNo>1.4.3</refReq_chNo>
+			<refReq_clNo>1.4.3.2</refReq_clNo>
+		</reqs>
+		<reqs><!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>ANSI C18-2M</refReq_tag>
+			<refReq_part>1</refReq_part>
+			<refReq_chNo>1.4.3</refReq_chNo>
+			<refReq_clNo>1.4.3.3</refReq_clNo>
+		</reqs>	
+		<reqs><!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>ANSI C18-2M</refReq_tag>
+			<refReq_part>1</refReq_part>
+			<refReq_chNo>1.4.3</refReq_chNo>
+			<refReq_clNo>1.4.3.4</refReq_clNo>
+		</reqs>		
+		<htmltext><![CDATA[
+		<p>The following types of terminals are used in portable applications:</p>
+		<ul><li>Cap and base: This type of terminal is used for cylindrical batteries that have the cylindrical side insulated from the terminals. The metal cap on the center electrode and the button of the battery serve as the terminals.</li>
+		<li>Snap: This type of terminal consists of a stud for the positive terminal and a socket for the negative terminal. These shall be made from nickel-plated steel or other suitable material. They shall be designed to provide a secure physical and electrical connection when filed with similar corresponding parts for connection to an electrical circuit.</li>
+		<li>Slide contacts -flat-plate, recessed, exterior contacts<br />
+		Contacts are typically arranged in a multiple array. Slide contact terminals include the negative and positive connections. In addition, when applicable, connections for the thermostat, thermal fuse, or other functions may be present. These exterior slide contacts are usually made of plated steel or other suitable material, and they may have different sizes and shapes.</li>
+		<li>Plug in connectors<br />
+		This type of terminal shall consist of a suitable assembly of metal contacts, mounted in an insulating housing or holder and adapted to receive corresponding contacts of a mating plug in such a manner as to ensure good electrical connection and proper voltage/farm factor&nbsp; 0 polarization</li>
+		</ul>
+		]]></htmltext>
+	</paragraph>
+	<paragraph>
+		<prodType>Module</prodType>		
+		<reqs><!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>IEEE 1725</refReq_tag>
+			<refReq_part>n.a.</refReq_part>
+			<refReq_chNo>6.10.3</refReq_chNo>
+			<refReq_clNo>6.10.3.2</refReq_clNo>
+		</reqs>	
+		<reqs><!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>IEEE 1625</refReq_tag>
+			<refReq_part>n.a.</refReq_part>
+			<refReq_chNo>6.5.4</refReq_chNo>
+			<refReq_clNo>6.5.4.1</refReq_clNo>
+		</reqs>	
+		<reqs><!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>IEEE 1625</refReq_tag>
+			<refReq_part>n.a.</refReq_part>
+			<refReq_chNo>6.5.4</refReq_chNo>
+			<refReq_clNo>6.5.4.2</refReq_clNo>
+		</reqs>		
+		<reqs><!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>IEEE 1625</refReq_tag>
+			<refReq_part>n.a.</refReq_part>
+			<refReq_chNo>6.5.4</refReq_chNo>
+			<refReq_clNo>6.5.4.3</refReq_clNo>
+		</reqs>		
+		<reqs><!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>IEEE 1625</refReq_tag>
+			<refReq_part>n.a.</refReq_part>
+			<refReq_chNo>6.5.4</refReq_chNo>
+			<refReq_clNo>6.5.4.4</refReq_clNo>
+		</reqs>	
+		<reqs><!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>IEEE 1625</refReq_tag>
+			<refReq_part>n.a.</refReq_part>
+			<refReq_chNo>6.5.4</refReq_chNo>
+			<refReq_clNo>6.5.4.5</refReq_clNo>
+		</reqs>	
+		<reqs><!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>IEEE 1625</refReq_tag>
+			<refReq_part>n.a.</refReq_part>
+			<refReq_chNo>6.5.4</refReq_chNo>
+			<refReq_clNo>6.5.4.6</refReq_clNo>
+		</reqs>	
+		<htmltext><![CDATA[
+		<p>Tabs, plates and lead cables should be connected by welding and/or soldering to provide secure connections. In order to minimize the potential of open circuits due to tears of poor welds, the welding of tabs should be done with greater than two welds. Current carrying tabs attached directly to the battery control board should ensure proper retention and strain relief. Tab welds for cells shall have specified strengths and should be periodically tested. Welding shall only be applied in areas designated by cell manufacturer/supplier.  The circuit board, cells, and components should be adequately protected from ultrasonic weld energy and/or other battery assembly process.</p>
+		]]></htmltext>
+	</paragraph>
+	<paragraph>
+		<prodType>Module</prodType>		
+		<reqs><!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>ANSI C18-2M</refReq_tag>
+			<refReq_part>2</refReq_part>
+			<refReq_chNo>5.1</refReq_chNo>
+			<refReq_clNo>5.1.6</refReq_clNo>
+		</reqs>	
+		<reqs><!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>UL s1642</refReq_tag>
+			<refReq_part>n.a.</refReq_part>
+			<refReq_chNo>4.3</refReq_chNo>
+			<refReq_clNo>4.3.1</refReq_clNo>
+		</reqs>		
+		<htmltext><![CDATA[
+		<p>For portable application a module shall be protected from abnormal charging currents during use. The protection against larger charging currents in the application can be done by using 2blocking components (diodes) or a blocking components together with a limiting component (resistor,fuse).  
+		The electronic shall be designed such that all necessary charge and discharge control features are accommodated. In event of failure of the electronics, the battery shall shut down.</p>
+		]]></htmltext>
+	</paragraph>
+	<paragraph>
+		<prodType>Module</prodType>		
+		<reqs><!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>IEEE 1625</refReq_tag>
+			<refReq_part>n.a.</refReq_part>
+			<refReq_chNo>6.9</refReq_chNo>
+			<refReq_clNo>6.9.1</refReq_clNo>
+		</reqs>	
+		<reqs><!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>UL s2054</refReq_tag>
+			<refReq_part>n.a.</refReq_part>
+			<refReq_chNo>4.3</refReq_chNo>
+			<refReq_clNo>4.3.1</refReq_clNo>
+		</reqs>		
+		<reqs><!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>UL s2054</refReq_tag>
+			<refReq_part>n.a.</refReq_part>
+			<refReq_chNo>4.3</refReq_chNo>
+			<refReq_clNo>4.3.2</refReq_clNo>
+		</reqs>	
+		<htmltext><![CDATA[
+		<p>The construction of the external connectors for portable application batteries shall be made to prevent inadvertent short circuiting of its terminals.  The insulation material of these connectors shall have a V-2 minimum flame rate.</p>
+		]]></htmltext>
+	</paragraph>
+	<paragraph>
+		<prodType>Module</prodType>					
+		<reqs><!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>IEEE 1625</refReq_tag>
+			<refReq_part>n.a.</refReq_part>
+			<refReq_chNo>6.2.5</refReq_chNo>
+			<refReq_clNo>6.2.5.1</refReq_clNo>
+		</reqs>
+		<reqs><!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>IEEE 1625</refReq_tag>
+			<refReq_part>n.a.</refReq_part>
+			<refReq_chNo>6.2.5</refReq_chNo>
+			<refReq_clNo>6.2.5.2</refReq_clNo>
+		</reqs>
+		<reqs><!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>IEEE 1625</refReq_tag>
+			<refReq_part>n.a.</refReq_part>
+			<refReq_chNo>6.2.5</refReq_chNo>
+			<refReq_clNo>6.2.5.3</refReq_clNo>
+		</reqs>
+		<reqs><!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>IEEE 1625</refReq_tag>
+			<refReq_part>n.a.</refReq_part>
+			<refReq_chNo>6.2.5</refReq_chNo>
+			<refReq_clNo>6.2.5.5</refReq_clNo>
+		</reqs>
+		<reqs><!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>IEEE 1625</refReq_tag>
+			<refReq_part>n.a.</refReq_part>
+			<refReq_chNo>6.2.6</refReq_chNo>
+			<refReq_clNo>6.2.6.2</refReq_clNo>
+		</reqs>
+		<reqs><!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>IEEE 1725</refReq_tag>
+			<refReq_part>n.a.</refReq_part>
+			<refReq_chNo>6.3</refReq_chNo>
+			<refReq_clNo>6.3.2</refReq_clNo>
+		</reqs>
+		<reqs><!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>SAE J1797</refReq_tag>
+			<refReq_part>n.a.</refReq_part>
+			<refReq_chNo>5</refReq_chNo>
+			<refReq_clNo>5.4</refReq_clNo>
+		</reqs>
+		<reqs><!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>SAE J1797</refReq_tag>
+			<refReq_part>n.a.</refReq_part>
+			<refReq_chNo>5</refReq_chNo>
+			<refReq_clNo>5.5</refReq_clNo>
+		</reqs>
+		<htmltext><![CDATA[
+			<p>For modules (batteries) used in portable applications the following electrical layout requirements can be applicable:</p>
+			<ul><li>Minimum distance between wires conveying cell voltages from series connection points in the module is 4mm. This is to minimize the likelihood of contaminants creating conductive paths between the wires. If the distance is smaller than 4mm, terminations shall be encapsulated.</li>
+			<li>All lines of differing potential should be protected from potential shorts.</li>
+			<li>Precautions shall be taken to prevent short circuits on the control board within the module.</li>
+			<li>There should be appropriate clearance between electrical parts to allow situations where deformation can occur by external mechanical force</li>
+			<li>Precautions shall be taken to minimize the occurrence of accidental internal and external short circuit</li>
+			<li>Battery management circuit in battery packs should be thermally isolated from the cells in order to preserve diagnostic information on the board. The board, and particularly the chip storing diagnostic information, should be placed away from the vent path.</li></ul>
+		]]></htmltext>
+	</paragraph>
+	<paragraph>
+		<prodType>Module</prodType>
+		<reqs><!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>SAE J1797</refReq_tag>
+			<refReq_part>n.a.</refReq_part>
+			<refReq_chNo>6</refReq_chNo>
+			<refReq_clNo>6.4</refReq_clNo>
+		</reqs>
+		<reqs><!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>IEEE 1625</refReq_tag>
+			<refReq_part>n.a.</refReq_part>
+			<refReq_chNo>6.2</refReq_chNo>
+			<refReq_clNo>6.2.2</refReq_clNo>
+		</reqs>
+		<reqs><!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>IEEE 1725</refReq_tag>
+			<refReq_part>n.a.</refReq_part>
+			<refReq_chNo>6.3</refReq_chNo>
+			<refReq_clNo>6.3.5</refReq_clNo>
+		</reqs>
+		<reqs><!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>SAE J2289</refReq_tag>
+			<refReq_part>n.a.</refReq_part>
+			<refReq_chNo>7.3</refReq_chNo>
+			<refReq_clNo>7.3.2</refReq_clNo>
+		</reqs>
+		<htmltext><![CDATA[
+		<p><strong>Environmental requirements</strong></p>
+		]]></htmltext>
+	</paragraph>
+	<paragraph>
+		<prodType>Module</prodType>
+		<reqs><!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>SAE J1797</refReq_tag>
+			<refReq_part>n.a.</refReq_part>
+			<refReq_chNo>6</refReq_chNo>
+			<refReq_clNo>6.4</refReq_clNo>
+		</reqs>
+		<reqs><!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>SAE J1797</refReq_tag>
+			<refReq_part>n.a.</refReq_part>
+			<refReq_chNo>6.4</refReq_chNo>
+			<refReq_clNo>6.4.1</refReq_clNo>
+		</reqs>
+		<reqs><!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>SAE J1797</refReq_tag>
+			<refReq_part>n.a.</refReq_part>
+			<refReq_chNo>6.4</refReq_chNo>
+			<refReq_clNo>6.4.2</refReq_clNo>
+		</reqs>
+		<reqs><!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>SAE J2289</refReq_tag>
+			<refReq_part>n.a.</refReq_part>
+			<refReq_chNo>7.3</refReq_chNo>
+			<refReq_clNo>7.3.2</refReq_clNo>
+		</reqs>
+		<htmltext><![CDATA[
+		<p>It is essential that gas emissions from batteries are considered in the module  design. In the module a flame arrestor or venting system can be implemented . If implemented the vent connection on the battery module shall be located in the upper level of the battery in an area for connections to be made with a reduced risk of pinched or bent tubing.</p>
+		]]></htmltext>
+	</paragraph>
+	<paragraph>
+		<prodType>Module</prodType>
+		<reqs><!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>IEEE 1625</refReq_tag>
+			<refReq_part>n.a.</refReq_part>
+			<refReq_chNo>6.2</refReq_chNo>
+			<refReq_clNo>6.2.2</refReq_clNo>
+		</reqs>
+		<reqs><!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>IEEE 1725</refReq_tag>
+			<refReq_part>n.a.</refReq_part>
+			<refReq_chNo>6.3</refReq_chNo>
+			<refReq_clNo>6.3.5</refReq_clNo>
+		</reqs>
+		<reqs><!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>IEEE 1625</refReq_tag>
+			<refReq_part>n.a.</refReq_part>
+			<refReq_chNo>6.7</refReq_chNo>
+			<refReq_clNo>6.7.4</refReq_clNo>
+		</reqs>
+		<reqs><!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>IEEE 1625</refReq_tag>
+			<refReq_part>n.a.</refReq_part>
+			<refReq_chNo>6.7</refReq_chNo>
+			<refReq_clNo>6.7.5</refReq_clNo>
+		</reqs>
+		<htmltext><![CDATA[
+		<p>The operating range for protection circuit components (excluding cells a thermal device designed to activate at specific temperatures) is -25°C to +85°C.</p>
+		<p>Module shall meet specific requirement for altitude.</p>
+		<p>In high-humidity environments, microscopic droplets of water can weaking the electrical isolation between conductors. A conformal coat may be required on the battery management circuit. Hygroscopic material shall not be used.</p>
+		]]></htmltext>
+	</paragraph>	
+</description>	
+<processOwner>company0</processOwner>
+</step>

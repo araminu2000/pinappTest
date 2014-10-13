@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<step>
+<proc>Handling damaged components</proc>	
+<title>Disassembling damaged packs</title>	
+<description>	
+	<paragraph>
+		<prodType>Damaged pack | Pack</prodType>
+		<act>pack disassembling</act>							
+		<recoms>recomm_87</recoms>
+		<recoms>recomm_90</recoms>
+		<recoms>recomm_92</recoms>
+		<recoms>recomm_98</recoms>
+		<recoms>recomm_99</recoms>
+		<recoms>recomm_100</recoms>
+		<recoms>recomm_104</recoms>
+		<recoms>recomm_105</recoms>
+		<recoms>recomm_106</recoms>
+		<htmltext><![CDATA[
+			<p>After unpacking the damaged pack, the pack can be disassembled. In this step electrocution stays the main risk. Next to the measures to prevent electrocution (high voltage tools and gloves, covering of connectors), precautions to avoid electrical abuse are needed. By avoiding electrical abuse, the temperature increase and possible gas formation cannot occur. The enclosure of the pack needs to be resistant against internal pressure to avoid rupture in case gas formation occurs. The operator needs to wear the appropriate protection equipment (safety glasses and gloves) to decrease the severity of possible injuries due to the rupture of the casing.</p>
+			<p>Due to the electrical abuse the temperature can increase at the connectors. It is recommended to monitor these temperatures. The operator can wear safety gloves which protects against heat</p>
+		]]></htmltext>
+	</paragraph>
+</description>
+<processOwner>company0</processOwner>
+</step>

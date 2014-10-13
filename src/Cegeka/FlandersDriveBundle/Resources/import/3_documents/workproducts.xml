@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<rootWorkProduct>
+		<wp>
+		<tagWP>test_high_energy_template</tagWP>
+		<nameWP>LiSafe_mastertemplate_High energy.doc</nameWP>
+		<descriptionWP>Battery pack and system testing for High energy applications</descriptionWP>
+	</wp>	
+	<wp>
+		<tagWP>test_high_power_template</tagWP>
+		<nameWP>LiSafe_mastertemplate_High power.doc</nameWP>
+		<descriptionWP>Battery pack and system testing for High power applications</descriptionWP>
+	</wp>	
+	<wp>
+		<tagWP>first_responder_guide</tagWP>
+		<nameWP>Rescue and training manual vehicles eng version 2014 8 29.docx</nameWP>
+		<descriptionWP>Guide with specific information about the vehicle and the electric dangers for first (fire fighters, police, medical personal, EMT) and second responders (towing and maintenance personal).
+		This document is a template made by CTIF Commission for Extrication and New Technology. Designer is Kurt VOllmacher (project leader).</descriptionWP>
+	</wp>	
+	<wp>
+		<tagWP>template_training_manual_battery</tagWP>
+		<nameWP>Rescue and training manual Lithium ion battery in a vehicle 2014 08 16.docx</nameWP>
+		<descriptionWP>Information for first (fire fighters, police, medical personal, EMT) and second responders (towing and maintenance personal) rescue and training manual, high voltage Lithium-ion batteries.
+		This document is a template made by CTIF Commission for Extrication and New Technology in cooperation with RECHARGE. Designer is Kurt VOllmacher (project leader).</descriptionWP>
+	</wp>
+	<wp>
+		<tagWP>IATA_DGR</tagWP>
+		<nameWP>LiSafe_IATA_DGR_Transport_Document.doc</nameWP>
+		<descriptionWP>Document for transportation according due to the IATA regulation</descriptionWP>
+	</wp>
+	<wp>
+		<tagWP>ADR</tagWP>
+		<nameWP>LiSafe_ADR_Transport_Document.doc</nameWP>
+		<descriptionWP>Document for transportation according due to the ADR regulation</descriptionWP>
+	</wp>
+	<wp>
+		<tagWP>IMDG</tagWP>
+		<nameWP>LiSafe_IMDG_Transport_Document.doc</nameWP>
+		<descriptionWP>Document for transportation according due to the IMDG regulation</descriptionWP>
+	</wp>
+	<wp>
+		<tagWP>vehicle_user_manual</tagWP>
+		<nameWP>LiSafe_VehicleUserManual.docx</nameWP>
+		<descriptionWP>Vehicle user manual to give the customer next to the normal vehicle information, information on the risks on high voltage components and safety guidelines.</descriptionWP>
+	</wp>
+</rootWorkProduct>

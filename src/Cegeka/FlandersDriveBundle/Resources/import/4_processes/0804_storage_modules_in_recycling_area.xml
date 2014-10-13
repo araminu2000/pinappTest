@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<step>
+<proc>Recycling</proc>	
+<title>Storage of the modules in the recycling area</title>	
+<description>	
+	<paragraph>
+		<prodType>Module</prodType>
+		<act>storing</act>			
+		<recoms>recomm_32</recoms>
+		<recoms>recomm_31</recoms>
+		<recoms>recomm_9</recoms>
+		<recoms>recomm_121</recoms>
+		<recoms>recomm_128</recoms>
+		<htmltext><![CDATA[
+			<p>The modules entering the recycling process can be first placed in storage. These modules are:
+			<ul><li>scrap modules from the production process</li>
+			<li>resulting from the pack disassembling</li></ul>
+			<p>During the storage of the modules the main risk is thermal runway. By checking the temperature of the modules (especially after moving the modules) 
+			regular the start of a thermal runaway can be detected.	The area in which the modules are stored shall be well ventilated.</p>
+			<p>The storage in which the modules are placed can be adapted to the specific risks.</p>
+			<p>In case of a fire information about the stored goods must be given to the fire brigade. This can be done via the 
+			‘Information for rescue and emergency services 1ste and 2nd responders – Lithium-ion batteries in a storage facility’. 
+			This document is currently designed by CTIF and Recharge and is part of the program of given uniform information to rescue and emergency services.</p>
+			<p>Background information on how to safely store Lithium-ion batteries, how to early detect a fire and how to act in 
+			the different stages is described in <a href="http://193.104.8.63/bundles/cegekaflandersdrive/templates/guidelines/LiSAFE_Lithium-Ion%20batteries_storage%20guidelines.pdf">the guidelines of safely storing batteries</a>.</p>
+		]]></htmltext>
+	</paragraph>
+</description>
+<processOwner>company0</processOwner>
+</step>

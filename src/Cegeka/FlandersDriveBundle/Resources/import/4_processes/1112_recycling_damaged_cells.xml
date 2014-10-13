@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<step>
+<proc>Handling damaged components</proc>	
+<title>Recycling damaged cells</title>	
+<description>	
+	<paragraph>
+		<prodType>Damaged cell | Cell</prodType>
+		<act>lifting | placing | moving</act>							
+		<recoms>recomm_15</recoms>
+		<recoms>recomm_14</recoms>
+		<htmltext><![CDATA[
+			<p>During the recycling of damaged cells thermal runaway is the main risk. To detect the thermal runaway the temperature need to be checked frequent. To avoid the propagation of the runaway, moulded trays need to be used to separate the cells</p>
+		]]></htmltext>
+	</paragraph>		
+</description>
+<processOwner>company0</processOwner>
+</step>

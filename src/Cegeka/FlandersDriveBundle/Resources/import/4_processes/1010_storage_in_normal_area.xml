@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<step>
+<proc>Storage</proc>	
+<title>Storing the components in a normal area</title>	
+<description>	
+	<paragraph>
+		<prodType>Cell | Damaged cell | Module | Damaged module | Pack | Damaged pack</prodType>
+		<act>storing</act>							
+		<recoms>recomm_115</recoms>
+		<htmltext><![CDATA[
+			<p>A normal storage area is an area where no measures are taken to cope with the risks of lithium-ion batteries. These can for example be
+			areas to store temporally batteries.</p>
+			<p>In case there is a fire, the fire brigade need to know where dangerous goods are stored. It is 
+			therefore recommended to at information of battery storage to the intervention plan.</p>
+			<p>When the batteries are stored in a normal area the same risk of thermal runaway exists. 
+			The effect of the consequences of the thermal runway can be much worse. If a cells are 
+			placed in this type of area, the measures to detect thermal runaway and avoid propagation are valid. More awareness and monitoring is needed .</p>
+		]]></htmltext>
+	</paragraph>	
+</description>
+<processOwner>company0</processOwner>
+</step>

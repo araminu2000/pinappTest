@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<step>
+<proc>Handling damaged components</proc>	
+<title>Damaged cells</title>	
+<description>	
+	<paragraph>
+		<prodType>Damaged cell | Cell</prodType>
+		<act>lifting | placing | moving</act>
+		<htmltext><![CDATA[
+			<p>Damaged cells can be detected before the module assembly or they can be a result from the disassembling of a module</p>
+			<p>If damaged cells are handled external short circuit need to be avoided.</p>
+		]]></htmltext>
+	</paragraph>		
+</description>
+<processOwner>company0</processOwner>
+</step>

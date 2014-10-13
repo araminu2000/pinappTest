@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<step>
+<proc>Pack design and development</proc>	
+<title>Pack design and development</title>	
+<description>	
+	<paragraph>
+		<prodType>Pack</prodType>
+		<htmltext><![CDATA[
+			<p>The information of design and development of a pack is splitted up in the following sub sections</p>
+			<ul><li>Pack design and requirements</li>
+			<li>Monitor and control system for a pack</li>
+			<li>Marking and labelling</li>
+			<li>Testings</li>
+			<li>Documentation</li>
+			<li>Type approval</li></ul>
+		]]></htmltext>
+	</paragraph>
+</description>
+<processOwner>company0</processOwner>
+</step>

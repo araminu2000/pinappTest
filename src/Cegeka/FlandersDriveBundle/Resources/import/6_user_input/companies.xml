@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<s1:rootCompany xmlns:s1="http://www.exampleURI.com/Schema1">
+	<company>
+		<idCompany>company0</idCompany>
+		<nameCompany>GeneralComp</nameCompany>
+	</company>
+	<company>
+		<idCompany>company1</idCompany>
+		<nameCompany>Flanders' DRIVE</nameCompany>
+	</company>
+	<company>
+		<idCompany>company2</idCompany>
+		<nameCompany>Partner 1</nameCompany>
+	</company>
+</s1:rootCompany>

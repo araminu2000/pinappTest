@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<step>
+<proc>Vehicle assembly</proc>	
+<title>Mounting the battery in the vehicle</title>	
+<description>	
+	<paragraph>
+		<prodType>Pack | Vehicle</prodType>
+		<act>assembling</act>
+		<recoms>recomm_78</recoms>
+		<recoms>recomm_79</recoms>
+		<htmltext><![CDATA[
+			<p>At the production line, the battery pack is mounted into the vehicle. During each step in the production, mechanical and electrical abuses need to be avoided. This abuse can lead to a thermal runaway in a later phase of the battery pack life cycle.</p>
+			<p>At the line the temperature of the packs can be checked to detect the start of a thermal runaway.</p>
+		]]></htmltext>
+	</paragraph>
+</description>
+<processOwner>company0</processOwner>
+</step>

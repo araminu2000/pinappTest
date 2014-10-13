@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<step>
+<proc>Vehicle assembly</proc>	
+<title>Commissioning</title>	
+<description>	
+	<paragraph>
+		<prodType>Pack</prodType>
+		<act>assembling</act>
+		<reqs> <!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>SAE J2289</refReq_tag>
+			<refReq_part>n.a.</refReq_part>
+			<refReq_chNo>6.7</refReq_chNo>
+			<refReq_clNo>6.7.1</refReq_clNo>
+		</reqs>
+		<htmltext><![CDATA[
+			<p>A built in diagnostics system can verify if the pack is correctly assembled prior to the installation of the pack 
+			in the vehicle. The design of the diagnostics shall be done during the design and development of the pack.</p>
+		]]></htmltext>
+	</paragraph>
+</description>
+<processOwner>company0</processOwner>
+</step>

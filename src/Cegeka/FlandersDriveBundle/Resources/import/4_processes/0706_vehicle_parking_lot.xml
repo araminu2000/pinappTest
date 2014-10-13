@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<step>
+<proc>Vehicle assembly</proc>	
+<title>Vehicle in parking lot</title>	
+<description>	
+	<paragraph>
+		<prodType>Vehicle</prodType>
+		<act>driving</act>	
+		<recoms>recomm_84</recoms>	
+		<recoms>recomm_113</recoms>
+		<htmltext><![CDATA[
+			<p>After production the vehicle can be placed on the parking lot before it goes on transportation to the garage. 
+			When the vehicle is driven to the parking lot, the driving style need to be adapted. Other road users aren’t used 
+			the presence of electrical vehicle. The driver needs to be aware of this and anticipate on this danger. Information 
+			on where the electrical vehicles are used can be added to the internal transportation plan. Signalisation can be placed to warn other road users.</p>
+			<p><strong>TO DO: teplate or example of internal transportation plan, signalisation</strong></p>
+		]]>	</htmltext>
+	</paragraph>
+</description>
+<processOwner>company0</processOwner>
+</step>

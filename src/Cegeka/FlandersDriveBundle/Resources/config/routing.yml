@@ -1,0 +1,31 @@
+fd_homepage:
+    pattern:    /
+    defaults:   { _controller: CegekaFlandersDriveBundle:Content:displayHome }
+
+# Content Routing
+cegeka_fd_content:
+    resource: "@CegekaFlandersDriveBundle/Resources/config/routing/content.yml"
+    prefix:   /content
+
+cegeka_fd_search:
+    resource: "@CegekaFlandersDriveBundle/Resources/config/routing/search.yml"
+    prefix:   /search
+
+cegeka_fd_detail:
+    resource: "@CegekaFlandersDriveBundle/Resources/config/routing/detail.yml"
+    prefix:   /
+
+cegeka_fd_export_excel:
+    resource: "@CegekaFlandersDriveBundle/Resources/config/routing/export-excel.yml"
+    prefix:   /export
+
+cegeka_fd_profile:
+    resource: "@CegekaFlandersDriveBundle/Resources/config/routing/profile.yml"
+    prefix:   /profile/
+
+cegeka_fd_note:
+    resource: "@CegekaFlandersDriveBundle/Resources/config/routing/note.yml"
+    prefix:   /note/
+
+cegeka_fd_resource:
+    resource: "@CegekaFlandersDriveBundle/Resources/config/routing/resource.yml"

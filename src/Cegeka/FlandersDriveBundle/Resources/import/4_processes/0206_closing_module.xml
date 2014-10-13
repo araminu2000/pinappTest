@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<step>						
+<proc>Module assembly</proc>	
+<title>Closing the module</title>	
+<description>	
+	<paragraph>
+		<prodType>Module</prodType>
+		<act>assembling</act>							
+		<recoms>recomm_16</recoms>
+		<recoms>recomm_17</recoms>			
+		<recoms>recomm_26</recoms>
+		<recoms>recomm_27</recoms>	
+		<recoms>recomm_33</recoms>
+		<recoms>recomm_39</recoms>		
+		<htmltext><![CDATA[
+			<p>If necessary the module can be closed. In this last step the module need to be packed correctly
+				During this step measures need to be taken to avoid electrical short circuit, leakage and thermal runaway. These measures are:</p>
+			<ul><li>Covering current connector</li>
+			<li>Avoid blunt tooling</li>
+			<li>Avoid electrical and mechanical abuse</li></ul>
+			<p>To decrease the effects of the risks, the operator shall wear safety gloves and glasses which protect against heat, sparks and electrolyte. 
+				Monitoring the temperature can help to detect a thermal runaway in a early stage.</p>
+		]]></htmltext>	
+	</paragraph>			
+</description>	
+<processOwner>company0</processOwner>
+</step>

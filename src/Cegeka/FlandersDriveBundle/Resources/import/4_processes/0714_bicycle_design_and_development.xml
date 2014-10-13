@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<step>
+<proc>Vehicle design and development</proc>	
+<title>Electric bicycle design and development</title>	
+<description>	
+	<paragraph>
+		<prodType>Vehicle</prodType>
+		<reqs> <!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>NEN-EN 15194</refReq_tag>
+			<refReq_part>n.a.</refReq_part>
+			<refReq_chNo>4.2.4</refReq_chNo>
+			<refReq_clNo>4.2.4.1</refReq_clNo>
+		</reqs>
+		<reqs> <!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>NEN-EN 15194</refReq_tag>
+			<refReq_part>n.a.</refReq_part>
+			<refReq_chNo>4.2.6</refReq_chNo>
+			<refReq_clNo>4.2.6.1</refReq_clNo>
+		</reqs>
+		<reqs> <!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>NEN-EN 15194</refReq_tag>
+			<refReq_part>n.a.</refReq_part>
+			<refReq_chNo>4.2.4</refReq_chNo>
+			<refReq_clNo>4.2.4.3</refReq_clNo>
+		</reqs>
+		<reqs> <!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>NEN-EN 15194</refReq_tag>
+			<refReq_part>n.a.</refReq_part>
+			<refReq_chNo>4.2</refReq_chNo>
+			<refReq_clNo>4.2.1</refReq_clNo>
+		</reqs>
+		<reqs> <!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>NEN-EN 15194</refReq_tag>
+			<refReq_part>n.a.</refReq_part>
+			<refReq_chNo>4.2.2</refReq_chNo>
+			<refReq_clNo>4.2.2.1</refReq_clNo>
+		</reqs>
+		<reqs> <!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>NEN-EN 15194</refReq_tag>
+			<refReq_part>n.a.</refReq_part>
+			<refReq_chNo>4.2.3</refReq_chNo>
+			<refReq_clNo>4.2.3.1</refReq_clNo>
+		</reqs>
+		<reqs> <!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>NEN-EN 15194</refReq_tag>
+			<refReq_part>n.a.</refReq_part>
+			<refReq_chNo>4.2.3</refReq_chNo>
+			<refReq_clNo>4.2.3.4</refReq_clNo>
+		</reqs>
+		<reqs> <!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>NEN-EN 15194</refReq_tag>
+			<refReq_part>n.a.</refReq_part>
+			<refReq_chNo>4.2.3</refReq_chNo>
+			<refReq_clNo>4.2.3.3</refReq_clNo>
+		</reqs>
+		<reqs> <!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>NEN-EN 15194</refReq_tag>
+			<refReq_part>n.a.</refReq_part>
+			<refReq_chNo>6</refReq_chNo>
+			<refReq_clNo>6</refReq_clNo>
+		</reqs>
+		<reqs> <!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>NEN-EN 15194</refReq_tag>
+			<refReq_part>n.a.</refReq_part>
+			<refReq_chNo>5</refReq_chNo>
+			<refReq_clNo>5</refReq_clNo>
+		</reqs>
+		<reqs> <!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>NEN-EN 15194</refReq_tag>
+			<refReq_part>n.a.</refReq_part>
+			<refReq_chNo>4.2.2</refReq_chNo>
+			<refReq_clNo>4.2.2.2</refReq_clNo>
+		</reqs>
+		<reqs> <!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>NEN-EN 15194</refReq_tag>
+			<refReq_part>n.a.</refReq_part>
+			<refReq_chNo>4.2.3</refReq_chNo>
+			<refReq_clNo>4.2.3.2</refReq_clNo>
+		</reqs>
+		<reqs> <!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>NEN-EN 15194</refReq_tag>
+			<refReq_part>n.a.</refReq_part>
+			<refReq_chNo>4.2.4.2 </refReq_chNo>
+			<refReq_clNo>4.2.4.2.1</refReq_clNo>
+		</reqs>
+		<reqs> <!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>NEN-EN 15194</refReq_tag>
+			<refReq_part>n.a.</refReq_part>
+			<refReq_chNo>4.2.4.2 </refReq_chNo>
+			<refReq_clNo>4.2.4.2.2</refReq_clNo>
+		</reqs>
+		<reqs> <!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>NEN-EN 15194</refReq_tag>
+			<refReq_part>n.a.</refReq_part>
+			<refReq_chNo>4.2.4.3.2 </refReq_chNo>
+			<refReq_clNo>4.2.4.3.2.1</refReq_clNo>
+		</reqs>
+		<reqs> <!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>NEN-EN 15194</refReq_tag>
+			<refReq_part>n.a.</refReq_part>
+			<refReq_chNo>4.2.4.3.2 </refReq_chNo>
+			<refReq_clNo>4.2.4.3.2.2</refReq_clNo>
+		</reqs>
+		<reqs> <!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>NEN-EN 15194</refReq_tag>
+			<refReq_part>n.a.</refReq_part>
+			<refReq_chNo>4.2.6 </refReq_chNo>
+			<refReq_clNo>4.2.6.2</refReq_clNo>
+		</reqs>
+		<htmltext><![CDATA[
+			<h2>Bicycle</h2>
+			<h3><strong>Design of the vehicle</strong></h3>
+			<p><b>Operational safety/use</b></p>
+			<p>Electric assistance shall be provided when the cyclist pedals forward. When the cyclist stops pedaling forward, the assistance needs to be cut off. This needs to be done in such a way that the cut off distance doesn’t exceed 5 m with the use of brake lever cut off switch or 2 m without the use of brake lever cut off switch. When the vehicle reaches the designed maximum assistance speed, the assistance shall be progressively reduced and finally cut off. The power managing of the assistance shall be smooth and progressive.   The maximum speed may differ by 5% of the speed of 25km/h or lower values specified by the manufacturer.</p>
+			<p>The electrically power assisted cycles can be equipped with a start up assistance mode. This mode is active up to 6km/h or lower as specified by the manufacturer. Prevention measures need to be taken to avoid unauthorized use. Activating of this mode shall be done by the voluntary and maintained action of the user either when riding without pedaling or when the user is pushing the cycle.</p>
+			<p><b>Physical/Mechanical requirements</b></p>
+			<p>The electrically power assisted cycles shall be constructed and have adequate mechanical strength to withstand rough handle that may be expected during normal use. It shall be designed so to avoid battery damages.</p>
+			<p><b>Electrical requirements</b></p>
+			<ul><li>The electric control system shall switch of power to the electric motor in case of a malfunction a hazardous manner</li>
+			<li>Used symbols shall be described in the user instructions</li>
+			<li> The used pack of batteries shall be designed in order to avoid risk of fire, mechanical deterioration resulting from abnormal use.</li>
+			<li>The combination battery/charger shall be safe and the two parts shall be compatible according to the manufacturer’s specifications. In order to be able to check the compatibility, he batteries and sharger unit shall be labeled.</li>
+			<li>Battery terminals shall be protected against creating an accidental short circuit and batteries need to be protected against overcharging. This can be done by fitting an appropriate overheating and short circuit protection device.</li>
+			<li> The temperature reached in the cable and plug shall be lower than their specified temperature.</li>
+			<li>There shall be no corrosion on the plug pins.</li>
+			<li>There shall be no damage to the insulation of the cable and the plug.</li>
+			<li>Conduit entries, cable entries and knock-outs shall be constructed or located so that the introduction of the conduit or cable does not reduce the protection measures adopted by the manufacturer</li>
+			<li>Electrical connection shall comply with 60364-5-52:2001</li></ul>
+			<p>For the wiring the following requirements apply:</p>
+			<ul><li>Wire ways shall be smooth and free from sharp edges</li>
+			<li>Wires shall be protected to avoid damages to the insulation by contact with burrs, cooling fins or similar sharp edges. This means also that holes in metal through which insulated wires pass shall have smooth and rounded surfaces or be provided by bushings</li>
+			<li>Contact between wires and moving parts shall be prevented.</li>
+			<li>Flexible metallic tubes shall not cause damage to the insulation of the conductors contained within them.</li>
+			<li>The insulation of internal wiring shall withstand electrical stress during normal use.</li>
+			<li>For a integrated battery charger, electric safety of the battery charger applies.</li></ul>
+			<p><b>Environmetnal requirements</b></p>
+			<ul><li>Moisture resistance: IEC 60529</li></ul>
+			<h3><strong>User instructions</strong></h3>
+			<p>The user must be provided with the following instructions and information:</p>
+			<ul><li>Concept and description of electric assistance</li>
+			<li>Recommendation for washing</li>
+			<li>Control and tell tables</li>
+			<li>Specific EPAC recommendations for use</li>
+			<li>Specific EPAC warning</li>
+			<li>Recommendations on how to charge the battery, use the charger together with the information on the importance of following the instruction contained on the label of the battery charger. </li></ul>
+			<h3><strong>Marking and labeling</strong></h3>
+			<p>The electrically power assisted cycles shall be visibly and durably marked with the following information:</p>
+			<ul><li>‘EPAC’ according to EN 15194</li>
+			<li>Cut off speed in km/h</li>
+			<li>Electric motor maximum continuous rated power</li></ul>
+			<h3><strong>Tests</strong></h3>
+			<p>The requirements for the electrically power assisted cycles shall be checked with the following tests:</p>
+			<ul><li>Battery test to validate the behavior during overcharging</li>
+			<li>Temperature measurements and visual checks of the cable and plug after discharging to the discharge limit with the maximum allowed current</li>
+			<li>Power management test to validate the correct operation of the electric assistance</li>
+			<li>Power management test to validate the start up assistance mode</li>
+			<li>Validation of the maximum speed</li></ul>
+		]]></htmltext>	
+	</paragraph>
+		
+</description>	
+<processOwner>company0</processOwner>
+</step>

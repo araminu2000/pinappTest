@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<step>
+<proc>Internal logistics | Storage</proc>	
+<title>Internal logistics and storage</title>	
+<description>	
+	<paragraph>
+		<htmltext><![CDATA[
+			<h3><strong>Purpose and scope</strong></h3>
+			<p>Inside one production line where batteries are handled, internal logistics and storage of cells, modules or packs occurs. 
+				For example logistics from receiving zone of at a plant to the storage or to the production. In each step batteries are handled (lifted, placed, moved) by operators. 
+				Appropriate measures need to be taken to come to a safe logistics and storage process.</p>								
+			<h3><strong>Structure of the process</strong></h3>
+			<p>The internal logistics process can start from the receiving zone of a plant or from a line in a plant. From here on components 
+				can go to the production line or to the storage. If they are placed in storage, they need to be packed appropriate and moved into 
+				the storage area. This area can be a dedicated area for battery storage or a normal storage area. After storage the components 
+				can be moved to the main production line.</p>
+		]]></htmltext>	
+	</paragraph>
+</description>
+<processOwner>company0</processOwner>
+</step>

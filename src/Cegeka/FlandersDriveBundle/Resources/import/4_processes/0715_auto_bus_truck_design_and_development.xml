@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<step>
+<proc>Vehicle design and development</proc>	
+<title>Vehicle (auto, bus, truck) design and development</title>	
+<description>
+	<paragraph>
+		<prodType>Vehicle</prodType>
+		<htmltext><![CDATA[
+			<p>The information of design and development of a auto, bus or truck is splitted up in the following sub sections</p>
+			<ul><li>Vehicle design and requirements</li>
+			<li>Thermal managment</li>
+			<li>Marking and labelling</li>
+			<li>Testings</li>
+			<li>Documentation</li>
+			<li>Type approval</li></ul>
+		]]></htmltext>	
+	</paragraph>	
+</description>	
+<processOwner>company0</processOwner>
+</step>

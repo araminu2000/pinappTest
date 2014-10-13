@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<step>
+<proc>Pack assembly</proc>	
+<title>Closing of the pack</title>	
+<description>	
+	<paragraph>
+		<prodType>Pack</prodType>
+		<act>assembling</act>
+		<htmltext><![CDATA[
+			<p>When all electronics and components are added to the pack, the pack can be closed. The cover protects the pack from mechanical abuse 
+			and environmental influences. It also avoid that people can touch the active parts.</p>
+			<p>When the cover is placed care be taken to avoid short circuit between elements of the pack. The measures to avoid electrocution are still in place.</p>			
+		]]></htmltext>
+	</paragraph>
+</description>
+<processOwner>company0</processOwner>
+</step>

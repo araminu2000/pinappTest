@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rootRoles xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<person>
+		<tagPerson>role_1</tagPerson>
+		<role>Team Manager</role>
+		<descr>Manager of team responsible for development</descr>
+		<mngnt>yes</mngnt>
+	</person>
+	<person>
+		<tagPerson>role_2</tagPerson>
+		<role>Safety engineer</role>
+		<descr>engineer responsible for safety during operation</descr>
+		<mngnt>no</mngnt>
+	</person>
+	<person>
+		<tagPerson>role_3</tagPerson>
+		<role>Logistic manager</role>
+		<descr>manager of logistic area</descr>
+		<mngnt>yes</mngnt>
+	</person>
+</rootRoles>

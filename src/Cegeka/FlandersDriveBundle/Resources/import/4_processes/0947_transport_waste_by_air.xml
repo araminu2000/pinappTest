@@ -1,0 +1,14 @@
+<step>
+<proc>Transportation</proc>	
+<title>Transporting waste by air</title>
+<description>	
+	<paragraph>
+		<prodType>Cell | Module | Pack</prodType>
+		<act>packing | labelling</act>		
+		<htmltext><![CDATA[
+			<h3><strong>Waste transported by air</strong></h3>
+			<p>Waste batteries and batteries being shipped for recycling or disposal are prohibited from air transport unless approved by the appropriate national authority or the State of Origin and the State of the Operator.</p>
+		]]></htmltext>
+		</paragraph>	
+</description>
+</step>

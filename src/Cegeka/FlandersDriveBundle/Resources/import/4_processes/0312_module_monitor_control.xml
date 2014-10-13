@@ -1,0 +1,487 @@
+<?xml version="1.0" encoding="utf-8"?>
+<step>
+<proc>Module design and development</proc>	
+<title>Monitor and control system</title>	
+<description>
+	<paragraph>
+		<prodType>Module</prodType>
+		<reqs><!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>IEEE 1625</refReq_tag>
+			<refReq_part>n.a.</refReq_part>
+			<refReq_chNo>6.3.4</refReq_chNo>
+			<refReq_clNo>6.3.4.1</refReq_clNo>
+		</reqs>
+		<reqs><!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>IEEE 1625</refReq_tag>
+			<refReq_part>n.a.</refReq_part>
+			<refReq_chNo>6.3.6</refReq_chNo>
+			<refReq_clNo>6.3.6.1</refReq_clNo>
+		</reqs>
+		<reqs><!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>IEEE 1625</refReq_tag>
+			<refReq_part>n.a.</refReq_part>
+			<refReq_chNo>6.2.3</refReq_chNo>
+			<refReq_clNo>6.2.3.1</refReq_clNo>
+		</reqs>
+		<reqs><!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>IEEE 1625</refReq_tag>
+			<refReq_part>n.a.</refReq_part>
+			<refReq_chNo>6.2.4</refReq_chNo>
+			<refReq_clNo>6.2.4.1</refReq_clNo>
+		</reqs>
+		<reqs><!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>IEEE 1625</refReq_tag>
+			<refReq_part>n.a.</refReq_part>
+			<refReq_chNo>6.2</refReq_chNo>
+			<refReq_clNo>6.2.9</refReq_clNo>
+		</reqs>
+		<reqs><!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>IEEE 1725</refReq_tag>
+			<refReq_part>n.a.</refReq_part>
+			<refReq_chNo>6.3</refReq_chNo>
+			<refReq_clNo>6.3.4</refReq_clNo>
+		</reqs>
+		<reqs><!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>IEC 62133</refReq_tag>
+			<refReq_part>n.a.</refReq_part>
+			<refReq_chNo>5</refReq_chNo>
+			<refReq_clNo>5.4</refReq_clNo>
+		</reqs>
+		<reqs><!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>ANSI C18-2M</refReq_tag>
+			<refReq_part>2</refReq_part>
+			<refReq_chNo>5.1</refReq_chNo>
+			<refReq_clNo>5.1.3</refReq_clNo>
+		</reqs>
+		<htmltext><![CDATA[
+			<p>A monitor and control system can improve the battery system health and life. The system prevents abnormal temperature-rise conditions. The module shall be used in within temperature  , voltage and current limits  specified by the cell manufacturer. The charging needs to be maintained within the temperature, voltage and current limits specified.</p>
+		]]></htmltext>
+	</paragraph>
+	<paragraph>
+		<prodType>Module</prodType>
+		<reqs><!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>IEEE 1625</refReq_tag>
+			<refReq_part>n.a.</refReq_part>
+			<refReq_chNo>6.3.6</refReq_chNo>
+			<refReq_clNo>6.3.6.1</refReq_clNo>
+		</reqs>
+		<htmltext><![CDATA[
+			<p>Methods to detect or predict cell abnormalities and other conditions that may lead to hazards should be considered during the design of the module management.</p>
+		]]></htmltext>
+	</paragraph>
+	<paragraph>
+		<prodType>Module</prodType>
+		<reqs><!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>IEEE 1625</refReq_tag>
+			<refReq_part>n.a.</refReq_part>
+			<refReq_chNo>6.3.9</refReq_chNo>
+			<refReq_clNo>6.3.9.1</refReq_clNo>
+		</reqs>
+		<reqs><!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>IEEE 1625</refReq_tag>
+			<refReq_part>n.a.</refReq_part>
+			<refReq_chNo>6.3.9</refReq_chNo>
+			<refReq_clNo>6.3.9.2</refReq_clNo>
+		</reqs>
+		<reqs><!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>ANSI C18-2M</refReq_tag>
+			<refReq_part>2</refReq_part>
+			<refReq_chNo>5.1</refReq_chNo>
+			<refReq_clNo>5.1.3</refReq_clNo>
+		</reqs>
+		<reqs><!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>IEEE 1625</refReq_tag>
+			<refReq_part>n.a.</refReq_part>
+			<refReq_chNo>6.7.2</refReq_chNo>
+			<refReq_clNo>6.7.2.1</refReq_clNo>
+		</reqs>
+		<reqs><!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>IEEE 1625</refReq_tag>
+			<refReq_part>n.a.</refReq_part>
+			<refReq_chNo>6.7.2</refReq_chNo>
+			<refReq_clNo>6.7.2.2</refReq_clNo>
+		</reqs>
+		<reqs><!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>IEEE 1625</refReq_tag>
+			<refReq_part>n.a.</refReq_part>
+			<refReq_chNo>6.7.2</refReq_chNo>
+			<refReq_clNo>6.7.2.3</refReq_clNo>
+		</reqs>
+		<reqs><!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>IEEE 1625</refReq_tag>
+			<refReq_part>n.a.</refReq_part>
+			<refReq_chNo>6.7.2</refReq_chNo>
+			<refReq_clNo>6.7.2.4</refReq_clNo>
+		</reqs>
+		<reqs><!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>IEEE 1725</refReq_tag>
+			<refReq_part>n.a.</refReq_part>
+			<refReq_chNo>6.3</refReq_chNo>
+			<refReq_clNo>6.3.6</refReq_clNo>
+		</reqs>
+		<reqs><!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>IEEE 1725</refReq_tag>
+			<refReq_part>n.a.</refReq_part>
+			<refReq_chNo>6.5</refReq_chNo>
+			<refReq_clNo>6.5.2</refReq_clNo>
+		</reqs>
+		<reqs><!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>IEEE 1725</refReq_tag>
+			<refReq_part>n.a.</refReq_part>
+			<refReq_chNo>6.5</refReq_chNo>
+			<refReq_clNo>6.5.3</refReq_clNo>
+		</reqs>
+		<htmltext><![CDATA[
+			<p><b>Temperature</b></p>
+			<p>Design of modules shall be such that abnormal temperature-rise conditions are prevented . If the temperature of the hottest cell exceeds the maximum safe charging temperature, charging shall be terminated.  Localized heating might come from a cell fault, from external heating by the system, or by the end user placing the equipment close to a heat source.</p>
+			<p>Over-temperature protection shall be incorporated to prevent operation outside temperature limits. Temperature ranges shall be based on ambient temperature as well as the effects of heat interactions.   The battery pack shall contain at least one thermal protection circuit or device independent of internal cell devices or mechanisms. The combination of cell, module, and host device/charger shall have at least two independent thermal protection devices or mechanisms.  In case of an exceeding of the temperature limit, actions shaal be taken. This can include shutdown or other protective action.</p>
+		]]></htmltext>
+	</paragraph>
+	<paragraph>
+		<prodType>Module</prodType>
+		<reqs><!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>IEEE 1725</refReq_tag>
+			<refReq_part>n.a.</refReq_part>
+			<refReq_chNo>6.6</refReq_chNo>
+			<refReq_clNo>6.6.1</refReq_clNo>
+		</reqs>
+		<reqs><!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>IEEE 1725</refReq_tag>
+			<refReq_part>n.a.</refReq_part>
+			<refReq_chNo>6.6</refReq_chNo>
+			<refReq_clNo>6.6.3</refReq_clNo>
+		</reqs>
+		<reqs><!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>IEEE 1625</refReq_tag>
+			<refReq_part>n.a.</refReq_part>
+			<refReq_chNo>6.3</refReq_chNo>
+			<refReq_clNo>6.3.5</refReq_clNo>
+		</reqs>
+		<reqs><!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>IEEE 1625</refReq_tag>
+			<refReq_part>n.a.</refReq_part>
+			<refReq_chNo>6.3.6</refReq_chNo>
+			<refReq_clNo>6.3.6.2</refReq_clNo>
+		</reqs>
+		<reqs><!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>IEEE 1625</refReq_tag>
+			<refReq_part>n.a.</refReq_part>
+			<refReq_chNo>6.3.6</refReq_chNo>
+			<refReq_clNo>6.3.6.3</refReq_clNo>
+		</reqs>
+		<reqs><!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>IEEE 1625</refReq_tag>
+			<refReq_part>n.a.</refReq_part>
+			<refReq_chNo>6.3.6</refReq_chNo>
+			<refReq_clNo>6.3.6.4</refReq_clNo>
+		</reqs>
+		<reqs><!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>IEEE 1725</refReq_tag>
+			<refReq_part>n.a.</refReq_part>
+			<refReq_chNo>6.6</refReq_chNo>
+			<refReq_clNo>6.6.5</refReq_clNo>
+		</reqs>
+		<reqs><!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>UL s2054</refReq_tag>
+			<refReq_part>n.a.</refReq_part>
+			<refReq_chNo>4.5</refReq_chNo>
+			<refReq_clNo>4.5.1</refReq_clNo>
+		</reqs>
+		<reqs><!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>UL s2054</refReq_tag>
+			<refReq_part>n.a.</refReq_part>
+			<refReq_chNo>4.5</refReq_chNo>
+			<refReq_clNo>4.5.2</refReq_clNo>
+		</reqs>
+		<reqs><!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>UL s2054</refReq_tag>
+			<refReq_part>n.a.</refReq_part>
+			<refReq_chNo>4.5</refReq_chNo>
+			<refReq_clNo>4.5.3</refReq_clNo>
+		</reqs>
+		<reqs><!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>UL s2054</refReq_tag>
+			<refReq_part>n.a.</refReq_part>
+			<refReq_chNo>4.5</refReq_chNo>
+			<refReq_clNo>4.5.4</refReq_clNo>
+		</reqs>
+		<htmltext><![CDATA[
+			<p><b>Charging</b></p>
+			<p>Batteries shall be provided with specifications and charging instructions from equipment manufacturers so that associated chargers are designed to maintain charging within the temperature, voltage and current limits specified.  Before charge, the control system shall determine if the module is within the condition for operation specified by the manufacturer. Charging shall be conducted in accordance with the conditions specified of the cell specification sheet.  The charge control may be located in the battery module.  The charge voltage of each cell block shall be monitored and controlled. If a block cell block reaches the specified maximum charge, the charging of the cell blocks shall be ceased. If the cell voltage rises beyond the maximum charge voltage to the cell critical voltage, the pack shall be permanently disabled for charging . In addition to the voltage limit designed into the charging circuit, the battery management circuit shall incorporate at least two independent overvoltage protection functions. At least one of these protection functions shall be in the pack.</p>
+		]]></htmltext>
+	</paragraph>
+	<paragraph>
+		<prodType>Module</prodType>
+		<reqs><!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>IEEE 1725</refReq_tag>
+			<refReq_part>n.a.</refReq_part>
+			<refReq_chNo>6.6</refReq_chNo>
+			<refReq_clNo>6.6.2</refReq_clNo>
+		</reqs>
+		<reqs><!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>IEEE 1725</refReq_tag>
+			<refReq_part>n.a.</refReq_part>
+			<refReq_chNo>6</refReq_chNo>
+			<refReq_clNo>6.7</refReq_clNo>
+		</reqs>
+		<reqs><!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>IEEE 1725</refReq_tag>
+			<refReq_part>n.a.</refReq_part>
+			<refReq_chNo>6.7</refReq_chNo>
+			<refReq_clNo>6.7.1</refReq_clNo>
+		</reqs>
+		<reqs><!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>IEEE 1725</refReq_tag>
+			<refReq_part>n.a.</refReq_part>
+			<refReq_chNo>6.7</refReq_chNo>
+			<refReq_clNo>6.7.2</refReq_clNo>
+		</reqs>
+		<reqs><!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>IEEE 1725</refReq_tag>
+			<refReq_part>n.a.</refReq_part>
+			<refReq_chNo>6</refReq_chNo>
+			<refReq_clNo>6.8</refReq_clNo>
+		</reqs>
+		<reqs><!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>IEEE 1725</refReq_tag>
+			<refReq_part>n.a.</refReq_part>
+			<refReq_chNo>6.8</refReq_chNo>
+			<refReq_clNo>6.8.1</refReq_clNo>
+		</reqs>
+		<reqs><!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>IEEE 1725</refReq_tag>
+			<refReq_part>n.a.</refReq_part>
+			<refReq_chNo>6.8</refReq_chNo>
+			<refReq_clNo>6.8.2</refReq_clNo>
+		</reqs>
+		<reqs><!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>IEEE 1725</refReq_tag>
+			<refReq_part>n.a.</refReq_part>
+			<refReq_chNo>6.8</refReq_chNo>
+			<refReq_clNo>6.8.3</refReq_clNo>
+		</reqs>
+		<reqs><!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>IEEE 1625</refReq_tag>
+			<refReq_part>n.a.</refReq_part>
+			<refReq_chNo>6.3.7</refReq_chNo>
+			<refReq_clNo>6.3.7.1</refReq_clNo>
+		</reqs>
+		<reqs><!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>IEEE 1625</refReq_tag>
+			<refReq_part>n.a.</refReq_part>
+			<refReq_chNo>6.3.7</refReq_chNo>
+			<refReq_clNo>6.3.7.2</refReq_clNo>
+		</reqs>
+		<reqs><!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>IEEE 1625</refReq_tag>
+			<refReq_part>n.a.</refReq_part>
+			<refReq_chNo>6.3.7</refReq_chNo>
+			<refReq_clNo>6.3.7.3</refReq_clNo>
+		</reqs>
+		<reqs><!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>IEEE 1625</refReq_tag>
+			<refReq_part>n.a.</refReq_part>
+			<refReq_chNo>6.3.7</refReq_chNo>
+			<refReq_clNo>6.3.7.4</refReq_clNo>
+		</reqs>
+		<reqs><!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>IEEE 1625</refReq_tag>
+			<refReq_part>n.a.</refReq_part>
+			<refReq_chNo>6.3.7</refReq_chNo>
+			<refReq_clNo>6.3.7.5</refReq_clNo>
+		</reqs>
+		<reqs><!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>IEEE 1625</refReq_tag>
+			<refReq_part>n.a.</refReq_part>
+			<refReq_chNo>6.3.6</refReq_chNo>
+			<refReq_clNo>6.3.6.6</refReq_clNo>
+		</reqs>
+		<reqs><!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>IEEE 1625</refReq_tag>
+			<refReq_part>n.a.</refReq_part>
+			<refReq_chNo>6.3.4</refReq_chNo>
+			<refReq_clNo>6.3.4.2</refReq_clNo>
+		</reqs>
+		<reqs><!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>IEEE 1625</refReq_tag>
+			<refReq_part>n.a.</refReq_part>
+			<refReq_chNo>6.3.4</refReq_chNo>
+			<refReq_clNo>6.3.4.3</refReq_clNo>
+		</reqs>
+		<htmltext><![CDATA[
+			<p><b>Discharging</b></p>
+			<p>To control the discharge, the minimum discharge voltage and the maximum discharge current shall be set on the basis of a cell specification sheet. The module shall have at least one overcurrent protect circuitry or device . A system analysis shall define the maximum current that the system can handle. The module shall have at least one undervoltage protection circuit. If any cell block is detected with a voltage equal or less than specified by the cell manufacturer, the module shall cease to provide power. If one or more cell blocks reaches the minimum operating voltage, the management circuit shall maintain a low-power stat in order to minimize further discharge of the cells.
+			If a cell or cell block is discharge beyond the expected minimum state, the cell manufacturer’s recommendation to recover from this condition shall be followed.  A nascent short in a cell can be detected by measuring excessive self discharge of cells or the ac impedance of cells.  If an unusual voltage behavior of one cell block versus another is measured, an open circuit cells is detected</p>
+		]]></htmltext>
+	</paragraph>
+	<paragraph>
+		<prodType>Module</prodType>
+		<reqs><!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>IEEE 1625</refReq_tag>
+			<refReq_part>n.a.</refReq_part>
+			<refReq_chNo>6.3.8</refReq_chNo>
+			<refReq_clNo>6.3.8.1</refReq_clNo>
+		</reqs>
+		<htmltext><![CDATA[
+			<p><b>Voltage</b></p>
+			<p>The voltage of each cell block of parallel wired cells which are connected in series shall be monitored to compare them. When the voltage differs more than specified limit, the module shall be disabled.</p>
+		]]></htmltext>
+	</paragraph>
+	<paragraph>
+		<prodType>Module</prodType>
+		<reqs><!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>IEEE 1625</refReq_tag>
+			<refReq_part>n.a.</refReq_part>
+			<refReq_chNo>6.2.6</refReq_chNo>
+			<refReq_clNo>6.2.6.1</refReq_clNo>
+		</reqs>
+		<reqs><!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>IEEE 1725</refReq_tag>
+			<refReq_part>n.a.</refReq_part>
+			<refReq_chNo>6.4</refReq_chNo>
+			<refReq_clNo>6.4.2</refReq_clNo>
+		</reqs>
+		<htmltext><![CDATA[
+			<p><b>Current</b></p>
+			<p>The output current shall be limit in the event of an external short circuit.  The module shall have at least one method to limit current from cells independent of the cell separator shutdown mechanism. Methods to limit output current may include active or passive protective circuits.</p>
+		]]></htmltext>
+	</paragraph>	
+	<paragraph>
+		<prodType>Module</prodType>
+		<reqs><!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>IEEE 1625</refReq_tag>
+			<refReq_part>n.a.</refReq_part>
+			<refReq_chNo>6.4</refReq_chNo>
+			<refReq_clNo>6.4.1</refReq_clNo>
+		</reqs>
+		<reqs><!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>IEEE 1625</refReq_tag>
+			<refReq_part>n.a.</refReq_part>
+			<refReq_chNo>6.4</refReq_chNo>
+			<refReq_clNo>6.4.2</refReq_clNo>
+		</reqs>
+		<reqs><!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>IEEE 1625</refReq_tag>
+			<refReq_part>n.a.</refReq_part>
+			<refReq_chNo>6.4</refReq_chNo>
+			<refReq_clNo>6.4.3</refReq_clNo>
+		</reqs>
+		<reqs><!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>IEEE 1625</refReq_tag>
+			<refReq_part>n.a.</refReq_part>
+			<refReq_chNo>6.4</refReq_chNo>
+			<refReq_clNo>6.4.4</refReq_clNo>
+		</reqs>
+		<htmltext><![CDATA[
+			<p><b>Communication</b></p>
+			<p>For portable application, data can be communicated between the module and the device in which it is used. The module shall give info about the condition of the pack, about potential battery issues as they occur. In cases where a hazard may result, the battery shall fail-safe. If the device does not respond within a dined time period to a message indicating a potential hazard, the battery shall take action. An alternative signal or fail-safe method should be provided in the event of a failure of the primary signaling method. 
+			The management circuit should store key behavioral data. Information should be maintained for at least three charge terminations with the reason for termination. The data should be stored in non-volatile memory.</p>
+		]]></htmltext>
+	</paragraph>
+	<paragraph>
+		<prodType>Module</prodType>
+		<reqs><!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>IEEE 1625</refReq_tag>
+			<refReq_part>n.a.</refReq_part>
+			<refReq_chNo>6.6.4</refReq_chNo>
+			<refReq_clNo>6.6.4.1</refReq_clNo>
+		</reqs>
+		<reqs><!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>IEEE 1625</refReq_tag>
+			<refReq_part>n.a.</refReq_part>
+			<refReq_chNo>6.6.4</refReq_chNo>
+			<refReq_clNo>6.6.4.2</refReq_clNo>
+		</reqs>
+		<reqs><!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>IEEE 1625</refReq_tag>
+			<refReq_part>n.a.</refReq_part>
+			<refReq_chNo>6.6.4</refReq_chNo>
+			<refReq_clNo>6.6.4.3</refReq_clNo>
+		</reqs>
+		<reqs><!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>IEEE 1625</refReq_tag>
+			<refReq_part>n.a.</refReq_part>
+			<refReq_chNo>6.6.4</refReq_chNo>
+			<refReq_clNo>6.6.4.4</refReq_clNo>
+		</reqs>
+		<htmltext><![CDATA[
+			<p><b>Authentication of module by the system</b></p>
+			<p>The module shall have an authentication to allow the system (device?) that it is a qualified pack. The specific method of authentication to be implemented is left to the discretion of the system’s manufacturer/supplier. The battery management circuit shall contain an electronically readable identification code which  enable traceability and may be a duplication of the unique identifier.</p>
+		]]></htmltext>
+	</paragraph>
+	<paragraph>
+		<prodType>Module</prodType>
+		<reqs><!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>SAE J1797</refReq_tag>
+			<refReq_part>n.a.</refReq_part>
+			<refReq_chNo>6.4</refReq_chNo>
+			<refReq_clNo>6.4.6</refReq_clNo>
+		</reqs>
+		<reqs><!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>IEEE 1625</refReq_tag>
+			<refReq_part>n.a.</refReq_part>
+			<refReq_chNo>6.3.9</refReq_chNo>
+			<refReq_clNo>6.3.9.2</refReq_clNo>
+		</reqs>
+		<reqs><!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>IEEE 1725</refReq_tag>
+			<refReq_part>n.a.</refReq_part>
+			<refReq_chNo>6.5</refReq_chNo>
+			<refReq_clNo>6.5.2</refReq_clNo>
+		</reqs>
+		<htmltext><![CDATA[
+			<p><b>Sensors on the modules</b></p>
+		]]></htmltext>
+	</paragraph>
+	<paragraph>
+		<prodType>Module</prodType>
+		<reqs><!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>SAE J1797</refReq_tag>
+			<refReq_part>n.a.</refReq_part>
+			<refReq_chNo>6.4</refReq_chNo>
+			<refReq_clNo>6.4.6</refReq_clNo>
+		</reqs>
+		<htmltext><![CDATA[
+			<p>Each module will allow for the temperature sensor to be installed on either of the end walls. This allows for flexibility in installing the sensor on any module within the pack. The location for temperature sensing should be in an appropriate position as to avoid assembly clearance problems. Location should not interfere with thermal management but give the best wiring harness configuration and the best representative temperature of the internal components of the battery from this position.</p>
+		]]></htmltext>
+	</paragraph>
+	<paragraph>
+		<prodType>Module</prodType>
+		<reqs><!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>IEEE 1625</refReq_tag>
+			<refReq_part>n.a.</refReq_part>
+			<refReq_chNo>6.3.9</refReq_chNo>
+			<refReq_clNo>6.3.9.2</refReq_clNo>
+		</reqs>
+		<reqs><!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>IEEE 1625</refReq_tag>
+			<refReq_part>n.a.</refReq_part>
+			<refReq_chNo>6.2</refReq_chNo>
+			<refReq_clNo>6.2.8</refReq_clNo>
+		</reqs>
+		<reqs><!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>IEEE 1725</refReq_tag>
+			<refReq_part>n.a.</refReq_part>
+			<refReq_chNo>6.5</refReq_chNo>
+			<refReq_clNo>6.5.2</refReq_clNo>
+		</reqs>
+		<htmltext><![CDATA[
+			<p>Temperature sensors may be placed on each individual cell.  The module manufacture should determine together with the user the temperature profile and the place of the temperature sensors. In case of a single temperature sensor, it should be placed on the appropriate cell with good thermal contact.</p>
+		]]></htmltext>
+	</paragraph>
+	<paragraph>
+		<prodType>Module</prodType>
+		<reqs><!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>IEEE 1625</refReq_tag>
+			<refReq_part>n.a.</refReq_part>
+			<refReq_chNo>6.2</refReq_chNo>
+			<refReq_clNo>6.2.7</refReq_clNo>
+		</reqs>
+		<htmltext><![CDATA[
+			<p><strong>Fault handling</strong></p>
+			<p>Action shall be taken to mitigate hazard when voltage, current, temperature or other defined condition is exceeded. Actions can be restriction in use, temporary disabling function or permanent disablement of the module. The response on such conditions needs to be tested.</p>
+		]]></htmltext>
+	</paragraph>
+	</description>	
+<processOwner>company0</processOwner>
+</step>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<step>
+<proc>Internal logistics</proc>	
+<title>Packaging the components for storage</title>	
+<description>	
+	<paragraph>
+		<prodType>Cell | Damaged cell | Module | Damaged module | Pack | Damaged pack</prodType>
+		<act>packing</act>							
+		<htmltext><![CDATA[
+			<p>When the batteries are packed for storage, they need to be separated to avoid short circuit and propagation of a thermal runaway during storage.</p>
+		]]></htmltext>
+	</paragraph>
+	<paragraph>
+		<prodType>Cell | Module | Pack</prodType>
+		<act>packing</act>
+		<recoms>recomm_124</recoms>
+		<htmltext><![CDATA[
+			<p>When scrap batteries are packed to place in storage, a good measure is to pack and to handle them as new ones.</p>
+		]]></htmltext>
+	</paragraph>
+	<paragraph>
+		<prodType> Damaged cell|Damaged module|Damaged pack </prodType>
+		<act>packing</act>
+		<recoms>recomm_125</recoms>
+		<htmltext><![CDATA[
+			<p>For damaged batteries a good practices is to cover them with sand.</p>
+		]]></htmltext>
+	</paragraph>
+	<paragraph>
+		<prodType>Cell | Module | Pack</prodType>
+		<act>packing</act>
+		<recoms>recomm_126</recoms>
+		<htmltext><![CDATA[
+			<p>For sorted rechargeable waste batteries a good practice is to store them in metal drums of 210m with liner and add after every 10cm a layer of vermiculites.</p>
+		]]></htmltext>
+	</paragraph>
+	<paragraph>
+		<prodType> Damaged cell|Damaged module|Damaged pack|Cell|Module|Pack </prodType>
+		<act>packing</act>
+		<recoms>recomm_127</recoms>
+		<htmltext><![CDATA[
+			<p>Measures should be taken to avoid hotspots. These hotspot can lead to a primary fire which possible initiated a thermal reactions in the battery leading to a thermal runaway.</p>
+		]]></htmltext>
+	</paragraph>
+	<paragraph>
+		<prodType>Pack | Damaged pack</prodType>
+		<act>packing</act>
+		<recoms>recomm_80</recoms>
+		<recoms>recomm_83</recoms>	
+		<recoms>recomm_94</recoms>
+		<recoms>recomm_95</recoms>
+		<recoms>recomm_97</recoms>		
+	</paragraph>
+</description>
+<processOwner>company0</processOwner>
+</step>

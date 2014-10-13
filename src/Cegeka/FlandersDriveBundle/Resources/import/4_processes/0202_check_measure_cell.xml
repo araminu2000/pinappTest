@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<step>
+<proc>Module assembly</proc>	
+<title>Measuring and checking of the cells</title>	
+<description>	
+	<paragraph>
+		<prodType>Cell</prodType>
+		<act>measuring</act>							
+		<reqs><!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>IEC 62660</refReq_tag>
+			<refReq_part>1</refReq_part>
+			<refReq_chNo>7</refReq_chNo>
+			<refReq_clNo>7.2</refReq_clNo>
+		</reqs>
+		<reqs><!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>ANSI C18-2M</refReq_tag>
+			<refReq_part>1</refReq_part>
+			<refReq_chNo>1.4.6</refReq_chNo>
+			<refReq_clNo>1.4.6.1</refReq_clNo>
+		</reqs>
+		<reqs><!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>ANSI C18-2M</refReq_tag>
+			<refReq_part>1</refReq_part>
+			<refReq_chNo>1.4.6.1</refReq_chNo>
+			<refReq_clNo>1.4.6.1.1</refReq_clNo>
+		</reqs>
+		<reqs><!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>ANSI C18-2M</refReq_tag>
+			<refReq_part>1</refReq_part>
+			<refReq_chNo>1.4.6.1</refReq_chNo>
+			<refReq_clNo>1.4.6.1.2</refReq_clNo>
+		</reqs>
+		<reqs><!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>ANSI C18-2M</refReq_tag>
+			<refReq_part>1</refReq_part>
+			<refReq_chNo>1.4.6.1</refReq_chNo>
+			<refReq_clNo>1.4.6.1.4</refReq_clNo>
+		</reqs>
+		<reqs><!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>ANSI C18-2M</refReq_tag>
+			<refReq_part>1</refReq_part>
+			<refReq_chNo>1.4.6</refReq_chNo>
+			<refReq_clNo>1.4.6.3</refReq_clNo>
+		</reqs>
+		<reqs><!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>ANSI C18-2M</refReq_tag>
+			<refReq_part>1</refReq_part>
+			<refReq_chNo>1.4.6</refReq_chNo>
+			<refReq_clNo>1.4.6.7</refReq_clNo>
+		</reqs>
+		<reqs><!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>ANSI C18-2M</refReq_tag>
+			<refReq_part>1</refReq_part>
+			<refReq_chNo>1.4.6</refReq_chNo>
+			<refReq_clNo>1.4.6.8</refReq_clNo>
+		</reqs>
+		<reqs><!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>ANSI C18-2M</refReq_tag>
+			<refReq_part>1</refReq_part>
+			<refReq_chNo>1.4.6</refReq_chNo>
+			<refReq_clNo>1.4.6.9</refReq_clNo>
+		</reqs>
+		<reqs><!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>FreedomCAR DOE/ID-11069</refReq_tag>
+			<refReq_part>n.a.</refReq_part>
+			<refReq_chNo>3</refReq_chNo>
+			<refReq_clNo>3.4</refReq_clNo>
+		</reqs>
+		<reqs><!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>FreedomCAR DOE/ID-11069</refReq_tag>
+			<refReq_part>n.a.</refReq_part>
+			<refReq_chNo>4</refReq_chNo>
+			<refReq_clNo>4.4</refReq_clNo>
+		</reqs>
+		<htmltext><![CDATA[
+			<p>Before the assembly of the module starts, the cells can be measured and check to be sure it still has the wanted characteristics (voltage, current, ... ). 
+			It is more cost benefit to check the cell before it is placed in the module than when a module with a defect cell needs to be investigated to find the defect cell.</p>
+			<p>It is recommended to test the capacity of the cells during this measurement. Different standards give specifications for a capacity measurement.</p>
+		]]></htmltext>			
+	</paragraph>
+	
+	<paragraph>
+		<prodType>Cell</prodType>
+		<act>measuring</act>							
+		<recoms>recomm_1</recoms>
+		<recoms>recomm_2</recoms>
+		<recoms>recomm_11</recoms>
+		<recoms>recomm_12</recoms>
+		<recoms>recomm_13</recoms>
+		<recoms>recomm_118</recoms>
+		<htmltext><![CDATA[
+			<p>The main risk in this phase is external short circuit. Where possible it is recommended to cover one of the current collectors to avoid this risk. If this is not possible, a good practice is to lay the cells on insulated trays to avoid contacts with metal .</p>				
+			<p>In this step the temperatures of the connectors can be increased if electrical abuse occurs during the measuring. This electrical abuse need to be avoided. The temperature of the connectors can be checked so actions can be taken when a temperature increase is monitored.</p>				
+			<p>The operator needs to wear the necessary personal protection equipment (glasses and gloves).</p>
+		]]></htmltext>			
+	</paragraph>
+</description>
+<processOwner>company0</processOwner>
+</step>

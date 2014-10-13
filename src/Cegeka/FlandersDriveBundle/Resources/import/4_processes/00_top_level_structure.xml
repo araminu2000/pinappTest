@@ -1,0 +1,285 @@
+<rootStructure>
+	<self>00_top_level</self>
+	<group name="Cell Level">
+		<sub type="flow" maingraph="yes">
+			<refItemId>0101</refItemId>
+			<!--Cell design and development-->
+		</sub>
+		<sub type="step" maingraph="yes" mainflow="yes" after="0808" >
+			<refItemId>0100</refItemId>
+			<!--Cell production-->
+		</sub>
+		<sub type="step" maingraph="yes" mainflow="yes" after="0100" >
+			<refItemId>0102</refItemId>
+			<!--End of line testing of a cell-->
+		</sub>
+		<sub type="decision" maingraph="yes" mainflow="yes" after="0102">
+			<refItemId>0103</refItemId>
+			<!--Cell passed end of line inspection?-->
+		</sub>
+		<sub type="flow" maingraph="yes" after_no="0103" scaledTo="Cell">
+			<refItemId>1000</refItemId>
+			<!--Internal logistics and storage-->
+		</sub>
+		<sub type="flow" maingraph="yes" after="1000" scaledTo="Cell">
+			<!--  scaled for normal cells -->
+			<refItemId>0900</refItemId>
+			<!--Transportation process-->
+		</sub>
+		<sub type="decision" maingraph="yes" mainflow="yes" after_yes="0103" >
+			<refItemId>0104</refItemId>
+			<!--Cell passed end of line inspection?-->
+		</sub>
+		<sub type="flow" maingraph="yes" after_no="0104" scaledTo="Cell">
+			<!--  scaled for normal cells -->
+			<refItemId>0900a</refItemId>
+			<!--Transportation process-->
+		</sub>
+		<sub type="flow" maingraph="yes" mainflow="yes" after_yes="0104" after="0900a" scaledTo="Cell">
+			<!--  scaled for normal cells   -->
+			<refItemId>1000a</refItemId>
+			<!--Internal logistics and storage-->
+		</sub>
+		<sub type="decision" maingraph="yes" mainflow="yes" after="1000a">
+			<!--  scaled for  cells -->
+			<refItemId>0105</refItemId>
+			<!--Is the cell damaged?-->
+		</sub>	
+		<sub type="flow" maingraph="yes" after_yes="0105" scaledTo="Damaged cell">
+			<!--  scaled for damaged cells -->
+			<refItemId>1100</refItemId>
+			<!--Handling damaged components-->
+		</sub>
+	</group>	
+	<group name="Module Level">
+		<sub type="flow" maingraph="yes">
+			<refItemId>0301</refItemId>
+			<!-- Module design and development-->
+		</sub>
+		<sub type="flow" maingraph="yes" mainflow="yes" after_no="0105" >
+			<refItemId>0200</refItemId>
+			<!--Module assembly-->
+		</sub>
+		<sub type="decision" maingraph="yes" mainflow="yes" after="0200" >
+			<refItemId>0302</refItemId>
+			<!--Is the module damaged?-->
+		</sub>
+		<sub type="decision" maingraph="yes" after_yes="0302" >
+			<refItemId>0303</refItemId>
+			<!--Is the module repairable?-->
+		</sub>
+		<sub type="step" maingraph="yes" after_yes="0303" >
+			<refItemId>0304</refItemId>
+			<!--Repair modules after module assembly-->
+		</sub>
+		<sub type="flow" maingraph="yes" after_no="0303" scaledTo="Damaged module">
+			<!--  scaled for damaged modules -->
+			<refItemId>1100a</refItemId>
+			<!--Handling damaged components-->
+		</sub>
+		<sub type="step" maingraph="yes" mainflow="yes" after_no="0302" after = "0304">
+			<refItemId>0305</refItemId>
+			<!--End of line testing of a module-->
+		</sub>
+		<sub type="decision" maingraph="yes" mainflow="yes" after="0305" >
+			<refItemId>0306</refItemId>
+			<!--Cell passed the end of line test?-->
+		</sub>
+		<sub type="flow" maingraph="yes" after_no="0306" scaledTo="Module">
+			<refItemId>1000b</refItemId>
+			<!--Internal logistics and storage-->
+		</sub>
+		<sub type="flow" maingraph="yes" after="1000b" scaledTo="Module">
+			<!--  scaled for normal cells -->
+			<refItemId>0900b</refItemId>
+			<!--Transportation process-->
+		</sub>
+		<sub type="decision" maingraph="yes" mainflow="yes" after_yes="0306" >
+			<refItemId>0307</refItemId>
+			<!--Is the module producer also pack producer?-->
+		</sub>
+		<sub type="flow" maingraph="yes" after_no="0307" scaledTo="Module">
+			<!--  scaled for normal cells -->
+			<refItemId>0900c</refItemId>
+			<!--Transportation process-->
+		</sub>
+		<sub type="flow" maingraph="yes" mainflow="yes" after_yes="0307" after="0900c" scaledTo="Module">
+			<refItemId>1000c</refItemId>
+			<!--Internal logistics and storage-->
+		</sub>
+		<sub type="decision" maingraph="yes" mainflow="yes" after="1000c" >
+			<refItemId>0308</refItemId>
+			<!--Is the module damaged?-->
+		</sub>
+		<sub type="decision" maingraph="yes" after_yes="0308" >
+			<refItemId>0309</refItemId>
+			<!--Is the module repairable?-->
+		</sub>
+		<sub type="step" maingraph="yes" after_yes="0309" >
+			<refItemId>0310</refItemId>
+			<!--Repair modules after module assembly-->
+		</sub>
+		<sub type="flow" maingraph="yes" after_no="0309" scaledTo="Damaged module">
+			<!--  scaled for damaged modules -->
+			<refItemId>1100b</refItemId>
+			<!--Handling damaged components-->
+		</sub>
+	</group>	
+	<group name="Pack Level">
+		<sub type="flow" maingraph="yes">
+			<refItemId>0501</refItemId>
+			<!--Pack design and development-->
+		</sub>
+		<sub type="flow" maingraph="yes" mainflow="yes" after="0310" after_no="0308">
+			<refItemId>0400</refItemId>
+			<!--Pack assembly-->
+		</sub>
+		<sub type="decision" maingraph="yes" mainflow="yes" after="0400" >
+			<refItemId>0502</refItemId>
+			<!--Is the pack damaged?-->
+		</sub>
+		<sub type="decision" maingraph="yes" after_yes="0502" >
+			<refItemId>0503</refItemId>
+			<!--Is the pack repairable?-->
+		</sub>
+		<sub type="step" maingraph="yes" after_yes="0503" >
+			<refItemId>0504</refItemId>
+			<!--Repairing packs after pack assembly-->
+		</sub>
+		<sub type="flow" maingraph="yes" after_no="0503" scaledTo="Damaged pack">
+			<!--  scaled for damaged packs -->
+			<refItemId>1100c</refItemId>
+			<!--Handling damaged components-->
+		</sub>
+		<sub type="step" maingraph="yes" mainflow="yes" after_no="0502" after = "0504">
+			<refItemId>0505</refItemId>
+			<!--End of line testing of the pack-->
+		</sub>
+		<sub type="decision" maingraph="yes" mainflow="yes" after="0505" >
+			<refItemId>0506</refItemId>
+			<!--Pack passed the end of line test?-->
+		</sub>
+		<sub type="flow" maingraph="yes" after_no="0506" scaledTo="Pack">
+			<refItemId>1000d</refItemId>
+			<!--Internal logistics and storage-->
+		</sub>
+		<sub type="flow" maingraph="yes" after="1000d" scaledTo="Pack">
+			<!--  scaled for normal packs -->
+			<refItemId>0900d</refItemId>
+			<!--Transportation process-->
+		</sub>
+		<sub type="flow" maingraph="yes" mainflow="yes" after_yes="0506" scaledTo ="Pack">
+			<!--  scaled for normal packs -->
+			<refItemId>1000e</refItemId>
+			<!--Internal logistics and storage-->
+		</sub>
+		<sub type="flow" maingraph="yes" mainflow="yes" after="1000e" scaledTo="Pack">
+			<!--  scaled for normal packs -->
+			<refItemId>0900e</refItemId>
+			<!--Transportation process-->
+		</sub>
+		<sub type="flow" maingraph="yes" mainflow="yes" after="0900e" scaledTo="Pack">
+			<refItemId>1000f</refItemId>
+			<!--Internal logistics and storage-->
+		</sub>
+		<sub type="decision" maingraph="yes" mainflow="yes" after="1000f" >
+			<refItemId>0507</refItemId>
+			<!--Is the pack damaged?-->
+		</sub>
+		<sub type="flow" maingraph="yes" after_yes="0507" scaledTo="Damaged pack">
+			<!--  scaled for damaged modules -->
+			<refItemId>1100d</refItemId>
+			<!--Handling damaged components-->
+		</sub>
+	</group>	
+	<group name="Vehicle Level">
+		<sub type="flow" maingraph="yes">
+			<refItemId>0701</refItemId>
+			<!--Vehicle design and development-->
+		</sub>
+		<sub type="flow" maingraph="yes" mainflow="yes" after_no="0507" >
+			<refItemId>0600</refItemId>
+			<!--Vehicle assembly-->
+		</sub>
+		<sub type="decision" maingraph="yes" mainflow="yes" after="0600" >
+			<refItemId>0702</refItemId>
+			<!--Is the vehicle damaged?-->
+		</sub>
+		<sub type="step" maingraph="yes" after_yes="0702">
+			<refItemId>0703</refItemId>
+			<!--Repairing vehicle after production-->
+		</sub>
+		<sub type="step" maingraph="yes" mainflow="yes" after_no="0702" after = "0713">
+			<refItemId>0706</refItemId>
+			<!--Vehicle to parking lot-->
+		</sub>
+		<sub type="flow" maingraph="yes" mainflow="yes" after="0706" scaledTo="Vehicle">
+			<!--  scaled for normal vehicles -->
+			<refItemId>0900f</refItemId>
+			<!--Transportation process-->
+		</sub>
+		<sub type="step" maingraph="yes" mainflow="yes" after="0900f">
+			<refItemId>0707</refItemId>
+			<!--Storing vehicle at garage-->
+		</sub>
+		<sub type="step" maingraph="yes" mainflow="yes" after="0707">
+			<refItemId>0709</refItemId>
+			<!--Normal use of the vehicle-->
+		</sub>
+		<sub type="step" maingraph="yes" mainflow="yes" after="0709">
+			<refItemId>0711</refItemId>
+			<!--Removing battery from vehicle-->
+		</sub>		
+		<sub type="flow" maingraph="yes" mainflow="yes" after="0711" scaledTo="Pack">
+			<!--  scaled for normal vehicles -->
+			<refItemId>0900g</refItemId>
+			<!--Transportation process-->
+		</sub>
+	</group>	
+	<group name="Recycling">
+		<sub type="decision" maingraph="yes" after="0900d">
+			<refItemId>0809</refItemId>
+			<!--Storing the packs in the recycle area-->
+		</sub>
+		<sub type="step" maingraph="yes" mainflow="yes" after="0900g" after_yes="0809">
+			<refItemId>0801</refItemId>
+			<!--Storing the packs in the recycle area-->
+		</sub>		
+		<sub type="step" maingraph="yes" mainflow="yes" after="0801" after_no="0809">
+			<refItemId>0802</refItemId>
+			<!--Dismantling the pack at the recycle plant-->
+		</sub>
+				<sub type="decision" maingraph="yes" mainflow="yes" after="0802" >
+			<refItemId>0803</refItemId>
+			<!--Continue recycling modules?-->
+		</sub>
+		<sub type="decision" maingraph="yes" after="0900b">
+			<refItemId>0810</refItemId>
+			<!--Storing the modules in the recycle area-->
+		</sub>
+		<sub type="step" maingraph="yes" after_no="0803" after_yes="0810">
+			<refItemId>0804</refItemId>
+			<!--Storage of the modules in the recycling area-->
+		</sub>
+		<sub type="step" maingraph="yes" mainflow="yes" after_yes="0803" after="0804" after_no="0810">
+			<refItemId>0805</refItemId>
+			<!--Dismantling the pack at the recycle plant-->
+		</sub>
+		<sub type="decision" maingraph="yes" mainflow="yes" after="0805">
+			<refItemId>0806</refItemId>
+			<!--Continue recycling cells?-->
+		</sub>
+		<sub type="decision" maingraph="yes" after="0900">
+			<refItemId>0811</refItemId>
+			<!--Storing the cells in the recycle area-->
+		</sub>
+		<sub type="step" maingraph="yes" after_no="0806" after_yes="0811">
+			<refItemId>0807</refItemId>
+			<!--Storage of the cells in the recycling area-->
+		</sub>
+		<sub type="step" maingraph="yes" mainflow="yes" after_yes="0806" after="0807" after_no="0811">
+			<refItemId>0808</refItemId>
+			<!--Material recycling-->
+		</sub>	
+	</group>	
+</rootStructure>

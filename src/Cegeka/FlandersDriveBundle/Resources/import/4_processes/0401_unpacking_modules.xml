@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<step>
+<proc>Pack assembly</proc>
+<title>Unpacking modules</title>	
+<description>	
+	<paragraph>
+		<prodType>Module</prodType>
+		<act>unpacking</act>	
+		<recoms>recomm_18</recoms>
+		<recoms>recomm_19</recoms>	
+		<recoms>recomm_28</recoms>
+		<recoms>recomm_30</recoms>
+		<recoms>recomm_37</recoms>
+		<htmltext><![CDATA[
+		<p>In the first step of the pack assembly the modules are unpacked if needed.</p>
+		<p>When the modules are unpacked, moved around the assembly line, the risk of external short circuit exists. The current collector needs to be covered to decrease this risk.</p>
+		<p>During the unpacking the modules can be dropped or the module can be mechanical abused in another way. To decrease the effects (like leakage) when mechanical abuse occurs, the enclosure of the module shall be resistant against this abuse.</p>
+		<p>During these activities the temperature shall be monitored to detect the start of a thermal runaway.</p>
+		<p>To decrease the effects of the risks, the operator shall wear safety gloves and glasses which protect against heat, sparks and electrolyte.</p>
+		]]></htmltext>
+	</paragraph>
+</description>	
+<processOwner>company0</processOwner>
+</step>

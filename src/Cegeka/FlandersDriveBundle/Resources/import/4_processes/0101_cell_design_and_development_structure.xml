@@ -1,0 +1,17 @@
+<rootStructure>
+<self>0101_cell_design_and_development</self>
+<group name="Cell design and development" >
+	<sub type="step">
+		<refItemId>0106</refItemId>
+	</sub>
+	<sub type="step" after="0106" >
+		<refItemId>0107</refItemId>
+	</sub>
+	<sub type="step" after="0107" >
+		<refItemId>0108</refItemId>
+	</sub>
+	<sub type="step" after="0108" >
+		<refItemId>0109</refItemId>
+	</sub>		
+</group>
+</rootStructure>

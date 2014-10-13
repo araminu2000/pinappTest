@@ -1,0 +1,490 @@
+<?xml version="1.0" encoding="utf-8"?>
+<step>
+<proc>Module design and development</proc>	
+<title>Marking and Labelling</title>	
+<description>
+	<paragraph>
+		<prodType>Module</prodType>
+		<reqs><!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>SAE J2289</refReq_tag>
+			<refReq_part>n.a.</refReq_part>
+			<refReq_chNo>8</refReq_chNo>
+			<refReq_clNo>8</refReq_clNo>
+		</reqs>
+		<reqs><!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>SAE J1797</refReq_tag>
+			<refReq_part>n.a.</refReq_part>
+			<refReq_chNo>9</refReq_chNo>
+			<refReq_clNo>9</refReq_clNo>
+		</reqs>
+		<htmltext><![CDATA[
+			<p>Messages, symbols and pictorials are intended to provide safety information to consumers, service technicians, and others who may be exposed to a battery's potentially hazardous conditions. Labels should consider all local, state and federal requirements.</p>
+		]]></htmltext>
+	</paragraph>
+	<paragraph>
+	<prodType>Module</prodType>
+	<reqs><!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>UL s2054</refReq_tag>
+			<refReq_part>n.a.</refReq_part>
+			<refReq_chNo>25</refReq_chNo>
+			<refReq_clNo>25.3</refReq_clNo>
+		</reqs>
+		<reqs><!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>UL s1642</refReq_tag>
+			<refReq_part>n.a.</refReq_part>
+			<refReq_chNo>22</refReq_chNo>
+			<refReq_clNo>22.1</refReq_clNo>
+		</reqs>
+		<reqs><!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>ANSI C18-2M</refReq_tag>
+			<refReq_part>1</refReq_part>
+			<refReq_chNo>1.4.8</refReq_chNo>
+			<refReq_clNo>1.4.8.1</refReq_clNo>
+		</reqs>
+		<reqs><!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>ANSI C18-2M</refReq_tag>
+			<refReq_part>2</refReq_part>
+			<refReq_chNo>10</refReq_chNo>
+			<refReq_clNo>10.1</refReq_clNo>
+		</reqs>
+		<reqs><!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>IEC 62133</refReq_tag>
+			<refReq_part>n.a.</refReq_part>
+			<refReq_chNo>5</refReq_chNo>
+			<refReq_clNo>5.5</refReq_clNo>
+		</reqs>
+		<reqs><!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>SAE J1797</refReq_tag>
+			<refReq_part>n.a.</refReq_part>
+			<refReq_chNo>9</refReq_chNo>
+			<refReq_clNo>9.2</refReq_clNo>
+		</reqs>
+		<reqs><!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>IEEE 1625</refReq_tag>
+			<refReq_part>n.a.</refReq_part>
+			<refReq_chNo>6.6.2</refReq_chNo>
+			<refReq_clNo>6.6.2.2</refReq_clNo>
+		</reqs>
+		<reqs><!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>IEEE 1725</refReq_tag>
+			<refReq_part>n.a.</refReq_part>
+			<refReq_chNo>6.2.2</refReq_chNo>
+			<refReq_clNo>6.2.2.1</refReq_clNo>
+		</reqs>
+		<htmltext><![CDATA[
+			<p>The following information need to be available:</p>
+		]]></htmltext>
+	</paragraph>
+	<paragraph>
+		<prodType>Module</prodType>
+		<reqs><!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>UL s2054</refReq_tag>
+			<refReq_part>n.a.</refReq_part>
+			<refReq_chNo>25</refReq_chNo>
+			<refReq_clNo>25.3</refReq_clNo>
+		</reqs>
+		<reqs><!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>UL s1642</refReq_tag>
+			<refReq_part>n.a.</refReq_part>
+			<refReq_chNo>22</refReq_chNo>
+			<refReq_clNo>22.1</refReq_clNo>
+		</reqs>		
+		<htmltext><![CDATA[
+			<ul><li>The safety information of the battery shall be indicated with marking and labeling. The information shall contain principal hazards, special handling instructions and first aid instructions. Battery that contains poisonous materials shall be labeled clearly to identify this hazards using words like ‘Danger,Poison’ .  A primary battery shall be marked with the word “WARNING” and the following or an equivalent statement: “Risk of fire and burns. Do not recharge, open, crush, heat above (the manufacturer’s specified temperature rating), or incinerate.” If space does not permit marking on the battery, the marking may be on the smallest unit package.</li></ul>
+		]]></htmltext>
+	</paragraph>
+	<paragraph>
+		<prodType>Module</prodType>
+		<reqs><!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>ANSI C18-2M</refReq_tag>
+			<refReq_part>1</refReq_part>
+			<refReq_chNo>1.4.8</refReq_chNo>
+			<refReq_clNo>1.4.8.1</refReq_clNo>
+		</reqs>
+		<reqs><!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>ANSI C18-2M</refReq_tag>
+			<refReq_part>2</refReq_part>
+			<refReq_chNo>10</refReq_chNo>
+			<refReq_clNo>10.1</refReq_clNo>
+		</reqs>
+		<reqs><!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>IEC 62133</refReq_tag>
+			<refReq_part>n.a.</refReq_part>
+			<refReq_chNo>5</refReq_chNo>
+			<refReq_clNo>5.5</refReq_clNo>
+		</reqs>
+		<reqs><!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>SAE J1797</refReq_tag>
+			<refReq_part>n.a.</refReq_part>
+			<refReq_chNo>9</refReq_chNo>
+			<refReq_clNo>9.2</refReq_clNo>
+		</reqs>
+		<htmltext><![CDATA[
+			<ul><li>Polarity identification  shall be located on the battery module  cover in close proximity to the terminal post with the following indicators in compliance with applicable standards: 
+			<ul><li>Positive Terminal—Marked with the “+” symbol and/or the lettering “POS.”</li>
+			<li>Negative Terminal—Marked with the “–” symbol and/or the lettering “NEG.”</li></ul>	
+			Additional identification should be provided near the specific terminal printed on the applied label. Optional identification may be provided through the use of color-coded terminal protectors made of plastic, rubber, or other non-conductive material with “red” color used to identify the positive terminal and “black” color used to identify the negative terminal.</li></ul>
+		]]></htmltext>
+	</paragraph>
+	<paragraph>
+		<prodType>Module</prodType>
+		<reqs><!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>UL s2054</refReq_tag>
+			<refReq_part>n.a.</refReq_part>
+			<refReq_chNo>25</refReq_chNo>
+			<refReq_clNo>25.1</refReq_clNo>
+		</reqs>
+		<reqs><!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>SAE J1797</refReq_tag>
+			<refReq_part>n.a.</refReq_part>
+			<refReq_chNo>9</refReq_chNo>
+			<refReq_clNo>9.3</refReq_clNo>
+		</reqs>
+		<reqs><!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>ANSI C18-2M</refReq_tag>
+			<refReq_part>1</refReq_part>
+			<refReq_chNo>1.4.8</refReq_chNo>
+			<refReq_clNo>1.4.8.1</refReq_clNo>
+		</reqs>
+		<reqs><!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>ANSI C18-2M</refReq_tag>
+			<refReq_part>2</refReq_part>
+			<refReq_chNo>10</refReq_chNo>
+			<refReq_clNo>10.1</refReq_clNo>
+		</reqs>
+		<reqs><!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>IEEE 1625</refReq_tag>
+			<refReq_part>n.a.</refReq_part>
+			<refReq_chNo>6.6.2</refReq_chNo>
+			<refReq_clNo>6.6.2.2</refReq_clNo>
+		</reqs>
+		<reqs><!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>IEEE 1625</refReq_tag>
+			<refReq_part>n.a.</refReq_part>
+			<refReq_chNo>6.6.2</refReq_chNo>
+			<refReq_clNo>6.6.2.3</refReq_clNo>
+		</reqs>
+		<reqs><!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>IEEE 1625</refReq_tag>
+			<refReq_part>n.a.</refReq_part>
+			<refReq_chNo>6.6.2</refReq_chNo>
+			<refReq_clNo>6.6.2.4</refReq_clNo>
+		</reqs>
+		<reqs><!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>IEEE 1625</refReq_tag>
+			<refReq_part>n.a.</refReq_part>
+			<refReq_chNo>6.6.2</refReq_chNo>
+			<refReq_clNo>6.6.2.8</refReq_clNo>
+		</reqs>
+		<reqs><!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>IEEE 1725</refReq_tag>
+			<refReq_part>n.a.</refReq_part>
+			<refReq_chNo>6.2.2</refReq_chNo>
+			<refReq_clNo>6.2.2.1</refReq_clNo>
+		</reqs>
+		<reqs><!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>IEEE 1725</refReq_tag>
+			<refReq_part>n.a.</refReq_part>
+			<refReq_chNo>6.2.2</refReq_chNo>
+			<refReq_clNo>6.2.2.2</refReq_clNo>
+		</reqs>
+		<htmltext><![CDATA[
+			<ul><li>Label with identification (unique), voltage and performance information.</li></ul>
+		]]></htmltext>
+	</paragraph>
+	<paragraph>
+		<prodType>Module</prodType>
+		<reqs><!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>UL s2054</refReq_tag>
+			<refReq_part>n.a.</refReq_part>
+			<refReq_chNo>25</refReq_chNo>
+			<refReq_clNo>25.1</refReq_clNo>
+		</reqs>
+		<reqs><!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>UL s1642</refReq_tag>
+			<refReq_part>n.a.</refReq_part>
+			<refReq_chNo>21</refReq_chNo>
+			<refReq_clNo>21.1</refReq_clNo>
+		</reqs>
+		<reqs><!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>IEEE 1625</refReq_tag>
+			<refReq_part>n.a.</refReq_part>
+			<refReq_chNo>6.6.2</refReq_chNo>
+			<refReq_clNo>6.6.2.2</refReq_clNo>
+		</reqs>
+		<reqs><!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>IEEE 1725</refReq_tag>
+			<refReq_part>n.a.</refReq_part>
+			<refReq_chNo>6.2.2</refReq_chNo>
+			<refReq_clNo>6.2.2.4</refReq_clNo>
+		</reqs>
+		<reqs><!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>SAE J1797</refReq_tag>
+			<refReq_part>n.a.</refReq_part>
+			<refReq_chNo>9.3</refReq_chNo>
+			<refReq_clNo>9.3.1</refReq_clNo>
+		</reqs>
+		<htmltext><![CDATA[
+			<ul><li>Mark with the manufacturer’s Model Number  and the appropriate group size.</li></ul>
+		]]></htmltext>
+	</paragraph>
+	<paragraph>
+		<prodType>Module</prodType>
+		<reqs><!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>ANSI C18-2M</refReq_tag>
+			<refReq_part>1</refReq_part>
+			<refReq_chNo>1.4.8</refReq_chNo>
+			<refReq_clNo>1.4.8.1</refReq_clNo>
+		</reqs>
+		<reqs><!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>SAE J1797</refReq_tag>
+			<refReq_part>n.a.</refReq_part>
+			<refReq_chNo>9.3</refReq_chNo>
+			<refReq_clNo>9.3.2</refReq_clNo>
+		</reqs>
+		<htmltext><![CDATA[
+			<ul><li>Possibile info about capacity.</li></ul>
+		]]></htmltext>
+	</paragraph>
+	<paragraph>
+		<prodType>Module</prodType>
+		<reqs><!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>ANSI C18-2M</refReq_tag>
+			<refReq_part>1</refReq_part>
+			<refReq_chNo>1.4.8</refReq_chNo>
+			<refReq_clNo>1.4.8.1</refReq_clNo>
+		</reqs>
+		<reqs><!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>ANSI C18-2M</refReq_tag>
+			<refReq_part>2</refReq_part>
+			<refReq_chNo>10</refReq_chNo>
+			<refReq_clNo>10.1</refReq_clNo>
+		</reqs>
+		<reqs><!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>IEEE 1625</refReq_tag>
+			<refReq_part>n.a.</refReq_part>
+			<refReq_chNo>6.6.2</refReq_chNo>
+			<refReq_clNo>6.6.2.5</refReq_clNo>
+		</reqs>
+		<reqs><!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>IEEE 1725</refReq_tag>
+			<refReq_part>n.a.</refReq_part>
+			<refReq_chNo>6.2.2</refReq_chNo>
+			<refReq_clNo>6.2.2.3</refReq_clNo>
+		</reqs>
+		<reqs><!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>SAE J1797</refReq_tag>
+			<refReq_part>n.a.</refReq_part>
+			<refReq_chNo>9.3</refReq_chNo>
+			<refReq_clNo>9.3.3</refReq_clNo>
+		</reqs>
+		<htmltext><![CDATA[
+			<ul><li>Information of electrochemical system.  Battery module labels can be color coded to designate the specific electrochemical couple.</li></ul>
+		]]></htmltext>
+	</paragraph>
+	<paragraph>
+		<prodType>Module</prodType>
+		<reqs><!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>ANSI C18-2M</refReq_tag>
+			<refReq_part>1</refReq_part>
+			<refReq_chNo>1.4.8</refReq_chNo>
+			<refReq_clNo>1.4.8.1</refReq_clNo>
+		</reqs>
+		<reqs><!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>IEC 62133</refReq_tag>
+			<refReq_part>n.a.</refReq_part>
+			<refReq_chNo>10</refReq_chNo>
+			<refReq_clNo>10.3</refReq_clNo>
+		</reqs>
+		<reqs><!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>SAE J1797</refReq_tag>
+			<refReq_part>n.a.</refReq_part>
+			<refReq_chNo>9.3</refReq_chNo>
+			<refReq_clNo>9.3.4</refReq_clNo>
+		</reqs>
+		<htmltext><![CDATA[
+			<ul><li>Information on the recycling : all battery modules shall be labeled with the appropriate universal recycling symbol.</li></ul>
+		]]></htmltext>
+	</paragraph>
+	<paragraph>
+		<prodType>Module</prodType>
+		<reqs><!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>ANSI C18-2M</refReq_tag>
+			<refReq_part>1</refReq_part>
+			<refReq_chNo>1.4.8</refReq_chNo>
+			<refReq_clNo>1.4.8.1</refReq_clNo>
+		</reqs>
+		<reqs><!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>ANSI C18-2M</refReq_tag>
+			<refReq_part>2</refReq_part>
+			<refReq_chNo>10</refReq_chNo>
+			<refReq_clNo>10.1</refReq_clNo>
+		</reqs>
+		<reqs><!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>SAE J1797</refReq_tag>
+			<refReq_part>n.a.</refReq_part>
+			<refReq_chNo>9.3</refReq_chNo>
+			<refReq_clNo>9.3.5</refReq_clNo>
+		</reqs>
+		<reqs><!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>IEEE 1625</refReq_tag>
+			<refReq_part>n.a.</refReq_part>
+			<refReq_chNo>6.6.2</refReq_chNo>
+			<refReq_clNo>6.6.2.6</refReq_clNo>
+		</reqs>
+		<reqs><!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>UL s2054</refReq_tag>
+			<refReq_part>n.a.</refReq_part>
+			<refReq_chNo>25</refReq_chNo>
+			<refReq_clNo>25.1</refReq_clNo>
+		</reqs>
+		<reqs><!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>UL s1642</refReq_tag>
+			<refReq_part>n.a.</refReq_part>
+			<refReq_chNo>21</refReq_chNo>
+			<refReq_clNo>21.1</refReq_clNo>
+		</reqs>
+		<htmltext><![CDATA[
+			<ul><li>Manufacturing information ; identification of the manufacturer and its location. A permanently marked using a unique identifier (e.g. SIC code) shall be applied on the batteyr casing.</li></ul>
+		]]></htmltext>
+	</paragraph>
+	<paragraph>
+		<prodType>Module</prodType>
+		<reqs><!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>ANSI C18-2M</refReq_tag>
+			<refReq_part>1</refReq_part>
+			<refReq_chNo>1.4.8</refReq_chNo>
+			<refReq_clNo>1.4.8.1</refReq_clNo>
+		</reqs>
+		<reqs><!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>ANSI C18-2M</refReq_tag>
+			<refReq_part>2</refReq_part>
+			<refReq_chNo>10</refReq_chNo>
+			<refReq_clNo>10.1</refReq_clNo>
+		</reqs>
+		<reqs><!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>SAE J1797</refReq_tag>
+			<refReq_part>n.a.</refReq_part>
+			<refReq_chNo>9.3</refReq_chNo>
+			<refReq_clNo>9.3.6</refReq_clNo>
+		</reqs>
+		<reqs><!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>UL s2054</refReq_tag>
+			<refReq_part>n.a.</refReq_part>
+			<refReq_chNo>25</refReq_chNo>
+			<refReq_clNo>25.1</refReq_clNo>
+		</reqs>
+		<htmltext><![CDATA[
+			<ul><li>Country of origin</li></ul>
+		]]></htmltext>
+	</paragraph>
+	<paragraph>
+		<prodType>Module</prodType>
+		<reqs><!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>ANSI C18-2M</refReq_tag>
+			<refReq_part>1</refReq_part>
+			<refReq_chNo>1.4.8</refReq_chNo>
+			<refReq_clNo>1.4.8.1</refReq_clNo>
+		</reqs>
+		<reqs><!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>ANSI C18-2M</refReq_tag>
+			<refReq_part>2</refReq_part>
+			<refReq_chNo>10</refReq_chNo>
+			<refReq_clNo>10.1</refReq_clNo>
+		</reqs>
+		<reqs><!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>SAE J1797</refReq_tag>
+			<refReq_part>n.a.</refReq_part>
+			<refReq_chNo>9.3</refReq_chNo>
+			<refReq_clNo>9.3.7</refReq_clNo>
+		</reqs>
+		<reqs><!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>UL s2054</refReq_tag>
+			<refReq_part>n.a.</refReq_part>
+			<refReq_chNo>25</refReq_chNo>
+			<refReq_clNo>25.1</refReq_clNo>
+		</reqs>
+		<reqs><!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>UL s1642</refReq_tag>
+			<refReq_part>n.a.</refReq_part>
+			<refReq_chNo>21</refReq_chNo>
+			<refReq_clNo>21.1</refReq_clNo>
+		</reqs>
+		<htmltext><![CDATA[
+			<ul><li>Date of manufacturing </li></ul>
+		]]></htmltext>
+	</paragraph>
+	<paragraph>
+		<prodType>Module</prodType>
+		<reqs><!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>UL s1642</refReq_tag>
+			<refReq_part>n.a.</refReq_part>
+			<refReq_chNo>22</refReq_chNo>
+			<refReq_clNo>22.2</refReq_clNo>
+		</reqs>
+		<htmltext><![CDATA[
+			<ul><li>The packaging for a user-replaceable battery shall be marked with the word “CAUTION” and the following or equivalent statements: “Risk of fire and burns. Do not recharge, disassemble, heat above (the manufacturer’s specified temperature rating), or incinerate. Keep battery out of reach of children and in original package until ready to use. Dispose of used batteries promptly.”</li></ul>
+		]]></htmltext>
+	</paragraph>
+	<paragraph>
+		<prodType>Module</prodType>
+		<reqs><!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>IEEE 1725</refReq_tag>
+			<refReq_part>n.a.</refReq_part>
+			<refReq_chNo>6.2</refReq_chNo>
+			<refReq_clNo>6.2.3</refReq_clNo>
+		</reqs>
+		<reqs><!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>IEEE 1625</refReq_tag>
+			<refReq_part>n.a.</refReq_part>
+			<refReq_chNo>6.6.2</refReq_chNo>
+			<refReq_clNo>6.6.2.7</refReq_clNo>
+		</reqs>
+		<htmltext><![CDATA[
+			<ul><li>Certification information</li></ul>
+		]]></htmltext>
+	</paragraph>
+	<paragraph>
+		<prodType>Module</prodType>
+		<reqs><!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>IEC 62133</refReq_tag>
+			<refReq_part>n.a.</refReq_part>
+			<refReq_chNo>10</refReq_chNo>
+			<refReq_clNo>10.2</refReq_clNo>
+		</reqs>
+		<htmltext><![CDATA[
+			<p>Modules shall be marked in accordance with the requirements for the cells from which they are assembled.</p>
+		]]></htmltext>
+	</paragraph>
+	<paragraph>
+		<prodType>Module</prodType>
+		<reqs><!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>UL s2054</refReq_tag>
+			<refReq_part>n.a.</refReq_part>
+			<refReq_chNo>25</refReq_chNo>
+			<refReq_clNo>25.4</refReq_clNo>
+		</reqs>
+		<htmltext><![CDATA[
+			<p>Charging instruction shall be given if applicable for the battery.</p>
+		]]></htmltext>
+	</paragraph>
+	<paragraph>
+		<prodType>Module</prodType>
+		<reqs><!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>ANSI C18-2M</refReq_tag>
+			<refReq_part>1</refReq_part>
+			<refReq_chNo>1.4.1</refReq_chNo>
+			<refReq_clNo>1.4.1.1</refReq_clNo>
+		</reqs>
+		<htmltext><![CDATA[
+			<p><b>Modules (batteries) for portable applications</b></p>
+			<p>On the secondary battery or its package a designation shall be placed which gives information about the nominal voltage, the electrochemical system and the physical dimensions, thermal configurations, performance variables.</p>
+			<p>Example: the ANSI standards define the following designation:</p>
+			<ul><li>First number to indicate the nominal voltage: amount of cells multiplies by the nominal cell voltage</li>
+			<li>A letter to indicate the electrochemical system. For Lithium ion the l is used</li>
+			<li>Number with the information about physical dimensions, thermal configurations, performance variables. These numbers are defined in the standard</li></ul>
+		]]></htmltext>
+	</paragraph>
+</description>	
+<processOwner>company0</processOwner>
+</step>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<step>
+<proc>Module assembly</proc>	
+<title>Connecting the cells</title>	
+<description>
+	<paragraph>
+		<prodType>Cell | Module</prodType>
+		<act>assembling | lifting | placing | moving</act>							
+		<recoms>recomm_1</recoms>
+		<recoms>recomm_2</recoms>	
+		<recoms>recomm_3</recoms>
+		<recoms>recomm_4</recoms>
+		<htmltext><![CDATA[<p>The electrical connection between the cells can be made when the cells are in the casing. To avoid leakage from the cells or from the 
+		resulting module, no blunt tooling shall be used. The cells and the resulting module form can be external short circuited. Precautions to 
+		avoid this shall be taken: covering one current connector of a cell but also of the module once all cells are connected.</p>
+		<p>To avoid decrease the severity of injuries caused by electrical short circuit or leakage, safety gloves and glasses shall be used.</p>]]></htmltext>
+	</paragraph>
+	<paragraph>
+		<prodType>Cell | Module</prodType>
+		<act>assembling</act>		
+		<reqs> <!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>IEEE 1625</refReq_tag>
+			<refReq_part>n.a.</refReq_part>
+			<refReq_chNo>6.8.3</refReq_chNo>
+			<refReq_clNo>6.8.3.1</refReq_clNo>
+		</reqs>
+		<reqs> <!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>IEEE 1625</refReq_tag>
+			<refReq_part>n.a.</refReq_part>
+			<refReq_chNo>6.8.3</refReq_chNo>
+			<refReq_clNo>6.8.3.2</refReq_clNo>
+		</reqs>
+		<reqs> <!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>IEEE 1625</refReq_tag>
+			<refReq_part>n.a.</refReq_part>
+			<refReq_chNo>6.8.3</refReq_chNo>
+			<refReq_clNo>6.8.3.7</refReq_clNo>
+		</reqs>	
+		<reqs> <!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>IEEE 1625</refReq_tag>
+			<refReq_part>n.a.</refReq_part>
+			<refReq_chNo>6.12.5</refReq_chNo>
+			<refReq_clNo>6.12.5.4</refReq_clNo>
+		</reqs>	
+		<reqs> <!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>IEEE 1725</refReq_tag>
+			<refReq_part>n.a.</refReq_part>
+			<refReq_chNo>6.11</refReq_chNo>
+			<refReq_clNo>6.11.3</refReq_clNo>
+		</reqs>			
+		<reqs> <!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>IEEE 1725</refReq_tag>
+			<refReq_part>n.a.</refReq_part>
+			<refReq_chNo>6.12</refReq_chNo>
+			<refReq_clNo>6.12.1</refReq_clNo>
+		</reqs>		
+		<reqs> <!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>IEEE 1725</refReq_tag>
+			<refReq_part>n.a.</refReq_part>
+			<refReq_chNo>6.12</refReq_chNo>
+			<refReq_clNo>6.12.5</refReq_clNo>
+		</reqs>
+		<htmltext><![CDATA[<p>When connections are soldered, precautions shall be implemented to ensure sufficient solder flux activation to avoid incomplete solder connections. </p>
+			<p>During ultrasonic welding and other operations, no damage to cell container and critical cell design elements may occur. Precautions shall be taken to avoid this.</p>
+			<p>Samples from the tab welding station shall be taken and subjected to a pull test.</p>
+			]]></htmltext>
+	</paragraph>				
+	<paragraph>
+		<prodType>Module</prodType>
+		<act>assembling | lifting | placing | moving</act>	
+		<recoms>recomm_16</recoms>
+		<recoms>recomm_17</recoms>	
+		<recoms>recomm_27</recoms>
+		<recoms>recomm_33</recoms>	
+		<recoms>recomm_39</recoms>
+		<htmltext><![CDATA[A general risk of a battery module is the thermal runaway. This can be introduced by electrical and mechanical abuse. It is therefore necessary 
+			to avoid any abuse during the module assembling. Another recommendation is to monitor the temperature of the modules on regular base. ...  To 
+			avoid the propagation of a thermal runaway the modules can whenever possible be placed in a moulded tray.
+		]]></htmltext>
+	</paragraph>
+</description>	
+<processOwner>company0</processOwner>
+</step>

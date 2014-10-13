@@ -1,0 +1,141 @@
+<step>
+<proc>Transportation</proc>	
+<title>Transporting waste by land</title>
+<description>	
+	<paragraph>
+		<prodType>Cell | Module | Pack</prodType>
+		<act>packing | labelling</act>		
+		<htmltext><![CDATA[
+			<h3><strong>Waste transported by land</strong></h3>
+			<p><strong>WASTE LITHIUM ION CELLS & BATTERIES – Fully regulated P903 ADR & IMDG</strong></p>
+			<p>Applies to:</p>
+			<ul><li>Waste Lithium ion cells with a Watt-hour rating in excess of 20 Wh/cell</li>
+			<li>Waste Lithium ion  batteries with a Watt-hour rating in excess of 100Wh/battery</li></ul>
+			<p>Note: waste cells and batteries transported as new one.</p>
+			<p>Un No., Proper shipping name: UN 3480, LITHIUM ION BATTERIES</p>
+			<p>Class: 9</p>
+			<p>Packing group: II</p>
+			<p>Label:</p>
+			<ul><li>Labels must be in the form of a square set at an angle of 50° (diamond-shaped) with minimum dimensions of 100 mm by 100 mm; except in the case of packages od such dimensions that they can only bear smaller labels.</li>
+			<li>They must have a line 5 mm inside the edge and running parallel with it.</li></ul>
+			<p><img alt="" src="http://193.104.8.63/bundles/cegekaflandersdrive/images/standards/15 Transport/Transport-figure2.jpg"/></p>
+			<p>Prerequisite: Cells must meet the General Requirements of flow Transportation.</p>
+			<ul><li>Each battery incorporates a safety venting device or is designed to preclude a violent rupture under normal conditions of carriage.</li>
+			<li>Each battery is equipped with an effective means of preventing external short circuits.</li>
+			<li>Each battery containing cells or series of cells connected in parallel must be equipped with an effective means, as necessary, to prevent dangerous reverse current flow (e.g. diodes, fuses).</li>
+			<li>Batteries manufactured after 31 December 2011 must be marked with the Wh rating on the outside case.</li></ul>
+			<p>Transport mode: ADR</p>
+			<p>Packing instructions: P903</p>
+			<ul><li>Cells must be protected against short circuit, including protection against contact with conductive materials within the same packaging which could cause a short circuit.</li>
+			<li>Cells must be packed so that they are protected against damage caused by the movement or placement of the cells within the packaging.</li>
+			<li>Use only approved packaging conforming to PG II performance level.</li></ul>
+			<p>Packagings:</p>
+			<ul><li>Drums (1A2, 1B2, 1N2, 1H2, 1D, 1G)</li>
+			<li>Boxes (4A, 4B, 4N, 4C1, 4C2, 4D, 4F, 4G, 4H1, 4H2)</li>
+			<li>Jerricans (3A2, 3B2, 3H2)</li></ul>
+			<p>Batteries ≥ 12 h (gross) with a  strong impact resistant outer casing:</p>
+			<ul><li>Not required UN approved packagings for batteries, or assemblies of such batteries, when packed in strong outer packagings or protective enclosures (i.g. fully enclosed or wooden slatted crates)</li>
+			<li>Allowed transport on Pallets or otter handling devices</li>
+			<li>Batteries must be secured to prevent inadvertent movement, and the terminals must not support the weight of other superimposed elements</li></ul>
+			<p>Weight limit: No limit</p>
+			<p>Tunnel code: (E)</p>
+			<p>Transport cat.: 2</p>
+			<p>Exemptions: Chapter 1.1.3.6 limit ≤ 333 kg Net</p>
+			<p>Marking: UN3480</p>
+			<p>Overpack: “Overpack”</p>
+			<p><img alt="" src="http://193.104.8.63/bundles/cegekaflandersdrive/images/standards/15 Transport/Transport-figure2.jpg"/></p>
+			<p>Documents: Transport document</p>
+			<p>Practical example of packaging, marking and labelling of packages containing waste lithium ion cells and batteries, fully regulated, according Packing Isntrcution P903 (ADR & IMDG).</p>
+			<p><img alt="" src="http://193.104.8.63/bundles/cegekaflandersdrive/images/standards/15 Transport/Transport-figure48.jpg"/></p>
+			<p><img alt="" src="http://193.104.8.63/bundles/cegekaflandersdrive/images/standards/15 Transport/Transport-figure49.jpg"/></p>
+
+			<p><strong>WASTE LITHIUM ION CELLS & BATTERIES – Fully regulated P903a ADR only</strong></p>
+			<p>Applies to:</p>
+			<ul><li>Waste Lithium ion cells with a Watt-hour rating in excess of 20 Wh/cell</li>
+			<li>Waste Lithium ion  batteries with a Watt-hour rating in excess of 100Wh/battery</li></ul>
+			<p>Note: applicable only for road transportation ADR</p>
+			<p>Un No., Proper shipping name: UN 3480, LITHIUM ION BATTERIES</p>
+			<p>Class: 9</p>
+			<p>Packing group: II</p>
+			<p>Label:</p>
+			<ul><li>Labels must be in the form of a square set at an angle of 50° (diamond-shaped) with minimum dimensions of 100 mm by 100 mm; except in the case of packages od such dimensions that they can only bear smaller labels.</li>
+			<li>They must have a line 5 mm inside the edge and running parallel with it.</li></ul>
+			<p><img alt="" src="http://193.104.8.63/bundles/cegekaflandersdrive/images/standards/15 Transport/Transport-figure2.jpg"/></p>
+			<p>Prerequisite: Cells must meet the General Requirements of flow Transportation.</p>
+			<ul><li>Each battery incorporates a safety venting device or is designed to preclude a violent rupture under normal conditions of carriage.</li>
+			<li>Each battery is equipped with an effective means of preventing external short circuits.</li>
+			<li>Each battery containing cells or series of cells connected in parallel must be equipped with an effective means, as necessary, to prevent dangerous reverse current flow (e.g. diodes, fuses).</li>
+			<li>Batteries manufactured after 31 December 2011 must be marked with the Wh rating on the outside case.</li></ul>
+			<p>Transport mode: ADR</p>
+			<p>Packing instructions: P903a</p>
+			<ul><li>Cells must be protected against short circuit, including protection against contact with conductive materials within the same packaging which could cause a short circuit.</li>
+			<li>Cells must be packed so that they are protected against damage caused by the movement or placement of the cells within the packaging.</li></ul>
+			<p>Approved packagings: Only use approved packagings conforming to Packaging Group II performance level, for example:</p>
+			<ul><li>Drums (1A2, 1B2, 1N2, 1H2, 1D, 1G)</li>
+			<li>Boxes (4A, 4B, 4N, 4C1, 4C2, 4D, 4F, 4G, 4H1, 4H2)</li>
+			<li>Jerricans (3A2, 3B2, 3H2)</li></ul>
+			<p>Weight limit: No limit</p>
+			<p>Non approved packagings: Can be used, provided that:</p>
+			<ul><li>They meet the general provisions of 4.1.1, except 4.1.1.3 and 4.1.3</li>
+			<li>Batteries shall be protected against short circuit</li>
+			<li>The cells and batteries are packed ad stowed so as to prevent any risk of short circuit.</li></ul>
+			<p>Weight limit: ≤ 30 kg Gross</p>
+			<p>Tunnel code: (E)</p>
+			<p>Transport cat.: 2</p>
+			<p>Exemptions: Chapter 1.1.3.6 limit ≤ 333 kg Net</p>
+			<p>Marking: UN3480</p>
+			<p>Overpack: “Overpack”</p>
+			<p><img alt="" src="http://193.104.8.63/bundles/cegekaflandersdrive/images/standards/15 Transport/Transport-figure2.jpg"/></p>
+			<p>Documents: Transport document</p>
+			<p>Practical example of packaging, marking and labelling of packages containing waste lithium ion cells and batteries, fully regulated, according Packing Isntrcution P903a (ADR only).</p>
+			<p><img alt="" src="http://193.104.8.63/bundles/cegekaflandersdrive/images/standards/15 Transport/Transport-figure51.jpg"/></p>
+
+
+			<p><strong>MIX WASTE LITHIUM ION CELLS & BATTERIES (with other non-lithium cells and batteries or alone) – P903b + SP 636_ADR only</strong></p>
+			<p>No ADR: Transport of mix batteries are not subjected to the other provisions of ADR if they meet both P903b and SP 636, otherwise they are fully regulated under P903b.</p>
+			<p>Applies to:</p>
+			<ul><li>Used lithium cells and batteries with a gross mass of not more than 500 g each</li>
+			<li>Mix of Lithium Cells and batteries, unsorted, collected with other non-lithium cells and batteries carriage for disposal between the consumer collecting points and the intermediate processing facility</li></ul>
+			<p>Un No., Proper shipping name: UN 3480, LITHIUM ION BATTERIES</p>
+			<p>Class: 9</p>
+			<p>Packing group: II</p>
+			<p>Hazard label: Not required, only inscription “USED LITHIUM CELLS”</p>
+			<p>Prerequisite: Used Lithium cells and batteries with a gross mass of not more than 500 g each</p>
+			<p>Transport mode: ADR</p>
+			<p>Special Provisions: 636b</p>
+			<p>Used   lithium cells and batteries  wich a gross mass of not more than 500 g each collected and presented for carriage for ds^psal between, the consumer collecting point and the  intermediate processing facility, together with other non-lithium cells or batteries, are not subjected to the other provisions of the ADR if they meet the following conditions:</p>
+			<ul><li>The provisions of packing instructions P903b are complied with</li>
+			<li>A quality assurance system is in place to ensure that the total amount of lithium cells or batteries per transport unit does not exceed 333 kg</li>
+			<li>Packages shall bear the inscription: “USED LITHIUM CELLS”.</li></ul>
+			<p>Packing instructions: P903b</p>
+			<p>Remark: may be carried together with other used non-lithium batteries or aloes without being individually protected.</p>
+			<p>Approved packagings: Use  only  approved packaging conforming  to packing group II performance level for solids</p>
+			<ul><li>1H2: plastic drum with removable head</li>
+			<li>4H2: plastic solid box</li>
+			<li>1A2: steel drum with removable head (+polyethylene bag)</li>
+			<li>4A: steel	box (+polyethylene bag)</li></ul>
+			<p>Polyethylene bag	characteristics:</p>
+			<ul><li>Shall have an impact resistance  of at least 480  grams in  both parallel and perpendicular planes with respect to the length of the bag;</li>
+			<li>Shall have a minimum of 500 microns of thickness with an electrical resistivity	 of more  than 10Mohms and a water absorption rate over 24 hours at 25  °C lower than 0.01%.</li>
+			<li>Shall be closed; and</li>
+			<li>May only be used once;</li></ul>
+			<p>Weight limit: No limit</p>
+			<p>Non approved packagings: In collecting trays made from non-conducting material meeting the general conditions of 4.1.1.1, 4.1.1.2 and 4.1.1.8.</p>
+			<p>Weight limit: ≤ 30 kg (gross)</p>
+			<p>Additional requirements: The empty space in the packaging shall be fileld with cushioning material. The cushioning material may be dispensed with when the packaging is entirely fitted with a polyethylene bag and the bag is closed.</p>
+			Hermetically sealed packagings shall be fitter with a venting device according to 4.1.1.8. The venting device shall be so designed that an overpressure caused by gases does not exceed 10 kPa.
+			<p>Transport according: SP 636 + P903b</p>
+			<p>Marking and Handling Labels on Packages:</p>
+			<p><img alt="" src="http://193.104.8.63/bundles/cegekaflandersdrive/images/standards/15 Transport/Transport-figure52.jpg"/></p>
+			<p>Overpack: “Overpack”</p>
+			<p><img alt="" src="http://193.104.8.63/bundles/cegekaflandersdrive/images/standards/15 Transport/Transport-figure52.jpg"/></p>
+			<p>Documents: Not required</p>
+			<p>Tunnel code: -</p>
+			<p>Transport cat.: -</p>
+			<p>Exemptions: -</p>
+			<p>Practical example of packaging, marking and labelling of packages containing waste MIX of lithium cells and batteries, with other non-lithium cells and batteries or alone, according Packing Instruction P903b + Special Provision 636 (ADR only)</p>
+			<p><img alt="" src="http://193.104.8.63/bundles/cegekaflandersdrive/images/standards/15 Transport/Transport-figure53.jpg"/></p>
+		]]></htmltext>
+		</paragraph>	
+</description>
+</step>

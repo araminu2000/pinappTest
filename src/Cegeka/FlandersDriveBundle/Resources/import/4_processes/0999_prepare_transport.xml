@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<step>
+<proc>Transportation</proc>	
+<title>Prepare for transportation by land, sea or air</title>
+<description>	
+	<paragraph>
+		<prodType>Cell | Damaged cell | Module | Damaged module | Pack | Damaged pack</prodType>
+		<htmltext><![CDATA[
+			<p>During the preparationt for transportation the cells, modules and packs are packed and labeled according to the regulation
+			applicable for the type of transport:
+			<ul><li>ADR regulation for road transport</li>
+			<li>IMDG regulation for sea trasport</li>
+			<li>IATA regulation for air transport</li></ul>
+			<p>Each regulation defines the type of packaging, the labeling and the needed transportation documents.</p>
+		]]></htmltext>
+	</paragraph>
+</description>
+</step>	

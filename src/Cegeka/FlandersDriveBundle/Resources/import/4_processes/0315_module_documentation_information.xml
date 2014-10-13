@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<step>
+<proc>Module design and development</proc>	
+<title>Documentation and information</title>	
+<description>
+	<paragraph>
+		<prodType>Module</prodType>
+		<reqs><!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>ANSI C18-2M</refReq_tag>
+			<refReq_part>2</refReq_part>
+			<refReq_chNo>8</refReq_chNo>
+			<refReq_clNo>8.1</refReq_clNo>
+		</reqs>
+		<reqs><!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>ANSI C18-2M</refReq_tag>
+			<refReq_part>2</refReq_part>
+			<refReq_chNo>8.2</refReq_chNo>
+			<refReq_clNo>8.2.1</refReq_clNo>
+		</reqs>
+		<reqs><!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>ANSI C18-2M</refReq_tag>
+			<refReq_part>2</refReq_part>
+			<refReq_chNo>8.2</refReq_chNo>
+			<refReq_clNo>8.2.2</refReq_clNo>
+		</reqs>
+		<reqs><!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>ANSI C18-2M</refReq_tag>
+			<refReq_part>2</refReq_part>
+			<refReq_chNo>8.2</refReq_chNo>
+			<refReq_clNo>8.2.3</refReq_clNo>
+		</reqs>
+		<reqs><!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>ANSI C18-2M</refReq_tag>
+			<refReq_part>2</refReq_part>
+			<refReq_chNo>8.2</refReq_chNo>
+			<refReq_clNo>8.2.4</refReq_clNo>
+		</reqs>
+		<reqs><!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>ANSI C18-2M</refReq_tag>
+			<refReq_part>2</refReq_part>
+			<refReq_chNo>8.2</refReq_chNo>
+			<refReq_clNo>8.2.5</refReq_clNo>
+		</reqs>
+		<reqs><!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>ANSI C18-2M</refReq_tag>
+			<refReq_part>2</refReq_part>
+			<refReq_chNo>8.2</refReq_chNo>
+			<refReq_clNo>8.2.6</refReq_clNo>
+		</reqs>
+		<reqs><!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>ANSI C18-2M</refReq_tag>
+			<refReq_part>2</refReq_part>
+			<refReq_chNo>8.2</refReq_chNo>
+			<refReq_clNo>8.2.7</refReq_clNo>
+		</reqs>
+		<reqs><!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>ANSI C18-2M</refReq_tag>
+			<refReq_part>2</refReq_part>
+			<refReq_chNo>8.2</refReq_chNo>
+			<refReq_clNo>8.2.8</refReq_clNo>
+		</reqs>
+		<reqs><!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>ANSI C18-2M</refReq_tag>
+			<refReq_part>2</refReq_part>
+			<refReq_chNo>8.2</refReq_chNo>
+			<refReq_clNo>8.2.9</refReq_clNo>
+		</reqs>
+		<reqs><!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>ANSI C18-2M</refReq_tag>
+			<refReq_part>2</refReq_part>
+			<refReq_chNo>8.2</refReq_chNo>
+			<refReq_clNo>8.2.10</refReq_clNo>
+		</reqs>
+		<reqs><!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>ANSI C18-2M</refReq_tag>
+			<refReq_part>2</refReq_part>
+			<refReq_chNo>8.2</refReq_chNo>
+			<refReq_clNo>8.2.11</refReq_clNo>
+		</reqs>
+		<reqs><!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>ANSI C18-2M</refReq_tag>
+			<refReq_part>2</refReq_part>
+			<refReq_chNo>8.2</refReq_chNo>
+			<refReq_clNo>8.2.12</refReq_clNo>
+		</reqs>
+		<reqs><!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>ANSI C18-2M</refReq_tag>
+			<refReq_part>2</refReq_part>
+			<refReq_chNo>8.2</refReq_chNo>
+			<refReq_clNo>8.2.13</refReq_clNo>
+		</reqs>
+		<htmltext><![CDATA[
+			<p><strong>Safety information modules (for portable applications)</strong></p>
+			<p>When used correctly, rechargeable modules provide a safe source of power. Misuse or abuse however, can lead to leakage, burns, fire or explosion . To avoid misuse, abuse the following needs to be taken into account:</p>
+			<ul><li>Modules should not be disassembled, crushed, puncture, opened or otherwise mutilated</li>
+			<li>Insert modules correctly observing the positive and negative polarity marks of the device</li>
+			<li>Do not short the modules. Store the modules in original package and away from metal objects</li>
+			<li>Modules should not be heated or exposed to higher temperatures than the maximum specified temperature</li>
+			<li>To charge the module use only the recommended or original provided charger</li>
+			<li>Avoid mechanical shock, don’t drop the module</li>
+			<li>Use the module only with equipment specified its use.</li>
+			<li>Keep modules out of reach of children</li>
+			<li>Seek medical advice if a small module has been swallowed</li>
+			<li>In event that electrolyte comes into contact with the skin or eyes, immediate flush with fresh water for at least 15 min and seeks medical advice.</li>
+			<li>Do not mix modules of different sizes, capacities, brands or chemistries</li>
+			<li>Modules should not be placed into a fire except under controlled conditions.</li></ul>
+		]]></htmltext>
+	</paragraph>
+	<paragraph>
+		<prodType>Module</prodType>
+		<reqs><!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>ANSI C18-2M</refReq_tag>
+			<refReq_part>2</refReq_part>
+			<refReq_chNo>9</refReq_chNo>
+			<refReq_clNo>9.1</refReq_clNo>
+		</reqs>
+		<reqs><!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>ANSI C18-2M</refReq_tag>
+			<refReq_part>2</refReq_part>
+			<refReq_chNo>9</refReq_chNo>
+			<refReq_clNo>9.2</refReq_clNo>
+		</reqs>
+		<reqs><!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>ANSI C18-2M</refReq_tag>
+			<refReq_part>2</refReq_part>
+			<refReq_chNo>9</refReq_chNo>
+			<refReq_clNo>9.3</refReq_clNo>
+		</reqs>
+		<reqs><!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>ANSI C18-2M</refReq_tag>
+			<refReq_part>2</refReq_part>
+			<refReq_chNo>9</refReq_chNo>
+			<refReq_clNo>9.4</refReq_clNo>
+		</reqs>
+		<reqs><!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>ANSI C18-2M</refReq_tag>
+			<refReq_part>2</refReq_part>
+			<refReq_chNo>9</refReq_chNo>
+			<refReq_clNo>9.5</refReq_clNo>
+		</reqs>
+		<reqs><!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>ANSI C18-2M</refReq_tag>
+			<refReq_part>2</refReq_part>
+			<refReq_chNo>9</refReq_chNo>
+			<refReq_clNo>9.6</refReq_clNo>
+		</reqs>
+		<reqs><!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>ANSI C18-2M</refReq_tag>
+			<refReq_part>2</refReq_part>
+			<refReq_chNo>9</refReq_chNo>
+			<refReq_clNo>9.7</refReq_clNo>
+		</reqs>
+		<reqs><!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>ANSI C18-2M</refReq_tag>
+			<refReq_part>2</refReq_part>
+			<refReq_chNo>9</refReq_chNo>
+			<refReq_clNo>9.8</refReq_clNo>
+		</reqs>		
+		<htmltext><![CDATA[
+			<p><strong>Instructions of use (for portable applications)</strong></p>
+			<ul><li>Purchase the correct size and grad of modules suitable for intended use</li>
+			<li>Keep modules clean and dry. If the terminals are dirty wipe them with a soft, dry cloth</li>
+			<li>Charge modules before use, refer to the instructions or manual for proper charging instructions</li>
+			<li>It may be necessary to charge and discharge the module two or three times before obtaining maximum performance on first use or after prolonged periods of storage</li>
+			<li>Unless otherwise specified by te manufacturer, it is best to charge the module at temperature between 15°C and 30°C.</li>
+			<li>If instructed, remove the module from the charger when not in use</li>
+			<li>Save the product literature like manual for future reference</li>
+			<li>Only use the module for the application for which it is intended</li></ul>
+		]]></htmltext>
+	</paragraph>
+</description>	
+<processOwner>company0</processOwner>
+</step>

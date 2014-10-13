@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<step>
+<proc>Transportation</proc>	
+<title>Preparation for sea transport</title>	
+<description>
+	<paragraph>
+		<prodType>Cell | Damaged cell | Module | Damaged module | Pack | Damaged pack</prodType>
+		<act>packing</act>
+		<workproducts>IMDG</workproducts>
+	</paragraph>
+	<paragraph>
+		<prodType>Cell | Module | Pack</prodType>
+		<act>packing | labelling</act>
+		<reqs> <!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>IEC 62281</refReq_tag>
+			<refReq_part>n.a.</refReq_part>
+			<refReq_chNo>7.3</refReq_chNo>
+			<refReq_clNo>7.3.3</refReq_clNo>
+		</reqs>
+		<htmltext><![CDATA[
+			<p>Regulations concerning sea transport of lithium batteries are specified in the International Maritime 
+			Dangerous Goods (IMDG) Code published by the International Maritime Organization (IMO).</p>
+		]]></htmltext>
+	</paragraph>
+	<paragraph>
+		<prodType>Cell | Module | Pack</prodType>
+		<act>packing | labelling</act>
+		<htmltext><![CDATA[
+			<h3><strong>Translational period</strong></h3>
+			<p>Depending in the period of production, cells, modules and packs can be transported according to the following time frame:</p>
+			<ul><li>Lithium cells, modules and packs manufactured before 1 January 2003 that have not been tested in accordance with the requirements in chapter 38.3 of the United Nations Manual of Tests and Criteria, as will as articles which contain such lithium cells or batteries, may be transported until 31st of December 2013 if all applicable provisions of the Core are met.</li>
+			<li>Lithium cells, modules and packs manufactured before 1 January 2014 and conforming to a design type tested according to requirements of the fifth revised edition of the Manual of Tests and Criteria, Part III, subsection 38.3 may continue to be transported.</li></ul>
+			<h3><strong>Exemptions from the testing requirelments:</strong></h3>
+			<p>For the exemptions under the road and maritimee transport modes see special provision 310.</p>
+			<p>The testing requirements in sub-section 38.3 of the Manual of Tests and Criteria do not apply to:</p>
+			<ul><li>Low production runs consisting of not more than 100 cells and batteries.</li>
+			<li>Pre-production prototues of lithium cells and batteries when these prototypes are transported for testing.</li>
+			<li>Use Packing Group I packagings.</li></ul>
+	]]></htmltext>
+	</paragraph>
+	<paragraph>
+		<prodType>Cell | Module | Pack</prodType>
+		<act>packing</act>
+		<htmltext><![CDATA[
+			<h3><strong>Packaging</strong></h3>
+		]]></htmltext>
+	</paragraph>	
+	<paragraph>
+		<prodType>Cell | Module | Pack</prodType>
+		<act>packing</act>
+		<reqs> <!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>IEC 62281</refReq_tag>
+			<refReq_part>n.a.</refReq_part>
+			<refReq_chNo>7</refReq_chNo>
+			<refReq_clNo>7.1</refReq_clNo>
+		</reqs>
+		<reqs> <!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>IEC 62281</refReq_tag>
+			<refReq_part>n.a.</refReq_part>
+			<refReq_chNo>4</refReq_chNo>
+			<refReq_clNo>4.2</refReq_clNo>
+		</reqs>
+		<htmltext><![CDATA[
+			<p>The packaging needs to avoid mechanical damage during transport, handling and stacking of the goods. This is to avoid crushing of the cells 
+			and batteries (which can lead to leakage, venting, rupture, explosion and fire) , unintentional electrical short circuit and corrosion of the terminals.</p>
+		]]></htmltext>
+	</paragraph>
+	<paragraph>
+		<prodType>Cell | Module | Pack</prodType>
+		<act>packing</act>
+		<recoms>recomm_83</recoms>
+		<htmltext><![CDATA[
+			<p><b>TO DO add recomm for cell and modules</b></p>
+			<p>To avoid propagation of a thermal runaway the following measures can be taken:</p>
+			<ul><li> Place cells, modules and damaged cells, damaged modules in moulted trays before they are packed, can avoid propagation of a thermal runaway</li>
+			<li>Place battery packs in separated packages and use fire resistant material for these packages</li></ul>
+		]]></htmltext>
+	</paragraph>
+	<paragraph>
+		<prodType>Cell | Module | Pack</prodType>
+		<act>packing</act>	
+		<htmltext><![CDATA[	
+			<p>Packagings  shall be constructed and closed so as to prevent any loss of contents when prepared for transport which might be cased under normal conditions of transport, by vibrations, or by changes in temperature, humidity or pressure.</p>
+			<p>No dangerous residue shall adhere to the outside of packagings during carriage.</p>
+			<p>“Overpack’ means an enclosure used (by a single consignor in the case of Class 7)) to contain one or more packages, consolidated into a single unit easier to handle and stow during carriage;</p>
+			<p>Examples of Overpack:</p>
+			<ul><li>A loading tray such as a pallet, in which several packages are placed or stacked and secured by a plastics strip, shrink or stretch wrapping or other appropriate means</li>
+			<li>An outer protective packaging such as a box or a crate</li></ul>
+			<p>“Package’ means the complete product of the packaging operation, consisting of the packaging and its contents prepared for dispatch.</p>
+			<p>Dangerous goods shall not be packed together in the same outer packaging or in larger packagings, with dangerous or other goods if they react dangerously with each other and cause:</p>
+			<ul><li>Combustion or evolution of considerable heat</li>
+			<li>Evolution of flammable, asphyciant, oxidizing or toxic gasses</li>
+			<li>The formation of corrosive substances</li>
+			<li>The formation of unstable substances</li></ul>
+			<p>Before being filed and handed over for carriage, every packaging, including IBCs and large packagings, shell be checked to be free from corrosion, contamination or other defects.</p>
+			<p>Any packaging which shows signs of weakening, with reference to the approved prototype shall no loner be used or shall be refurbished so that it can pass the tests required for the prototype.</p>
+			<p><i>Plastic packagings</i></p>
+			<p>For plastics drums and jerricans, rigid plastics IBCs and composite IBCs with plastics inner receptacles, unless otherwise approved by the competent authority, the period of use permitted for carriage of dangerous substances shall be five years from the date of manufacture of the receptacles except where a shorter period of use is prescribed because of the nature of the substance to be carried.</p>
+			<p><i>Approved packagings</i></p>
+			<p>The packs can be used must have passed specific tests and testing conform to the prototype tested. </p>
+			<p>Packagings shall be manufactured, reconditioned and tested under a quality assurance programme which satisfies the competent authority.</p>
+			<p>Packagings shall bear markings which are durable, legible and readily visible, constituted by a sequence of symbols, letters and numbers, i.e.:</p>
+			<p><img alt="" src="http://193.104.8.63/bundles/cegekaflandersdrive/images/standards/15 Transport/Transport-figure1.jpg" style="height:358px; width:500px" /></p>
+			<p>Table with packing codes</p>
+			<p><img alt="" src="http://193.104.8.63/bundles/cegekaflandersdrive/images/standards/15 Transport/Transport-table1.jpg" style="height:466px; width:700px" /></p>
+			<p>„Drums “ mean a flat-ended or convex-ended culindrical packaging made out of metal, fibreboardn plasticsn plywood or other suitable material. This definition also includes packagings of other shapes, e.g. round, taper-necked packagings or pail-shaped packagings. Woorden barrels and erricans are not covered by this definition.</p>
+			<p>“Jerrican ” means a metal or plastic packaging of rectangular or polygonal cross-section with one or more orifices.</p>
+			<p>“Box ” means a packaging with complete rectangular or polygonal faces, made of metal, word , plywood, reconstituted wood, fiberboard, plastics or other suitable material. Small holes for purposes of ease of handling or opening or to meet classification requirements, are permitted as long as they do not compromise the integrity of the packaging during carriage.</p>
+		]]></htmltext>
+	</paragraph>		
+	<paragraph>
+		<prodType>Cell | Module | Pack</prodType>
+		<act>labelling</act>
+		<htmltext><![CDATA[
+			<h3><strong>Marking</strong></h3>
+			<p>The marking of primary lithium cells and batteries should comply with IEC 60086-4. The marking of secondary (rechargeable) lithium cells and batteries should comply with IEC 61960.</p>
+		]]></htmltext>
+	</paragraph>	
+	<paragraph>
+		<prodType>Cell | Module | Pack</prodType>
+		<act>labelling</act>
+		<reqs> <!-- place to list the requirements, put on the side of the window -->
+			<refReq_tag>IEC 62281</refReq_tag>
+			<refReq_part>n.a.</refReq_part>
+			<refReq_chNo>9</refReq_chNo>
+			<refReq_clNo>9.2</refReq_clNo>
+		</reqs>
+		<htmltext><![CDATA[
+			<p>On the package the following shall be placed:</p>
+			<ul><li>Information that the package contains lithium cells or batteries</li>
+			<li>Information to handle the package with care</li>
+			<li>Information that in case of damages, it shall be quarantined, inspected and repacked</li>
+			<li>Telephone number for more information</li></ul>
+			<p>The above information shall be placed in either the shipper’s declaration, or a label attached to existing documents accompanying each shipment.</p>
+		]]></htmltext>
+	</paragraph>
+	<paragraph>
+		<prodType>Cell | Module | Pack</prodType>
+		<act>labelling</act>
+		<htmltext><![CDATA[
+			<p><strong>UN marking</strong></p>	
+			<p>The UN number preceded by the letters “UN” shall be clearly and durably marked on each package.</p>
+			<p>Dimensions of the mark:</p>
+			<ul><li>The UN number and letters “UN” shall be at least 12 mm high</li>
+			<li>For packages of 30 liters capacity or less or of 30 kg maximum net mass, they shall be at least 6 mm in height and except for packages of 5 liter or 5 kg or less when they shell be of an appropriate size.</li></ul>
+			<p>Unpackaged article: The marking shall be displayed on the article, on its cradle or on its handling, storage or launching device.</p>
+			<p>Marking shall be readily visible and legible and shall be able to withstand open weather exposure without a substantial reduction in effectiveness.</p>
+			<p>IMDG Code requires tests of at least three months immersion in the sea.</p>
+			<p><strong>Labelling</strong></p>	
+			<p>Labels shall be in the form of a square set at an angle of 45° (diamond-shaped) with minimum dimensions of 100 mm by 100 mm. They shall have a line 5 mm inside the efge and running parallel with it.</p>
+			<p>Labels shall be readily visible and legible and shall be able to withstand open weather exposure without a substantial reduction in effectiveness.</p>
+			<p><strong>Label Class 9</strong></p>	
+			<p><img alt="" src="http://193.104.8.63/bundles/cegekaflandersdrive/images/standards/15 Transport/Transport-figure2.jpg"/></p>
+			<p><strong>Markings used for IMDG</strong></p>	
+			<ul><li>Fully regulated</li></ul>
+			<p><img alt="" src="http://193.104.8.63/bundles/cegekaflandersdrive/images/standards/15 Transport/Transport-figure6.jpg"/></p>
+			<ul><li>Small excepted</li></ul>
+			<p><img alt="" src="http://193.104.8.63/bundles/cegekaflandersdrive/images/standards/15 Transport/Transport-figure7.jpg"/></p>
+		]]></htmltext>
+	</paragraph>
+	<paragraph>
+		<prodType>Cell | Module | Pack</prodType>
+		<act>labelling</act>
+		<htmltext><![CDATA[
+			<h3><strong>Training requirements</strong></h3>	
+			<p>Personnel shall be trained in the contents of dangerous goods provisions commensurate with their duties and responsibilities, before assuming responsibilities.</p>
+			<p>Road and maritime regulations allow employees, for which required training has not yet been provided, to perform functions under the direct supervision of a trained person</p>.
+			<p>Where the carriage of dangerous goods involves a multimodal transport operation, the personnel shall be aware of the requirements concerning other transport modes.</p>
+			<p><img alt="" src="http://193.104.8.63/bundles/cegekaflandersdrive/images/standards/15 Transport/Transport-table2.jpg"/></p>
+			<p><i>(*) For small excepted batteries, IATA require that any person preparing or offering cells or batteries for transport must receive adequate instructions on these requirements commensurate with their responsibilities.</i></p>
+		]]></htmltext>
+	</paragraph>
+	<paragraph>
+		<prodType>Vehicle</prodType>
+		<htmltext><![CDATA[
+			<h3><strong>Lithium batteries in vehicles</strong></h3>	
+			<p><b>UN3171 Battery-powered vehicles:</b> This entry only applies to vehicles powered by lithium ion batteries which are transported with these batteries installed. For the purpose of this special provision, vehicles are self-probelled apparatus fesigned to carry one of more persons or goods. Exampes of such vehicles are electrically-powered cars, scooters, three and four-wheeled vehicles or mororcycles, battery-assisted bicycles (e bikes), wheelchairs, lawn tractors, boats and aircraft. Examples of equipment are lawnmowers, cleaning machine, model boats and model aircraft.</p>
+			<p><b>IMDG:</b> Not subject to IMDG Code if special provision 961 is fulfilled – SP 961 – Not subject to IMDG Code if they are stowed on a roll-on/roll-off ship or in another cargo space designated by the Administration (Flag State) as specifically designed and approved for the carriage of vehicles and there are no signs of leakage from the battery, engine, fuel cell, compressed gas cylinder or accumulator, of fuel tank when applicable.
+			Fully regulated, class 9 (UN 3171) if special provision 961 is not fulfilled – SP 962 – Vehicles powered by lithium batteries not meeting the conditions of special provision 961 shall be assigned to class 9 and shall meet the following requirements:</p>
+			<ul><li>Lithium batteries shall meet the requirements of the United Nation Manual for Tests and Criteria, Part III, subsection 38.3, unless otherwise approved by the competent authority.</li>
+			<li>Vehicles not show signs of leakage from batteries.</li>
+			<li>Installed batteries shall be protected from damage, shirt circuit, and accidental activation during transport.</li></ul>
+			<p>The marking, labelling and placarding provisions of this Code shall not apply.</p>
+		]]></htmltext>
+	</paragraph>
+</description>
+<processOwner>company0</processOwner>
+</step>

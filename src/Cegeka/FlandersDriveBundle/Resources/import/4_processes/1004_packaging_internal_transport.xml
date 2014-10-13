@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<step>
+<proc>Internal logistics</proc>	
+<title>Packaging the components for internal transport</title>	
+<description>	
+	<paragraph>
+		<prodType>Cell</prodType>
+		<act>packing | labelling</act>
+		<recoms>recomm_3</recoms>
+		<htmltext><![CDATA[
+			<p>At the end of the production line, cells need to be packed and labelled for internal transport. To avoid external short circuit the current collector of the cell need to be covered  and separation material need to be placed between the cells.</p>
+			<p>To avoid mechanical abuse during the transportation (example dropping during lifting and placing) the enclosure (package?) of the cell needs to be resistant against mechanical abuse.</p>
+		]]></htmltext>
+	</paragraph>
+	<paragraph>
+		<prodType>Damaged cell</prodType>
+		<act>packing</act>
+		<recoms>recomm_120</recoms>
+		<htmltext><![CDATA[
+			<p>It is possible that damaged cells are harder to pack than normal cells (swelling, irregularities,..), which makes it more difficult to add correctly separation material. This lead to an higher chance on electrical short circuit during logistics.</p>
+			<p>Wearing safety gloves when handling damaged cells is seen as a good practice to void contact with electrolyte and other materials.</p>
+		]]></htmltext>
+	</paragraph>
+	<paragraph>
+		<prodType>Module</prodType>
+		<act>packing | labelling</act>
+		<recoms>recomm_16</recoms>
+		<recoms>recomm_17</recoms>
+		<recoms>recomm_26</recoms>
+		<recoms>recomm_29</recoms>
+		<recoms>recomm_33</recoms>
+		<htmltext><![CDATA[
+			<p>At the end of the production line, modules need to be packed and labelled for internal transport. To avoid external short circuit during packing and the internal logistics, at least one module connector shall be covered. To avoid mechanical abuse which can lead to leakage, the enclosure of the modules shall be resistant against mechanical abuse. During the packing the module temperature shall be monitored to detect a possible thermal runaway.</p>
+			<p>The operator shall wear the correct protection measures.</p>
+			<p>During the packing the module temperature shall be monitored to detect a possible thermal runaway.</p>
+		]]></htmltext>
+	</paragraph>
+	<paragraph>
+		<prodType>Damaged module</prodType>
+		<act>packing</act>
+		<htmltext><![CDATA[
+			<p>It is possible that damaged modules are harder to pack than normal cells (swelling, irregularities,..), which makes it more difficult to add correctly separation material. This lead to an higher chance on electrical short circuit during logistics.</p>
+		]]></htmltext>
+	</paragraph>
+	<paragraph>
+		<prodType>Pack | Damaged pack</prodType>
+		<act>packing | labelling</act>
+		<recoms>recomm_80</recoms>
+		<recoms>recomm_83</recoms>
+		<recoms>recomm_77</recoms>
+		<recoms>recomm_75</recoms>
+		<recoms>recomm_94</recoms>
+		<recoms>recomm_95</recoms>
+		<recoms>recomm_97</recoms>
+		<htmltext><![CDATA[
+			<p>At the end of the production line, packs (good ones and damaged ones) need to be packed and labelled for internal transport. 
+				To avoid propagation of thermal runaway it is recommended to use fire resistant packages and to separate pack whenever possible. Another recommendation is to use enclosure which is resistant against mechanical abuse to be able to avoid this abuse in later phases of the internal logistics.</p>
+			<p>During these activities the pack temperature shall be monitored to detect a possible thermal runaway.</p>
+		]]></htmltext>
+	</paragraph>		
+</description>
+<processOwner>company0</processOwner>
+</step>
