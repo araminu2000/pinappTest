@@ -1,0 +1,5 @@
+parameters:
+#    pinapp_tracer.example.class: Pinapp\TracerBundle\Example
+
+services:
+

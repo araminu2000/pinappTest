@@ -1,0 +1,7 @@
+fd_homepage:
+    pattern:    /
+    defaults:   { _controller: PinappTracerBundle:Content:displayHome }
+
+cegeka_fd_profile:
+    resource: "@PinappTracerBundle/Resources/config/routing/profile.yml"
+    prefix:   /profile/

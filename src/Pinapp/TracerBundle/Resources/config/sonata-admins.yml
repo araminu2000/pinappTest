@@ -1,0 +1,10 @@
+services:
+    ###############
+    # INFORMATION #
+    ###############
+    fd.admin.component:
+        class: Pinapp\TracerBundle\Admin\ComponentAdmin
+        arguments: [~, Pinapp\TracerBundle\Entity\Component, SonataAdminBundle:CRUD]
+        tags:
+            - {name: sonata.admin, manager_type: orm, group: PinappInfo, label: Component}
+
