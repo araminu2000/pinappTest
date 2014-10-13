@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<decision>
-<proc>Handling damaged components</proc>
-<prodType>Damaged pack | Pack</prodType>
-<processOwner>company0</processOwner>
-<title>Is the damaged pack at the site of a pack producer?</title>
-<tag_yes>yes</tag_yes>
-<tag_no>no</tag_no>
-</decision>

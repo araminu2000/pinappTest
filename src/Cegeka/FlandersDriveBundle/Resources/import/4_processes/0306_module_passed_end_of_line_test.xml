@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<decision>
-<proc>Module assembly</proc>
-<prodType>Module</prodType>
-<processOwner>company0</processOwner>
-<title>Module passed the end of line test?</title>
-<tag_yes>yes</tag_yes>
-<tag_no>no</tag_no>
-</decision>

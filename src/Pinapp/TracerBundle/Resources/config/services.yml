@@ -1,0 +1,5 @@
+parameters:
+#    cegeka_flanders_drive.example.class: Cegeka\FlandersDriveBundle\Example
+
+services:
+

@@ -1,0 +1,3 @@
+fd_homepage:
+    pattern:    /
+    defaults:   { _controller: CegekaFlandersDriveBundle:Content:displayHome }

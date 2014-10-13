@@ -1,7 +1,0 @@
-fd_note_add:
-    pattern:    /add
-    defaults:   { _controller: CegekaFlandersDriveBundle:Note:addNote }
-
-fd_note_update:
-    pattern:    /update/{id}
-    defaults:   { _controller: CegekaFlandersDriveBundle:Note:updateNote }
